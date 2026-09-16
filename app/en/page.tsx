@@ -36,7 +36,7 @@ export default function EnglishHome() {
           </p>
           <output className="status-pill">
             <span aria-hidden="true" />
-            Preparing for open testing
+            Preparing for closed testing
           </output>
         </div>
         <figure className="hero-visual">
@@ -73,7 +73,7 @@ export default function EnglishHome() {
           <p className="eyebrow">Current status</p>
           <h2 id="status-title-en">The public release is not available yet</h2>
           <p>
-            We are preparing the application, documentation, and physical-tablet checks.
+            We are preparing the application, Google Play listing, and checks on real devices.
             The official testing link will appear here when the build is ready.
           </p>
         </div>

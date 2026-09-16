@@ -5,10 +5,17 @@ type PolicyLayoutProps = {
   eyebrow: string;
   title: string;
   summary: string;
+  effectiveDate?: string;
   children: ReactNode;
 };
 
-export function PolicyLayout({ eyebrow, title, summary, children }: PolicyLayoutProps) {
+export function PolicyLayout({
+  eyebrow,
+  title,
+  summary,
+  effectiveDate = '5 сентября 2026 года',
+  children,
+}: PolicyLayoutProps) {
   return (
     <main>
       <SiteHeader />
@@ -18,7 +25,7 @@ export function PolicyLayout({ eyebrow, title, summary, children }: PolicyLayout
           <h1>{title}</h1>
           <p>{summary}</p>
           <div className="policy-meta">
-            <span>Действует с 5 сентября 2026 года</span>
+            <span>Действует с {effectiveDate}</span>
             <a href="#english" lang="en">Read in English</a>
           </div>
         </header>

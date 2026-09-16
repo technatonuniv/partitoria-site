@@ -14,6 +14,7 @@ export default function PrivacyPage() {
       eyebrow="Конфиденциальность"
       title="Политика конфиденциальности"
       summary="Partitoria хранит личную нотную библиотеку на устройстве и не использует рекламу, поведенческую аналитику или облачный аккаунт Partitoria."
+      effectiveDate="16 сентября 2026 года"
     >
       <section>
         <h2>Кто отвечает за приложение</h2>
@@ -26,13 +27,25 @@ export default function PrivacyPage() {
       <section>
         <h2>Что остаётся на устройстве</h2>
         <p>
-          Импортированные PDF, названия файлов, музыкальные метаданные, теги, коллекции,
-          избранное, история чтения, номера страниц, журналы импорта и сведения для
-          восстановления хранятся локально. Partitoria не отправляет эти данные на собственный сервер.
+          Импортированные PDF и аудиофайлы, локальные записи, названия файлов, музыкальные
+          метаданные, теги, коллекции, избранное, история чтения, номера страниц, пометки,
+          программы, журналы импорта и сведения для восстановления хранятся локально.
+          Partitoria не отправляет эти данные на собственный сервер.
         </p>
         <p>
           Приложение не требует аккаунта Partitoria и не содержит рекламных,
           поведенческих аналитических или социальных SDK.
+        </p>
+      </section>
+
+      <section>
+        <h2>Микрофон и локальная запись</h2>
+        <p>
+          Доступ к микрофону запрашивается только после нажатия пользователем кнопки записи.
+          Запись видима на экране и останавливается при потере разрешения или при прерывании
+          работы приложения. Partitoria не записывает в фоне, не расшифровывает и не анализирует
+          звук и не отправляет запись в интернет. Запись можно воспроизвести, экспортировать,
+          удалить и включить в ручную резервную копию.
         </p>
       </section>
 
@@ -78,6 +91,12 @@ export default function PrivacyPage() {
           экспорт или резервная копия, запускаемая пользователем. Если функциональность или потоки данных
           изменятся, эта политика будет обновлена до выпуска соответствующей версии.
         </p>
+        <p>
+          В текущей бесплатной сборке покупки и подписки не активны. Код Google Play Billing
+          и проверки целостности не запускается без будущей коммерческой конфигурации, поэтому
+          Partitoria сейчас не передаёт токены покупки, подписки или лицензии. До активации
+          платных функций эта политика и декларация Google Play Data Safety будут обновлены.
+        </p>
       </section>
 
       <section id="english" lang="en">
@@ -88,10 +107,17 @@ export default function PrivacyPage() {
           Privacy questions can be sent to <a href="mailto:support@partitoria.app">support@partitoria.app</a>.
         </p>
         <p>
-          Imported PDFs, filenames, musical metadata, tags, collections, favourites, reading history,
-          page positions, import journals, and recovery data are stored locally. Partitoria does not upload
-          them to a Partitoria-operated server. The application does not require a Partitoria account and
-          contains no advertising, behavioural analytics, or social SDKs.
+          Imported PDFs and audio, local recordings, filenames, musical metadata, tags, collections,
+          favourites, reading history, page positions, annotations, programmes, import journals, and
+          recovery data are stored locally. Partitoria does not upload them to a Partitoria-operated
+          server. The application does not require a Partitoria account and contains no advertising,
+          behavioural analytics, or social SDKs.
+        </p>
+        <p>
+          Microphone access is requested only after you press Record. Recording is visible and stops if
+          permission is lost or the app is interrupted. Partitoria does not record in the background,
+          transcribe or analyse audio, or upload recordings. You can play, export, delete, and include a
+          recording in a manual backup.
         </p>
         <p>
           When you explicitly submit an online search, the query is sent over HTTPS to external providers:
@@ -108,7 +134,10 @@ export default function PrivacyPage() {
         <p>
           Application network requests use HTTPS. Android automatic backup excludes the personal-library
           database and managed score files. This policy will be updated before a release that materially
-          changes these data flows. Effective 5 September 2026.
+          changes these data flows. Purchases and subscriptions are not active in the current Free build;
+          billing and integrity code does not run without future commercial configuration, so Partitoria
+          currently transmits no purchase, subscription, or licence token. The policy and Google Play Data
+          Safety declaration will be updated before paid features are activated. Effective 16 September 2026.
         </p>
       </section>
     </PolicyLayout>
