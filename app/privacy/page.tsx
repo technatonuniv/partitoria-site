@@ -84,6 +84,18 @@ export default function PrivacyPage() {
       </section>
 
       <section>
+        <h2>Дети и подростки</h2>
+        <p>
+          Partitoria — профессиональный музыкальный инструмент для музыкантов от 13 лет и взрослых;
+          приложение не предназначено для детей младше 13 лет. В нём нет аккаунтов, рекламы,
+          социальных функций или поведенческой аналитики. Если местное право требует согласия
+          родителя или опекуна для использования интернет-сервисов подростком, не используйте
+          поиск и загрузку из внешних источников без такого согласия. Личная офлайн-библиотека
+          не требует передачи данных Partitoria.
+        </p>
+      </section>
+
+      <section>
         <h2>Защита и изменения</h2>
         <p>
           Сетевые обращения приложения используют HTTPS. Автоматическое резервное копирование Android
@@ -130,6 +142,13 @@ export default function PrivacyPage() {
           handles the selected data under its own policy; it is not Partitoria cloud storage. You can remove
           local items and history in the app, clear app data in Android, uninstall the app, and manage exported
           backups at their destination. Partitoria cannot erase logs held by third-party websites.
+        </p>
+        <p>
+          Partitoria is a professional music utility for musicians aged 13 and over and adults; it is not
+          directed to children under 13. It has no accounts, advertising, social features, or behavioural
+          analytics. Where local law requires parental or guardian consent for a teenager to use online
+          services, do not use external-provider search or download without that consent. The personal offline
+          library does not require data transmission to Partitoria.
         </p>
         <p>
           Application network requests use HTTPS. Android automatic backup excludes the personal-library
