@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { PolicyLayout } from '@/components/policy-layout';
 
 export const metadata: Metadata = {
@@ -13,8 +14,8 @@ export default function PrivacyPage() {
     <PolicyLayout
       eyebrow="Конфиденциальность"
       title="Политика конфиденциальности"
-      summary="Partitoria хранит личную нотную библиотеку на устройстве и не использует рекламу, поведенческую аналитику или облачный аккаунт Partitoria."
-      effectiveDate="16 сентября 2026 года"
+      summary="Личная нотная библиотека остаётся на устройстве. Для приглашённых участников закрытого пилота доступен необязательный аккаунт для лицензии Pro."
+      effectiveDate="24 сентября 2026 года"
     >
       <section>
         <h2>Кто отвечает за приложение</h2>
@@ -33,8 +34,28 @@ export default function PrivacyPage() {
           Partitoria не отправляет эти данные на собственный сервер.
         </p>
         <p>
-          Приложение не требует аккаунта Partitoria и не содержит рекламных,
+          Для личной библиотеки аккаунт Partitoria не требуется. Приложение не содержит рекламных,
           поведенческих аналитических или социальных SDK.
+        </p>
+      </section>
+
+      <section>
+        <h2>Необязательный аккаунт закрытого пилота</h2>
+        <p>
+          Только приглашённые адреса могут войти по одноразовому коду и получить выданную
+          владельцем лицензию Pro. Сервер Partitoria получает подтверждённый email, идентификатор
+          аккаунта, открытый ключ установки, аппаратное доказательство приложения и устройства,
+          технический IP-адрес запроса, состояние лицензии и устройств. Он выдаёт подписанное
+          разрешение с ограниченным сроком для работы офлайн. PDF, содержимое библиотеки,
+          названия файлов, пометки и историю занятий сервер не получает. Публичная регистрация,
+          покупка и подписка в этом пилоте не включены.
+        </p>
+        <p>
+          Одноразовые коды отправляет Resend. Наш почтовый журнал хранит безопасные метаданные
+          доставки до 90 дней, без кода и полного текста письма; зашифрованные резервные копии
+          сервера хранятся до 30 дней. По{' '}
+          <a href="https://resend.com/security/gdpr">заявлению Resend</a>, содержимое писем и
+          журналы хранятся у него 30 дней в США. Отслеживание открытий и переходов отключено.
         </p>
       </section>
 
@@ -81,14 +102,24 @@ export default function PrivacyPage() {
           Внешние резервные копии удаляются вами в выбранном хранилище. Partitoria не может удалить журналы
           внешних сайтов, к которым устройство обращалось по вашей команде.
         </p>
+        <p>
+          Аккаунт закрытого пилота можно удалить в приложении после нового кода из письма либо{' '}
+          <Link href="/support">запросить удаление без приложения</Link>. Оператор подтверждает запрос
+          кодом, отправленным на уже подтверждённый адрес. Активные данные аккаунта и ожидающие
+          письма удаляются после подтверждения; псевдонимизированный журнал сохраняется до 90 дней,
+          зашифрованные копии — до 30 дней. Восстановление старой копии блокируется до сверки
+          удалений и отзывов. Удаление аккаунта не удаляет локальную библиотеку. Уже выданное
+          разрешение Pro может оставаться действительным офлайн до своего срока, не более 30 дней.
+        </p>
       </section>
 
       <section>
         <h2>Дети и подростки</h2>
         <p>
           Partitoria — профессиональный музыкальный инструмент для музыкантов от 13 лет и взрослых;
-          приложение не предназначено для детей младше 13 лет. В нём нет аккаунтов, рекламы,
-          социальных функций или поведенческой аналитики. Если местное право требует согласия
+          приложение не предназначено для детей младше 13 лет. Аккаунт закрытого пилота доступен
+          только приглашённым участникам; рекламы, социальных функций и поведенческой аналитики нет.
+          Если местное право требует согласия
           родителя или опекуна для использования интернет-сервисов подростком, не используйте
           поиск и загрузку из внешних источников без такого согласия. Личная офлайн-библиотека
           не требует передачи данных Partitoria.
@@ -104,10 +135,9 @@ export default function PrivacyPage() {
           изменятся, эта политика будет обновлена до выпуска соответствующей версии.
         </p>
         <p>
-          В текущей бесплатной сборке покупки и подписки не активны. Код Google Play Billing
-          и проверки целостности не запускается без будущей коммерческой конфигурации, поэтому
-          Partitoria сейчас не передаёт токены покупки, подписки или лицензии. До активации
-          платных функций эта политика и декларация Google Play Data Safety будут обновлены.
+          Магазинные покупки и подписки не активны. Закрытый пилот передаёт только данные
+          аккаунта и установки, описанные выше; токены покупок не передаются. Перед публичным
+          выпуском аккаунтов или платных функций политика и декларации магазинов будут проверены заново.
         </p>
       </section>
 
@@ -122,8 +152,18 @@ export default function PrivacyPage() {
           Imported PDFs and audio, local recordings, filenames, musical metadata, tags, collections,
           favourites, reading history, page positions, annotations, programmes, import journals, and
           recovery data are stored locally. Partitoria does not upload them to a Partitoria-operated
-          server. The application does not require a Partitoria account and contains no advertising,
+          server. The personal library does not require an account and contains no advertising,
           behavioural analytics, or social SDKs.
+        </p>
+        <p>
+          An optional account is available only to invited closed-pilot participants. The Partitoria
+          server processes a confirmed email, account ID, installation public key, hardware app/device
+          proof, request IP address, licence and device state, and issues a signed time-limited offline
+          Pro licence. It receives no scores, filenames, annotations or practice history. There is no
+          public registration, purchase or subscription in this pilot. Resend sends one-time codes;
+          our code-free delivery journal is kept for up to 90 days, and encrypted server backups for
+          up to 30 days. <a href="https://resend.com/security/gdpr">Resend states</a> that it stores
+          email content and logs in the United States for 30 days. Open and click tracking are off.
         </p>
         <p>
           Microphone access is requested only after you press Record. Recording is visible and stops if
@@ -144,19 +184,29 @@ export default function PrivacyPage() {
           backups at their destination. Partitoria cannot erase logs held by third-party websites.
         </p>
         <p>
+          You can delete a pilot account in the app with a fresh email code or{' '}
+          <Link href="/support">request deletion without the app</Link>. The operator verifies the request
+          with a new code sent to the confirmed address. Active account data and queued mail are
+          removed after confirmation; pseudonymous audit data is retained for up to 90 days and
+          encrypted backups for up to 30 days. Restoring an older backup is blocked pending deletion
+          and revocation reconciliation. Local scores remain yours. A previously issued offline Pro
+          licence can persist until its expiry, at most 30 days.
+        </p>
+        <p>
           Partitoria is a professional music utility for musicians aged 13 and over and adults; it is not
-          directed to children under 13. It has no accounts, advertising, social features, or behavioural
-          analytics. Where local law requires parental or guardian consent for a teenager to use online
+          directed to children under 13. The closed-pilot account is invitation-only; there is no
+          advertising, social feature or behavioural analytics. Where local law requires parental or
+          guardian consent for a teenager to use online
           services, do not use external-provider search or download without that consent. The personal offline
           library does not require data transmission to Partitoria.
         </p>
         <p>
           Application network requests use HTTPS. Android automatic backup excludes the personal-library
           database and managed score files. This policy will be updated before a release that materially
-          changes these data flows. Purchases and subscriptions are not active in the current Free build;
-          billing and integrity code does not run without future commercial configuration, so Partitoria
-          currently transmits no purchase, subscription, or licence token. The policy and Google Play Data
-          Safety declaration will be updated before paid features are activated. Effective 16 September 2026.
+          changes these data flows. Store purchases and subscriptions are not active; the closed pilot
+          processes only the account and installation data described above and no purchase token.
+          Store disclosures will be reviewed before public accounts or paid features are activated.
+          Effective 24 September 2026.
         </p>
       </section>
     </PolicyLayout>
