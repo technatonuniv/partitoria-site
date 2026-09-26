@@ -20,6 +20,7 @@ const sources = [
 export default function SourcesPage() {
   return (
     <PolicyLayout
+      section="/sources"
       eyebrow="Открытый интернет"
       title="Источники нот"
       summary="Partitoria может помогать находить издания во внешних публичных архивах. Личная библиотека и результаты поиска остаются разными областями."

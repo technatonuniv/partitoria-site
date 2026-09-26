@@ -11,6 +11,7 @@ export const dynamic = 'force-static';
 export default function SupportPage() {
   return (
     <PolicyLayout
+      section="/support"
       eyebrow="Поддержка"
       title="Мы поможем разобраться"
       summary="Partitoria проходит закрытое тестирование. Здесь можно сообщить о проблеме и запросить удаление приглашённого аккаунта без приложения."

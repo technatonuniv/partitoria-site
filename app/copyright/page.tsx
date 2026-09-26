@@ -11,6 +11,7 @@ export const dynamic = 'force-static';
 export default function CopyrightPage() {
   return (
     <PolicyLayout
+      section="/copyright"
       eyebrow="Права и источники"
       title="Авторские права"
       summary="Partitoria — инструмент для личной библиотеки. Приложение не передаёт пользователю права на импортированные или найденные издания."

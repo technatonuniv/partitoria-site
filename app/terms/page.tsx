@@ -11,6 +11,7 @@ export const dynamic = 'force-static';
 export default function TermsPage() {
   return (
     <PolicyLayout
+      section="/terms"
       eyebrow="Правовая информация"
       title="Условия использования"
       summary="Эти условия применяются к сайту Partitoria и публично распространяемым версиям приложения."

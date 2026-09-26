@@ -5,16 +5,13 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://partitoria.app'),
   title: 'Partitoria — личная библиотека нот',
   description:
-    'Partitoria — приложение для хранения, поиска и чтения личной библиотеки нот в PDF на Android.',
+    'Partitoria — личная библиотека нот для Android: импорт, локальный поиск, чтение и резервное копирование.',
   applicationName: 'Partitoria',
 };
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#f7f2e9' },
-    { media: '(prefers-color-scheme: dark)', color: '#171312' },
-  ],
+  colorScheme: 'light',
+  themeColor: '#f8f5ee',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

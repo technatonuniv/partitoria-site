@@ -12,6 +12,7 @@ export const dynamic = 'force-static';
 export default function PrivacyPage() {
   return (
     <PolicyLayout
+      section="/privacy"
       eyebrow="Конфиденциальность"
       title="Политика конфиденциальности"
       summary="Личная нотная библиотека остаётся на устройстве. Для приглашённых участников закрытого пилота доступен необязательный аккаунт для лицензии Pro."
