@@ -45,7 +45,7 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <Link href={localePath(locale, '/terms')}>{t.terms}</Link>
           <Link href={localePath(locale, '/sources')}>{t.sources}</Link>
         </nav>
-        <small>© 2026 Partitoria Studio</small>
+        <small>© 2026 technaton</small>
       </div>
     </footer>
   );

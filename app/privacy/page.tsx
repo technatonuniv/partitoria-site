@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       <section>
         <h2>Кто отвечает за приложение</h2>
         <p>
-          Partitoria — независимое Android-приложение, публикуемое под именем Partitoria Studio.
+          Partitoria — независимое Android-приложение разработчика technaton.
           По вопросам конфиденциальности напишите на <a href="mailto:support@partitoria.app">support@partitoria.app</a>.
         </p>
       </section>
@@ -146,7 +146,7 @@ export default function PrivacyPage() {
         <p className="eyebrow">English</p>
         <h2>Privacy Policy</h2>
         <p>
-          Partitoria is an independent Android application published under the name Partitoria Studio.
+          Partitoria is an independent Android application published by technaton.
           Privacy questions can be sent to <a href="mailto:support@partitoria.app">support@partitoria.app</a>.
         </p>
         <p>
