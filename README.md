@@ -25,8 +25,8 @@ The static export is written to `dist/client`. It is deployed as an immutable
 release under `/var/www/partitoria-site/releases/` on the Partitoria VPS, with
 `/var/www/partitoria-site/current` pointing to the active release. The
 [deployment notes](deploy/README.md) record the origin checks and remaining
-domain cutover. GitHub Pages remains the public delivery path until DNS and
-verified HTTPS point to the VPS.
+domain cutover. The VPS has verified HTTPS; GitHub Pages remains the public
+delivery path until Cloudflare DNS points to the VPS.
 
 ## Content and routes
 
