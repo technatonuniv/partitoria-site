@@ -42,10 +42,11 @@ The guide text describes working app features and separates Free ownership
 from gated new Pro actions. Screenshots in `public/guide/` must be genuine
 portrait Android emulator captures with a synthetic library. The guide hides
 an unavailable image; generated art must never be substituted for app UI.
-The guide has 25 searchable articles in six categories; ten central workflows
-have four concrete steps in every language. The nine current captures are
+The guide has 28 searchable articles in six categories; ten central workflows
+have four concrete steps in every language. The eleven current captures are
 `add.png`, `import.png`, `review.png`, `library.png`, `collections.png`,
-`search.png`, `viewer.png`, `backup.png` and `settings.png`. Their PDF notes are
+`search.png`, `viewer.png`, `backup.png`, `settings.png`, `tools.png` and
+`inbox.png`. Their PDF notes are
 demonstration material, while the app screens are genuine emulator captures.
 The concert-hall banner is a decorative generated site image, separate from
 application screenshots. Neither the site nor the guide is a public install
