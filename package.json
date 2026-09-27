@@ -10,6 +10,8 @@
     "build": "vinext build",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
+    "verify": "node scripts/verify-site.mjs",
+    "sitemap": "node scripts/update-sitemap.mjs",
     "format": "oxfmt"
   },
   "dependencies": {

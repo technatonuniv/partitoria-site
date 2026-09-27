@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { SiteFooter, SiteHeader } from './site-chrome';
+import { DocumentLanguage } from './document-language';
 
 type PolicyLayoutProps = {
   eyebrow: string;
@@ -19,7 +20,8 @@ export function PolicyLayout({
   children,
 }: PolicyLayoutProps) {
   return (
-    <main>
+    <main lang="ru">
+      <DocumentLanguage locale="ru" />
       <SiteHeader section={section} />
       <article className="policy" id="content">
         <header className="policy-heading">
@@ -28,7 +30,9 @@ export function PolicyLayout({
           <p>{summary}</p>
           <div className="policy-meta">
             <span>Действует с {effectiveDate}</span>
-            <a href="#english" lang="en">Read in English</a>
+            <a href="#english" lang="en">
+              Read in English
+            </a>
           </div>
         </header>
         <div className="policy-body">{children}</div>

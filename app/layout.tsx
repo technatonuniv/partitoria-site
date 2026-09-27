@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import './guide.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://partitoria.app'),
@@ -14,7 +15,9 @@ export const viewport: Viewport = {
   themeColor: '#f8f5ee',
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ru">
       <body>{children}</body>

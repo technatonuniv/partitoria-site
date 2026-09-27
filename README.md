@@ -42,16 +42,40 @@ The guide text describes working app features and separates Free ownership
 from gated new Pro actions. Screenshots in `public/guide/` must be genuine
 portrait Android emulator captures with a synthetic library. The guide hides
 an unavailable image; generated art must never be substituted for app UI.
-The guide has 28 searchable articles in six categories; ten central workflows
-have four concrete steps in every language. The eleven current captures are
+The guide has 31 searchable articles in six categories. Its overview, category
+pages and individual articles are separate static routes. A compact expandable
+contents list accompanies articles; mobile readers open it on demand. Search
+covers the selected language's titles, introductions and instructions, tolerates
+accents and Russian ё/е, and keeps the query in the URL for browser Back.
+Old `/guide#article-id` links redirect to the corresponding article.
+
+The eleven original English captures are
 `add.png`, `import.png`, `review.png`, `library.png`, `collections.png`,
 `search.png`, `viewer.png`, `backup.png`, `settings.png`, `tools.png` and
-`inbox.png`. Their PDF notes are
+`inbox.png`. They are complemented by **36 localized portrait captures**:
+library, Add, Tools and Settings in each of the nine languages. Their capture
+manifest is `public/guide/localized-captures.json`. The source app is
+1.7.0 (10733), with an eight-score synthetic library at 1200×1920 and 260 dpi.
+The four localized screens follow the reader's language; other illustrations
+are explicitly captioned as English. Their PDF notes are
 demonstration material, while the app screens are genuine emulator captures.
 The concert-hall banner is a decorative generated site image, separate from
 application screenshots. Neither the site nor the guide is a public install
 or subscription offer during the closed pilot.
 The banner uses a 94 KB WebP with the PNG as browser fallback.
+
+Screenshots open in a native modal dialog on the current page, with zoom,
+Escape/Close, backdrop dismissal and focus restoration. The homepage uses the
+same viewer for its real application preview. The image itself is not edited
+or generated. The modal and responsive layouts still require live browser QA:
+the local Chrome extension's request-header-policy initialization error has
+prevented that check in this session.
+
+After changes run `npm run sitemap`, `npx tsc --noEmit`, `npm run lint`,
+`npm run build` and `npm run verify`. Verification checks every canonical
+page, localized article content, local references, portrait-image hashes and
+sitemap coverage. These checks also run in GitHub Actions. They verify the
+static export, not browser interactions. See [the UX review](docs/UX_REVIEW.md).
 
 ## Visual accessibility review (2026-09-26)
 
