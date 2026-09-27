@@ -6,6 +6,7 @@ import {
   siteCopy,
   type Locale,
 } from '@/lib/site-content';
+import { languageNotice, automaticLanguage } from '@/lib/language-notice';
 
 type ChromeProps = { locale?: Locale; section?: string };
 
@@ -53,16 +54,19 @@ export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
               {localeNames[locale]} <span aria-hidden="true">⌄</span>
             </summary>
             <div className="language-options">
+              <p className="language-notice">{languageNotice[locale]}</p>
               {locales.map((target) => (
-                <Link
+                <a
                   key={target}
+                  data-language={target}
                   lang={target}
-                  href={localePath(target, section)}
+                  href={`${localePath(target, section)}?lang=${target}`}
                   aria-current={target === locale ? 'page' : undefined}
                 >
                   {localeNames[target]}
-                </Link>
+                </a>
               ))}
+              <a href={section || '/'} data-language-reset="true">{automaticLanguage[locale]}</a>
             </div>
           </details>
         </div>
@@ -89,7 +93,7 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <Link href={localePath(locale, '/terms')}>{t.terms}</Link>
           <Link href={localePath(locale, '/sources')}>{t.sources}</Link>
         </nav>
-        <small>© 2026 technaton</small>
+        <small>© 2026 Partitoria Studio</small>
       </div>
     </footer>
   );

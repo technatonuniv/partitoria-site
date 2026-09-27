@@ -30,6 +30,9 @@ function verifyPage(url, locale) {
   const file = outputFile(url);
   assert.ok(file, `Missing static page: ${url}`);
   const html = fs.readFileSync(file, 'utf8');
+  assert.ok(html.includes('Partitoria Studio'), `Missing public credit: ${url}`);
+  assert.ok(html.includes('/language-preference.js'), `Missing language negotiation: ${url}`);
+  assert.ok(!html.includes('technaton'), `Old public credit: ${url}`);
   assert.ok(
     html.includes(`<main lang="${locale}"`),
     `Missing language: ${url}`,
@@ -98,7 +101,7 @@ const captureManifest = JSON.parse(
   fs.readFileSync('public/guide/localized-captures.json', 'utf8'),
 );
 assert.equal(captureManifest.captures.length, 36);
-for (const capture of captureManifest.captures) {
+for (const capture of [...captureManifest.captures, ...(captureManifest.additionalCaptures || [])]) {
   const bytes = fs.readFileSync(path.join('public/guide', capture.path));
   assert.equal(bytes.readUInt32BE(16), 1200);
   assert.equal(bytes.readUInt32BE(20), 1920);

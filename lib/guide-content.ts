@@ -103,11 +103,11 @@ export type GuideArticle = {
 export const accessLabels: Record<Locale, Record<'pro' | 'pilot', string>> = {
   ru: {
     pro: 'Для создания и редактирования нужен Partitoria Pro. Уже сохранённые материалы доступны и после окончания подписки.',
-    pilot: 'Аккаунт доступен только приглашённым участникам закрытого пилота.',
+    pilot: 'Аккаунт доступен только приглашённым участникам тестирования.',
   },
   en: {
     pro: 'Creating and editing requires Partitoria Pro. Material you have already saved remains available after your subscription ends.',
-    pilot: 'Accounts are available only to invited closed-pilot participants.',
+    pilot: 'Accounts are available only to invited testers.',
   },
   de: {
     pro: 'Zum Erstellen und Bearbeiten benötigen Sie Partitoria Pro. Bereits gespeicherte Inhalte bleiben nach Ablauf des Abonnements verfügbar.',

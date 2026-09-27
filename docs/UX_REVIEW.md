@@ -74,3 +74,22 @@ Chrome is installed and its extension is enabled, but Codex fails to load its
 browser request-header policy. No policy was disabled or bypassed. Browser
 Back, modal focus/zoom, touch layout and console checks must be verified through
 the supported browser connection before claiming complete visual acceptance.
+
+## 2026-09-28 requested refinement
+
+Website credit is Partitoria Studio. Public invitation wording replaces internal
+pilot terminology. The privacy page uses the same localized implementation as
+other languages; detailed mail-processing facts are available on demand.
+Language selection carries a clear 180-day storage notice and a reset action.
+Automatic negotiation uses the primary browser language, defaulting to English
+when unsupported; explicit translated links remain stable.
+
+App portrait navigation moved to the bottom. The localized Library/Add/Tools/
+Settings screenshots and English search illustration are recaptured from the
+synthetic emulator library at 1200×1920, without image editing. W90 evidence is
+kept in the Android repository and never used for public screenshots.
+
+Type checking, lint, production build, four language tests and two retained-asset
+tests pass. Static export covers 396 canonical pages and 31 articles in nine
+languages. Browser rendering and interaction acceptance remain blocked by the
+request-header-policy error described above; no fallback browser transport was used.

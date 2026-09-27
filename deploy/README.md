@@ -52,7 +52,9 @@ each release. The current Let's Encrypt certificate covers the apex and
 
 The public `partitoria.app` and `www` records were changed on 2026-09-26:
 apex A and AAAA point to the VPS, and `www` is a CNAME to the apex. All three
-are proxied by Cloudflare. Public IPv4 and IPv6 HTTPS, direct-origin TLS, nine
+were initially proxied by Cloudflare. On 2026-09-27 the owner switched them to
+DNS-only to restore access from affected Russian networks. Keep that setting;
+TLS is served by the VPS and its existing Certbot renewal. Public IPv4 and IPv6 HTTPS, direct-origin TLS, nine
 guide locales, guide images, the `www` redirect and a missing-page 404 passed.
 Keep the GitHub Pages release available for rollback. Do not infer a future
 DNS cutover from an origin-only `curl --resolve` check.
@@ -74,3 +76,19 @@ webhook uses 9447: [Cloudflare's supported HTTPS ports](https://developers.cloud
 do not include it. The endpoint uses a separate TLS vhost and signed webhook
 validation. Hiding the shared address would require moving the webhook to a
 supported proxied port or a separate origin.
+
+## 2026-09-28 language and portrait release
+
+Published `20260928-language-portrait-10739` on the VPS. Nginx validation and
+reload passed; 10 additional hashed assets were retained without pruning old
+ones. The preceding `cdf4cf64fa4d2a17dbfe6f981725fc636492e745` release remains
+available for rollback. Public-domain HTTPS checks from the VPS passed for
+12 page requests, 12 current/legacy assets and exact hashes of 39 files
+(language script, capture manifest and 37 screenshots). All 36 localized
+captures plus English search use emulator build 10739 and the synthetic library.
+The four English fallback images were refreshed as well.
+
+The local PC received a valid 200 HEAD but full GETs timed out during this
+verification. This is a separate network limitation; server-side checks do not
+prove availability from every client network. Chrome visual QA remains blocked
+by request-header-policy initialization. No DNS/proxy change was made here.

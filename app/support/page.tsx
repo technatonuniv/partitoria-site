@@ -39,7 +39,7 @@ export default function SupportPage() {
       </section>
 
       <section>
-        <h2>Удаление аккаунта закрытого пилота</h2>
+        <h2>Удаление аккаунта тестирования по приглашению</h2>
         <p>
           Если у вас есть приглашённый аккаунт Partitoria, удаление можно начать в приложении.
           Запрос без приложения направьте на{' '}
@@ -75,7 +75,7 @@ export default function SupportPage() {
           backup until recovery is complete.
         </p>
         <p>
-          Invited pilot account holders can request deletion in the app or email{' '}
+          Invited test account holders can request deletion in the app or email{' '}
           <a href="mailto:support@partitoria.app?subject=Partitoria%20account%20deletion">
             support@partitoria.app
           </a> without the app. Include the confirmed account email, but do not send passwords,

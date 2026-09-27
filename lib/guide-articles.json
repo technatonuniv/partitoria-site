@@ -6,7 +6,7 @@
     "text": {
       "ru": [
         "Где найти нужную функцию",
-        "Библиотека и коллекции доступны в боковой панели. Остальные действия открываются там, где они нужны.",
+        "Библиотека и коллекции доступны внизу экрана в портретной ориентации и сбоку в альбомной. Остальные действия находятся на соответствующих экранах.",
         "На экране библиотеки нажмите «+», чтобы добавить файлы, найти издание в интернете или восстановить копию.",
         "Меню с тремя точками ведёт к программам, очереди импорта и инструментам.",
         "В «Инструментах» собраны занятия, аудио, перенос пометок и умные коллекции.",
@@ -15,7 +15,7 @@
       ],
       "en": [
         "Find your way around",
-        "Library and Collections are in the side rail. Other actions appear where you need them.",
+        "Library and Collections are at the bottom in portrait and at the side in landscape. Other actions appear on the relevant screens.",
         "On the Library screen, press + to add files, find an edition online or restore a backup.",
         "The three-dot menu opens Programmes, the import inbox and Tools.",
         "Tools groups practice, audio, mark transfer and smart collections.",
@@ -24,7 +24,7 @@
       ],
       "de": [
         "Funktionen finden",
-        "Bibliothek und Sammlungen stehen in der Seitenleiste. Weitere Aktionen erscheinen am passenden Ort.",
+        "Bibliothek und Sammlungen stehen im Hochformat unten, im Querformat seitlich. Weitere Aktionen finden Sie auf dem jeweiligen Bildschirm.",
         "Tippen Sie in der Bibliothek auf +, um Dateien hinzuzufügen, online eine Ausgabe zu suchen oder eine Sicherung wiederherzustellen.",
         "Das Menü mit drei Punkten öffnet Programme, Import und Werkzeuge.",
         "Unter Werkzeuge finden Sie Üben, Audio, Markierungsübertragung und intelligente Sammlungen.",
@@ -33,7 +33,7 @@
       ],
       "it": [
         "Trovare le funzioni",
-        "Biblioteca e Raccolte sono nella barra laterale. Le altre azioni compaiono nel contesto giusto.",
+        "Libreria e raccolte sono in basso in verticale e di lato in orizzontale. Le altre azioni si trovano nelle rispettive schermate.",
         "Nella Biblioteca tocca + per aggiungere file, cercare un’edizione online o ripristinare un backup.",
         "Il menu con tre punti apre Programmi, importazione e Strumenti.",
         "Strumenti riunisce studio, audio, trasferimento dei segni e raccolte intelligenti.",
@@ -42,7 +42,7 @@
       ],
       "es": [
         "Encontrar las funciones",
-        "Biblioteca y Colecciones están en la barra lateral. Las demás acciones aparecen donde se usan.",
+        "Biblioteca y colecciones están abajo en vertical y al lado en horizontal. Las demás acciones aparecen en sus pantallas.",
         "En Biblioteca pulsa + para añadir archivos, buscar una edición en línea o restaurar una copia.",
         "El menú de tres puntos abre Programas, importación y Herramientas.",
         "Herramientas agrupa práctica, audio, transferencia de marcas y colecciones inteligentes.",
@@ -51,7 +51,7 @@
       ],
       "pt": [
         "Encontrar as funções",
-        "Biblioteca e Coleções ficam na barra lateral. As outras ações surgem no contexto certo.",
+        "Biblioteca e coleções ficam em baixo na vertical e ao lado na horizontal. As outras ações aparecem nos respetivos ecrãs.",
         "Na Biblioteca prima + para adicionar ficheiros, procurar uma edição online ou repor uma cópia.",
         "O menu de três pontos abre Programas, importação e Ferramentas.",
         "Ferramentas reúne estudo, áudio, transferência de marcas e coleções inteligentes.",
@@ -60,7 +60,7 @@
       ],
       "uk": [
         "Де знайти потрібну функцію",
-        "Бібліотека й колекції є на бічній панелі. Інші дії з’являються там, де вони потрібні.",
+        "Бібліотека й колекції доступні внизу в портретній орієнтації та збоку в альбомній. Решта дій — на відповідних екранах.",
         "На екрані бібліотеки натисніть «+», щоб додати файли, знайти видання в інтернеті чи відновити копію.",
         "Меню з трьома крапками відкриває програми, імпорт та інструменти.",
         "В «Інструментах» зібрано заняття, аудіо, перенесення поміток і розумні колекції.",
@@ -69,7 +69,7 @@
       ],
       "fr": [
         "Trouver une fonction",
-        "Bibliothèque et Collections sont dans la barre latérale. Les autres actions apparaissent dans leur contexte.",
+        "Bibliothèque et collections se trouvent en bas en mode portrait, sur le côté en mode paysage. Les autres actions sont sur les écrans correspondants.",
         "Dans Bibliothèque, appuyez sur + pour ajouter des fichiers, chercher une édition en ligne ou restaurer une sauvegarde.",
         "Le menu à trois points ouvre Programmes, l’import et Outils.",
         "Outils regroupe travail, audio, transfert des marques et collections intelligentes.",
@@ -78,7 +78,7 @@
       ],
       "pl": [
         "Gdzie znaleźć funkcje",
-        "Biblioteka i Kolekcje są na pasku bocznym. Pozostałe działania pojawiają się tam, gdzie są potrzebne.",
+        "Biblioteka i kolekcje są na dole w pionie, a z boku w poziomie. Pozostałe działania znajdują się na odpowiednich ekranach.",
         "W Bibliotece naciśnij +, aby dodać pliki, znaleźć wydanie online lub przywrócić kopię.",
         "Menu z trzema kropkami otwiera Programy, import i Narzędzia.",
         "Narzędzia grupują ćwiczenia, audio, przenoszenie oznaczeń i inteligentne kolekcje.",
@@ -2272,7 +2272,7 @@
         "В настройках выберите один из девяти языков или язык устройства, системную/светлую/тёмную тему. Там же находятся сведения о версии, помощь, политика конфиденциальности, права и источники.",
         "В разделе «Оформление» настройте «Вид библиотеки» и начальный раздел. Эти настройки меняют навигацию, а не содержимое файлов.",
         "В разделе «Справка» нажмите «Руководство пользователя»: откроется этот сайт. Рядом есть поддержка; ссылки на политику, права, источники и условия открываются в браузере.",
-        "Приглашённый участник пилота может открыть «Аккаунт», подтвердить адрес кодом и посмотреть срок подписанного офлайн-доступа. Публичной регистрации или магазинной покупки пока нет; удаление аккаунта не удаляет локальные ноты."
+        "Приглашённый участник тестирования может открыть «Аккаунт», подтвердить адрес кодом и посмотреть срок подписанного офлайн-доступа. Публичной регистрации или магазинной покупки пока нет; удаление аккаунта не удаляет локальные ноты."
       ],
       "en": [
         "Language, theme, help and account",
@@ -2280,7 +2280,7 @@
         "In Settings choose one of nine languages or the device language, plus system, light or dark theme. You can also open version details, help, privacy, rights and sources.",
         "Under Appearance set Library view and the opening section. These change navigation, not your files.",
         "Under Help choose User guide to open this site. Support is nearby; privacy, rights, sources and terms open in the browser.",
-        "Invited pilot users may confirm an email code in Account and view their signed offline access expiry. Public registration and store purchase are unavailable; account deletion does not delete local scores."
+        "Invited testers may confirm an email code in Account and view their signed offline access expiry. Public registration and store purchase are unavailable; account deletion does not delete local scores."
       ],
       "de": [
         "Sprache, Design, Hilfe und Konto",
@@ -2346,7 +2346,7 @@
     "access": "pilot",
     "text": {
       "ru": [
-        "Что означает Pro в закрытом пилоте",
+        "Что означает Pro в тестовой версии",
         "Экран возможностей Pro показывает расширенные действия, но публичной покупки пока нет.",
         "Открывайте объяснение Pro из нужного действия или раздела настроек.",
         "Для приглашённых участников доступ выдаёт владелец; срок подтверждённого офлайн-права показан в аккаунте.",
@@ -2355,7 +2355,7 @@
         "Их чтение, экспорт, удаление и восстановление остаются доступны."
       ],
       "en": [
-        "What Pro means in the closed pilot",
+        "Pro access during testing",
         "The Pro catalogue explains advanced actions; public purchase is unavailable.",
         "Open the Pro explanation from a relevant action or Settings.",
         "Invited participants receive access from the owner, and the signed offline expiry is shown in Account.",

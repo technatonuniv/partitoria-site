@@ -2,6 +2,7 @@ import { SiteFooter, SiteHeader } from './site-chrome';
 import { DocumentLanguage } from './document-language';
 import { legalContent, type LegalPage } from '@/lib/legal-content';
 import { siteCopy, type Locale } from '@/lib/site-content';
+import { privacyDetails } from '@/lib/privacy-details';
 
 const sources = [
   ['IMSLP / Petrucci Music Library', 'https://imslp.org/'],
@@ -30,10 +31,11 @@ export function LocalizedLegalPage({ locale, section }: { locale: Locale; sectio
       <header className="policy-heading">
         <h1>{t[section]}</h1>
         <p>{summary}</p>
-        <div className="policy-meta"><time dateTime={section === 'support' || section === 'privacy' ? '2026-09-24' : '2026-09-05'}>{section === 'support' || section === 'privacy' ? '2026-09-24' : '2026-09-05'}</time></div>
+        <div className="policy-meta"><time dateTime={section === 'support' || section === 'privacy' ? '2026-09-27' : '2026-09-05'}>{section === 'support' || section === 'privacy' ? '2026-09-27' : '2026-09-05'}</time></div>
       </header>
       <div className="policy-body">
         <section>{paragraphs.map((paragraph) => <p key={paragraph}>{withPolicyLinks(paragraph)}</p>)}</section>
+        {section === 'privacy' ? <details><summary>{privacyDetails[locale].title}</summary><p>{withPolicyLinks(privacyDetails[locale].text)}</p></details> : null}
         {section === 'sources' ? <section><h2>{t.sources}</h2><ul className="source-list">{sources.map(([name, url]) => <li key={url}><a href={url} rel="noreferrer">{name}</a></li>)}</ul></section> : null}
         {section === 'support' ? <a className="primary-link" href="mailto:support@partitoria.app?subject=Partitoria%20support">support@partitoria.app</a> : null}
       </div>

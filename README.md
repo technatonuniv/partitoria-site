@@ -60,13 +60,13 @@ The eleven original English captures are
 `inbox.png`. They are complemented by **36 localized portrait captures**:
 library, Add, Tools and Settings in each of the nine languages. Their capture
 manifest is `public/guide/localized-captures.json`. The source app is
-1.7.0 (10733), with an eight-score synthetic library at 1200×1920 and 260 dpi.
+1.7.0 (10739), with an eight-score synthetic library at 1200×1920 and 260 dpi.
 The four localized screens follow the reader's language; other illustrations
 are explicitly captioned as English. Their PDF notes are
 demonstration material, while the app screens are genuine emulator captures.
 The concert-hall banner is a decorative generated site image, separate from
 application screenshots. Neither the site nor the guide is a public install
-or subscription offer during the closed pilot.
+or subscription offer during invitation-only testing.
 The banner uses a 94 KB WebP with the PNG as browser fallback.
 
 Screenshots open in a native modal dialog on the current page, with zoom,
@@ -75,6 +75,10 @@ same viewer for its real application preview. The image itself is not edited
 or generated. The modal and responsive layouts still require live browser QA:
 the local Chrome extension's request-header-policy initialization error has
 prevented that check in this session.
+
+Language detection, persistence, consent and reset are documented in
+[language and privacy](docs/LANGUAGE_AND_PRIVACY.md). Run
+`node --test scripts/test-language.mjs` after changing that behavior.
 
 After changes run `npm run sitemap`, `npx tsc --noEmit`, `npm run lint`,
 `npm run build` and `npm run verify`. Verification checks every canonical

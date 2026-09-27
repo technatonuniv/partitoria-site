@@ -19,7 +19,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ru">
+    <html lang="ru" suppressHydrationWarning>
+      <head><script src="/language-preference.js" defer /></head>
       <body>{children}</body>
     </html>
   );
