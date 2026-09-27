@@ -23,11 +23,14 @@ The tablet retained the earlier 28-article HTML at `/ru/guide`. Its stylesheet
 changed, while navigation through `/` loaded the current 31-article guide.
 Retained assets, canonical Russian redirects and HTML revalidation are now
 installed. Nginx validation/reload passed. All nine public guide routes and
-their referenced CSS/JS passed; the legacy CSS is again 200 at the TLS origin.
-Cloudflare had cached its earlier 404 (`max-age=14400`); the available expired
-OAuth credential could not purge it. Existing negative edge/browser cache may
-therefore last until its expiry. The Android fix opens canonical `/guide`, whose
-current styles are already available. No cookies or user storage were cleared.
+their referenced CSS/JS passed. A later public check confirmed the legacy CSS
+returned 200 `text/css` with `cf-cache-status: EXPIRED`, after the cached 404
+expired. All 64 retained CSS/JS assets also returned 200 with their correct types
+through the public domain. The initial origin-only limitation is therefore closed.
+Standard Wrangler refresh restored the existing OAuth session; its permissions
+did not authorize a single-file purge (401), so no purge or permission change
+was made. The Android fix opens canonical `/guide`. No cookies or user storage
+were cleared.
 
 `python3 -m unittest discover -s deploy -p 'test_*.py' -v` verifies preservation
 across switch/rollback and rejects same-URL content replacement. Static site
