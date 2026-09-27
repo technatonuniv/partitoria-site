@@ -2,9 +2,37 @@
 
 Build with `npm ci && npm run build`. Package only `dist/client` and unpack it
 as a new, immutable directory under `/var/www/partitoria-site/releases/` on the
-VPS. Point `/var/www/partitoria-site/current` to that release, test Nginx with
+VPS. Before switching, run `python3 retain_assets.py RELEASE /var/www/partitoria-site/shared`
+for the new release. On first installation, run it for every retained release.
+It preserves hashed CSS/JS for previously cached HTML and rejects name collisions;
+do not prune this shared directory as part of a normal deployment.
+Point `/var/www/partitoria-site/current` to that release, test Nginx with
 `sudo nginx -t`, and reload it. Keep the previous release for rollback by
 repointing `current` and reloading Nginx.
+
+HTML responses use `Cache-Control: no-cache` so browsers revalidate them.
+Versioned assets use a year of immutable caching. Russian `/ru/...` aliases
+redirect to their canonical short URLs, including the guide linked by old APKs.
+Regression checks must include a previous release's CSS URL as well as the
+current page's assets: an HTML-only 200 check cannot detect this failure.
+
+## 2026-09-27 cached Android entry regression
+
+The tablet retained the earlier 28-article HTML at `/ru/guide`. Its stylesheet
+`/_next/static/css/index.Dofa3idG.css` returned 404 after the current symlink
+changed, while navigation through `/` loaded the current 31-article guide.
+Retained assets, canonical Russian redirects and HTML revalidation are now
+installed. Nginx validation/reload passed. All nine public guide routes and
+their referenced CSS/JS passed; the legacy CSS is again 200 at the TLS origin.
+Cloudflare had cached its earlier 404 (`max-age=14400`); the available expired
+OAuth credential could not purge it. Existing negative edge/browser cache may
+therefore last until its expiry. The Android fix opens canonical `/guide`, whose
+current styles are already available. No cookies or user storage were cleared.
+
+`python3 -m unittest discover -s deploy -p 'test_*.py' -v` verifies preservation
+across switch/rollback and rejects same-URL content replacement. Static site
+verification passed. Chrome extension tab acquisition still timed out; these
+HTTP checks do not claim rendered-browser acceptance.
 
 `partitoria.app.conf` is the isolated HTTP/HTTPS origin configuration. The
 earlier `partitoria.app.http.conf` remains as a staging rollback reference.

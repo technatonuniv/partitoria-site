@@ -33,6 +33,7 @@ jobs:
 
       - name: Build static website
         run: |
+          python3 -m unittest discover -s deploy -p 'test_*.py' -v
           npx tsc --noEmit
           npm run lint
           npm run build

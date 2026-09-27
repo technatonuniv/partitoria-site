@@ -28,6 +28,11 @@ release under `/var/www/partitoria-site/releases/` on the Partitoria VPS, with
 checks. Since 2026-09-26, Cloudflare serves the public domain from the VPS.
 GitHub Pages remains available as a rollback copy.
 
+The VPS revalidates HTML and preserves versioned CSS/JS across releases. This
+prevents a cached guide opened from Android from losing its styling after a
+deployment. Russian `/ru/guide` redirects to `/guide`; all Russian aliases use
+the same canonical rule. See the asset-retention step in the deployment notes.
+
 ## Content and routes
 
 The home page, searchable guide, support and public information pages have
