@@ -2272,7 +2272,7 @@
         "В настройках выберите один из девяти языков или язык устройства, системную/светлую/тёмную тему. Там же находятся сведения о версии, помощь, политика конфиденциальности, права и источники.",
         "В разделе «Оформление» настройте «Вид библиотеки» и начальный раздел. Эти настройки меняют навигацию, а не содержимое файлов.",
         "В разделе «Справка» нажмите «Руководство пользователя»: откроется этот сайт. Рядом есть поддержка; ссылки на политику, права, источники и условия открываются в браузере.",
-        "Приглашённый участник тестирования может открыть «Аккаунт», подтвердить адрес кодом и посмотреть срок подписанного офлайн-доступа. Публичной регистрации или магазинной покупки пока нет; удаление аккаунта не удаляет локальные ноты."
+        "Только в отдельной приватной OWNER-сборке приглашённый участник может открыть «Аккаунт», подтвердить адрес кодом и посмотреть срок подписанного офлайн-доступа. В публичной бесплатной сборке аккаунтов и входа нет. Публичной регистрации или магазинной покупки пока нет; удаление аккаунта не удаляет локальные ноты."
       ],
       "en": [
         "Language, theme, help and account",
@@ -2280,7 +2280,7 @@
         "In Settings choose one of nine languages or the device language, plus system, light or dark theme. You can also open version details, help, privacy, rights and sources.",
         "Under Appearance set Library view and the opening section. These change navigation, not your files.",
         "Under Help choose User guide to open this site. Support is nearby; privacy, rights, sources and terms open in the browser.",
-        "Invited testers may confirm an email code in Account and view their signed offline access expiry. Public registration and store purchase are unavailable; account deletion does not delete local scores."
+        "Only in the separate private OWNER build can invited testers confirm an email code in Account and view their signed offline access expiry. The public Free build has no accounts or sign-in. Public registration and store purchase are unavailable; account deletion does not delete local scores."
       ],
       "de": [
         "Sprache, Design, Hilfe und Konto",
@@ -2288,7 +2288,7 @@
         "Wählen Sie in Einstellungen eine von neun Sprachen oder die Gerätesprache sowie System-, helles oder dunkles Design. Dort finden Sie Version, Hilfe, Datenschutz, Rechte und Quellen.",
         "Unter Erscheinungsbild stellen Sie Bibliotheksansicht und Startbereich ein. Die Dateien bleiben dabei unverändert.",
         "Unter Hilfe öffnet Benutzerhandbuch diese Website. Support ist daneben; Datenschutz, Rechte, Quellen und Bedingungen öffnen im Browser.",
-        "Eingeladene Tester können im Konto einen E-Mail-Code bestätigen und die Offline-Laufzeit sehen. Öffentliche Registrierung und Store-Kauf gibt es noch nicht; Kontolöschung entfernt keine lokalen Noten."
+        "Nur in der separaten privaten OWNER-Version können eingeladene Tester im Konto einen E-Mail-Code bestätigen und die Offline-Laufzeit sehen. Die öffentliche kostenlose Version hat keine Konten oder Anmeldung. Öffentliche Registrierung und Store-Kauf gibt es noch nicht; Kontolöschung entfernt keine lokalen Noten."
       ],
       "it": [
         "Lingua, tema, aiuto e account",
@@ -2296,7 +2296,7 @@
         "Nelle Impostazioni scegli una delle nove lingue o quella del dispositivo e il tema sistema, chiaro o scuro. Trovi anche versione, aiuto, privacy, diritti e fonti.",
         "In Aspetto scegli la vista della biblioteca e la sezione iniziale. Non cambiano i file.",
         "In Aiuto apri la Guida utente per questo sito. Trovi anche Supporto; privacy, diritti, fonti e condizioni si aprono nel browser.",
-        "Gli invitati al test possono confermare un codice email e vedere la scadenza offline nell’Account. Registrazione pubblica e acquisti non sono disponibili; eliminare l’account non elimina gli spartiti locali."
+        "Solo nella versione privata OWNER separata gli invitati al test possono confermare un codice email e vedere la scadenza offline nell’Account. La versione pubblica gratuita non ha account né accesso. Registrazione pubblica e acquisti non sono disponibili; eliminare l’account non elimina gli spartiti locali."
       ],
       "es": [
         "Idioma, tema, ayuda y cuenta",
@@ -2304,7 +2304,7 @@
         "En Ajustes elige uno de nueve idiomas o el del dispositivo y tema del sistema, claro u oscuro. También encontrarás versión, ayuda, privacidad, derechos y fuentes.",
         "En Apariencia ajusta la vista de biblioteca y la sección inicial. Tus archivos no cambian.",
         "En Ayuda abre la Guía del usuario para llegar a este sitio. También hay Soporte; privacidad, derechos, fuentes y condiciones se abren en el navegador.",
-        "Los invitados a la prueba pueden confirmar un código por correo y ver la caducidad del acceso sin conexión. No hay registro ni compra pública; borrar la cuenta no borra partituras locales."
+        "Solo en la versión privada OWNER independiente los invitados a la prueba pueden confirmar un código por correo y ver la caducidad del acceso sin conexión. La versión pública gratuita no tiene cuentas ni inicio de sesión. No hay registro ni compra pública; borrar la cuenta no borra partituras locales."
       ],
       "pt": [
         "Idioma, tema, ajuda e conta",
@@ -2312,7 +2312,7 @@
         "Em Definições escolha um dos nove idiomas ou o do dispositivo e tema do sistema, claro ou escuro. Também encontra versão, ajuda, privacidade, direitos e fontes.",
         "Em Aparência defina a vista da biblioteca e a secção inicial. Os ficheiros não mudam.",
         "Em Ajuda abra o Guia do utilizador para este sítio. Há também suporte; privacidade, direitos, fontes e termos abrem no navegador.",
-        "Convidados do teste podem confirmar um código por email e ver a validade do acesso offline. Não há registo nem compra pública; apagar a conta não apaga partituras locais."
+        "Só na versão privada OWNER separada os convidados do teste podem confirmar um código por email e ver a validade do acesso offline. A versão pública gratuita não tem contas nem início de sessão. Não há registo nem compra pública; apagar a conta não apaga partituras locais."
       ],
       "uk": [
         "Мова, тема, допомога й акаунт",
@@ -2320,7 +2320,7 @@
         "У налаштуваннях виберіть одну з дев’яти мов або мову пристрою, системну, світлу чи темну тему. Там є версія, допомога, приватність, права та джерела.",
         "У розділі вигляду налаштуйте показ бібліотеки та початковий розділ. Файли від цього не змінюються.",
         "У «Довідці» відкрийте посібник користувача — це цей сайт. Поруч підтримка; приватність, права, джерела й умови відкриваються в браузері.",
-        "Запрошені учасники можуть підтвердити email кодом і побачити термін офлайн-доступу. Публічної реєстрації чи купівлі немає; видалення акаунта не видаляє локальні ноти."
+        "Лише в окремій приватній OWNER-збірці запрошені учасники можуть підтвердити email кодом і побачити термін офлайн-доступу. У публічній безкоштовній збірці немає акаунтів і входу. Публічної реєстрації чи купівлі немає; видалення акаунта не видаляє локальні ноти."
       ],
       "fr": [
         "Langue, thème, aide et compte",
@@ -2328,7 +2328,7 @@
         "Dans Réglages, choisissez parmi neuf langues ou celle de l’appareil et le thème système, clair ou sombre. Vous y trouverez version, aide, confidentialité, droits et sources.",
         "Dans Apparence, réglez la vue de bibliothèque et la section d’accueil. Les fichiers ne changent pas.",
         "Dans Aide, ouvrez le Guide utilisateur pour ce site. L’assistance est à côté ; confidentialité, droits, sources et conditions s’ouvrent dans le navigateur.",
-        "Les invités du test peuvent confirmer leur adresse par code et voir la fin de l’accès hors ligne. Inscription et achat publics sont indisponibles ; supprimer le compte ne supprime pas les partitions locales."
+        "Uniquement dans la version privée OWNER distincte, les invités du test peuvent confirmer leur adresse par code et voir la fin de l’accès hors ligne. La version publique gratuite n’a ni comptes ni connexion. Inscription et achat publics sont indisponibles ; supprimer le compte ne supprime pas les partitions locales."
       ],
       "pl": [
         "Język, motyw, pomoc i konto",
@@ -2336,7 +2336,7 @@
         "W Ustawieniach wybierz jeden z dziewięciu języków lub język urządzenia oraz motyw systemowy, jasny lub ciemny. Są tam też wersja, pomoc, prywatność, prawa i źródła.",
         "W Wyglądzie ustaw widok biblioteki i sekcję początkową. Pliki się nie zmieniają.",
         "W Pomocy otwórz Podręcznik użytkownika prowadzący do tej strony. Jest też wsparcie; prywatność, prawa, źródła i warunki otwierają się w przeglądarce.",
-        "Zaproszeni testerzy mogą potwierdzić e-mail kodem i sprawdzić koniec dostępu offline. Nie ma publicznej rejestracji ani zakupu; usunięcie konta nie usuwa lokalnych nut."
+        "Tylko w osobnej prywatnej wersji OWNER zaproszeni testerzy mogą potwierdzić e-mail kodem i sprawdzić koniec dostępu offline. Publiczna bezpłatna wersja nie ma kont ani logowania. Nie ma publicznej rejestracji ani zakupu; usunięcie konta nie usuwa lokalnych nut."
       ]
     }
   },
@@ -2349,7 +2349,7 @@
         "Что означает Pro в тестовой версии",
         "Экран возможностей Pro показывает расширенные действия, но публичной покупки пока нет.",
         "Открывайте объяснение Pro из нужного действия или раздела настроек.",
-        "Для приглашённых участников доступ выдаёт владелец; срок подтверждённого офлайн-права показан в аккаунте.",
+        "Только в отдельной приватной OWNER-сборке владелец выдаёт доступ приглашённым участникам; срок подтверждённого офлайн-права показан в аккаунте. В публичной бесплатной сборке аккаунтов и входа нет.",
         "Экран предложения не запускает покупку.",
         "Окончание доступа ограничивает создание новых Pro-данных, но не скрывает ноты, пометки, программы и записи, которые уже сохранены.",
         "Их чтение, экспорт, удаление и восстановление остаются доступны."
@@ -2358,7 +2358,7 @@
         "Pro access during testing",
         "The Pro catalogue explains advanced actions; public purchase is unavailable.",
         "Open the Pro explanation from a relevant action or Settings.",
-        "Invited participants receive access from the owner, and the signed offline expiry is shown in Account.",
+        "Only in the separate private OWNER build do invited participants receive access from the owner and see the signed offline expiry in Account. The public Free build has no accounts or sign-in.",
         "An offer screen does not start a purchase.",
         "Expiry can limit creation of new Pro data, but does not hide saved scores, marks, programmes or recordings.",
         "Reading, export, deletion and recovery remain available."
@@ -2367,7 +2367,7 @@
         "Pro im geschlossenen Test",
         "Der Pro-Katalog erklärt erweiterte Aktionen; ein öffentlicher Kauf ist nicht möglich.",
         "Öffnen Sie die Erklärung bei einer passenden Aktion oder in Einstellungen.",
-        "Eingeladene erhalten Zugang vom Betreiber; das signierte Offline-Ende steht im Konto.",
+        "Nur in der separaten privaten OWNER-Version erhalten Eingeladene Zugang vom Betreiber; das signierte Offline-Ende steht im Konto. Die öffentliche kostenlose Version hat keine Konten oder Anmeldung.",
         "Die Angebotsseite startet keinen Kauf.",
         "Nach Ablauf kann neue Pro-Erstellung gesperrt sein, nicht aber vorhandene Noten, Markierungen, Programme oder Aufnahmen.",
         "Lesen, Export, Löschen und Wiederherstellen bleiben möglich."
@@ -2376,7 +2376,7 @@
         "Pro nel test chiuso",
         "Il catalogo Pro spiega le funzioni avanzate; non è disponibile un acquisto pubblico.",
         "Apri la spiegazione da un’azione pertinente o dalle Impostazioni.",
-        "Gli invitati ricevono accesso dal proprietario; la scadenza offline firmata appare nell’Account.",
+        "Solo nella versione privata OWNER separata gli invitati ricevono accesso dal proprietario; la scadenza offline firmata appare nell’Account. La versione pubblica gratuita non ha account né accesso.",
         "La schermata non avvia un acquisto.",
         "La scadenza può limitare nuove creazioni Pro ma non nasconde spartiti, segni, programmi o registrazioni salvati.",
         "Lettura, esportazione, eliminazione e recupero restano possibili."
@@ -2385,7 +2385,7 @@
         "Pro en la prueba cerrada",
         "El catálogo Pro explica acciones avanzadas; no existe compra pública.",
         "Abre la explicación desde una acción o Ajustes.",
-        "El propietario concede acceso a invitados; la caducidad firmada sin conexión aparece en Cuenta.",
+        "Solo en la versión privada OWNER independiente el propietario concede acceso a invitados; la caducidad firmada sin conexión aparece en Cuenta. La versión pública gratuita no tiene cuentas ni inicio de sesión.",
         "La pantalla no inicia una compra.",
         "La caducidad puede limitar nuevas creaciones Pro, pero no oculta partituras, marcas, programas o grabaciones guardadas.",
         "Leer, exportar, borrar y recuperar sigue disponible."
@@ -2394,7 +2394,7 @@
         "Pro no teste fechado",
         "O catálogo Pro explica ações avançadas; não existe compra pública.",
         "Abra a explicação a partir de uma ação ou das Definições.",
-        "O proprietário concede acesso a convidados; a validade offline assinada aparece na Conta.",
+        "Só na versão privada OWNER separada o proprietário concede acesso a convidados; a validade offline assinada aparece na Conta. A versão pública gratuita não tem contas nem início de sessão.",
         "O ecrã não inicia uma compra.",
         "O fim do acesso pode limitar nova criação Pro, mas não esconde partituras, marcas, programas ou gravações guardadas.",
         "Ler, exportar, apagar e recuperar continuam disponíveis."
@@ -2403,7 +2403,7 @@
         "Pro у закритому тесті",
         "Каталог Pro пояснює розширені дії; публічної купівлі немає.",
         "Відкрийте пояснення з відповідної дії чи налаштувань.",
-        "Запрошеним доступ надає власник; термін підписаного офлайн-права видно в акаунті.",
+        "Лише в окремій приватній OWNER-збірці власник надає доступ запрошеним; термін підписаного офлайн-права видно в акаунті. У публічній безкоштовній збірці немає акаунтів і входу.",
         "Екран пропозиції не починає купівлю.",
         "Після завершення доступу нове створення Pro може обмежуватися, але збережені ноти, помітки, програми й записи не ховаються.",
         "Читання, експорт, видалення й відновлення доступні."
@@ -2412,7 +2412,7 @@
         "Pro pendant le test fermé",
         "Le catalogue Pro explique les actions avancées ; aucun achat public n’est disponible.",
         "Ouvrez l’explication depuis une action ou les Réglages.",
-        "Le propriétaire donne accès aux invités ; l’échéance hors ligne signée apparaît dans Compte.",
+        "Uniquement dans la version privée OWNER distincte, le propriétaire donne accès aux invités ; l’échéance hors ligne signée apparaît dans Compte. La version publique gratuite n’a ni comptes ni connexion.",
         "L’écran d’offre ne lance aucun achat.",
         "L’expiration peut limiter la création Pro, mais ne cache pas les partitions, marques, programmes ou enregistrements sauvegardés.",
         "Lecture, export, suppression et récupération restent possibles."
@@ -2421,7 +2421,7 @@
         "Pro w testach zamkniętych",
         "Katalog Pro objaśnia zaawansowane działania; zakup publiczny jest niedostępny.",
         "Otwórz wyjaśnienie przy działaniu lub w Ustawieniach.",
-        "Zaproszonym dostęp przyznaje właściciel; podpisana data końca offline jest widoczna w Koncie.",
+        "Tylko w osobnej prywatnej wersji OWNER właściciel przyznaje dostęp zaproszonym; podpisana data końca offline jest widoczna w Koncie. Publiczna bezpłatna wersja nie ma kont ani logowania.",
         "Ekran oferty nie rozpoczyna zakupu.",
         "Wygaśnięcie może ograniczyć tworzenie nowych danych Pro, ale nie ukrywa zapisanych nut, znaków, programów ani nagrań.",
         "Czytanie, eksport, usuwanie i odzyskiwanie pozostają dostępne."

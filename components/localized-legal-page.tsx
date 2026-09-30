@@ -24,6 +24,7 @@ function withPolicyLinks(paragraph: string) {
 export function LocalizedLegalPage({ locale, section }: { locale: Locale; section: LegalPage }) {
   const t = siteCopy[locale];
   const [summary, ...paragraphs] = legalContent[locale][section];
+  const effectiveDate = section === 'privacy' ? '2026-09-30' : section === 'support' ? '2026-09-27' : '2026-09-05';
   return <main lang={locale}>
     <DocumentLanguage locale={locale} />
     <SiteHeader locale={locale} section={`/${section}`} />
@@ -31,7 +32,7 @@ export function LocalizedLegalPage({ locale, section }: { locale: Locale; sectio
       <header className="policy-heading">
         <h1>{t[section]}</h1>
         <p>{summary}</p>
-        <div className="policy-meta"><time dateTime={section === 'support' || section === 'privacy' ? '2026-09-27' : '2026-09-05'}>{section === 'support' || section === 'privacy' ? '2026-09-27' : '2026-09-05'}</time></div>
+        <div className="policy-meta"><time dateTime={effectiveDate}>{effectiveDate}</time></div>
       </header>
       <div className="policy-body">
         <section>{paragraphs.map((paragraph) => <p key={paragraph}>{withPolicyLinks(paragraph)}</p>)}</section>

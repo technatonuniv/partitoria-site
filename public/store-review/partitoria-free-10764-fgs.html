@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Partitoria Free 10764: foreground service demonstration for user-started import and recovery of interrupted manual backup/restore on a physical TABWEE W90.">
+  <title>Partitoria Free 10764 — foreground service demonstration</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+    body { margin: 0 auto; max-width: 900px; padding: 24px; }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 1.7rem; }
+    h2 { margin-top: 2rem; font-size: 1.3rem; }
+    video { display: block; width: 100%; max-height: 75vh; background: #181818; }
+    a { color: inherit; text-underline-offset: 3px; }
+    .context { border-left: 3px solid currentColor; padding-left: 16px; }
+    li + li { margin-top: 8px; }
+    footer { margin-top: 32px; border-top: 1px solid currentColor; padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Partitoria Free 10764: foreground service</h1>
+    <p>Импорт и восстановление прерванных ручных операций backup/restore.
+      <span lang="en">Import and recovery of interrupted manual backup/restore jobs.</span></p>
+    <p><a href="#ru" lang="ru">Описание по-русски</a> · <a href="#en" lang="en">English description</a></p>
+
+    <video controls playsinline preload="metadata" aria-label="Partitoria import and interrupted backup/restore recovery demonstration on TABWEE W90">
+      <source src="partitoria-free-10764-fgs.mp4" type="video/mp4">
+      <p><a href="partitoria-free-10764-fgs.mp4">Скачать видео / Download the video</a></p>
+    </video>
+    <p><a href="partitoria-free-10764-fgs.mp4">MP4: Partitoria Free 10764</a></p>
+    <nav aria-label="Video chapters / Главы видео">
+      <ol id="video-chapters">
+        <li data-feature="import">0:00 — Импорт / Import</li>
+        <li data-feature="backup-recovery">1:55 — Возобновление прерванного backup / Interrupted backup recovery</li>
+        <li data-feature="restore-recovery">3:05 — Возобновление проверки restore / Interrupted restore verification recovery</li>
+      </ol>
+    </nav>
+
+    <section id="ru" lang="ru" aria-labelledby="ru-title">
+      <h2 id="ru-title">Назначение и происхождение</h2>
+      <p>Материал подготовлен для демонстрации <code>dataSync</code> foreground
+        service бесплатного кандидата Partitoria 1.7.0 (10764) на физическом
+        планшете TABWEE W90. Запись показывает настоящие действия
+        пользователя в приложении и системном меню выбора файлов Android.</p>
+      <div class="context">
+        <p>Для защиты личной библиотеки используется отдельная диагностическая
+          установка: изменена только идентичность в manifest. Это не пакет,
+          установленный из Google Play, и запись не доказывает обработку AAB
+          или принятие подписи магазином.</p>
+        <p>Демонстрационные ноты самостоятельно подготовлены и предоставлены
+          как CC0; изображения получены из собственных демо. Источник
+          «Partitoria review» — отдельный локальный DocumentsProvider для
+          тестовых файлов и резервной копии. Он не входит в публикуемый AAB.
+          Выбор выполняется настоящим DocumentsUI с обычными URI-разрешениями
+          и файловыми потоками.</p>
+        <p>Для наглядности этот локальный тестовый провайдер добавляет фиксированную задержку 500 мс перед открытием демонстрационного оригинала и 2 секунды перед открытием файла backup/экспорта. Задержка чтения демо меньше двухсекундного лимита legacy-проверки. Ожидание учитывает переданный CancellationSignal и прерывание потока. Это управляемая задержка ввода-вывода провайдера для демонстрации настоящих progress/Cancel, а не измерение производительности приложения. Байты демонстрационных оригиналов от задержки не меняются; после ожидания используются обычные seekable-дескрипторы.</p>
+      </div>
+      <h2>Два сервиса и три демонстрируемых сценария</h2>
+      <ol>
+        <li><strong>Импорт.</strong> Пользователь выбирает демо и явно начинает
+          импорт. <code>ImportForegroundService</code> копирует и проверяет файлы.
+          Уведомление открывает приложение; progress и Cancel находятся в
+          приложении, а не в кнопках уведомления.</li>
+        <li><strong>Восстановление прерванного backup.</strong> Пользователь
+          выбирает отдельное демонстрационное место и начинает полный ручной
+          backup. Во время копирования демонстрационная установка принудительно
+          останавливается. После обычного повторного открытия приложение
+          обнаруживает сохранённое незавершённое задание и запускает
+          <code>PortabilityForegroundService</code>. Сервис перепроверяет
+          подготовленный архив, повторяет копирование и проверяет результат;
+          запись показывает возврат в приложение и проверенный итог; запуск сервиса отдельно подтверждён Android runtime receipt.</li>
+        <li><strong>Восстановление проверки restore.</strong> Пользователь
+          выбирает действительную демонстрационную копию. Во время чтения
+          источника демонстрационная установка принудительно останавливается.
+          После повторного открытия <code>PortabilityForegroundService</code>
+          заново проверяет источник и возвращает preview. Только последующее
+          явное Apply применяет восстановление в демонстрационной библиотеке;
+          сервис не применяет готовый preview без решения пользователя.</li>
+      </ol>
+      <p>Обычный непрерванный ручной backup/restore выполняется координаторами
+        с progress в приложении и сам по себе не запускает сервис восстановления.
+        Два сервиса обслуживают импорт и восстановление ранее начатых пользователем
+        операций по сохранённому журналу. Их уведомления показывают общий
+        неопределённый progress и открывают приложение; кнопки Cancel в уведомлении
+        нет. Отмена доступна в приложении. Видеозапись не показывает шторку уведомлений. Фактический foreground-state сервисов проверен отдельно в Android; успешный итог сам по себе не доказывает запуск FGS. Периодические локальные снимки используют обычный JobService,
+        а не эти foreground services. Отмена не изменяет внешние оригиналы. Незапрошенная отправка
+        библиотеки на сервер Partitoria не выполняется; выбранный Android
+        провайдер может представлять облачное хранилище самого пользователя.</p>
+      <p>В публичной Free-сборке нет аккаунтов Partitoria, входа, платной
+        активации или покупок. Эта запись не подтверждает сетевую доступность,
+        покупки, испытание в Google Play или общую приёмку приложения.</p>
+    </section>
+
+    <section id="en" lang="en" aria-labelledby="en-title">
+      <h2 id="en-title">Purpose and provenance</h2>
+      <p>This material is prepared to demonstrate the <code>dataSync</code>
+        foreground service in the Partitoria 1.7.0 (10764) Free candidate on a
+        physical TABWEE W90 tablet. The recording shows real user actions
+        in the app and the Android system file picker.</p>
+      <div class="context">
+        <p>A separate diagnostic installation protects the personal library:
+          only the manifest identity is changed. It is not an installation
+          obtained from Google Play, and the recording does not establish
+          AAB processing or store signing acceptance.</p>
+        <p>The demonstration scores are self-authored CC0 material; images
+          derive from those owned demos. “Partitoria review” is a separate
+          local DocumentsProvider fixture for sample files and the backup.
+          It is not part of the shipping AAB. Selection uses the real
+          DocumentsUI, ordinary URI grants and actual file streams.</p>
+        <p>For visibility, this local fixture provider adds a fixed 500 ms delay before opening a demonstration original and a fixed two-second delay before opening a backup/export file. Demo reads remain below the two-second legacy-probe limit. The wait honors a supplied CancellationSignal and thread interruption. This controlled provider I/O latency exposes real progress/Cancel and is not an app performance measurement. The delay does not alter demonstration originals; normal seekable descriptors are used after the wait.</p>
+      </div>
+      <h2>Two services and three demonstrated scenarios</h2>
+      <ol>
+        <li><strong>Import.</strong> The user selects demos and explicitly
+          starts import. <code>ImportForegroundService</code> copies and validates
+          files. Its notification opens the app; progress and Cancel are in the
+          app rather than notification buttons.</li>
+        <li><strong>Interrupted backup recovery.</strong> The user chooses a
+          disposable demonstration destination and begins complete manual backup.
+          The diagnostic installation is forcibly stopped while copying. On an
+          ordinary relaunch, the app detects its persisted unfinished job and
+          starts <code>PortabilityForegroundService</code>. It revalidates the
+          staged archive, repeats copying and verifies the result. The recording
+          shows the app return and verified outcome; service execution is independently corroborated by Android runtime receipts.</li>
+        <li><strong>Interrupted restore verification recovery.</strong> The user
+          selects a valid demonstration backup. The diagnostic installation is
+          forcibly stopped while reading the source. On relaunch,
+          <code>PortabilityForegroundService</code> revalidates the source and
+          returns a preview. Only a subsequent explicit Apply restores into the
+          disposable demonstration library; a ready preview is never applied
+          without the user's decision.</li>
+      </ol>
+      <p>An uninterrupted manual backup/restore runs through its coordinators
+        and in-app progress; it does not itself start the recovery service.
+        The two services handle import and recovery of previously user-requested
+        operations from the persisted journal. Their notifications show generic
+        indeterminate progress and open the app; they have no Cancel action.
+        Cancellation is available in the app. The notification drawer is not shown. Android runtime receipts independently confirm each service foreground state; a successful outcome alone does not establish FGS execution. Regular periodic local snapshots use a JobService rather
+        than these foreground services. Cancellation does not change external
+        originals. There is no
+        unsolicited library upload to Partitoria servers; a selected Android
+        document provider may represent the user’s own cloud storage.</p>
+      <p>The public Free build has no Partitoria accounts, sign-in, paid
+        activation or purchases. This recording does not establish network
+        availability, purchases, Google Play testing or general app acceptance.</p>
+    </section>
+<section aria-labelledby="edit-title"><h2 id="edit-title">Монтаж / Editing and verification</h2>
+<p>Хронологическая запись сокращена до 5:40: удалены паузы оператора между фазами.
+Интервалы исходной записи в секундах: 0–85, 160–185, 245–250; 440–485, 560–585; 940–1055, 1120–1160.
+Каждый включённый интервал сохраняет своё время; ускорения, наложения интерфейса и изменения размера нет.
+H.264 CRF18, 960×1536, CFR10; перекодирование не является lossless. Исходная запись сохранена отдельно.</p>
+<p lang="en">Chronological footage is trimmed to 5:40 by omitting operator pauses between phases.
+Each included interval retains its elapsed time; no speed change, UI overlays or resizing.
+H.264 CRF18, 960×1536, CFR10; this is a transcode, not lossless. The uncut source is retained privately.
+Force-stop and clean-data reset affected only the disposable secondary-user installation.</p>
+<p>Runtime: ImportForegroundService observed foreground in five of 14 samples over 2.25 seconds;
+PortabilityForegroundService observed foreground during both interrupted-job recoveries, dataSync type 0x1.
+Notifications are registered, with in-app cancellation; notification-drawer visibility is not demonstrated.</p>
+<p>MP4 SHA-256: <code>c9d18509a1e04be9faf574d49bfdaa0e8331786a42a59ecd5c9145c1071b3b76</code>; 4,855,131 bytes.</p></section>
+  </main>
+  <footer><p>Partitoria · 10764 · 2026-09-30</p></footer>
+</body>
+</html>

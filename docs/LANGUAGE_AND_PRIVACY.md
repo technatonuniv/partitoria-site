@@ -30,6 +30,36 @@ mail-delivery paragraph is removed from the main reading flow. A separate
 expandable disclosure retains provider, retention and overseas-processing
 facts; backend retention and data flows did not change.
 
+## Public Free privacy clarification, 2026-09-30
+
+All nine privacy translations now distinguish the public Free build from the
+separate private OWNER build. Public Free has no Partitoria account, sign-in,
+paid activation or purchase verification. Invitation, email delivery,
+device/licence checks and account deletion/retention describe only private
+OWNER access. New recording is described as an explicit advanced action in
+the private build; existing owned audio remains free to play and export.
+
+Explicit external searches send the query, IP address and User-Agent over
+HTTPS. Independent archives may infer approximate location and retain logs
+for aggregate analytics or security beyond the request. File import, export
+and backup use Android's system file picker and ContentResolver, without a
+cloud-storage SDK: the selected local or cloud provider controls file access,
+transport and protection under its own terms. This is user-directed provider
+access, not a library upload to Partitoria servers. The website adds no
+analytics or new data flow, and private backend behaviour is unchanged.
+
+The privacy effective date is 2026-09-30; support dates are unchanged. These
+are prepared source changes, not evidence of public deployment. Local build
+and static-verification results are recorded in the delivery handoff.
+
+The guide's Settings account step, Pro access/expiry step and pilot access
+labels now carry the same distinction in all nine languages: invitation and
+Account apply only to the separate private OWNER build; the public Free build
+has no accounts or sign-in. Existing instructions, article metadata, screenshots
+and the explicit unavailability of public purchases remain. This clarification
+uses source/metadata and locale-parity checks only; the release executor owns
+the final combined website build, lint, static verification and deployment.
+
 Verification: `node --test scripts/test-language.mjs` exercises first visits,
 regional and unsupported languages, a persisted selection in a fresh context,
 expiry, explicit URLs and storage failure. It is not browser rendering evidence.
