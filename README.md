@@ -139,9 +139,13 @@ Escape/Close, backdrop dismissal and focus restoration. The homepage uses the
 same viewer for its real application preview. The image itself is not edited
 or generated. The executor's live English desktop check passed current-10768
 image loading, zoom, Escape, focus return and horizontal-overflow checks. Mobile
-layouts and browser rendering/interaction of all legal pages remain pending;
-the HTTP checks above do not establish those results. Historical browser
-limitations remain in the UX review as dated history.
+checks at 390×844 passed all nine home pages and all 18 Privacy/Terms pages:
+correct document language, visible headings/policy text and no horizontal
+overflow. English home-image loading passed; the other home images were lazy
+and not loaded in their initial viewport, so all-home browser image loading is
+not claimed. Literal English/Polish mobile screenshots and broader interaction
+checks remain pending. Historical browser limitations remain in the UX review
+as dated history.
 
 Language detection, persistence, consent and reset are documented in
 [language and privacy](docs/LANGUAGE_AND_PRIVACY.md). Run

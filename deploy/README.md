@@ -56,9 +56,14 @@ PNGs and original receipt remain archived; four historical fallback URLs remain.
 current, historical and Google-purchase evidence.
 
 The executor's live English desktop browser check passed current-10768 image
-loading, zoom, Escape, focus return and horizontal overflow. **Mobile layouts
-and browser rendering/interaction of all legal pages remain pending.** HTTP and
-static checks do not establish those results. The public pages retain honest
+loading, zoom, Escape, focus return and horizontal overflow. Mobile checks at
+390×844 passed all nine home pages and all 18 Privacy/Terms pages: correct
+document language, visible headings/policy text and no horizontal overflow.
+English home-image loading passed. The other home images were lazy and not
+loaded in their initial viewport; this does not establish all-home browser
+image loading. **Literal English/Polish mobile screenshots and broader
+interaction checks remain pending.** HTTP and static checks are recorded
+separately from these rendered-browser results. The public pages retain honest
 launch-in-preparation wording; this website deployment does not prove Google
 Play publication, store signing or real purchases.
 
