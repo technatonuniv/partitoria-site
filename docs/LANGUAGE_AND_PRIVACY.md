@@ -1,5 +1,53 @@
 # Website language and public wording
 
+## Active commercial contract — 2026-10-01
+
+Partitoria Studio remains the public display credit. All nine localized
+homepages, Settings/Pro guide instructions and legal pages now describe the
+approved standalone Google Play subscription contract. No public signup,
+login, private licence invitation or account workflow is offered. Existing
+closed-channel participants retain their privacy/deletion contact in a
+separate historical disclosure; their backend and licences are unchanged.
+
+Launch-in-preparation wording stays until the release executor records a real
+public launch. The website has no checkout, account service or new tracking.
+The one-calendar-month trial, four equal-feature periods, full USD/EUR totals,
+local tax/price authority, cancellation/restoration, seven-day licence capped
+by store expiry and permanent ownership guarantees share one content source.
+Refresh is opportunistic: roughly 24 hours after the last check, the open app
+can try again if network and Google Play are available. Successful daily or
+background refresh is not guaranteed.
+
+The active privacy describes installation identifier/public key, Play receipt,
+app details, proof of key possession, Integrity and ordinary network metadata;
+no PDF/library or card data reaches Partitoria. Encrypted receipts last during
+access and 60 days after expiry, except unresolved purchase acknowledgements;
+notification deduplication 32 days; completed challenges one day. Replaced-token
+hashes, installation digests/sequences and voided-purchase records including
+actual order identifiers/status currently have no fixed deletion period.
+These records are not described as anonymous. A
+30-day server-backup promise was removed because rotation is not verified.
+Reconcile this with the deployed verifier before enabling purchases; update
+all nine languages after any actual retention change.
+
+Resend appears only in the disclosure for existing closed-channel users. Its
+[official GDPR statement](https://resend.com/security/gdpr), checked 2026-10-01,
+confirms US storage and 30-day email/log retention for ordinary plans.
+[Google cancellation help](https://support.google.com/googleplay/answer/7018481),
+checked the same day, confirms that uninstalling does not cancel a subscription.
+The [Integrity overview](https://developer.android.com/google/play/integrity/overview)
+describes app/device verification, not library processing or Partitoria signup.
+
+Language negotiation, consent, storage duration and reset behavior below are
+unchanged. Source edits and static checks do not establish deployment or
+rendered-browser acceptance.
+
+## Historical language and privacy checkpoints
+
+The dated September descriptions below describe their original Free/private
+release boundary. Their account-only/paid-unavailable assertions and backup
+retention promise are superseded by the active contract above.
+
 Reviewed 2026-09-27. The website public credit is **Partitoria Studio**, as
 requested by the owner. This changes neither the Android package/signing
 identity nor the GitHub account or store registration.

@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     'Partitoria — личная библиотека нот для Android: импорт, локальный поиск, чтение и резервное копирование.',
   applicationName: 'Partitoria',
+  authors: [{ name: 'Partitoria Studio' }],
+  creator: 'Partitoria Studio',
+  publisher: 'Partitoria Studio',
 };
 
 export const viewport: Viewport = {

@@ -1,0 +1,267 @@
+{
+  "source": "Android emulator; synthetic eight-score library; unmodified app UI",
+  "captures": [
+    {
+      "path": "ru/library.png",
+      "locale": "ru",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "8832e7cf2881030e83cbc0f8d0e535d948a121b2c5798a98bc4e69223637a10f"
+    },
+    {
+      "path": "ru/add.png",
+      "locale": "ru",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "6594b926cf00b41952e936e685e87b8544a26d32aba35267cfdfafa92b71577c"
+    },
+    {
+      "path": "ru/tools.png",
+      "locale": "ru",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "1021a90e30f661f55fe1a87e00eb1fe4356c026d5acd072d2026952000959ca7"
+    },
+    {
+      "path": "ru/settings.png",
+      "locale": "ru",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "95f39785827646b488eb6b09dfa9b233210bebf77ae1de06b7a6184762325d0d"
+    },
+    {
+      "path": "en/library.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "5fe64019b00ce085a0e25c3cd86c7c3cc436342b3778c74ac5e0dca3dc3249e3"
+    },
+    {
+      "path": "en/add.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "e622b517976237a71ec114b7ace9c0fbfe468df53ab66a9408c5ddd56d9838e5"
+    },
+    {
+      "path": "en/tools.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "f827dec054a747c82867a11fdaa4aa39a600369ac56f9a4bc8698809f25d7863"
+    },
+    {
+      "path": "en/settings.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "b934f53dfd7d3ea6fe7c95852e6038759014e66a1996368dc3595ff25cd690a7"
+    },
+    {
+      "path": "de/library.png",
+      "locale": "de",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "0c4b3b6f8fab032a838cf5ef2745de5d1d32bc4e6078e70e013312d04aee066f"
+    },
+    {
+      "path": "de/add.png",
+      "locale": "de",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "d614a31c25645ac8635de0a6a58b8563d6a9a2fc56cd3892664f40fc3fe3864a"
+    },
+    {
+      "path": "de/tools.png",
+      "locale": "de",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "45bdb98eb8cb5390796a89b2a79c69c27d9b68f0d0348a5f1d27c9741688df8b"
+    },
+    {
+      "path": "de/settings.png",
+      "locale": "de",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "5f1e1b651ae3cbb0667c4ea79ad540c8aac7aeae89c6bdda1ed4a68c391243a6"
+    },
+    {
+      "path": "it/library.png",
+      "locale": "it",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "b13770375d6d36c87e9ad921e43398e62f9d252b3ac550b365f08b81e2f6118f"
+    },
+    {
+      "path": "it/add.png",
+      "locale": "it",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "c633dd41249356276ff573dd23e068687360bb78697d0b143dcca567f707d914"
+    },
+    {
+      "path": "it/tools.png",
+      "locale": "it",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "16ae369e4d39a87aca45563240291e14d45f15578a52889a3d18934a98779fb1"
+    },
+    {
+      "path": "it/settings.png",
+      "locale": "it",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "077099f26b959075e0b812a84b28bfdf1ef249bd6ed03563e5219bc413eae2d8"
+    },
+    {
+      "path": "es/library.png",
+      "locale": "es",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "87141644b5a620d7443974cfcef4582032f76a37e146cb0170227e1b1e80a3b3"
+    },
+    {
+      "path": "es/add.png",
+      "locale": "es",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "445dff4bbd08c7c479b685ad2059d292cbf3123dbadeb5b44307d4b93a7987e3"
+    },
+    {
+      "path": "es/tools.png",
+      "locale": "es",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "31dcb8400c4e0c9edeef69b1b4fa9819f03ba95b1eec779cd2a7626e5a667686"
+    },
+    {
+      "path": "es/settings.png",
+      "locale": "es",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "d4c5bbde1f350ae66b940a384184fb795d87008d654da6a6a8da18cd0f96098f"
+    },
+    {
+      "path": "pt/library.png",
+      "locale": "pt",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "8695b8f3e749a5de04c013d343d875bfb6575280a4a0803848ddc2992d54149a"
+    },
+    {
+      "path": "pt/add.png",
+      "locale": "pt",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "8d88e252c3dc6ca51367c3d352a62e39af522991c54e18bb556b25be6e2c83be"
+    },
+    {
+      "path": "pt/tools.png",
+      "locale": "pt",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "e014e51b267688d55f5ec35ae2ad2c5e05b2881f183030d7f61c30d86a43d2a2"
+    },
+    {
+      "path": "pt/settings.png",
+      "locale": "pt",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "19ad5ac38f6ac438732a2893b3964b0760d3325c1bc3f3af4a24fe2f9aaa87d3"
+    },
+    {
+      "path": "uk/library.png",
+      "locale": "uk",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "bc3d73210fac7042728db235c6ecdb8ebfa42629807cbc02017cf4e470dd0547"
+    },
+    {
+      "path": "uk/add.png",
+      "locale": "uk",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "b255134a894155d1cb9cf3d6f6c377901a266067e956376a981a6f1d2cb48782"
+    },
+    {
+      "path": "uk/tools.png",
+      "locale": "uk",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "871ced04f666b03a76bf232c4ff0116390ea63dbdcd4339d4181b9baff35468b"
+    },
+    {
+      "path": "uk/settings.png",
+      "locale": "uk",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "ff66df87054301cc020326faf6fa38913662cdd48820f384f6bf3c85fa3032a2"
+    },
+    {
+      "path": "fr/library.png",
+      "locale": "fr",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "012d94b36a862dbd2fd54f3d22f9d816b54a0e5746bba94b80035f5b9f6c4eeb"
+    },
+    {
+      "path": "fr/add.png",
+      "locale": "fr",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "74b7d20b4e4c4e74bb176b1a0d9371f42367a0abb0bbc2a2fcb8953dfe2f9283"
+    },
+    {
+      "path": "fr/tools.png",
+      "locale": "fr",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "e68c1e9428e0b36b26895960eeee2b615e7572126337b31d995f87aa84dfcc06"
+    },
+    {
+      "path": "fr/settings.png",
+      "locale": "fr",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "3fb48755b8987c5e6d48d295692a6f9265cd43e419ba14687f93cbd8edbf9f4c"
+    },
+    {
+      "path": "pl/library.png",
+      "locale": "pl",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "1dbc7dca8fb7d4f6d7d1d47af3ff0b7916cf7c2a70aefc09e10c37a35090cf57"
+    },
+    {
+      "path": "pl/add.png",
+      "locale": "pl",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "205431e6c10fa6867ec1fdb944834ce7dabfb41cef25a3e94b896d5a7a747060"
+    },
+    {
+      "path": "pl/tools.png",
+      "locale": "pl",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "81a5b647acca62f911cb5c6ca34f17779764af46fb5be185f21c2a171db519dd"
+    },
+    {
+      "path": "pl/settings.png",
+      "locale": "pl",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "c3a8bc29d9619efaed48eee9adacbd5692f28a81f00672dac074d7d90f9cbb31"
+    }
+  ],
+  "versionCode": 10739,
+  "additionalCaptures": [
+    {
+      "path": "search.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "8a4ee61fbc7802285edb8f303953226ad2b050d46b2c558ad90e8181670e45a9"
+    }
+  ]
+}
