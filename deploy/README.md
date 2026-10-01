@@ -16,6 +16,57 @@ redirect to their canonical short URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## 2026-10-01 live commercial-preparation website
+
+The executor switched `current` to immutable release
+`/var/www/partitoria-site/releases/20261001-commercial-10768-8706226`.
+Published source is `8706226b1fbe7d7ef47db00322d2eaf5790a379e`, tree
+`64107cf9695123d5eb106e6eed97df7406f2eee5`. The local static export was actually
+built from `d1124797669d40dd494de78c042a3526200ac855`; its Git tree is identical to
+the merged source. The [exact merged-source CI](https://github.com/technatonuniv/partitoria-site/actions/runs/36893783380)
+passed. Documentation-only commits following this record do not change the
+published runtime or imply another deployment.
+
+The deterministic package was 38,549,917 bytes, SHA-256
+`d3b85715d09c3d5fbd9bc6d944fbe24f0e67d039ab5881833182d58095a66da7`.
+Independent package verification and a second serialization passed. The
+executor verified all **1,009** extracted file hashes against its manifest;
+all **84** previous shared assets remain byte-identical, and **ten** new hashed
+assets were copied without pruning. The earlier release
+`/var/www/partitoria-site/releases/20260930-free-10764-privacy` and historical
+GitHub Pages release remain available for rollback.
+
+The executor checked all nine HTTPS locale homes, retained stylesheet
+`/_next/static/css/index.Dofa3idG.css` and the verifier's HTTPS health (200).
+Independent local-PC public HTTP evidence on 2026-10-01:
+
+- At 17:22:27 UTC, all **43** current PNGs returned 200 `image/png`, with exact
+  manifest SHA-256 and 1200×1920 dimensions under normal TLS validation.
+- At 17:23:05 UTC, all **18** localized Privacy/Terms pages returned 200 with
+  bytes matching the built export, correct language, Studio credit and one h1.
+- IPv4 and IPv6 each passed the English home (200), `www` to apex redirect
+  (301), apex and redirected `www` missing-page response (404), and the retained
+  stylesheet (200), with successful normal TLS verification.
+
+The [current screenshot manifest](../public/guide/localized-captures.json)
+records public 1.8.0/10768 source/input/APK identity and paid activation false.
+Its 36 localized and seven shared English captures are current. All 47 prior
+PNGs and original receipt remain archived; four historical fallback URLs remain.
+[The screenshot inventory](../docs/COMMERCIAL_SCREENSHOTS.md) distinguishes
+current, historical and Google-purchase evidence.
+
+The executor's live English desktop browser check passed current-10768 image
+loading, zoom, Escape, focus return and horizontal overflow. **Mobile layouts
+and browser rendering/interaction of all legal pages remain pending.** HTTP and
+static checks do not establish those results. The public pages retain honest
+launch-in-preparation wording; this website deployment does not prove Google
+Play publication, store signing or real purchases.
+
+Use the isolated website/current/shared deployment contract and preserve
+unrelated DNS, certificate and Nginx/service configurations. Earlier network/
+browser limitations below are historical receipts, not a verdict on this current
+release. Preserve all historical releases and shared assets.
+
 ## 2026-09-27 cached Android entry regression
 
 The tablet retained the earlier 28-article HTML at `/ru/guide`. Its stylesheet

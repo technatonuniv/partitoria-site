@@ -41,6 +41,29 @@ articles, with all account instructions removed. Historical screenshot and
 FGS artefacts are retained. See [commercial screenshot inventory](docs/COMMERCIAL_SCREENSHOTS.md)
 for the current source, replacement priorities and evidence boundary.
 
+## Live website checkpoint — 2026-10-01
+
+The release executor published the preparation website as immutable VPS release
+`20261001-commercial-10768-8706226`, source
+`8706226b1fbe7d7ef47db00322d2eaf5790a379e`, tree
+`64107cf9695123d5eb106e6eed97df7406f2eee5`. The deployed export was actually built
+from `d1124797669d40dd494de78c042a3526200ac855`; the two source trees are identical.
+All 1,009 deployed files were verified against the package manifest. All 84
+previous shared assets remain byte-identical and ten new hashed assets were
+retained. The previous `20260930-free-10764-privacy` release remains for rollback.
+[Exact merged-source CI](https://github.com/technatonuniv/partitoria-site/actions/runs/36893783380)
+passed; later documentation commits do not redeploy the website.
+
+The executor verified all nine locale home pages and the verifier's HTTPS health.
+Independent public HTTPS checks from the local PC on 2026-10-01 passed all 43
+current PNG hashes/dimensions and all 18 localized Privacy/Terms pages against
+the built export. IPv4 and IPv6 both passed the English home, `www` redirect,
+apex/redirected `www` missing-page 404 and retained
+`/_next/static/css/index.Dofa3idG.css`, with normal TLS validation.
+The [deployment record](deploy/README.md) keeps the evidence boundaries.
+This publishes the preparation website; Google Play availability and purchases
+remain separate pending release gates.
+
 ## Local development
 
 ```sh
@@ -93,16 +116,19 @@ covers the selected language's titles, introductions and instructions, tolerates
 accents and Russian ё/е, and keeps the query in the URL for browser Back.
 Old `/guide#article-id` links redirect to the corresponding article.
 
-The eleven original English captures are
-`add.png`, `import.png`, `review.png`, `library.png`, `collections.png`,
-`search.png`, `viewer.png`, `backup.png`, `settings.png`, `tools.png` and
-`inbox.png`. They are complemented by **36 localized portrait captures**:
-library, Add, Tools and Settings in each of the nine languages. Their capture
-manifest is `public/guide/localized-captures.json`. The source app is
-1.7.0 (10739), with an eight-score synthetic library at 1200×1920 and 260 dpi.
-The four localized screens follow the reader's language; other illustrations
-are explicitly captioned as English. Their PDF notes are
-demonstration material, while the app screens are genuine emulator captures.
+The current capture manifest, `public/guide/localized-captures.json`, records
+**43 genuine public-app images**: 36 localized Library/Add/Tools/Settings captures
+and seven shared English `inbox.png`, `import.png`, `review.png`, `search.png`,
+`collections.png`, `viewer.png` and `backup.png`. They show public **1.8.0/10768**,
+Android source `145b24dc03015b8b513e683c96d309674832864d`, at 1200×1920 on the
+executor's API 37/16 KiB emulator. The invented eight-score library was imported
+through ordinary SAF and metadata UI; paid activation is false. The four shared
+English add/library/settings/tools fallback URLs retain their historical 10739
+bytes. All 47 previous PNGs and the original manifest receipt are archived,
+without relabelling undocumented origins.
+The four localized screens follow the reader's language; shared illustrations
+are explicitly captioned as English. Their score content is demonstration
+material, while the app screens are genuine unmodified captures.
 The concert-hall banner is a decorative generated site image, separate from
 application screenshots. The site explains approved upcoming subscriptions
 without claiming a publicly available installation or checkout.
@@ -111,9 +137,11 @@ The banner uses a 94 KB WebP with the PNG as browser fallback.
 Screenshots open in a native modal dialog on the current page, with zoom,
 Escape/Close, backdrop dismissal and focus restoration. The homepage uses the
 same viewer for its real application preview. The image itself is not edited
-or generated. The modal and responsive layouts require final browser QA of
-the commercial website. Historical browser limitations are recorded in the UX review; they
-are not a current connectivity verdict.
+or generated. The executor's live English desktop check passed current-10768
+image loading, zoom, Escape, focus return and horizontal-overflow checks. Mobile
+layouts and browser rendering/interaction of all legal pages remain pending;
+the HTTP checks above do not establish those results. Historical browser
+limitations remain in the UX review as dated history.
 
 Language detection, persistence, consent and reset are documented in
 [language and privacy](docs/LANGUAGE_AND_PRIVACY.md). Run
