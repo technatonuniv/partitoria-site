@@ -4,9 +4,42 @@ Official public website for **Partitoria**, an offline-first personal sheet-musi
 
 The site is intentionally static: it has no website accounts, cookies, analytics,
 advertising, forms, or runtime third-party assets. It includes the public privacy
-policy, support and closed-pilot account-deletion request details, copyright
-notice, terms of use, and the current external-source policy. The Android app's
-invitation-only OWNER pilot is separate from this static website.
+policy, support, subscription terms, copyright notice and the current
+external-source policy. Public credit is Partitoria Studio. The commercial
+Google Play release is in preparation; this site does not sell subscriptions
+or offer public Partitoria accounts. Existing closed-channel data obligations
+are retained only as a separate privacy disclosure.
+
+## Commercial preparation — 2026-10-01
+
+All nine languages now describe the same permanent Free floor and implemented
+Pro workflow. Four auto-renewing periods (1/3/6/12 calendar months) unlock the
+same Pro. Approved full-period totals are USD 1.99/4.99/8.99/14.99 for the USA
+and EUR 2.49/5.99/10.99/17.99 for the eurozone; other markets use actual Play
+local prices. An eligible new subscriber receives one store-managed calendar
+month, not a locally counted 30-day trial. The checkout supplies eligibility,
+price, taxes and exact dates. Manage/cancel/restore use Google Play without
+a Partitoria account. Distribution targets supported/permitted worldwide
+markets; billing availability is narrower and Free remains available.
+
+The verified offline Pro licence lasts up to seven days, capped by store
+expiry. Roughly 24 hours after the last check, refresh can be attempted in the
+open app with internet and Google Play available; no daily/background refresh
+is guaranteed. Owned results
+remain readable/exportable/recoverable after Pro. Public paid-flow privacy
+is qualified as applicable once the corresponding store release is enabled:
+installation key/identifier, receipt, Integrity and network data, never
+library contents. Retention includes actual voided-purchase order identifiers
+and status without a fixed deletion period, alongside hashes/counters; these
+records are not claimed anonymous. The current backup limitation is explicit.
+No source edit proves a purchase, public developer-name approval, Play
+production access or website deployment. The release executor owns those
+checks and removes launch-in-preparation wording only after actual launch.
+
+Existing settings-and-account URLs stay valid as ordinary Settings/Help
+articles, with all account instructions removed. Historical screenshot and
+FGS artefacts are retained. See [commercial screenshot inventory](docs/COMMERCIAL_SCREENSHOTS.md)
+for the current source, replacement priorities and evidence boundary.
 
 ## Local development
 
@@ -25,8 +58,13 @@ The static export is written to `dist/client`. It is deployed as an immutable
 release under `/var/www/partitoria-site/releases/` on the Partitoria VPS, with
 `/var/www/partitoria-site/current` pointing to the active release. The
 [deployment notes](deploy/README.md) record the origin, DNS and certificate
-checks. Since 2026-09-26, Cloudflare serves the public domain from the VPS.
-GitHub Pages remains available as a rollback copy.
+checks. The deployment record says the domain has used DNS-only Cloudflare records
+and VPS TLS since 2026-09-27; recheck the live state when deploying.
+The previous GitHub Pages deployment is retained as a historical rollback copy;
+source-validation CI does not refresh it or publish a website. Publishing a new
+VPS release is a separate action by the release executor, followed by live TLS,
+HTTP, current/retained asset and rendered-browser checks. A successful CI run
+does not establish which release is active on the VPS.
 
 The VPS revalidates HTML and preserves versioned CSS/JS across releases. This
 prevents a cached guide opened from Android from losing its styling after a
@@ -40,8 +78,9 @@ versions in the app's nine languages: Russian, English, German, Italian,
 Spanish, Portuguese, Ukrainian, French and Polish. Russian also keeps its
 short canonical URLs (`/`, `/guide`, `/support`, `/privacy`, `/terms`,
 `/copyright`, `/sources`). Locale URLs use `/{locale}` and
-`/{locale}/{section}`. The original detailed Russian pages and their English
-sections remain available at the canonical legal URLs.
+`/{locale}/{section}`. Russian Terms and Support retain their English sections
+at the canonical URLs. All nine localized Terms, Support and Privacy use the shared current
+content; the other canonical legal routes remain.
 
 The guide text describes working app features and separates Free ownership
 from gated new Pro actions. Screenshots in `public/guide/` must be genuine
@@ -65,16 +104,16 @@ The four localized screens follow the reader's language; other illustrations
 are explicitly captioned as English. Their PDF notes are
 demonstration material, while the app screens are genuine emulator captures.
 The concert-hall banner is a decorative generated site image, separate from
-application screenshots. Neither the site nor the guide is a public install
-or subscription offer during invitation-only testing.
+application screenshots. The site explains approved upcoming subscriptions
+without claiming a publicly available installation or checkout.
 The banner uses a 94 KB WebP with the PNG as browser fallback.
 
 Screenshots open in a native modal dialog on the current page, with zoom,
 Escape/Close, backdrop dismissal and focus restoration. The homepage uses the
 same viewer for its real application preview. The image itself is not edited
-or generated. The modal and responsive layouts still require live browser QA:
-the local Chrome extension's request-header-policy initialization error has
-prevented that check in this session.
+or generated. The modal and responsive layouts require final browser QA of
+the commercial website. Historical browser limitations are recorded in the UX review; they
+are not a current connectivity verdict.
 
 Language detection, persistence, consent and reset are documented in
 [language and privacy](docs/LANGUAGE_AND_PRIVACY.md). Run
@@ -83,8 +122,12 @@ Language detection, persistence, consent and reset are documented in
 After changes run `npm run sitemap`, `npx tsc --noEmit`, `npm run lint`,
 `npm run build` and `npm run verify`. Verification checks every canonical
 page, localized article content, local references, portrait-image hashes and
-sitemap coverage. These checks also run in GitHub Actions. They verify the
-static export, not browser interactions. See [the UX review](docs/UX_REVIEW.md).
+sitemap coverage. These checks also run in GitHub Actions for `main` pushes,
+pull requests and manual runs, with read-only repository permissions and no
+artifact upload or deployment. CI checks out and records the exact tested SHA;
+for a pull request it records the tested merge SHA and the separate PR head SHA.
+It also rejects changes to tracked files made by the checks. These checks verify
+the static export, not browser interactions. See [the UX review](docs/UX_REVIEW.md).
 
 ## Visual accessibility review (2026-09-26)
 

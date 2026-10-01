@@ -96,49 +96,37 @@ export type GuideArticle = {
   id: string;
   category: GuideCategory;
   image?: string;
-  access?: 'pro' | 'pilot';
+  access?: 'pro';
   text: Record<Locale, GuideText>;
 };
 
-export const accessLabels: Record<Locale, Record<'pro' | 'pilot', string>> = {
+export const accessLabels: Record<Locale, Record<'pro', string>> = {
   ru: {
     pro: 'Для создания и редактирования нужен Partitoria Pro. Уже сохранённые материалы доступны и после окончания подписки.',
-    pilot: 'Аккаунты доступны приглашённым участникам только в отдельной приватной OWNER-сборке. В публичной бесплатной сборке аккаунтов и входа нет.',
   },
   en: {
     pro: 'Creating and editing requires Partitoria Pro. Material you have already saved remains available after your subscription ends.',
-    pilot: 'Accounts are available to invited testers only in the separate private OWNER build. The public Free build has no accounts or sign-in.',
   },
   de: {
     pro: 'Zum Erstellen und Bearbeiten benötigen Sie Partitoria Pro. Bereits gespeicherte Inhalte bleiben nach Ablauf des Abonnements verfügbar.',
-    pilot:
-      'Konten gibt es für eingeladene Tester nur in der separaten privaten OWNER-Version. Die öffentliche kostenlose Version hat keine Konten oder Anmeldung.',
   },
   it: {
     pro: 'Per creare e modificare serve Partitoria Pro. I materiali già salvati restano disponibili alla scadenza dell’abbonamento.',
-    pilot: 'Gli account sono disponibili agli invitati solo nella versione privata OWNER separata. La versione pubblica gratuita non ha account né accesso.',
   },
   es: {
     pro: 'Para crear y editar necesitas Partitoria Pro. El material guardado sigue disponible cuando termina la suscripción.',
-    pilot:
-      'Las cuentas para invitados solo existen en la versión privada OWNER independiente. La versión pública gratuita no tiene cuentas ni inicio de sesión.',
   },
   pt: {
     pro: 'Para criar e editar precisa de Partitoria Pro. Os materiais guardados continuam disponíveis quando a subscrição termina.',
-    pilot: 'As contas para convidados existem apenas na versão privada OWNER separada. A versão pública gratuita não tem contas nem início de sessão.',
   },
   uk: {
     pro: 'Для створення та редагування потрібна Partitoria Pro. Збережені матеріали доступні й після завершення підписки.',
-    pilot: 'Акаунти для запрошених доступні лише в окремій приватній OWNER-збірці. У публічній безкоштовній збірці немає акаунтів і входу.',
   },
   fr: {
     pro: 'La création et la modification nécessitent Partitoria Pro. Les éléments déjà enregistrés restent accessibles à la fin de l’abonnement.',
-    pilot: 'Les comptes des invités existent uniquement dans la version privée OWNER distincte. La version publique gratuite n’a ni comptes ni connexion.',
   },
   pl: {
     pro: 'Tworzenie i edycja wymagają Partitoria Pro. Zapisane materiały pozostają dostępne po zakończeniu subskrypcji.',
-    pilot:
-      'Konta dla zaproszonych istnieją tylko w osobnej prywatnej wersji OWNER. Publiczna bezpłatna wersja nie ma kont ani logowania.',
   },
 };
 

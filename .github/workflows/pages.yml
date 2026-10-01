@@ -1,18 +1,17 @@
-name: Publish website
+name: Verify website
 
 on:
   push:
+    branches: [main]
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
-  actions: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -21,6 +20,22 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      - name: Record tested source identity
+        env:
+          TESTED_SHA: ${{ github.sha }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          test "$(git rev-parse HEAD)" = "$TESTED_SHA"
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            test -n "$PR_HEAD_SHA"
+            printf 'Tested PR merge SHA: %s\nPR head SHA: %s\n' "$TESTED_SHA" "$PR_HEAD_SHA" >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf 'Tested source SHA: %s\n' "$TESTED_SHA" >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
@@ -40,22 +55,5 @@ jobs:
           npm run build
           npm run verify
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v6
-
-      - name: Upload website
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: dist/client
-          include-hidden-files: true
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+      - name: Verify tracked files unchanged
+        run: git diff --exit-code HEAD --

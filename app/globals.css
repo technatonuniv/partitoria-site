@@ -152,3 +152,14 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 @media(max-width:360px){.header-inner{padding-inline:16px}.brand-mark{width:28px;height:28px}.brand{font-size:1.3rem}.main-nav a{font-size:.85rem}.language-menu summary{min-width:105px}}
 
 .language-options .language-notice { max-width: 19rem; padding: .65rem .8rem; margin: 0; font-size: .8rem; line-height: 1.5; color: var(--muted, #625b55); }
+.commercial-note { width: min(950px, calc(100% - 40px)); margin: 0 auto; padding: 0 0 clamp(70px, 9vw, 120px); }
+.commercial-note h2 { margin: 0 0 1.5rem; font-size: clamp(2rem, 3vw, 3.25rem); letter-spacing: -.035em; }
+.commercial-note p { max-width: 75ch; color: var(--muted); }
+.commercial-note .text-action { margin-top: 1rem; color: var(--wine); }
+.subscription-prices { margin: 2rem 0; }
+.subscription-prices table { width: 100%; border-collapse: collapse; text-align: start; }
+.subscription-prices caption { caption-side: bottom; padding-top: 1rem; text-align: start; color: var(--muted); font-size: .9rem; }
+.subscription-prices th, .subscription-prices td { padding: .8rem .45rem; border-bottom: 1px solid var(--line-light); }
+.subscription-prices thead th { border-bottom-color: var(--wine); font-size: .9rem; }
+.subscription-prices tbody th { font-weight: 500; }
+.subscription-prices td { font-variant-numeric: tabular-nums; }

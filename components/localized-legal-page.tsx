@@ -3,6 +3,8 @@ import { DocumentLanguage } from './document-language';
 import { legalContent, type LegalPage } from '@/lib/legal-content';
 import { siteCopy, type Locale } from '@/lib/site-content';
 import { privacyDetails } from '@/lib/privacy-details';
+import { commercialCopy } from '@/lib/commercial-content';
+import { SubscriptionPrices } from './subscription-prices';
 
 const sources = [
   ['IMSLP / Petrucci Music Library', 'https://imslp.org/'],
@@ -21,10 +23,22 @@ function withPolicyLinks(paragraph: string) {
   });
 }
 
+function CommercialTerms({ locale }: { locale: Locale }) {
+  const t = commercialCopy[locale];
+  return <section>
+    <h2>{t.termsLabel}</h2>
+    <p>{t.free}</p>
+    <p>{t.pro}</p>
+    <SubscriptionPrices locale={locale} />
+    {[t.trial, t.manage, t.offline, t.availability].map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+    <p><a href="https://support.google.com/googleplay/answer/7018481" rel="noreferrer">Google Play — {t.termsLabel}</a></p>
+  </section>;
+}
+
 export function LocalizedLegalPage({ locale, section }: { locale: Locale; section: LegalPage }) {
   const t = siteCopy[locale];
   const [summary, ...paragraphs] = legalContent[locale][section];
-  const effectiveDate = section === 'privacy' ? '2026-09-30' : section === 'support' ? '2026-09-27' : '2026-09-05';
+  const effectiveDate = ['privacy', 'support', 'terms'].includes(section) ? '2026-10-01' : '2026-09-05';
   return <main lang={locale}>
     <DocumentLanguage locale={locale} />
     <SiteHeader locale={locale} section={`/${section}`} />
@@ -36,9 +50,16 @@ export function LocalizedLegalPage({ locale, section }: { locale: Locale; sectio
       </header>
       <div className="policy-body">
         <section>{paragraphs.map((paragraph) => <p key={paragraph}>{withPolicyLinks(paragraph)}</p>)}</section>
+        {section === 'terms' ? <CommercialTerms locale={locale} /> : null}
         {section === 'privacy' ? <details><summary>{privacyDetails[locale].title}</summary><p>{withPolicyLinks(privacyDetails[locale].text)}</p></details> : null}
+        {section === 'privacy' ? <p><a href="https://policies.google.com/privacy" rel="noreferrer">Google — {t.privacy}</a></p> : null}
         {section === 'sources' ? <section><h2>{t.sources}</h2><ul className="source-list">{sources.map(([name, url]) => <li key={url}><a href={url} rel="noreferrer">{name}</a></li>)}</ul></section> : null}
         {section === 'support' ? <a className="primary-link" href="mailto:support@partitoria.app?subject=Partitoria%20support">support@partitoria.app</a> : null}
+        {locale === 'ru' && (section === 'terms' || section === 'support') ? <section id="english" lang="en">
+          <h2>{siteCopy.en[section]}</h2>
+          {legalContent.en[section].map((paragraph) => <p key={paragraph}>{withPolicyLinks(paragraph)}</p>)}
+          {section === 'terms' ? <CommercialTerms locale="en" /> : null}
+        </section> : null}
       </div>
     </article>
     <SiteFooter locale={locale} />

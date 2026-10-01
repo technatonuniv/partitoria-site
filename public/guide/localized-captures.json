@@ -1,267 +1,444 @@
 {
-  "source": "Android emulator; synthetic eight-score library; unmodified app UI",
+  "source": "Genuine unmodified public Android app UI; invented eight-score library imported through SAF and ordinary manual metadata",
+  "versionCode": 10768,
+  "versionName": "1.8.0",
+  "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+  "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+  "captureDate": "2026-10-01",
+  "captureEnvironment": {
+    "kind": "disposable Android emulator",
+    "androidApi": 37,
+    "pageSizeBytes": 16384,
+    "orientation": "portrait",
+    "width": 1200,
+    "height": 1920
+  },
+  "publicApk": {
+    "bytes": 8384384,
+    "sha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+    "appCertificateSha256": "1B9C439D7020C9FE4277A890313EF58209C19CBB6B8D8BC2518AB9EF86DFB5E3",
+    "paidActivation": false
+  },
+  "historicalManifest": "archive/10739/localized-captures.json",
+  "historicalAssetInventory": "archive/10739/assets.json",
   "captures": [
     {
       "path": "ru/library.png",
       "locale": "ru",
       "width": 1200,
       "height": 1920,
-      "sha256": "8832e7cf2881030e83cbc0f8d0e535d948a121b2c5798a98bc4e69223637a10f"
+      "sha256": "7d8a571a3fe38627c8b1f6471534167d4d3389d77145d1e5a8641893aefa8066",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "ru/add.png",
       "locale": "ru",
       "width": 1200,
       "height": 1920,
-      "sha256": "6594b926cf00b41952e936e685e87b8544a26d32aba35267cfdfafa92b71577c"
+      "sha256": "c5a1beeea017a06bbb6c1f0a3d88b1038790e6da680e858d09d130afbce2aec9",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "ru/tools.png",
       "locale": "ru",
       "width": 1200,
       "height": 1920,
-      "sha256": "1021a90e30f661f55fe1a87e00eb1fe4356c026d5acd072d2026952000959ca7"
+      "sha256": "c14badfa3cb131805920c463c9815e24acef442dbdc2829079aa6ae304d6893e",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "ru/settings.png",
       "locale": "ru",
       "width": 1200,
       "height": 1920,
-      "sha256": "95f39785827646b488eb6b09dfa9b233210bebf77ae1de06b7a6184762325d0d"
+      "sha256": "8556222a9f5ce0adab0d3570bc77e0157fb47881c1452f1d800b82f80f7f3f51",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "en/library.png",
       "locale": "en",
       "width": 1200,
       "height": 1920,
-      "sha256": "5fe64019b00ce085a0e25c3cd86c7c3cc436342b3778c74ac5e0dca3dc3249e3"
+      "sha256": "5df3818ac0be1f62e544f5dd3bc93a6905c7a1f6c69c3ee842bf2dba6c4b21c0",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "en/add.png",
       "locale": "en",
       "width": 1200,
       "height": 1920,
-      "sha256": "e622b517976237a71ec114b7ace9c0fbfe468df53ab66a9408c5ddd56d9838e5"
+      "sha256": "b30d886e732032e86861e88dbf8be83c4178d21dd5e7af86798691b26c90270a",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "en/tools.png",
       "locale": "en",
       "width": 1200,
       "height": 1920,
-      "sha256": "f827dec054a747c82867a11fdaa4aa39a600369ac56f9a4bc8698809f25d7863"
+      "sha256": "9e2cdf8d85e8aef974d86f93cf308f6749a023afeb1966c7c4462be9abb475f7",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "en/settings.png",
       "locale": "en",
       "width": 1200,
       "height": 1920,
-      "sha256": "b934f53dfd7d3ea6fe7c95852e6038759014e66a1996368dc3595ff25cd690a7"
+      "sha256": "9cf8b411b5e756dd57a8ff3d520478ae3076174d4802c8171fa0c12fa60f5954",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "de/library.png",
       "locale": "de",
       "width": 1200,
       "height": 1920,
-      "sha256": "0c4b3b6f8fab032a838cf5ef2745de5d1d32bc4e6078e70e013312d04aee066f"
+      "sha256": "01056d0ac7dfe16da44ad4da60f491b028b2414291c97eb02972d28ff65bb6ae",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "de/add.png",
       "locale": "de",
       "width": 1200,
       "height": 1920,
-      "sha256": "d614a31c25645ac8635de0a6a58b8563d6a9a2fc56cd3892664f40fc3fe3864a"
+      "sha256": "12dbb40c1b78b48b8c3ff5557d3aaae6e41e87989e9dfce2f1bd8084179361e6",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "de/tools.png",
       "locale": "de",
       "width": 1200,
       "height": 1920,
-      "sha256": "45bdb98eb8cb5390796a89b2a79c69c27d9b68f0d0348a5f1d27c9741688df8b"
+      "sha256": "76d4cdeaf22c112f31072d14a0f35c0864421a3bd4119c6c67378690efcdc4d2",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "de/settings.png",
       "locale": "de",
       "width": 1200,
       "height": 1920,
-      "sha256": "5f1e1b651ae3cbb0667c4ea79ad540c8aac7aeae89c6bdda1ed4a68c391243a6"
+      "sha256": "b73427ef2c5067faa8e9b37febf3c1eeac393e82edf4c7b601436c916738b8de",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "it/library.png",
       "locale": "it",
       "width": 1200,
       "height": 1920,
-      "sha256": "b13770375d6d36c87e9ad921e43398e62f9d252b3ac550b365f08b81e2f6118f"
+      "sha256": "7424dbfe963e0b78bc2a92e47d8821b289c249851beab6c2cd2366dc04c4cab5",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "it/add.png",
       "locale": "it",
       "width": 1200,
       "height": 1920,
-      "sha256": "c633dd41249356276ff573dd23e068687360bb78697d0b143dcca567f707d914"
+      "sha256": "67ab1dc35ab9372fa15c2d0ae1256680446b092c24ed5577926d4405a83e8bfc",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "it/tools.png",
       "locale": "it",
       "width": 1200,
       "height": 1920,
-      "sha256": "16ae369e4d39a87aca45563240291e14d45f15578a52889a3d18934a98779fb1"
+      "sha256": "84a2a162c4dfe2067fe77e1fa77fed42b00c1de99a19ce1e921f1b1e7c783bf9",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "it/settings.png",
       "locale": "it",
       "width": 1200,
       "height": 1920,
-      "sha256": "077099f26b959075e0b812a84b28bfdf1ef249bd6ed03563e5219bc413eae2d8"
+      "sha256": "a9be12d50a87c9fe3fbd2aa711722598c95da1757f34c8a20f933f3eec865a6d",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "es/library.png",
       "locale": "es",
       "width": 1200,
       "height": 1920,
-      "sha256": "87141644b5a620d7443974cfcef4582032f76a37e146cb0170227e1b1e80a3b3"
+      "sha256": "272c027a06c9882680cf5b1b4b90cc50e7c2768a6d0b9ee974df929f7ebb42d5",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "es/add.png",
       "locale": "es",
       "width": 1200,
       "height": 1920,
-      "sha256": "445dff4bbd08c7c479b685ad2059d292cbf3123dbadeb5b44307d4b93a7987e3"
+      "sha256": "f0d23ba1a18d4f2f5af1f61e8260fad384ae986e2c51163af4ec7ea46c005cb8",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "es/tools.png",
       "locale": "es",
       "width": 1200,
       "height": 1920,
-      "sha256": "31dcb8400c4e0c9edeef69b1b4fa9819f03ba95b1eec779cd2a7626e5a667686"
+      "sha256": "721bc0ef2a91509975d14660f43e68d8f0b0fbb29c6987fe44c8ceb10943af35",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "es/settings.png",
       "locale": "es",
       "width": 1200,
       "height": 1920,
-      "sha256": "d4c5bbde1f350ae66b940a384184fb795d87008d654da6a6a8da18cd0f96098f"
+      "sha256": "5546c55d9393a1202c4728d9b3dded624f269e4a1020f15115c68d36e4c565e7",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pt/library.png",
       "locale": "pt",
       "width": 1200,
       "height": 1920,
-      "sha256": "8695b8f3e749a5de04c013d343d875bfb6575280a4a0803848ddc2992d54149a"
+      "sha256": "39fc955de0ec730269e832f4ca77d962d92b79e506090638bd25c2d693c0e307",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pt/add.png",
       "locale": "pt",
       "width": 1200,
       "height": 1920,
-      "sha256": "8d88e252c3dc6ca51367c3d352a62e39af522991c54e18bb556b25be6e2c83be"
+      "sha256": "4565f918866cfa571ae00d0a1f68e7c381b720634428228d2577492e310bd6fe",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pt/tools.png",
       "locale": "pt",
       "width": 1200,
       "height": 1920,
-      "sha256": "e014e51b267688d55f5ec35ae2ad2c5e05b2881f183030d7f61c30d86a43d2a2"
+      "sha256": "d8c462f029cf2fcb44704313e7debf607394798f7a03ec33eb7b64de9d0a4165",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pt/settings.png",
       "locale": "pt",
       "width": 1200,
       "height": 1920,
-      "sha256": "19ad5ac38f6ac438732a2893b3964b0760d3325c1bc3f3af4a24fe2f9aaa87d3"
+      "sha256": "5146db7808d67fc6e092c20a85dd70f474ee287cc89f85a09e822a1d9e34d8c7",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "uk/library.png",
       "locale": "uk",
       "width": 1200,
       "height": 1920,
-      "sha256": "bc3d73210fac7042728db235c6ecdb8ebfa42629807cbc02017cf4e470dd0547"
+      "sha256": "4d5a8bef5396e9e5f06fa4edad27990927f975914efad156e4f452b6af6cd03b",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "uk/add.png",
       "locale": "uk",
       "width": 1200,
       "height": 1920,
-      "sha256": "b255134a894155d1cb9cf3d6f6c377901a266067e956376a981a6f1d2cb48782"
+      "sha256": "5e4d69b310e8d9e5de3bae2183735e91d8ece83f545845a1011019d581297257",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "uk/tools.png",
       "locale": "uk",
       "width": 1200,
       "height": 1920,
-      "sha256": "871ced04f666b03a76bf232c4ff0116390ea63dbdcd4339d4181b9baff35468b"
+      "sha256": "4aeb4880cc6d7921b266b40d627412567d4f2ba15194b2786106122fe93d3ba3",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "uk/settings.png",
       "locale": "uk",
       "width": 1200,
       "height": 1920,
-      "sha256": "ff66df87054301cc020326faf6fa38913662cdd48820f384f6bf3c85fa3032a2"
+      "sha256": "bc89d84e71d3bbb599fd3f64b9b99df9215df14df462954f56319300f84f51e7",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "fr/library.png",
       "locale": "fr",
       "width": 1200,
       "height": 1920,
-      "sha256": "012d94b36a862dbd2fd54f3d22f9d816b54a0e5746bba94b80035f5b9f6c4eeb"
+      "sha256": "e2b9b91e872830cf7dc63ae3444b1820369a4a93205edd0e3274eba59de82bdd",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "fr/add.png",
       "locale": "fr",
       "width": 1200,
       "height": 1920,
-      "sha256": "74b7d20b4e4c4e74bb176b1a0d9371f42367a0abb0bbc2a2fcb8953dfe2f9283"
+      "sha256": "4b0a53bcf38be8cfff48ce56936e2298ba4a33aade46e42d51fd596ba86ea8e4",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "fr/tools.png",
       "locale": "fr",
       "width": 1200,
       "height": 1920,
-      "sha256": "e68c1e9428e0b36b26895960eeee2b615e7572126337b31d995f87aa84dfcc06"
+      "sha256": "b5234169b5843d51ec98fd58523314e43f63c6003c2ba8c5560188de5eb5c0fa",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "fr/settings.png",
       "locale": "fr",
       "width": 1200,
       "height": 1920,
-      "sha256": "3fb48755b8987c5e6d48d295692a6f9265cd43e419ba14687f93cbd8edbf9f4c"
+      "sha256": "dcda88ffdef4cf0ccd565e9cd3e07979d4e26553cefcbb5f7ac088b16d9a842b",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pl/library.png",
       "locale": "pl",
       "width": 1200,
       "height": 1920,
-      "sha256": "1dbc7dca8fb7d4f6d7d1d47af3ff0b7916cf7c2a70aefc09e10c37a35090cf57"
+      "sha256": "80a4150af606f44b1716bfed48284e65dcba0bd1e1713f418c3bf39ac351890c",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pl/add.png",
       "locale": "pl",
       "width": 1200,
       "height": 1920,
-      "sha256": "205431e6c10fa6867ec1fdb944834ce7dabfb41cef25a3e94b896d5a7a747060"
+      "sha256": "758922ad06f344803a78e60907b518509288f7467d25074c818d64355029f0a5",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pl/tools.png",
       "locale": "pl",
       "width": 1200,
       "height": 1920,
-      "sha256": "81a5b647acca62f911cb5c6ca34f17779764af46fb5be185f21c2a171db519dd"
+      "sha256": "0afc747f0c8e3720e140f62753af6e8ff8774f6e3d56405990de7aa662a5e765",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     },
     {
       "path": "pl/settings.png",
       "locale": "pl",
       "width": 1200,
       "height": 1920,
-      "sha256": "c3a8bc29d9619efaed48eee9adacbd5692f28a81f00672dac074d7d90f9cbb31"
+      "sha256": "3f01ba84cb3333343d372b99d82e4b13e3462453718b677f1012fb84e133321c",
+      "versionCode": 10768,
+      "versionName": "1.8.0"
     }
   ],
-  "versionCode": 10739,
   "additionalCaptures": [
+    {
+      "path": "inbox.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "104b56a0c131d04ce1e7350f472184b205349563d536c6f702046e7ac82b14d1",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
+    },
+    {
+      "path": "import.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "e31b5d67b3d30b351c8121e0cdcdbcec3c972f912db46e4b894cc6c812199a1a",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
+    },
     {
       "path": "search.png",
       "locale": "en",
       "width": 1200,
       "height": 1920,
-      "sha256": "8a4ee61fbc7802285edb8f303953226ad2b050d46b2c558ad90e8181670e45a9"
+      "sha256": "dced837f90e2a896f17d8323b981f05b32118d0065df6c56d7bc171d5816c500",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
+    },
+    {
+      "path": "review.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "fd4ad707c9783d6ac705089c58a3add8bcda59099e7220560fcad2043b295dcd",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
+    },
+    {
+      "path": "collections.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "9e8d6b5346c5318367645337071f2616f9e40197e714fc6d30e0ff1eb3efe607",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
+    },
+    {
+      "path": "viewer.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "200ee276aeac15736123df92777ff477bb4e54fe5b00f4fe39c732d2d5577bc8",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
+    },
+    {
+      "path": "backup.png",
+      "locale": "en",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "f8e412b10a7f3722b92020b0680a7271c0e998aa9f760c713bf27807dc2a32a8",
+      "versionCode": 10768,
+      "versionName": "1.8.0",
+      "sourceCommit": "145b24dc03015b8b513e683c96d309674832864d",
+      "inputFingerprint": "f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21",
+      "apkSha256": "983d572ac8934016e93280a4558b0e5ee543da62830cea116e3b626bba6cf90a",
+      "source": "Genuine unmodified public-10768 English UI; shared guide illustration"
     }
-  ]
+  ],
+  "historicalOriginalManifest": "archive/10739/localized-captures.original.json.gz"
 }
