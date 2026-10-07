@@ -1,13 +1,45 @@
 # Commercial website screenshot inventory
 
-## Source checkpoint — 2026-10-01
+## Current screenshot refresh — 2026-10-07
+
+The current capture candidate is public **1.8.0/10814**, Android source
+`695c2200e529218c26ec2e94857c7ae17dedd022`, input
+`947cb2851b03ab89947aab3179cc5f3faef40e260823d5983b8e71145a8091f8`.
+The signed public APK is 12,366,396 bytes, SHA-256
+`eac2b3f8c4515556c4ab48392f9217a55727a5f0e459c2f73da540b39bd15b29`;
+paid activation is false. The completed set contains **30 ordinary app screens × nine
+languages = 270 captures**, covering all 31 Guide articles and the Home preview.
+Each capture uses the selected app UI language on an API 37 tablet emulator,
+1200×1920 portrait, density 260 (738.46dp wide), font scale 1.0 and light theme.
+Use unchanged raw pixels and invented lawful score examples. Free initial or
+read-only screens remain truthful; no QA grants, invented prices or fake purchases.
+
+**CAPTURES PASS**: all 270 originals were individually reviewed and copied
+without changing pixels. The [10814 manifest](../public/guide/10814/localized-captures.json)
+binds every image to its locale, actual APK/source/input and accepted raw hash.
+**LOCAL STATIC PASS**: the built export verifies 396 canonical pages, all 31
+articles in nine languages, image/link coverage and all 270 exported PNG hashes.
+Type checking, lint, four language tests and two deployment-retention tests pass.
+Final-source CI and production publication remain pending.
+Integration uses `/guide/10814/{locale}/{screen}.png`. Original 10768 URLs and
+`public/guide/localized-captures.json` remain byte-identical historical evidence;
+10739 archives/fallback URLs are retained. Their dated descriptions below do
+not establish 10814 acceptance. **Deployment PENDING**; source/capture work does
+not publish the site or prove Google Play availability or purchases.
+
+Current supported-browser verification is **BLOCKED**: the required installed
+Browser-plugin payload `browser/scripts/browser-service.mjs` is missing after
+one bounded connection reset. No alternative browser transport or policy bypass
+was used. Earlier dated browser results retain their original scope.
+
+## Historical source checkpoint — 2026-10-01
 
 The guide keeps 31 articles, six categories and all nine locale routes.
 The stable `settings-and-account` article now describes ordinary Settings and
 Help; its title/body have no private-account instructions. Pro instructions
 describe Google Play. No image or URL is deleted in this preparation slice.
 
-Current [capture manifest](../public/guide/localized-captures.json) contains 43
+Historical 10768 [capture manifest](../public/guide/localized-captures.json) contains 43
 genuine, unmodified public-app captures from **1.8.0/10768**, Android source
 `145b24dc03015b8b513e683c96d309674832864d`, prepared input
 `f5d08c6d6c83020e11e77b41e7dbc5847bab16116fb7c3afcbf2f643c18b8f21`.

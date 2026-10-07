@@ -6,7 +6,7 @@
     "text": {
       "ru": [
         "Где найти нужную функцию",
-        "Библиотека и коллекции доступны внизу экрана в портретной ориентации и сбоку в альбомной. Остальные действия находятся на соответствующих экранах.",
+        "«Библиотека», «Избранное» и «Коллекции» доступны в нижней навигации или в боковой панели ☰. Остальные действия находятся на соответствующих экранах.",
         "На экране библиотеки нажмите «+», чтобы добавить файлы, найти издание в интернете или восстановить копию.",
         "Меню с тремя точками ведёт к программам, очереди импорта и инструментам.",
         "В «Инструментах» собраны занятия, аудио, перенос пометок и умные коллекции.",
@@ -15,7 +15,7 @@
       ],
       "en": [
         "Find your way around",
-        "Library and Collections are at the bottom in portrait and at the side in landscape. Other actions appear on the relevant screens.",
+        "Library, Favorites and Collections are available in the bottom navigation or the ☰ sidebar. Other actions appear on their own screens.",
         "On the Library screen, press + to add files, find an edition online or restore a backup.",
         "The three-dot menu opens Programmes, the import inbox and Tools.",
         "Tools groups practice, audio, mark transfer and smart collections.",
@@ -24,7 +24,7 @@
       ],
       "de": [
         "Funktionen finden",
-        "Bibliothek und Sammlungen stehen im Hochformat unten, im Querformat seitlich. Weitere Aktionen finden Sie auf dem jeweiligen Bildschirm.",
+        "Bibliothek, Favoriten und Sammlungen finden Sie in der unteren Navigation oder in der Seitenleiste ☰. Weitere Aktionen finden Sie auf den jeweiligen Bildschirmen.",
         "Tippen Sie in der Bibliothek auf +, um Dateien hinzuzufügen, online eine Ausgabe zu suchen oder eine Sicherung wiederherzustellen.",
         "Das Menü mit drei Punkten öffnet Programme, Import und Werkzeuge.",
         "Unter Werkzeuge finden Sie Üben, Audio, Markierungsübertragung und intelligente Sammlungen.",
@@ -33,7 +33,7 @@
       ],
       "it": [
         "Trovare le funzioni",
-        "Libreria e raccolte sono in basso in verticale e di lato in orizzontale. Le altre azioni si trovano nelle rispettive schermate.",
+        "Biblioteca, Preferiti e Raccolte sono disponibili nella navigazione in basso o nel pannello laterale ☰. Le altre azioni si trovano nelle rispettive schermate.",
         "Nella Biblioteca tocca + per aggiungere file, cercare un’edizione online o ripristinare un backup.",
         "Il menu con tre punti apre Programmi, importazione e Strumenti.",
         "Strumenti riunisce studio, audio, trasferimento dei segni e raccolte intelligenti.",
@@ -42,7 +42,7 @@
       ],
       "es": [
         "Encontrar las funciones",
-        "Biblioteca y colecciones están abajo en vertical y al lado en horizontal. Las demás acciones aparecen en sus pantallas.",
+        "Biblioteca, Favoritos y Colecciones están en la navegación inferior o en el panel lateral ☰. Las demás acciones aparecen en sus pantallas.",
         "En Biblioteca pulsa + para añadir archivos, buscar una edición en línea o restaurar una copia.",
         "El menú de tres puntos abre Programas, importación y Herramientas.",
         "Herramientas agrupa práctica, audio, transferencia de marcas y colecciones inteligentes.",
@@ -51,7 +51,7 @@
       ],
       "pt": [
         "Encontrar as funções",
-        "Biblioteca e coleções ficam em baixo na vertical e ao lado na horizontal. As outras ações aparecem nos respetivos ecrãs.",
+        "Biblioteca, Favoritos e Coleções estão na navegação inferior ou no painel lateral ☰. As outras ações aparecem nos respetivos ecrãs.",
         "Na Biblioteca prima + para adicionar ficheiros, procurar uma edição online ou repor uma cópia.",
         "O menu de três pontos abre Programas, importação e Ferramentas.",
         "Ferramentas reúne estudo, áudio, transferência de marcas e coleções inteligentes.",
@@ -60,7 +60,7 @@
       ],
       "uk": [
         "Де знайти потрібну функцію",
-        "Бібліотека й колекції доступні внизу в портретній орієнтації та збоку в альбомній. Решта дій — на відповідних екранах.",
+        "«Бібліотека», «Обране» і «Колекції» доступні в нижній навігації або на бічній панелі ☰. Решта дій — на відповідних екранах.",
         "На екрані бібліотеки натисніть «+», щоб додати файли, знайти видання в інтернеті чи відновити копію.",
         "Меню з трьома крапками відкриває програми, імпорт та інструменти.",
         "В «Інструментах» зібрано заняття, аудіо, перенесення поміток і розумні колекції.",
@@ -69,7 +69,7 @@
       ],
       "fr": [
         "Trouver une fonction",
-        "Bibliothèque et collections se trouvent en bas en mode portrait, sur le côté en mode paysage. Les autres actions sont sur les écrans correspondants.",
+        "Bibliothèque, Favoris et Collections sont accessibles dans la navigation du bas ou dans le panneau latéral ☰. Les autres actions se trouvent sur leurs écrans respectifs.",
         "Dans Bibliothèque, appuyez sur + pour ajouter des fichiers, chercher une édition en ligne ou restaurer une sauvegarde.",
         "Le menu à trois points ouvre Programmes, l’import et Outils.",
         "Outils regroupe travail, audio, transfert des marques et collections intelligentes.",
@@ -78,7 +78,7 @@
       ],
       "pl": [
         "Gdzie znaleźć funkcje",
-        "Biblioteka i kolekcje są na dole w pionie, a z boku w poziomie. Pozostałe działania znajdują się na odpowiednich ekranach.",
+        "Biblioteka, Ulubione i Kolekcje są dostępne w dolnej nawigacji lub w panelu bocznym ☰. Pozostałe działania znajdują się na odpowiednich ekranach.",
         "W Bibliotece naciśnij +, aby dodać pliki, znaleźć wydanie online lub przywrócić kopię.",
         "Menu z trzema kropkami otwiera Programy, import i Narzędzia.",
         "Narzędzia grupują ćwiczenia, audio, przenoszenie oznaczeń i inteligentne kolekcje.",
@@ -169,7 +169,7 @@
   {
     "id": "import-inbox",
     "category": "start",
-    "image": "inbox.png",
+    "image": "import-inbox.png",
     "text": {
       "ru": [
         "Очередь импорта и повторная попытка",
@@ -274,7 +274,7 @@
   {
     "id": "import-review",
     "category": "start",
-    "image": "import.png",
+    "image": "import-review.png",
     "text": {
       "ru": [
         "Импорт папки и проверка сведений",
@@ -432,7 +432,7 @@
   {
     "id": "find-in-library",
     "category": "library",
-    "image": "search.png",
+    "image": "library-search.png",
     "text": {
       "ru": [
         "Найти ноты в библиотеке",
@@ -511,7 +511,7 @@
   {
     "id": "score-details",
     "category": "library",
-    "image": "review.png",
+    "image": "score-details.png",
     "text": {
       "ru": [
         "Исправить сведения и обложку",
@@ -669,6 +669,7 @@
   {
     "id": "smart-collections",
     "category": "library",
+    "image": "smart-collections.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -748,6 +749,7 @@
   {
     "id": "library-health",
     "category": "library",
+    "image": "library-health.png",
     "text": {
       "ru": [
         "Проверить состояние библиотеки",
@@ -826,6 +828,7 @@
   {
     "id": "practice-history",
     "category": "library",
+    "image": "practice-history.png",
     "text": {
       "ru": [
         "История занятий",
@@ -904,7 +907,7 @@
   {
     "id": "reader",
     "category": "reading",
-    "image": "viewer.png",
+    "image": "reader.png",
     "text": {
       "ru": [
         "Открыть и читать ноты",
@@ -983,6 +986,7 @@
   {
     "id": "reading-profiles",
     "category": "reading",
+    "image": "reading-profiles.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1062,6 +1066,7 @@
   {
     "id": "annotations",
     "category": "reading",
+    "image": "annotations.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1150,6 +1155,7 @@
   {
     "id": "programmes",
     "category": "rehearsal",
+    "image": "programmes.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1229,6 +1235,7 @@
   {
     "id": "practice-tools",
     "category": "rehearsal",
+    "image": "practice-tools.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1308,6 +1315,7 @@
   {
     "id": "input-and-audio",
     "category": "rehearsal",
+    "image": "metronome.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1387,6 +1395,7 @@
   {
     "id": "versions-and-exchange",
     "category": "rehearsal",
+    "image": "versions-transfer.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1466,6 +1475,7 @@
   {
     "id": "concert-pdf",
     "category": "rehearsal",
+    "image": "programmes.png",
     "text": {
       "ru": [
         "Подготовить концертный PDF",
@@ -1543,6 +1553,7 @@
   {
     "id": "input-controls",
     "category": "rehearsal",
+    "image": "input-controls.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1622,6 +1633,7 @@
   {
     "id": "rehearsal-audio",
     "category": "rehearsal",
+    "image": "rehearsal-audio.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1701,8 +1713,8 @@
   {
     "id": "rehearsal-checkpoints",
     "category": "rehearsal",
+    "image": "rehearsal-checkpoints.png",
     "access": "pro",
-    "image": "tools.png",
     "text": {
       "ru": [
         "Версии пометок и уроки",
@@ -1781,8 +1793,8 @@
   {
     "id": "semantic-transfer",
     "category": "rehearsal",
+    "image": "semantic-transfer.png",
     "access": "pro",
-    "image": "tools.png",
     "text": {
       "ru": [
         "Перенос между партиями и изданиями",
@@ -1861,8 +1873,8 @@
   {
     "id": "paper-marks",
     "category": "rehearsal",
+    "image": "paper-marks.png",
     "access": "pro",
-    "image": "tools.png",
     "text": {
       "ru": [
         "Пометки с бумажных нот",
@@ -1941,7 +1953,7 @@
   {
     "id": "backup-restore",
     "category": "data",
-    "image": "backup.png",
+    "image": "backup-restore.png",
     "text": {
       "ru": [
         "Сделать и проверить резервную копию",
@@ -2020,6 +2032,7 @@
   {
     "id": "originals-recovery",
     "category": "data",
+    "image": "originals-recovery.png",
     "text": {
       "ru": [
         "Экспорт оригиналов и восстановление файла",
@@ -2098,6 +2111,7 @@
   {
     "id": "local-snapshots",
     "category": "data",
+    "image": "local-snapshots.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -2186,6 +2200,7 @@
   {
     "id": "earlier-searches",
     "category": "settings",
+    "image": "earlier-searches.png",
     "text": {
       "ru": [
         "Старые поисковые запросы",
@@ -2343,6 +2358,7 @@
   {
     "id": "pro-and-owned-data",
     "category": "settings",
+    "image": "pro-overview.png",
     "text": {
       "ru": [
         "Подписка Pro и ваши данные",
@@ -2448,6 +2464,7 @@
   {
     "id": "online-privacy",
     "category": "settings",
+    "image": "online-privacy.png",
     "text": {
       "ru": [
         "Онлайн-поиск и конфиденциальность",
