@@ -2,7 +2,7 @@
 
 ## Current screenshot refresh — 2026-10-07
 
-The current capture candidate is public **1.8.0/10814**, Android source
+The published screenshot set uses public **1.8.0/10814**, Android source
 `695c2200e529218c26ec2e94857c7ae17dedd022`, input
 `947cb2851b03ab89947aab3179cc5f3faef40e260823d5983b8e71145a8091f8`.
 The signed public APK is 12,366,396 bytes, SHA-256
@@ -20,12 +20,22 @@ binds every image to its locale, actual APK/source/input and accepted raw hash.
 **LOCAL STATIC PASS**: the built export verifies 396 canonical pages, all 31
 articles in nine languages, image/link coverage and all 270 exported PNG hashes.
 Type checking, lint, four language tests and two deployment-retention tests pass.
-Final-source CI and production publication remain pending.
-Integration uses `/guide/10814/{locale}/{screen}.png`. Original 10768 URLs and
-`public/guide/localized-captures.json` remain byte-identical historical evidence;
-10739 archives/fallback URLs are retained. Their dated descriptions below do
-not establish 10814 acceptance. **Deployment PENDING**; source/capture work does
-not publish the site or prove Google Play availability or purchases.
+**FINAL-SOURCE CI, DEPLOYMENT AND LIVE HTTP PASS.** Published website runtime
+source is `a0bb4cfaa56561f03c14ef4cb8c9ad5e8ad5cbd5`;
+[exact-source CI](https://github.com/technatonuniv/partitoria-site/actions/runs/37606407283)
+passed. Deployment03 activated immutable release
+`20261007-ux-ui-10814-a0bb4cfaa565-03` on 2026-10-07 at 10:30:15 UTC:
+all 1,280 extracted file hashes passed, and all 270 public PNG hashes
+passed through normal TLS.
+Live HTML verification at 10:31:16 UTC passed 288/288 exact-export responses,
+with zero limited or failed results. The [deployment record](../deploy/README.md)
+keeps exact package/receipt hashes and the retained rollback release.
+
+Current images use `/guide/10814/{locale}/{screen}.png`. All 98 previous Guide
+files, including original 10768 URLs/root manifest and 10739 archives, and all
+94 previous shared assets remain byte-identical. Their dated descriptions below
+retain historical scope. Later documentation commits do not redeploy this runtime.
+Website publication does not prove Google Play availability or purchases.
 
 Current supported-browser verification is **BLOCKED**: the required installed
 Browser-plugin payload `browser/scripts/browser-service.mjs` is missing after

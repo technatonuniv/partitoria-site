@@ -2,19 +2,30 @@
 
 ## Current screenshot refresh — 2026-10-07
 
-Current screenshots use public **1.8.0/10814**: 30 ordinary screens
-in all nine app UI languages, covering 31 Guide articles and Home. Captures use
-an API 37 portrait tablet emulator, 1200×1920, density 260 and font scale 1.0,
-with invented scores and unchanged raw pixels; no QA grants or fake purchases.
-**CAPTURES PASS**: all 270 raw PNGs were independently viewed and integrated.
-**LOCAL STATIC PASS**: 396 canonical pages, all article/home image references,
-manifest identities and raw/exported PNG hashes were verified. Final-source CI
-is pending. **Deployment PENDING**. Original 10768 URLs,
-root manifest and 10739 archives stay unchanged as dated historical evidence.
-The supported browser check is **BLOCKED** by the missing Browser-plugin
-`browser/scripts/browser-service.mjs` payload after one bounded reset;
-no alternative transport or policy bypass was used. Earlier browser results
-retain their original dates and scope.
+The published website uses public **1.8.0/10814** screenshots: 30 ordinary
+screens in all nine app UI languages, covering all 31 Guide articles and Home.
+All **270 original PNGs** were individually reviewed and integrated unchanged.
+Captures use an API 37 portrait tablet emulator, 1200×1920, density 260,
+font scale 1.0 and invented lawful scores; no QA grants or fake purchases.
+
+**CAPTURES, LOCAL STATIC, FINAL-SOURCE CI, DEPLOYMENT AND LIVE HTTP PASS.**
+The published runtime source is
+`a0bb4cfaa56561f03c14ef4cb8c9ad5e8ad5cbd5`;
+[exact-source CI](https://github.com/technatonuniv/partitoria-site/actions/runs/37606407283)
+passed. Deployment03 activated immutable release
+`20261007-ux-ui-10814-a0bb4cfaa565-03` on 2026-10-07 at 10:30:15 UTC,
+verifying all 1,280 extracted file hashes on the VPS. All 270 public PNG
+hashes passed through normal TLS. Live HTML
+verification at 10:31:16 UTC passed **288/288** exact-export responses,
+with zero limited or failed results. All 98 previous Guide files and 94 shared
+assets remain byte-identical; the previous release is retained for rollback.
+Later documentation commits do not change this published runtime.
+
+Supported rendered-browser verification remains **BLOCKED** by the missing
+Browser-plugin `browser/scripts/browser-service.mjs` payload after one bounded
+reset. HTTP/static checks retain their separate scopes. Original 10768 URLs,
+the root manifest, 10739 archives and earlier browser results retain their
+dated historical identities and scope.
 
 [Current artifact identity and capture policy](COMMERCIAL_SCREENSHOTS.md).
 

@@ -16,6 +16,70 @@ redirect to their canonical short URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## 2026-10-07 current screenshot release — PASS
+
+Deployment03 activated immutable release
+`/var/www/partitoria-site/releases/20261007-ux-ui-10814-a0bb4cfaa565-03`
+on 2026-10-07 at **10:30:15 UTC**, with actual executor exit 0.
+Published runtime source is
+`a0bb4cfaa56561f03c14ef4cb8c9ad5e8ad5cbd5`, merged through
+[website PR2](https://github.com/technatonuniv/partitoria-site/pull/2).
+The final-source local build/static checks and
+[exact-source CI](https://github.com/technatonuniv/partitoria-site/actions/runs/37606407283)
+passed. Later documentation commits do not change this published runtime or
+imply a further deployment.
+
+The final package02 archive `partitoria-site-10814-a0bb4cfaa565.tar.gz`
+contains **1,280 files**, 127,658,171 uncompressed file bytes. The archive is
+**81,876,498 bytes**, SHA-256
+`bb7b420bd44ac70a882a8c9843e95b3c7706ed8dc6626e05199133c3445787da`.
+The file manifest SHA-256 is
+`fa1eef328a849c7a329605553598a16092580b515600d83a98d1249d9d84a804`;
+deployment readiness SHA-256 is
+`285cfd520438fd1b3aa30267a0071553d5fde5f065fbf0f63eef9ea33cabac02`.
+Independent package verification and deterministic second serialization passed.
+
+The executor verified every extracted file and all **270 current PNGs** against
+the package/capture manifests, with normal public HTTPS/TLS verification.
+All **98 previous Guide files** and **94 previous shared assets** remain
+byte-identical, including original 10768 URLs/root manifest, 10739 archives and
+cached CSS/JS. The previous immutable release
+`/var/www/partitoria-site/releases/20261001-commercial-10768-8706226`
+is retained for rollback. Deployment receipt `website-deployment-10814-03.json`
+has SHA-256
+`4fe7f2d8a10e77ba6c28e2e5d9c19d42fc4804c1717e55700133bb435d4b3cf5`.
+
+Independent live HTML verification completed on 2026-10-07 at **10:31:16 UTC**,
+actual executor exit 0: **288/288 exact-export responses PASS**, zero limited and
+zero failed. Receipt `website-live-guide-10814-01/live-html-verification.json`
+has SHA-256
+`f9c2531cc117062c8f8745d27e37a82ac666c1b03d89c0318a6f5886e0842d7d`.
+This verifies ordinary canonical HTTPS HTML; rendered browser interaction and
+functional acceptance remain separate.
+
+The [10814 screenshot manifest](../public/guide/10814/localized-captures.json)
+binds **30 ordinary screens × nine languages = 270 unchanged raw PNGs**,
+covering all 31 Guide articles and Home, to public app **1.8.0/10814**,
+Android source `695c2200e529218c26ec2e94857c7ae17dedd022`, prepared input
+`947cb2851b03ab89947aab3179cc5f3faef40e260823d5983b8e71145a8091f8`
+and APK SHA-256
+`eac2b3f8c4515556c4ab48392f9217a55727a5f0e459c2f73da540b39bd15b29`.
+All originals were individually viewed. Captures use the API 37 portrait
+tablet emulator at 1200×1920, density 260 and font scale 1.0; no physical-device, QA-grant or
+fake-purchase screenshots were used.
+
+Attempts01 and02 both ended **FAILED_BEFORE_SWITCH**; the old 10768 release
+remained active. The operational repairs concerned generated Next Flight route
+companions and the CRLF representation of two historical JSON receipts.
+The final package preserves the verified production/Git-blob bytes; these
+repairs changed no Android runtime inputs. Both failed receipts remain retained.
+
+Supported rendered-browser verification is **BLOCKED** by the missing installed
+Browser-plugin `browser/scripts/browser-service.mjs` payload after one bounded
+reset. No alternative browser transport or policy bypass was used. This website
+publication does not prove Google Play availability, store signing acceptance or
+real purchases. The records below retain their original dates and release scope.
+
 ## 2026-10-01 live commercial-preparation website
 
 The executor switched `current` to immutable release
