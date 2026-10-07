@@ -1,5 +1,23 @@
 # Partitoria website
 
+## Current screenshot refresh — 2026-10-07
+
+Current screenshots use public **1.8.0/10814**: 30 ordinary screens
+in all nine app UI languages, covering 31 Guide articles and Home. Captures use
+an API 37 portrait tablet emulator, 1200×1920, density 260 and font scale 1.0,
+with invented scores and unchanged raw pixels; no QA grants or fake purchases.
+**CAPTURES PASS**: all 270 raw PNGs were independently viewed and integrated.
+**LOCAL STATIC PASS**: 396 canonical pages, all article/home image references,
+manifest identities and raw/exported PNG hashes were verified. Final-source CI
+is pending. **Deployment PENDING**. Original 10768 URLs,
+root manifest and 10739 archives stay unchanged as dated historical evidence.
+The supported browser check is **BLOCKED** by the missing Browser-plugin
+`browser/scripts/browser-service.mjs` payload after one bounded reset;
+no alternative transport or policy bypass was used. Earlier browser results
+retain their original dates and scope.
+
+[Current artifact identity and capture policy](docs/COMMERCIAL_SCREENSHOTS.md).
+
 Official public website for **Partitoria**, an offline-first personal sheet-music library for Android.
 
 The site is intentionally static: it has no website accounts, cookies, analytics,
@@ -116,7 +134,7 @@ covers the selected language's titles, introductions and instructions, tolerates
 accents and Russian ё/е, and keeps the query in the URL for browser Back.
 Old `/guide#article-id` links redirect to the corresponding article.
 
-The current capture manifest, `public/guide/localized-captures.json`, records
+The historical2026-10-01 published capture manifest, `public/guide/localized-captures.json`, records
 **43 genuine public-app images**: 36 localized Library/Add/Tools/Settings captures
 and seven shared English `inbox.png`, `import.png`, `review.png`, `search.png`,
 `collections.png`, `viewer.png` and `backup.png`. They show public **1.8.0/10768**,
@@ -137,7 +155,7 @@ The banner uses a 94 KB WebP with the PNG as browser fallback.
 Screenshots open in a native modal dialog on the current page, with zoom,
 Escape/Close, backdrop dismissal and focus restoration. The homepage uses the
 same viewer for its real application preview. The image itself is not edited
-or generated. The executor's live English desktop check passed current-10768
+or generated. The executor's live English desktop check passed then-published10768
 image loading, zoom, Escape, focus return and horizontal-overflow checks. Mobile
 checks at 390×844 passed all nine home pages and all 18 Privacy/Terms pages:
 correct document language, visible headings/policy text and no horizontal

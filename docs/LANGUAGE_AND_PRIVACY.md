@@ -1,5 +1,27 @@
 # Website language and public wording
 
+## Current screenshot refresh — 2026-10-07
+
+Current screenshots use public **1.8.0/10814**: 30 ordinary screens
+in all nine app UI languages, covering 31 Guide articles and Home. Captures use
+an API 37 portrait tablet emulator, 1200×1920, density 260 and font scale 1.0,
+with invented scores and unchanged raw pixels; no QA grants or fake purchases.
+**CAPTURES PASS**: all 270 raw PNGs were independently viewed and integrated.
+**LOCAL STATIC PASS**: 396 canonical pages, all article/home image references,
+manifest identities and raw/exported PNG hashes were verified. Final-source CI
+is pending. **Deployment PENDING**. Original 10768 URLs,
+root manifest and 10739 archives stay unchanged as dated historical evidence.
+The supported browser check is **BLOCKED** by the missing Browser-plugin
+`browser/scripts/browser-service.mjs` payload after one bounded reset;
+no alternative transport or policy bypass was used. Earlier browser results
+retain their original dates and scope.
+
+[Current artifact identity and capture policy](COMMERCIAL_SCREENSHOTS.md).
+
+The screenshot refresh adds no tracking, language-consent storage, account,
+checkout or privacy-processing change. The active commercial wording and
+language negotiation/consent/reset contract below remain unchanged.
+
 ## Active commercial contract — 2026-10-01
 
 Partitoria Studio remains the public display credit. All nine localized
