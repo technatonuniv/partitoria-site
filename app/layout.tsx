@@ -4,10 +4,10 @@ import './guide.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://partitoria.app'),
-  title: 'Partitoria — личная библиотека нот',
+  title: 'Partitoria: Sheet Music — личная библиотека нот',
   description:
-    'Partitoria — личная библиотека нот для Android: импорт, локальный поиск, чтение и резервное копирование.',
-  applicationName: 'Partitoria',
+    'Partitoria: Sheet Music — личная библиотека нот для Android: импорт, локальный поиск, чтение и резервное копирование.',
+  applicationName: 'Partitoria: Sheet Music',
   authors: [{ name: 'Partitoria Studio' }],
   creator: 'Partitoria Studio',
   publisher: 'Partitoria Studio',

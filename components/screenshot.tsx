@@ -7,6 +7,7 @@ import type { GuideNavigationCopy } from '@/lib/guide-navigation';
 import type { Locale, siteCopy } from '@/lib/site-content';
 import type { LocalizedArticle } from './guide-browser';
 import { guideImage } from '@/lib/guide-image';
+import historicalImageCopy from '@/lib/guide-image-history.json';
 
 export function Screenshot({
   article,
@@ -23,7 +24,11 @@ export function Screenshot({
   const trigger = useRef<HTMLButtonElement>(null);
   const [zoom, setZoom] = useState(1);
   const [failed, setFailed] = useState(false);
-  const { src: source, translated } = guideImage(locale, article.image!);
+  const { src: source, translated, versionCode } = guideImage(locale, article.image!);
+  const caption = [
+    versionCode === 10814 ? historicalImageCopy[locale] : '',
+    locale !== 'en' && !translated ? n.imageLanguage : '',
+  ].filter(Boolean).join(' ');
   function close() {
     dialog.current?.close();
   }
@@ -76,9 +81,7 @@ export function Screenshot({
           {n.enlarge}
         </span>
       </button>
-      {locale !== 'en' && !translated && (
-        <figcaption>{n.imageLanguage}</figcaption>
-      )}
+      {caption ? <figcaption data-capture-version={versionCode}>{caption}</figcaption> : null}
       <dialog
         ref={dialog}
         className="screenshot-dialog"

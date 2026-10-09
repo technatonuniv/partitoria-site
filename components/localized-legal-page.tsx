@@ -3,6 +3,7 @@ import { DocumentLanguage } from './document-language';
 import { legalContent, type LegalPage } from '@/lib/legal-content';
 import { siteCopy, type Locale } from '@/lib/site-content';
 import { privacyDetails } from '@/lib/privacy-details';
+import privacyDeletion from '@/lib/privacy-deletion.json';
 import { commercialCopy } from '@/lib/commercial-content';
 import { SubscriptionPrices } from './subscription-prices';
 
@@ -35,10 +36,20 @@ function CommercialTerms({ locale }: { locale: Locale }) {
   </section>;
 }
 
+function PrivacyDeletion({ locale }: { locale: Locale }) {
+  const t = privacyDeletion[locale];
+  return <section id="data-deletion" aria-labelledby="data-deletion-title">
+    <h2 id="data-deletion-title">{t.title}</h2>
+    <ol className="list-decimal pl-6">{t.steps.map((step) => <li key={step}>{withPolicyLinks(step)}</li>)}</ol>
+    <p><a href="mailto:support@partitoria.app?subject=Partitoria%20data%20deletion">{t.emailAction}</a></p>
+    {[t.deleted, t.retained, t.backups, t.local].map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+  </section>;
+}
+
 export function LocalizedLegalPage({ locale, section }: { locale: Locale; section: LegalPage }) {
   const t = siteCopy[locale];
   const [summary, ...paragraphs] = legalContent[locale][section];
-  const effectiveDate = ['privacy', 'support', 'terms'].includes(section) ? '2026-10-01' : '2026-09-05';
+  const effectiveDate = section === 'privacy' ? '2026-10-09' : ['support', 'terms'].includes(section) ? '2026-10-01' : '2026-09-05';
   return <main lang={locale}>
     <DocumentLanguage locale={locale} />
     <SiteHeader locale={locale} section={`/${section}`} />
@@ -47,10 +58,12 @@ export function LocalizedLegalPage({ locale, section }: { locale: Locale; sectio
         <h1>{t[section]}</h1>
         <p>{summary}</p>
         <div className="policy-meta"><time dateTime={effectiveDate}>{effectiveDate}</time></div>
+        {section === 'privacy' ? <p><a href="#data-deletion">{privacyDeletion[locale].title}</a></p> : null}
       </header>
       <div className="policy-body">
         <section>{paragraphs.map((paragraph) => <p key={paragraph}>{withPolicyLinks(paragraph)}</p>)}</section>
         {section === 'terms' ? <CommercialTerms locale={locale} /> : null}
+        {section === 'privacy' ? <PrivacyDeletion locale={locale} /> : null}
         {section === 'privacy' ? <details><summary>{privacyDetails[locale].title}</summary><p>{withPolicyLinks(privacyDetails[locale].text)}</p></details> : null}
         {section === 'privacy' ? <p><a href="https://policies.google.com/privacy" rel="noreferrer">Google — {t.privacy}</a></p> : null}
         {section === 'sources' ? <section><h2>{t.sources}</h2><ul className="source-list">{sources.map(([name, url]) => <li key={url}><a href={url} rel="noreferrer">{name}</a></li>)}</ul></section> : null}

@@ -102,31 +102,31 @@ export type GuideArticle = {
 
 export const accessLabels: Record<Locale, Record<'pro', string>> = {
   ru: {
-    pro: 'Для создания и редактирования нужен Partitoria Pro. Уже сохранённые материалы доступны и после окончания подписки.',
+    pro: 'Для создания и редактирования нужен Partitoria Pro. Уже сохранённые материалы доступны и после окончания доступа Pro.',
   },
   en: {
-    pro: 'Creating and editing requires Partitoria Pro. Material you have already saved remains available after your subscription ends.',
+    pro: 'Creating and editing requires Partitoria Pro. Material you have already saved remains available after Pro access ends.',
   },
   de: {
-    pro: 'Zum Erstellen und Bearbeiten benötigen Sie Partitoria Pro. Bereits gespeicherte Inhalte bleiben nach Ablauf des Abonnements verfügbar.',
+    pro: 'Zum Erstellen und Bearbeiten benötigen Sie Partitoria Pro. Bereits gespeicherte Inhalte bleiben nach Ende des Pro-Zugangs verfügbar.',
   },
   it: {
-    pro: 'Per creare e modificare serve Partitoria Pro. I materiali già salvati restano disponibili alla scadenza dell’abbonamento.',
+    pro: 'Per creare e modificare serve Partitoria Pro. I materiali già salvati restano disponibili al termine dell’accesso Pro.',
   },
   es: {
-    pro: 'Para crear y editar necesitas Partitoria Pro. El material guardado sigue disponible cuando termina la suscripción.',
+    pro: 'Para crear y editar necesitas Partitoria Pro. El material guardado sigue disponible cuando termina el acceso Pro.',
   },
   pt: {
-    pro: 'Para criar e editar precisa de Partitoria Pro. Os materiais guardados continuam disponíveis quando a subscrição termina.',
+    pro: 'Para criar e editar precisa de Partitoria Pro. Os materiais guardados continuam disponíveis quando o acesso Pro termina.',
   },
   uk: {
-    pro: 'Для створення та редагування потрібна Partitoria Pro. Збережені матеріали доступні й після завершення підписки.',
+    pro: 'Для створення та редагування потрібна Partitoria Pro. Збережені матеріали доступні й після завершення доступу Pro.',
   },
   fr: {
-    pro: 'La création et la modification nécessitent Partitoria Pro. Les éléments déjà enregistrés restent accessibles à la fin de l’abonnement.',
+    pro: 'La création et la modification nécessitent Partitoria Pro. Les éléments déjà enregistrés restent accessibles à la fin de l’accès Pro.',
   },
   pl: {
-    pro: 'Tworzenie i edycja wymagają Partitoria Pro. Zapisane materiały pozostają dostępne po zakończeniu subskrypcji.',
+    pro: 'Tworzenie i edycja wymagają Partitoria Pro. Zapisane materiały pozostają dostępne po zakończeniu dostępu Pro.',
   },
 };
 

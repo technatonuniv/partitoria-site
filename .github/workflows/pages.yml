@@ -50,6 +50,7 @@ jobs:
         run: |
           python3 -m unittest discover -s deploy -p 'test_*.py' -v
           node --test scripts/test-language.mjs
+          node --test scripts/test-guide-captures.mjs
           npx tsc --noEmit
           npm run lint
           npm run build

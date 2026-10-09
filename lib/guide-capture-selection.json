@@ -1,0 +1,13 @@
+{
+  "defaultVersionCode": 10814,
+  "versionsByImage": {
+    "library.png": 10824,
+    "sidebar.png": 10824,
+    "collections.png": 10824,
+    "settings.png": 10824,
+    "appearance.png": 10824,
+    "backup-restore.png": 10824,
+    "pro-overview.png": 10824,
+    "library-search.png": 10824
+  }
+}

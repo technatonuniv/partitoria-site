@@ -1,5 +1,51 @@
 # Partitoria website
 
+## Final guide preparation — 2026-10-09, local candidate
+
+The guide now contains **32 articles and 405 canonical pages** across all nine
+languages. Existing URLs, including `settings-and-account`, stay unchanged.
+Navigation, collection search/filter/sort/live updates, result counts, About,
+appearance restoration and Free ownership wording follow the final Android UI.
+The new `/guide/appearance` article explains the accepted appearance controls;
+translated versions keep their normal locale prefix. Full application metadata
+uses **Partitoria: Sheet Music**; compact site branding remains Partitoria.
+
+Eight articles now omit structurally outdated illustration references while
+keeping all instructions and URLs. All historical PNGs/manifests remain intact.
+Retained10814 illustrations carry a localized earlier-version caption; the
+resolver uses the actual image version so new10824 replacements have no such
+caption. The final replacement scope remains eight topics in nine locales.
+Capture validation follows actual article image fields plus the Home preview
+without relaxing per-file integrity or provenance. Four focused capture tests,
+typecheck and targeted lint pass for this adjustment. The actual replacement
+screenshots are now reviewed and integrated; final build/browser acceptance
+remains with the release executor.
+
+This is **integrated local source, not a published update**. All **72 genuine
+10824 screenshots** (eight topics × nine languages) were individually reviewed
+and imported unchanged, including sidebar and appearance. The actual selector
+uses **216 localized images: 144 retained 10814 + 72 new 10824**, from 24 distinct
+image filenames. The 288 article canonical declarations describe routes, not the
+number of selected screenshot files. All 270 historical capture files and all
+370 protected live guide/store-review files remain byte-identical.
+The [10824 manifest](public/guide/10824/localized-captures.json) binds each image
+to the sealed public APK, its installation identity, capture and pixel-review
+receipts. [The capture handoff](docs/COMMERCIAL_SCREENSHOTS.md) records exact
+hashes. Earlier preparation checks passed locally; **final build, strict
+verification, exact-source CI, deployment and final live/browser acceptance
+remain PENDING** for this integrated source. No missing-capture gate remains.
+
+Complimentary-access privacy text is prepared from the implemented technical
+protocol and does not reveal the activation gesture or actual codes. All nine
+translations now reflect the operational 30-day policy for server-data backup
+copies, removal by scheduled cleanup, separate recovery custody of independent
+keys/identity-only material/non-content receipts, and hourly pruning of expiring
+technical records. The 2026-10-09 maintenance evidence checked 58 VPS and 95
+Windows copies; none was due for expiry, so no completed age-triggered deletion
+is claimed. See [privacy wording and evidence](docs/LANGUAGE_AND_PRIVACY.md).
+This prepared website update does not establish website publication, a store
+purchase or a public app release.
+
 ## Current screenshot refresh — 2026-10-07
 
 The published website uses public **1.8.0/10814** screenshots: 30 ordinary
@@ -60,7 +106,8 @@ is qualified as applicable once the corresponding store release is enabled:
 installation key/identifier, receipt, Integrity and network data, never
 library contents. Retention includes actual voided-purchase order identifiers
 and status without a fixed deletion period, alongside hashes/counters; these
-records are not claimed anonymous. The current backup limitation is explicit.
+records are not claimed anonymous. The backup limitation recorded at that
+checkpoint is superseded by the operational 2026-10-09 policy above.
 No source edit proves a purchase, public developer-name approval, Play
 production access or website deployment. The release executor owns those
 checks and removes launch-in-preparation wording only after actual launch.

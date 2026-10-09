@@ -1,0 +1,119 @@
+{
+  "en": {
+    "title": "Request deletion of Partitoria data",
+    "emailAction": "Email a data deletion request",
+    "steps": [
+      "Email support@partitoria.app with the subject “Partitoria data deletion” and describe which server-side data you want deleted. You can request this without the app or a Partitoria account.",
+      "Provide information you already have to help us locate your records: an installation or access identifier previously supplied to you, or a Google Play order reference where relevant. These are optional; you do not need to find a hidden technical identifier. Do not send access codes, purchase tokens, passwords, scores, backups or card details.",
+      "We verify that the request relates to your data before acting and may ask for limited additional evidence through support. We explain what was deleted and which records must remain, with the reason and retention period."
+    ],
+    "deleted": "A verified request can remove support correspondence and server-side purchase-verification, access and device records that are no longer needed for the service or the retention purposes below.",
+    "retained": "Necessary protection records may remain: installation-binding hashes and counters, replaced-token hashes and voided-order identifiers/status have no fixed automatic deletion period. Code/grant bindings and revoked or disabled installation records remain while the code exists. Other technical records follow the 120-second, 24-hour, 32-day, 60-day-after-access and 180-day periods described above; unresolved purchase acknowledgements remain until resolved.",
+    "backups": "Server-data backup copies follow the 30-day retention policy above and are removed by scheduled cleanup. Deleting a live record does not instantly erase an existing protected backup copy.",
+    "local": "Partitoria does not hold your local library. Delete local scores or recordings in the app and manage any copies you exported or placed with another provider. Deleting data or uninstalling Partitoria does not cancel a Google Play subscription; cancel it separately in Google Play."
+  },
+  "ru": {
+    "title": "Запрос удаления данных Partitoria",
+    "emailAction": "Написать запрос на удаление данных",
+    "steps": [
+      "Напишите на support@partitoria.app с темой «Partitoria data deletion» и укажите, какие серверные данные хотите удалить. Запрос можно отправить без приложения и аккаунта Partitoria.",
+      "Для поиска записи укажите только уже имеющиеся сведения: ранее предоставленный вам идентификатор установки или доступа либо номер заказа Google Play, если он относится к запросу. Это необязательно; искать скрытый технический идентификатор не требуется. Не отправляйте коды доступа, токены покупок, пароли, ноты, резервные копии или данные карты.",
+      "Перед выполнением мы проверяем, что запрос относится к вашим данным, и при необходимости просим ограниченные дополнительные подтверждения через поддержку. В ответе объясняем, что удалено и какие записи должны остаться, с причиной и сроком хранения."
+    ],
+    "deleted": "По проверенному запросу могут быть удалены переписка с поддержкой и серверные записи проверки покупок, доступа и устройств, которые больше не нужны для услуги или перечисленных ниже целей хранения.",
+    "retained": "Необходимые защитные записи могут сохраняться: хеши привязки установок и счётчики, хеши заменённых токенов, идентификаторы и состояния отменённых заказов не имеют фиксированного срока автоматического удаления. Привязки кодов и прав, записи отозванных или отключённых установок сохраняются, пока существует код. Для остальных технических записей действуют указанные выше сроки: 120 секунд, 24 часа, 32 дня, 60 дней после завершения доступа и 180 дней; незавершённое подтверждение покупки сохраняется до разрешения состояния.",
+    "backups": "Копии серверных данных подпадают под описанную выше политику 30 дней и удаляются плановой очисткой. Удаление рабочей записи не стирает мгновенно уже существующую защищённую резервную копию.",
+    "local": "Partitoria не хранит вашу локальную библиотеку. Удаляйте локальные ноты и записи в приложении; экспортированные копии и копии у другого провайдера удаляются отдельно. Удаление данных или приложения не отменяет подписку Google Play — отмените её отдельно в Google Play."
+  },
+  "de": {
+    "title": "Löschung von Partitoria-Daten beantragen",
+    "emailAction": "Löschantrag per E-Mail senden",
+    "steps": [
+      "Schreiben Sie an support@partitoria.app mit dem Betreff „Partitoria data deletion“ und nennen Sie die Serverdaten, die gelöscht werden sollen. Dies ist auch ohne App oder Partitoria-Konto möglich.",
+      "Geben Sie nur bereits vorhandene Angaben zur Zuordnung an: eine Ihnen zuvor mitgeteilte Installations- oder Zugangskennung oder gegebenenfalls eine Google-Play-Bestellnummer. Diese Angaben sind optional; eine verborgene technische Kennung müssen Sie nicht suchen. Senden Sie keine Zugangscodes, Kauftoken, Passwörter, Noten, Sicherungen oder Kartendaten.",
+      "Vor der Bearbeitung prüfen wir, ob der Antrag Ihre Daten betrifft, und können über den Support begrenzte weitere Nachweise anfordern. Wir erklären, was gelöscht wurde und welche Datensätze aus welchem Grund und für welche Dauer bleiben müssen."
+    ],
+    "deleted": "Ein geprüfter Antrag kann zur Löschung von Supportkorrespondenz sowie Serverdatensätzen zur Kaufprüfung, zum Zugang und zu Geräten führen, die für den Dienst oder die folgenden Aufbewahrungszwecke nicht mehr benötigt werden.",
+    "retained": "Notwendige Schutzdatensätze können bleiben: Hashes und Zähler zur Installationsbindung, Hashes ersetzter Token sowie Kennungen/Status annullierter Bestellungen haben keine feste automatische Löschfrist. Code- und Berechtigungsbindungen sowie widerrufene oder deaktivierte Installationen bleiben gespeichert, solange der Code besteht. Für andere technische Datensätze gelten die oben genannten Fristen von 120 Sekunden, 24 Stunden, 32 Tagen, 60 Tagen nach Zugangsende und 180 Tagen; offene Kaufbestätigungen bleiben bis zur Klärung.",
+    "backups": "Kopien von Serverdaten unterliegen der oben beschriebenen 30-Tage-Regel und werden planmäßig bereinigt. Die Löschung eines aktiven Datensatzes entfernt eine bestehende geschützte Sicherungskopie nicht sofort.",
+    "local": "Partitoria speichert Ihre lokale Bibliothek nicht. Löschen Sie lokale Noten oder Aufnahmen in der App und verwalten Sie exportierte Kopien oder Kopien bei anderen Anbietern getrennt. Datenlöschung oder Deinstallation kündigt kein Google-Play-Abonnement; kündigen Sie es separat in Google Play."
+  },
+  "it": {
+    "title": "Richiedere la cancellazione dei dati Partitoria",
+    "emailAction": "Inviare una richiesta di cancellazione",
+    "steps": [
+      "Scrivi a support@partitoria.app con oggetto “Partitoria data deletion” e indica quali dati sul server vuoi eliminare. Puoi farlo senza l’app o un account Partitoria.",
+      "Fornisci solo informazioni già in tuo possesso per individuare i record: un identificativo di installazione o accesso ricevuto in precedenza, oppure un riferimento d’ordine Google Play se pertinente. Sono facoltativi: non devi cercare identificativi tecnici nascosti. Non inviare codici di accesso, token di acquisto, password, spartiti, backup o dati della carta.",
+      "Prima di procedere verifichiamo che la richiesta riguardi i tuoi dati e possiamo chiedere prove aggiuntive limitate tramite l’assistenza. Spieghiamo quali dati sono stati cancellati e quali devono restare, con motivo e durata della conservazione."
+    ],
+    "deleted": "Una richiesta verificata può rimuovere la corrispondenza con l’assistenza e i record sul server relativi a verifica degli acquisti, accesso e dispositivi che non sono più necessari al servizio o alle finalità di conservazione seguenti.",
+    "retained": "I record di protezione necessari possono restare: hash e contatori di associazione delle installazioni, hash dei token sostituiti e identificativi/stato degli ordini annullati non hanno un termine fisso di cancellazione automatica. Le associazioni di codici e diritti e i record delle installazioni revocate o disabilitate restano finché esiste il codice. Gli altri record tecnici seguono i periodi sopra descritti di 120 secondi, 24 ore, 32 giorni, 60 giorni dalla fine dell’accesso e 180 giorni; le conferme di acquisto irrisolte restano fino alla risoluzione.",
+    "backups": "Le copie dei dati del server seguono la politica di 30 giorni descritta sopra e sono rimosse dalla pulizia programmata. Eliminare un record attivo non cancella subito una copia di backup protetta già esistente.",
+    "local": "Partitoria non conserva la tua biblioteca locale. Elimina spartiti o registrazioni locali nell’app e gestisci separatamente le copie esportate o salvate presso altri fornitori. Eliminare i dati o disinstallare Partitoria non annulla un abbonamento Google Play: disdicilo separatamente in Google Play."
+  },
+  "es": {
+    "title": "Solicitar la eliminación de datos de Partitoria",
+    "emailAction": "Enviar una solicitud de eliminación",
+    "steps": [
+      "Escribe a support@partitoria.app con el asunto “Partitoria data deletion” e indica qué datos del servidor quieres eliminar. Puedes solicitarlo sin la app ni una cuenta de Partitoria.",
+      "Facilita solo información que ya tengas para localizar tus registros: un identificador de instalación o acceso que te hayan proporcionado, o una referencia de pedido de Google Play si corresponde. Son opcionales; no tienes que buscar un identificador técnico oculto. No envíes códigos de acceso, tokens de compra, contraseñas, partituras, copias de seguridad ni datos de tarjeta.",
+      "Antes de actuar verificamos que la solicitud corresponda a tus datos y podemos pedir pruebas adicionales limitadas mediante soporte. Explicamos qué se ha eliminado y qué registros deben permanecer, con el motivo y el plazo de conservación."
+    ],
+    "deleted": "Una solicitud verificada puede eliminar la correspondencia con soporte y los registros del servidor de verificación de compras, acceso y dispositivos que ya no sean necesarios para el servicio o los fines de conservación siguientes.",
+    "retained": "Pueden permanecer los registros de protección necesarios: hashes y contadores de vinculación de instalaciones, hashes de tokens sustituidos e identificadores/estados de pedidos anulados no tienen un plazo fijo de eliminación automática. Las vinculaciones de códigos y derechos y los registros de instalaciones revocadas o desactivadas permanecen mientras exista el código. Los demás registros técnicos siguen los periodos descritos arriba de 120 segundos, 24 horas, 32 días, 60 días tras finalizar el acceso y 180 días; las confirmaciones de compra pendientes permanecen hasta resolverse.",
+    "backups": "Las copias de datos del servidor siguen la política de 30 días descrita arriba y se eliminan mediante limpieza programada. Borrar un registro activo no elimina al instante una copia de seguridad protegida existente.",
+    "local": "Partitoria no conserva tu biblioteca local. Elimina las partituras o grabaciones locales en la app y gestiona por separado las copias exportadas o guardadas con otro proveedor. Eliminar datos o desinstalar Partitoria no cancela una suscripción de Google Play: cancélala por separado en Google Play."
+  },
+  "pt": {
+    "title": "Pedir a eliminação de dados da Partitoria",
+    "emailAction": "Enviar um pedido de eliminação",
+    "steps": [
+      "Escreva para support@partitoria.app com o assunto “Partitoria data deletion” e indique quais os dados do servidor que pretende eliminar. Pode pedi-lo sem a aplicação ou uma conta Partitoria.",
+      "Forneça apenas informações que já tenha para localizar os registos: um identificador de instalação ou acesso anteriormente fornecido, ou uma referência de encomenda Google Play, quando aplicável. São opcionais; não precisa de procurar um identificador técnico oculto. Não envie códigos de acesso, tokens de compra, palavras-passe, partituras, cópias de segurança ou dados do cartão.",
+      "Antes de agir verificamos se o pedido diz respeito aos seus dados e podemos solicitar provas adicionais limitadas através do apoio. Explicamos o que foi eliminado e quais os registos que têm de permanecer, com o motivo e o prazo de conservação."
+    ],
+    "deleted": "Um pedido verificado pode remover correspondência com o apoio e registos do servidor sobre verificação de compras, acesso e dispositivos que já não sejam necessários ao serviço ou às finalidades de conservação seguintes.",
+    "retained": "Os registos de proteção necessários podem permanecer: hashes e contadores de associação das instalações, hashes de tokens substituídos e identificadores/estados de encomendas anuladas não têm prazo fixo de eliminação automática. As associações de códigos e direitos e os registos de instalações revogadas ou desativadas ficam enquanto o código existir. Os restantes registos técnicos seguem os períodos acima descritos de 120 segundos, 24 horas, 32 dias, 60 dias após o fim do acesso e 180 dias; as confirmações de compra pendentes ficam até serem resolvidas.",
+    "backups": "As cópias dos dados do servidor seguem a política de 30 dias acima descrita e são removidas pela limpeza programada. Eliminar um registo ativo não apaga imediatamente uma cópia de segurança protegida já existente.",
+    "local": "A Partitoria não guarda a sua biblioteca local. Elimine partituras ou gravações locais na aplicação e gira separadamente as cópias exportadas ou guardadas noutro fornecedor. Eliminar dados ou desinstalar a Partitoria não cancela uma subscrição Google Play: cancele-a separadamente na Google Play."
+  },
+  "uk": {
+    "title": "Запит на видалення даних Partitoria",
+    "emailAction": "Надіслати запит на видалення даних",
+    "steps": [
+      "Напишіть на support@partitoria.app з темою «Partitoria data deletion» та вкажіть, які серверні дані хочете видалити. Запит можна надіслати без застосунку й акаунта Partitoria.",
+      "Для пошуку запису надайте лише вже наявні відомості: раніше наданий вам ідентифікатор установки чи доступу або номер замовлення Google Play, якщо він стосується запиту. Це необов’язково; шукати прихований технічний ідентифікатор не потрібно. Не надсилайте коди доступу, токени купівель, паролі, ноти, резервні копії чи дані картки.",
+      "Перед виконанням ми перевіряємо, що запит стосується ваших даних, і за потреби просимо обмежені додаткові підтвердження через підтримку. У відповіді пояснюємо, що видалено та які записи мають залишитися, з причиною і строком зберігання."
+    ],
+    "deleted": "За перевіреним запитом можна видалити листування з підтримкою й серверні записи перевірки купівель, доступу та пристроїв, які більше не потрібні для послуги чи наведених нижче цілей зберігання.",
+    "retained": "Необхідні захисні записи можуть зберігатися: хеші прив’язки установок і лічильники, хеші замінених токенів, ідентифікатори та стани скасованих замовлень не мають фіксованого строку автоматичного видалення. Прив’язки кодів і прав, записи відкликаних або вимкнених установок зберігаються, доки існує код. Для інших технічних записів діють описані вище строки: 120 секунд, 24 години, 32 дні, 60 днів після завершення доступу та 180 днів; незавершені підтвердження купівель зберігаються до вирішення стану.",
+    "backups": "Копії серверних даних підпадають під описану вище політику 30 днів і видаляються плановим очищенням. Видалення робочого запису не стирає миттєво наявну захищену резервну копію.",
+    "local": "Partitoria не зберігає вашу локальну бібліотеку. Видаляйте локальні ноти та записи в застосунку; експортовані копії й копії в іншого провайдера видаляються окремо. Видалення даних або застосунку не скасовує підписку Google Play — скасуйте її окремо в Google Play."
+  },
+  "fr": {
+    "title": "Demander la suppression de données Partitoria",
+    "emailAction": "Envoyer une demande de suppression",
+    "steps": [
+      "Écrivez à support@partitoria.app avec l’objet « Partitoria data deletion » et précisez les données serveur à supprimer. Vous pouvez le demander sans l’application ni compte Partitoria.",
+      "Fournissez uniquement les informations déjà en votre possession pour retrouver vos dossiers : un identifiant d’installation ou d’accès reçu auparavant, ou une référence de commande Google Play si elle est pertinente. Elles sont facultatives : vous n’avez pas à chercher un identifiant technique caché. N’envoyez ni codes d’accès, jetons d’achat, mots de passe, partitions, sauvegardes, ni coordonnées de carte.",
+      "Avant d’agir, nous vérifions que la demande concerne vos données et pouvons demander des justificatifs supplémentaires limités par l’assistance. Nous expliquons ce qui a été supprimé et quels dossiers doivent rester, avec le motif et la durée de conservation."
+    ],
+    "deleted": "Une demande vérifiée peut supprimer la correspondance avec l’assistance et les dossiers serveur de vérification des achats, d’accès et d’appareils qui ne sont plus nécessaires au service ou aux finalités de conservation ci-dessous.",
+    "retained": "Les dossiers de protection nécessaires peuvent rester : hachages et compteurs de liaison d’installation, hachages de jetons remplacés et identifiants/statuts de commandes annulées n’ont pas de délai fixe de suppression automatique. Les liaisons de codes et de droits et les installations révoquées ou désactivées restent enregistrées tant que le code existe. Les autres dossiers techniques suivent les durées décrites ci-dessus de 120 secondes, 24 heures, 32 jours, 60 jours après la fin de l’accès et 180 jours ; les confirmations d’achat non résolues restent jusqu’à résolution.",
+    "backups": "Les copies de données serveur suivent la politique de 30 jours décrite ci-dessus et sont supprimées par nettoyage programmé. Supprimer un dossier actif n’efface pas immédiatement une sauvegarde protégée existante.",
+    "local": "Partitoria ne détient pas votre bibliothèque locale. Supprimez les partitions ou enregistrements locaux dans l’application et gérez séparément les copies exportées ou confiées à un autre fournisseur. Supprimer des données ou désinstaller Partitoria ne résilie pas un abonnement Google Play : résiliez-le séparément dans Google Play."
+  },
+  "pl": {
+    "title": "Wniosek o usunięcie danych Partitoria",
+    "emailAction": "Wyślij wniosek o usunięcie danych",
+    "steps": [
+      "Napisz na support@partitoria.app z tematem „Partitoria data deletion” i wskaż dane serwera, które chcesz usunąć. Możesz to zrobić bez aplikacji i konta Partitoria.",
+      "Podaj tylko posiadane informacje ułatwiające znalezienie zapisów: wcześniej udostępniony identyfikator instalacji lub dostępu albo numer zamówienia Google Play, jeśli dotyczy wniosku. Są opcjonalne; nie musisz szukać ukrytego identyfikatora technicznego. Nie wysyłaj kodów dostępu, tokenów zakupów, haseł, nut, kopii zapasowych ani danych karty.",
+      "Przed działaniem sprawdzamy, czy wniosek dotyczy Twoich danych, i możemy poprosić przez pomoc o ograniczone dodatkowe potwierdzenie. Wyjaśniamy, co usunięto i które zapisy muszą pozostać, wraz z powodem i okresem przechowywania."
+    ],
+    "deleted": "Zweryfikowany wniosek może usunąć korespondencję z pomocą oraz zapisy serwera dotyczące weryfikacji zakupów, dostępu i urządzeń, które nie są już potrzebne do świadczenia usługi lub poniższych celów przechowywania.",
+    "retained": "Niezbędne zapisy ochronne mogą pozostać: skróty i liczniki powiązań instalacji, skróty zastąpionych tokenów oraz identyfikatory/stany unieważnionych zamówień nie mają stałego terminu automatycznego usunięcia. Powiązania kodów i uprawnień oraz zapisy cofniętych lub wyłączonych instalacji pozostają, dopóki istnieje kod. Inne zapisy techniczne podlegają opisanym wyżej okresom 120 sekund, 24 godzin, 32 dni, 60 dni po zakończeniu dostępu i 180 dni; nierozstrzygnięte potwierdzenia zakupów pozostają do wyjaśnienia.",
+    "backups": "Kopie danych serwera podlegają opisanej wyżej polityce 30 dni i są usuwane przez zaplanowane czyszczenie. Usunięcie aktywnego zapisu nie usuwa natychmiast istniejącej chronionej kopii zapasowej.",
+    "local": "Partitoria nie przechowuje Twojej lokalnej biblioteki. Usuń lokalne nuty lub nagrania w aplikacji i osobno zarządzaj kopiami wyeksportowanymi lub zapisanymi u innego dostawcy. Usunięcie danych lub odinstalowanie Partitoria nie anuluje subskrypcji Google Play — anuluj ją osobno w Google Play."
+  }
+}

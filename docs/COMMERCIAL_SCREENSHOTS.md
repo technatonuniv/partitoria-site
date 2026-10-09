@@ -1,5 +1,95 @@
 # Commercial website screenshot inventory
 
+## Final candidate handoff — 2026-10-09, 72 reviewed captures integrated
+
+All **72 genuine screenshots** of public **1.8.0/10824** (eight topics × nine
+languages) are directly reviewed and imported unchanged. The actual selector
+uses **216 localized files: 144 retained10814 + 72 new10824**, from **24 distinct
+image filenames**. The guide has 32 articles in nine languages; its 288 article
+canonical declarations are route coverage, not a screenshot count.
+
+The [selector](../lib/guide-capture-selection.json) retains `defaultVersionCode:
+10814` and maps the eight filenames below to10824. Every source PNG and receipt
+was checked against the completed per-image review. New PNGs total **10,280,142
+bytes**. All **270 original10814 captures** remain preserved. Host comparisons
+before and after import also confirm that all **370 protected files** from the
+current published guide/store-review inventory remain byte-identical; no CRLF
+normalization was needed.
+
+| Screen filename | Article or surface | Actual nine-language result |
+| --- | --- | --- |
+| `sidebar.png` | `find-your-way` | PASS: rank, grouped navigation and fixed bottom |
+| `appearance.png` | `appearance` | PASS: ordinary appearance editor controls |
+| `library.png` | Home | PASS: result count and current primary controls |
+| `library-search.png` | `find-in-library` | PASS: filtered total beside display mode |
+| `collections.png` | `collections-and-batch` | PASS: collection query, filters, sort and count |
+| `settings.png` | stable `settings-and-account` URL | PASS: appearance entry and ordinary public settings |
+| `backup-restore.png` | `backup-restore` | PASS: optional appearance-restoration control; not completed restore evidence |
+| `pro-overview.png` | `pro-and-owned-data` | PASS: truthful signed complimentary-access status; not a Google purchase |
+
+The [10824 manifest](../public/guide/10824/localized-captures.json) records source
+`6d1de70c9c71bc39bce0b25a7e3c902f7903cd61`, prepared input
+`7ee8adf12c8b860bd37049c1067d27f83e9bd8c95f98c2b271eab5e66b1307c8`,
+public APK **12,240,334 bytes**, SHA-256
+`2fa047fd7319aa4416756571ee9f907627faa13beb769e622aa180090dfe31b6`,
+and the permanent app certificate. The actual build activation flag is true;
+it does not prove a Play purchase. Captures use one disposable API37 tablet
+emulator, **1200×1920, density260, font scale1.0**, page size16384, selected app
+language and a lawful demonstration library. No image was generated, cropped,
+rescaled or redrawn for publication.
+
+| Bound evidence | SHA-256 |
+| --- | --- |
+| Public10824 manifest | `4177cca4f3ad9ab963e6698f3dba273bdef29be3bbcb2e2ef0f3ae2ab97986bb` |
+| Aggregate of seven actual original-pixel review receipts | `f81d1e5c07a9ac3949a00dc48e782d101fb647c9ba1cf52d15f2d70cbb23c3ab` |
+| Final selector | `432eac2e685ebd75232add1c88c735bf3dfae9dd5f04c5671b4216129fcf050a` |
+| Immutable public artifact receipt | `b52a50fcbea673b2cacec5746c0107c18c29af03df0ccd0b8bd408a150dfe8d4` |
+| Attempt05 public/Play sealed-build receipt | `4eb363b150296d4ba0298c80d935b63a0400c34c27cccef881b063c2e678ba5f` |
+| EN actual installation-identity/capture journal | `ddc9ed11006f0425dc13150c4b1761009afbee8bc727b33a2164fc49cb126840` |
+| Completed final PL capture/device journal | `82602523045daca34ffa4799f1a239d0384de1af232679ce8f1dd6c7849bc30b` |
+
+The ignored Android release-completion evidence retains
+`website-public-10824-aggregate-pixel-review.json` and
+`website-public-10824-reviewed-stage/staging-receipt.json` plus
+`site-import-receipt.json`. The aggregate preserves each original reviewer,
+time, PNG hash, verdict and source-receipt hash for EN, RU/DE, IT, ES/PT, UK, FR
+and PL. Existing explicit PASS decisions were normalized into one schema; no
+new visual PASS was inferred from XML or contact sheets. The immutable originals
+remain in `website-public-10824-review/`; the installation-identity journal is
+`run-20261009T152044190327Z.jsonl`, and completed PL journal is
+`run-20261009T161110565023Z.jsonl` in that directory. The existing
+`website_capture_review.py stage` validated artifact/capture/review bindings
+before copying the new namespace. Staging and the later site import have
+separate receipts; all original reviews remain intact.
+
+The bounded illustration decision remains: omit only `image` properties from
+`first-scores`, `online-sources`, `score-details`, `originals-recovery`,
+`earlier-searches`, `online-privacy`, `semantic-transfer` and
+`rehearsal-checkpoints`. Their text, IDs and URLs remain unchanged. All obsolete
+image topics, unused `tools.png` and historical manifests remain preserved.
+Retained active10814 illustrations carry a localized earlier-version caption;
+the resolver uses their actual version, so new10824 replacements have no such
+caption. The reader stays neutral. Historical pixel reviews retain their dated
+scope and are not relabelled as fresh10824 acceptance.
+
+Selection and `scripts/verify-guide-captures.mjs` still check one historical
+namespace plus at most one replacement candidate, all nine locales per selected
+image, signing/build/installation provenance, dimensions, pixel review and exact
+bytes. Each entry of every used manifest remains validated; dropping an obsolete
+article illustration does not delete or weaken preservation of historical files.
+No activation gesture, raw code, private library, invented purchase or synthetic
+paid entitlement belongs in public screenshots.
+
+**Final build, strict delivery verification, exact-source CI, deployment and
+final live/browser acceptance remain PENDING.** Earlier preparation checks
+passed typecheck/lint/build, language/provenance/retention tests and scoped
+405-route/288-canonical checks; their missing-sidebar/appearance result predates
+this completed import and is historical. It is no longer a current capture gate,
+and those earlier checks do not verify the newly integrated final export.
+Root next runs the existing final check sequence, one final main push, exact-SHA
+CI and immutable-release publication with live readback. Screenshot acceptance
+does not establish official purchases, Console approval or public app release.
+
 ## Current screenshot refresh — 2026-10-07
 
 The published screenshot set uses public **1.8.0/10814**, Android source

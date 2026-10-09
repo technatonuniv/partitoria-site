@@ -2,7 +2,7 @@
   {
     "id": "find-your-way",
     "category": "start",
-    "image": "tools.png",
+    "image": "sidebar.png",
     "text": {
       "ru": [
         "Где найти нужную функцию",
@@ -11,7 +11,9 @@
         "Меню с тремя точками ведёт к программам, очереди импорта и инструментам.",
         "В «Инструментах» собраны занятия, аудио, перенос пометок и умные коллекции.",
         "Шестерёнка открывает настройки, резервные копии и справку.",
-        "Состав некоторых инструментов зависит от доступных возможностей приложения."
+        "Состав некоторых инструментов зависит от доступных возможностей приложения.",
+        "В панели ☰ сверху показано текущее право: Partitoria Free или Partitoria Pro. В первой группе находятся «Библиотека», «Избранное» и «Коллекции»; после разделителя — «Импорт», «Программы» и «Инструменты».",
+        "«Настройки» и «О приложении» закреплены внизу панели и доступны при прокрутке. Переход закрывает панель; кнопка «Назад» сначала закрывает её, сохраняя выделение нот."
       ],
       "en": [
         "Find your way around",
@@ -20,7 +22,9 @@
         "The three-dot menu opens Programmes, the import inbox and Tools.",
         "Tools groups practice, audio, mark transfer and smart collections.",
         "The gear opens Settings, backups and Help.",
-        "Some tools appear only when their feature is available."
+        "Some tools appear only when their feature is available.",
+        "The ☰ sidebar shows your current access at the top: Partitoria Free or Partitoria Pro. Library, Favorites and Collections form the first group; Import, Programmes and Tools follow a divider.",
+        "Settings and About stay fixed at the bottom and remain available while the menu scrolls. Choosing a destination closes the panel; Back closes it first and keeps your score selection."
       ],
       "de": [
         "Funktionen finden",
@@ -29,7 +33,9 @@
         "Das Menü mit drei Punkten öffnet Programme, Import und Werkzeuge.",
         "Unter Werkzeuge finden Sie Üben, Audio, Markierungsübertragung und intelligente Sammlungen.",
         "Das Zahnrad führt zu Einstellungen, Sicherungen und Hilfe.",
-        "Manche Werkzeuge erscheinen nur, wenn die Funktion verfügbar ist."
+        "Manche Werkzeuge erscheinen nur, wenn die Funktion verfügbar ist.",
+        "Oben in der Seitenleiste ☰ steht Ihr aktueller Zugang: Partitoria Free oder Partitoria Pro. Bibliothek, Favoriten und Sammlungen bilden die erste Gruppe; nach einer Trennlinie folgen Import, Programme und Werkzeuge.",
+        "Einstellungen und Info bleiben unten befestigt und auch beim Scrollen erreichbar. Ein Ziel schließt die Leiste; Zurück schließt zunächst die Leiste und behält Ihre Notenauswahl."
       ],
       "it": [
         "Trovare le funzioni",
@@ -38,7 +44,9 @@
         "Il menu con tre punti apre Programmi, importazione e Strumenti.",
         "Strumenti riunisce studio, audio, trasferimento dei segni e raccolte intelligenti.",
         "L’ingranaggio apre Impostazioni, backup e Aiuto.",
-        "Alcuni strumenti compaiono solo se la funzione è disponibile."
+        "Alcuni strumenti compaiono solo se la funzione è disponibile.",
+        "In alto nel pannello ☰ compare l’accesso attuale: Partitoria Free o Partitoria Pro. Biblioteca, Preferiti e Raccolte formano il primo gruppo; dopo una linea trovi Importazione, Programmi e Strumenti.",
+        "Impostazioni e Informazioni restano fissi in basso e accessibili durante lo scorrimento. Una destinazione chiude il pannello; Indietro chiude prima il pannello conservando la selezione degli spartiti."
       ],
       "es": [
         "Encontrar las funciones",
@@ -47,7 +55,9 @@
         "El menú de tres puntos abre Programas, importación y Herramientas.",
         "Herramientas agrupa práctica, audio, transferencia de marcas y colecciones inteligentes.",
         "El engranaje abre Ajustes, copias y Ayuda.",
-        "Algunas herramientas solo aparecen cuando su función está disponible."
+        "Algunas herramientas solo aparecen cuando su función está disponible.",
+        "En la parte superior del panel ☰ aparece el acceso actual: Partitoria Free o Partitoria Pro. Biblioteca, Favoritos y Colecciones forman el primer grupo; después de una línea están Importación, Programas y Herramientas.",
+        "Ajustes y Acerca de quedan fijos abajo y accesibles al desplazar el menú. Elegir un destino cierra el panel; Atrás lo cierra primero y conserva la selección de partituras."
       ],
       "pt": [
         "Encontrar as funções",
@@ -56,7 +66,9 @@
         "O menu de três pontos abre Programas, importação e Ferramentas.",
         "Ferramentas reúne estudo, áudio, transferência de marcas e coleções inteligentes.",
         "A roda dentada abre Definições, cópias e Ajuda.",
-        "Algumas ferramentas só aparecem quando a função está disponível."
+        "Algumas ferramentas só aparecem quando a função está disponível.",
+        "No topo do painel ☰ surge o acesso atual: Partitoria Free ou Partitoria Pro. Biblioteca, Favoritos e Coleções formam o primeiro grupo; após uma linha estão Importação, Programas e Ferramentas.",
+        "Definições e Sobre ficam fixos em baixo e acessíveis ao percorrer o menu. Escolher um destino fecha o painel; Voltar fecha-o primeiro e mantém a seleção de partituras."
       ],
       "uk": [
         "Де знайти потрібну функцію",
@@ -65,7 +77,9 @@
         "Меню з трьома крапками відкриває програми, імпорт та інструменти.",
         "В «Інструментах» зібрано заняття, аудіо, перенесення поміток і розумні колекції.",
         "Шестерня відкриває налаштування, резервні копії й довідку.",
-        "Деякі інструменти видно лише тоді, коли функція доступна."
+        "Деякі інструменти видно лише тоді, коли функція доступна.",
+        "Угорі панелі ☰ показано поточне право: Partitoria Free або Partitoria Pro. Перша група — «Бібліотека», «Обране» та «Колекції»; після розділювача — «Імпорт», «Програми» та «Інструменти».",
+        "«Налаштування» та «Про застосунок» закріплені внизу й доступні під час прокручування. Перехід закриває панель; «Назад» спочатку закриває її, зберігаючи вибір нот."
       ],
       "fr": [
         "Trouver une fonction",
@@ -74,7 +88,9 @@
         "Le menu à trois points ouvre Programmes, l’import et Outils.",
         "Outils regroupe travail, audio, transfert des marques et collections intelligentes.",
         "La roue dentée ouvre Réglages, sauvegardes et Aide.",
-        "Certains outils n’apparaissent que si leur fonction est disponible."
+        "Certains outils n’apparaissent que si leur fonction est disponible.",
+        "En haut du panneau ☰ figure votre accès actuel : Partitoria Free ou Partitoria Pro. Bibliothèque, Favoris et Collections forment le premier groupe ; Import, Programmes et Outils suivent une séparation.",
+        "Réglages et À propos restent fixés en bas et accessibles pendant le défilement. Une destination ferme le panneau ; Retour ferme d’abord le panneau en conservant la sélection de partitions."
       ],
       "pl": [
         "Gdzie znaleźć funkcje",
@@ -83,14 +99,15 @@
         "Menu z trzema kropkami otwiera Programy, import i Narzędzia.",
         "Narzędzia grupują ćwiczenia, audio, przenoszenie oznaczeń i inteligentne kolekcje.",
         "Koło zębate otwiera Ustawienia, kopie i Pomoc.",
-        "Niektóre narzędzia pojawiają się tylko wtedy, gdy funkcja jest dostępna."
+        "Niektóre narzędzia pojawiają się tylko wtedy, gdy funkcja jest dostępna.",
+        "U góry panelu ☰ widnieje bieżący dostęp: Partitoria Free lub Partitoria Pro. Biblioteka, Ulubione i Kolekcje tworzą pierwszą grupę; za separatorem są Import, Programy i Narzędzia.",
+        "Ustawienia i O aplikacji pozostają przypięte na dole i dostępne podczas przewijania. Wybór miejsca zamyka panel; Wstecz najpierw zamyka panel, zachowując wybór nut."
       ]
     }
   },
   {
     "id": "first-scores",
     "category": "start",
-    "image": "add.png",
     "text": {
       "ru": [
         "Добавить первые ноты",
@@ -353,7 +370,6 @@
   {
     "id": "online-sources",
     "category": "start",
-    "image": "add.png",
     "text": {
       "ru": [
         "Найти издание в интернете",
@@ -440,7 +456,8 @@
         "Откройте поле «Найти ноты» на экране «Библиотека». Результат меняется при вводе; кнопка интернет-поиска здесь не нужна.",
         "Введите название, композитора, номер опуса, имя файла, партию, тег или коллекцию. Можно использовать кириллицу, латиницу и привычное написание имени.",
         "Выберите нужную сортировку: «Сначала новые», «По названию», «По композитору» или «По последнему открытию». Для нового запроса используйте «Сбросить поиск и фильтры».",
-        "Уточните список фильтрами «Избранное», «Недавние», «Доступно офлайн», «Недоступно» и сортировкой. Поиск не распознаёт нотный текст внутри скана."
+        "Уточните список фильтрами «Избранное», «Недавние», «Доступно офлайн», «Недоступно» и сортировкой. Поиск не распознаёт нотный текст внутри скана.",
+        "Количество найденных нот показано рядом с переключателем плиток и списка. Это весь результат поиска и фильтров, а не только загруженная страница. Внутри коллекции доступны те же фильтры нот и порядок коллекции."
       ],
       "en": [
         "Find scores in your library",
@@ -448,7 +465,8 @@
         "Use the library search field. Results change as you type; no online-search command is needed.",
         "Enter a title, composer, opus number, filename, part, tag or collection. Cyrillic, Latin spellings and common name variants are supported.",
         "Sort by newest, title, composer or last opened. Clear both the query and filters before starting a different search.",
-        "Narrow the list with Favorites, Recent, Available offline, Missing and sorting. Search does not recognise notation inside a scan."
+        "Narrow the list with Favorites, Recent, Available offline, Missing and sorting. Search does not recognise notation inside a scan.",
+        "The count beside the tiles/list switch is the total number of scores matching your search and filters, not just the loaded page. Inside a collection, the same score filters and collection order remain available."
       ],
       "de": [
         "Noten in der Bibliothek finden",
@@ -456,7 +474,8 @@
         "Nutzen Sie das Suchfeld der Bibliothek. Treffer ändern sich beim Tippen; ein Online-Befehl ist nicht nötig.",
         "Suchen Sie nach Titel, Komponist, Opuszahl, Dateiname, Stimme, Tag oder Sammlung. Kyrillische und lateinische Schreibweisen werden berücksichtigt.",
         "Sortieren Sie nach Neuheit, Titel, Komponist oder letztem Öffnen. Setzen Sie Suche und Filter vor einer neuen Suche zurück.",
-        "Grenzen Sie die Liste mit Favoriten, Zuletzt, Offline verfügbar, Fehlend und Sortierung ein. Notenschrift in Scans wird nicht erkannt."
+        "Grenzen Sie die Liste mit Favoriten, Zuletzt, Offline verfügbar, Fehlend und Sortierung ein. Notenschrift in Scans wird nicht erkannt.",
+        "Die Zahl neben Kacheln/Liste zählt alle Noten, die zu Suche und Filtern passen, nicht nur die geladene Seite. Innerhalb einer Sammlung bleiben dieselben Notenfilter und die Sammlungsreihenfolge verfügbar."
       ],
       "it": [
         "Trovare spartiti in biblioteca",
@@ -464,7 +483,8 @@
         "Usa il campo di ricerca della Biblioteca. I risultati cambiano mentre scrivi; non serve una ricerca online.",
         "Cerca titolo, compositore, numero d’opera, file, parte, tag o raccolta. Sono considerate grafie cirilliche e latine.",
         "Ordina per più recenti, titolo, compositore o ultima apertura. Azzera ricerca e filtri prima di una nuova ricerca.",
-        "Restringi con Preferiti, Recenti, Disponibili offline, Mancanti e ordinamento. La ricerca non riconosce la notazione in una scansione."
+        "Restringi con Preferiti, Recenti, Disponibili offline, Mancanti e ordinamento. La ricerca non riconosce la notazione in una scansione.",
+        "Il numero accanto a riquadri/elenco conta tutti gli spartiti che corrispondono a ricerca e filtri, non solo la pagina caricata. Dentro una raccolta restano disponibili gli stessi filtri e l’ordine della raccolta."
       ],
       "es": [
         "Buscar partituras en la biblioteca",
@@ -472,7 +492,8 @@
         "Usa el campo de búsqueda de Biblioteca. Los resultados cambian al escribir; no hace falta buscar en línea.",
         "Busca título, compositor, opus, nombre de archivo, parte, etiqueta o colección. Se admiten grafías cirílicas y latinas.",
         "Ordena por más reciente, título, compositor o última apertura. Restablece búsqueda y filtros antes de otra consulta.",
-        "Filtra por Favoritos, Recientes, Disponibles sin conexión o Faltantes y ordena la lista. No se reconoce la notación dentro de un escaneo."
+        "Filtra por Favoritos, Recientes, Disponibles sin conexión o Faltantes y ordena la lista. No se reconoce la notación dentro de un escaneo.",
+        "El número junto a mosaicos/lista cuenta todas las partituras que coinciden con la búsqueda y los filtros, no solo la página cargada. Dentro de una colección están los mismos filtros y el orden de la colección."
       ],
       "pt": [
         "Encontrar partituras na biblioteca",
@@ -480,7 +501,8 @@
         "Use o campo de pesquisa da Biblioteca. Os resultados mudam enquanto escreve; não é preciso pesquisar online.",
         "Pesquise título, compositor, opus, nome do ficheiro, parte, etiqueta ou coleção. São consideradas grafias cirílicas e latinas.",
         "Ordene por recentes, título, compositor ou última abertura. Limpe pesquisa e filtros antes de outra consulta.",
-        "Use Favoritos, Recentes, Disponível offline, Em falta e ordenação. A pesquisa não reconhece notação dentro de digitalizações."
+        "Use Favoritos, Recentes, Disponível offline, Em falta e ordenação. A pesquisa não reconhece notação dentro de digitalizações.",
+        "O número junto de mosaicos/lista conta todas as partituras que correspondem à pesquisa e aos filtros, não apenas a página carregada. Numa coleção estão disponíveis os mesmos filtros e a ordem da coleção."
       ],
       "uk": [
         "Знайти ноти в бібліотеці",
@@ -488,7 +510,8 @@
         "Скористайтеся полем пошуку бібліотеки. Результати змінюються під час введення; інтернет-пошук тут не потрібен.",
         "Шукайте за назвою, композитором, опусом, назвою файлу, партією, тегом або колекцією. Підтримуються кирилиця й латиниця.",
         "Сортуйте за новизною, назвою, композитором чи останнім відкриттям. Перед новим запитом скиньте пошук і фільтри.",
-        "Звужуйте список фільтрами «Обране», «Нещодавні», «Офлайн», «Недоступні» й сортуванням. Нотний текст у скані не розпізнається."
+        "Звужуйте список фільтрами «Обране», «Нещодавні», «Офлайн», «Недоступні» й сортуванням. Нотний текст у скані не розпізнається.",
+        "Кількість біля перемикача плиток і списку охоплює всі ноти, що відповідають пошуку й фільтрам, а не лише завантажену сторінку. Усередині колекції доступні ті самі фільтри нот і порядок колекції."
       ],
       "fr": [
         "Retrouver une partition",
@@ -496,7 +519,8 @@
         "Utilisez le champ de recherche de la Bibliothèque. Les résultats changent pendant la saisie ; aucune recherche en ligne n’est nécessaire.",
         "Saisissez titre, compositeur, opus, nom du fichier, partie, étiquette ou collection. Les graphies cyrilliques et latines sont prises en compte.",
         "Triez par date, titre, compositeur ou dernière ouverture. Effacez recherche et filtres avant une nouvelle requête.",
-        "Affinez avec Favoris, Récents, Disponibles hors ligne, Manquants et le tri. Les notes imprimées dans un scan ne sont pas reconnues."
+        "Affinez avec Favoris, Récents, Disponibles hors ligne, Manquants et le tri. Les notes imprimées dans un scan ne sont pas reconnues.",
+        "Le nombre près du sélecteur vignettes/liste compte toutes les partitions correspondant à la recherche et aux filtres, pas seulement la page chargée. Dans une collection, les mêmes filtres et l’ordre de la collection restent disponibles."
       ],
       "pl": [
         "Znajdź nuty w bibliotece",
@@ -504,14 +528,14 @@
         "Użyj pola wyszukiwania Biblioteki. Wyniki zmieniają się podczas pisania; wyszukiwanie online nie jest potrzebne.",
         "Wpisz tytuł, kompozytora, opus, nazwę pliku, partię, tag lub kolekcję. Uwzględniane są zapisy cyrylicą i alfabetem łacińskim.",
         "Sortuj według nowości, tytułu, kompozytora lub ostatniego otwarcia. Przed kolejnym pytaniem wyczyść wyszukiwanie i filtry.",
-        "Zawęź listę filtrami Ulubione, Ostatnie, Offline, Brakujące i sortowaniem. Nuty na skanie nie są rozpoznawane."
+        "Zawęź listę filtrami Ulubione, Ostatnie, Offline, Brakujące i sortowaniem. Nuty na skanie nie są rozpoznawane.",
+        "Liczba obok przełącznika kafelki/lista obejmuje wszystkie nuty pasujące do wyszukiwania i filtrów, a nie tylko wczytaną stronę. W kolekcji dostępne są te same filtry nut i kolejność kolekcji."
       ]
     }
   },
   {
     "id": "score-details",
     "category": "library",
-    "image": "score-details.png",
     "text": {
       "ru": [
         "Исправить сведения и обложку",
@@ -598,7 +622,10 @@
         "Откройте «Коллекции», создайте коллекцию и выберите из своей библиотеки нужные позиции. Можно также начать импорт прямо из коллекции. Удаление коллекции сохраняет её ноты в библиотеке.",
         "В открытой коллекции нажмите «Добавить из библиотеки», найдите позиции, отметьте их и подтвердите «Добавить выбранные». Для новых файлов есть «Импортировать новые ноты».",
         "Откройте меню «Действия с коллекцией» для названия, заметок и обложки. При выборе нескольких карточек проверяйте каждую перед массовым изменением или удалением.",
-        "На главном экране переключайте плитки и список. Для массовых действий включите выбор карточек, проверьте отмеченные позиции и затем примените команду из меню выбора."
+        "На главном экране переключайте плитки и список. Для массовых действий включите выбор карточек, проверьте отмеченные позиции и затем примените команду из меню выбора.",
+        "В корневом списке ищите коллекции по названию и автору. Фильтры: «Все коллекции», «С нотами», «Пустые», «С недоступными нотами». Сброс очищает поиск и фильтр.",
+        "Сортируйте по исходному порядку, названию, автору, последнему изменению или количеству нот. Рядом с плиткой/списком показано число коллекций; одна и та же партитура может входить в несколько коллекций.",
+        "Состав, названия, обложки и доступность обновляются автоматически. Внешнее изменение не стирает введённый черновик; при конфликте явно перечитайте текущие значения перед повторным сохранением."
       ],
       "en": [
         "Collections and batch actions",
@@ -606,7 +633,10 @@
         "Open Collections, create one, and choose library items. You can also start an import from inside a collection. Deleting a collection leaves its scores in the library.",
         "Inside a collection choose Add from library, search, select items and confirm. Choose Import new scores if the files are not yet in your library.",
         "Use the collection actions menu for its name, notes and cover. When selecting several cards, review each before batch editing or deletion.",
-        "Switch between tiles and list view. For batch work, start card selection, review the selected scores, then choose a command from the selection menu."
+        "Switch between tiles and list view. For batch work, start card selection, review the selected scores, then choose a command from the selection menu.",
+        "Search the collection list by name and author. Filter by All collections, With scores, Empty or With unavailable scores. Clear filters also clears the search.",
+        "Sort by existing order, name, author, last modified or number of scores. The number beside tiles/list counts collections; the same score may belong to several collections.",
+        "Membership, names, covers and availability update automatically. An outside change keeps your unsaved editor draft; if a conflict occurs, explicitly reload the current values before saving again."
       ],
       "de": [
         "Sammlungen und Mehrfachaktionen",
@@ -614,7 +644,10 @@
         "Öffnen Sie Sammlungen, legen Sie eine an und wählen Sie vorhandene Noten. Auch ein Import aus der Sammlung ist möglich. Beim Löschen bleiben die Noten in der Bibliothek.",
         "Wählen Sie in der Sammlung Aus Bibliothek hinzufügen, suchen Sie Einträge, markieren und bestätigen Sie. Für neue Dateien wählen Sie den Import.",
         "Im Sammlungsmenü bearbeiten Sie Namen, Notizen und Cover. Prüfen Sie bei Mehrfachauswahl jeden Eintrag vor Bearbeitung oder Löschung.",
-        "Wechseln Sie zwischen Kacheln und Liste. Für mehrere Noten starten Sie die Auswahl, prüfen die Markierungen und wählen eine Aktion im Auswahlmenü."
+        "Wechseln Sie zwischen Kacheln und Liste. Für mehrere Noten starten Sie die Auswahl, prüfen die Markierungen und wählen eine Aktion im Auswahlmenü.",
+        "Suchen Sie Sammlungen nach Name und Autor. Filtern Sie nach allen Sammlungen, Sammlungen mit Noten, leeren Sammlungen oder solchen mit nicht verfügbaren Noten. Filter zurücksetzen leert auch die Suche.",
+        "Sortieren Sie nach bisheriger Reihenfolge, Name, Autor, letzter Änderung oder Anzahl der Noten. Die Zahl neben Kacheln/Liste zählt Sammlungen; dieselben Noten können in mehreren Sammlungen liegen.",
+        "Inhalt, Namen, Cover und Verfügbarkeit aktualisieren sich automatisch. Externe Änderungen verwerfen Ihren Entwurf nicht; laden Sie bei einem Konflikt die aktuellen Werte ausdrücklich neu, bevor Sie erneut speichern."
       ],
       "it": [
         "Raccolte e azioni multiple",
@@ -622,7 +655,10 @@
         "Apri Raccolte, creane una e scegli gli elementi. Puoi anche avviare un’importazione dalla raccolta. Eliminare la raccolta lascia gli spartiti in biblioteca.",
         "Nella raccolta scegli Aggiungi dalla biblioteca, cerca, seleziona e conferma. Per file non ancora presenti scegli Importa nuovi spartiti.",
         "Nel menu della raccolta modifica nome, note e copertina. Controlla ogni scheda selezionata prima di modifiche o eliminazioni multiple.",
-        "Alterna griglia ed elenco. Per azioni multiple avvia la selezione, controlla gli elementi e scegli il comando nel menu."
+        "Alterna griglia ed elenco. Per azioni multiple avvia la selezione, controlla gli elementi e scegli il comando nel menu.",
+        "Cerca raccolte per nome e autore. Filtra tutte le raccolte, quelle con spartiti, quelle vuote o con spartiti non disponibili. Azzera filtri cancella anche la ricerca.",
+        "Ordina per ordine esistente, nome, autore, ultima modifica o numero di spartiti. Il numero accanto a riquadri/elenco conta le raccolte; uno spartito può appartenere a più raccolte.",
+        "Contenuti, nomi, copertine e disponibilità si aggiornano automaticamente. Una modifica esterna conserva la bozza; in caso di conflitto ricarica esplicitamente i valori correnti prima di salvare di nuovo."
       ],
       "es": [
         "Colecciones y acciones en lote",
@@ -630,7 +666,10 @@
         "Abre Colecciones, crea una y elige elementos existentes. También puedes importar desde ella. Al borrar una colección, las partituras siguen en la biblioteca.",
         "Dentro de una colección elige Añadir desde biblioteca, busca, selecciona y confirma. Para archivos nuevos usa Importar partituras nuevas.",
         "En el menú de colección cambia nombre, notas y portada. Comprueba cada tarjeta antes de editar o borrar en lote.",
-        "Alterna mosaico y lista. Para actuar sobre varias partituras, inicia la selección, revísala y usa el menú de selección."
+        "Alterna mosaico y lista. Para actuar sobre varias partituras, inicia la selección, revísala y usa el menú de selección.",
+        "Busca colecciones por nombre y autor. Filtra todas, con partituras, vacías o con partituras no disponibles. Restablecer filtros también borra la búsqueda.",
+        "Ordena por orden existente, nombre, autor, última modificación o número de partituras. El número junto a mosaicos/lista cuenta colecciones; una partitura puede pertenecer a varias.",
+        "Contenido, nombres, portadas y disponibilidad se actualizan automáticamente. Un cambio externo conserva el borrador; ante un conflicto, vuelve a cargar los valores actuales de forma explícita antes de guardar."
       ],
       "pt": [
         "Coleções e ações em lote",
@@ -638,7 +677,10 @@
         "Abra Coleções, crie uma e escolha os itens. Também pode importar a partir dela. Apagar a coleção mantém as partituras na biblioteca.",
         "Dentro da coleção escolha Adicionar da biblioteca, pesquise, selecione e confirme. Para ficheiros novos escolha Importar novas partituras.",
         "No menu da coleção altere nome, notas e capa. Reveja cada cartão antes de editar ou apagar em lote.",
-        "Alterne mosaicos e lista. Para agir sobre vários itens, inicie a seleção, confirme os marcados e use o menu de seleção."
+        "Alterne mosaicos e lista. Para agir sobre vários itens, inicie a seleção, confirme os marcados e use o menu de seleção.",
+        "Pesquise coleções por nome e autor. Filtre todas, com partituras, vazias ou com partituras indisponíveis. Limpar filtros também limpa a pesquisa.",
+        "Ordene pela ordem existente, nome, autor, última alteração ou número de partituras. O número junto de mosaicos/lista conta coleções; uma partitura pode pertencer a várias.",
+        "Conteúdo, nomes, capas e disponibilidade atualizam-se automaticamente. Uma alteração externa mantém o rascunho; num conflito, recarregue explicitamente os valores atuais antes de guardar novamente."
       ],
       "uk": [
         "Колекції та масові дії",
@@ -646,7 +688,10 @@
         "Відкрийте «Колекції», створіть колекцію та виберіть записи. Імпорт можна почати й із колекції. Її видалення не прибирає ноти з бібліотеки.",
         "У колекції виберіть додавання з бібліотеки, знайдіть записи, позначте й підтвердьте. Для нових файлів скористайтеся імпортом нот.",
         "У меню колекції змінюйте назву, нотатки й обкладинку. Перевіряйте кожну вибрану картку перед масовою правкою чи видаленням.",
-        "Перемикайте плитки й список. Для масових дій увімкніть вибір, перевірте позначені ноти та застосуйте команду з меню."
+        "Перемикайте плитки й список. Для масових дій увімкніть вибір, перевірте позначені ноти та застосуйте команду з меню.",
+        "Шукайте колекції за назвою та автором. Фільтри: усі, з нотами, порожні або з недоступними нотами. Скидання очищає також пошук.",
+        "Сортуйте за початковим порядком, назвою, автором, останньою зміною або кількістю нот. Число біля плиток/списку рахує колекції; одна партитура може належати до кількох.",
+        "Склад, назви, обкладинки й доступність оновлюються автоматично. Зовнішня зміна не стирає чернетку; при конфлікті явно перечитайте поточні значення перед повторним збереженням."
       ],
       "fr": [
         "Collections et actions groupées",
@@ -654,7 +699,10 @@
         "Ouvrez Collections, créez-en une et choisissez les éléments existants. Vous pouvez aussi importer depuis la collection. Sa suppression laisse les partitions dans la bibliothèque.",
         "Dans la collection, ajoutez depuis la bibliothèque : cherchez, sélectionnez puis confirmez. Pour de nouveaux fichiers, lancez leur import.",
         "Le menu de collection permet nom, notes et couverture. Vérifiez chaque fiche choisie avant une modification ou suppression groupée.",
-        "Passez des vignettes à la liste. Pour agir sur plusieurs partitions, lancez la sélection, vérifiez-la puis utilisez son menu."
+        "Passez des vignettes à la liste. Pour agir sur plusieurs partitions, lancez la sélection, vérifiez-la puis utilisez son menu.",
+        "Recherchez les collections par nom et auteur. Filtrez toutes les collections, celles avec partitions, les vides ou celles avec partitions indisponibles. Effacer les filtres efface aussi la recherche.",
+        "Triez par ordre existant, nom, auteur, dernière modification ou nombre de partitions. Le nombre près de vignettes/liste compte les collections ; une partition peut appartenir à plusieurs collections.",
+        "Contenu, noms, couvertures et disponibilité se mettent à jour automatiquement. Une modification externe conserve le brouillon ; en cas de conflit, rechargez explicitement les valeurs actuelles avant d’enregistrer à nouveau."
       ],
       "pl": [
         "Kolekcje i działania zbiorcze",
@@ -662,7 +710,10 @@
         "Otwórz Kolekcje, utwórz kolekcję i wybierz pozycje. Możesz też rozpocząć import w kolekcji. Usunięcie kolekcji pozostawia nuty w bibliotece.",
         "W kolekcji wybierz Dodaj z biblioteki, wyszukaj, zaznacz i potwierdź. Dla nowych plików uruchom import nut.",
         "W menu kolekcji zmień nazwę, notatki i okładkę. Sprawdź każdą kartę przed zbiorową edycją lub usunięciem.",
-        "Przełączaj kafelki i listę. Do działań zbiorczych włącz wybór, sprawdź zaznaczone nuty i wybierz polecenie z menu."
+        "Przełączaj kafelki i listę. Do działań zbiorczych włącz wybór, sprawdź zaznaczone nuty i wybierz polecenie z menu.",
+        "Szukaj kolekcji według nazwy i autora. Filtruj wszystkie, z nutami, puste lub z niedostępnymi nutami. Wyczyszczenie filtrów usuwa także wyszukiwanie.",
+        "Sortuj według dotychczasowej kolejności, nazwy, autora, ostatniej zmiany lub liczby nut. Liczba przy kafelkach/liście oznacza kolekcje; te same nuty mogą należeć do kilku.",
+        "Zawartość, nazwy, okładki i dostępność aktualizują się automatycznie. Zewnętrzna zmiana nie usuwa szkicu; przy konflikcie jawnie wczytaj aktualne wartości przed ponownym zapisem."
       ]
     }
   },
@@ -1713,7 +1764,6 @@
   {
     "id": "rehearsal-checkpoints",
     "category": "rehearsal",
-    "image": "rehearsal-checkpoints.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1793,7 +1843,6 @@
   {
     "id": "semantic-transfer",
     "category": "rehearsal",
-    "image": "semantic-transfer.png",
     "access": "pro",
     "text": {
       "ru": [
@@ -1961,7 +2010,8 @@
         "В настройках данных откройте резервное копирование, выберите место через системное окно Android и дождитесь проверки созданного файла. Храните копию отдельно от планшета.",
         "Перед копированием проверьте «Состояние библиотеки»: недоступные документы нужно восстановить. Полный архив включает ваши данные и не шифруется — выбирайте надёжное место.",
         "Для восстановления откройте «Предпросмотр восстановления». Для совпадений выберите «Пропустить», «Сохранить оба» либо объединение совместимых сведений, затем подтвердите проверенный план.",
-        "При восстановлении выберите архив, посмотрите сводку и подтвердите действие. Локальные автоматические снимки удобны для недавнего отката, но остаются на этом же устройстве и не заменяют экспорт."
+        "При восстановлении выберите архив, посмотрите сводку и подтвердите действие. Локальные автоматические снимки удобны для недавнего отката, но остаются на этом же устройстве и не заменяют экспорт.",
+        "В предпросмотре восстановления можно отдельно выбрать «Восстановить оформление». Неподдерживаемый профиль не заменяет текущую тему и не мешает восстановить библиотеку. Отдельный экспорт оформления содержит сохранённые настройки, а не черновик."
       ],
       "en": [
         "Make and check a backup",
@@ -1969,7 +2019,8 @@
         "Open backup in data settings, choose a destination through Android and wait for file verification. Keep a copy away from the tablet.",
         "Check Library health first and recover unavailable documents. The complete archive contains your data and is not encrypted, so choose its location carefully.",
         "Open Restore preview. For matches choose Skip, Keep both or merge compatible details, then confirm the reviewed plan.",
-        "For restore, choose the archive, review its summary and confirm. Local scheduled snapshots help with recent recovery, but remain on this device and do not replace an exported backup."
+        "For restore, choose the archive, review its summary and confirm. Local scheduled snapshots help with recent recovery, but remain on this device and do not replace an exported backup.",
+        "Restore preview lets you choose “Restore appearance” separately. An unsupported profile leaves your current appearance intact and does not prevent library restoration. Separate appearance export contains saved settings, not an unsaved draft."
       ],
       "de": [
         "Sicherung erstellen und prüfen",
@@ -1977,7 +2028,8 @@
         "Öffnen Sie Sicherung in den Dateneinstellungen, wählen Sie über Android einen Speicherort und warten Sie auf die Dateiprüfung. Bewahren Sie eine Kopie außerhalb des Tablets auf.",
         "Prüfen Sie zuerst den Zustand der Bibliothek und stellen Sie fehlende Dokumente wieder her. Das vollständige Archiv ist nicht verschlüsselt.",
         "Öffnen Sie die Wiederherstellungsvorschau. Wählen Sie bei Treffern Überspringen, Beide behalten oder kompatible Angaben zusammenführen und bestätigen Sie den Plan.",
-        "Zur Wiederherstellung wählen Sie das Archiv, prüfen die Übersicht und bestätigen. Lokale Momentaufnahmen bleiben auf diesem Gerät und ersetzen den Export nicht."
+        "Zur Wiederherstellung wählen Sie das Archiv, prüfen die Übersicht und bestätigen. Lokale Momentaufnahmen bleiben auf diesem Gerät und ersetzen den Export nicht.",
+        "In der Wiederherstellungsvorschau können Sie „Darstellung wiederherstellen“ gesondert auswählen. Ein nicht unterstütztes Profil lässt Ihr aktuelles Design bestehen; die Bibliothek kann trotzdem wiederhergestellt werden. Ein separater Designexport enthält gespeicherte Einstellungen, keinen ungespeicherten Entwurf."
       ],
       "it": [
         "Creare e verificare un backup",
@@ -1985,7 +2037,8 @@
         "Apri Backup nelle impostazioni dati, scegli la destinazione con Android e attendi la verifica del file. Conserva una copia fuori dal tablet.",
         "Controlla prima lo stato della biblioteca e recupera i documenti assenti. L’archivio completo contiene i tuoi dati e non è cifrato.",
         "Apri l’anteprima di ripristino. Per le corrispondenze scegli Salta, Tieni entrambi o unisci i dati compatibili, poi conferma il piano.",
-        "Per ripristinare scegli l’archivio, controlla il riepilogo e conferma. Le istantanee locali restano sul dispositivo e non sostituiscono il backup esportato."
+        "Per ripristinare scegli l’archivio, controlla il riepilogo e conferma. Le istantanee locali restano sul dispositivo e non sostituiscono il backup esportato.",
+        "Nell’anteprima di ripristino puoi scegliere separatamente “Ripristina l’aspetto”. Un profilo non supportato conserva l’aspetto attuale e non impedisce il ripristino della biblioteca. L’esportazione separata dell’aspetto contiene le impostazioni salvate, non la bozza."
       ],
       "es": [
         "Crear y verificar una copia",
@@ -1993,7 +2046,8 @@
         "Abre Copia de seguridad en ajustes de datos, elige destino mediante Android y espera la verificación. Guarda una copia fuera de la tableta.",
         "Revisa antes el estado de la biblioteca y recupera documentos ausentes. El archivo completo contiene tus datos y no está cifrado.",
         "Abre la vista previa de restauración. Ante coincidencias elige Omitir, Conservar ambos o unir datos compatibles y confirma el plan.",
-        "Para restaurar, elige el archivo, revisa el resumen y confirma. Las instantáneas locales siguen en el dispositivo y no sustituyen la copia exportada."
+        "Para restaurar, elige el archivo, revisa el resumen y confirma. Las instantáneas locales siguen en el dispositivo y no sustituyen la copia exportada.",
+        "La vista previa de restauración permite elegir “Restaurar el aspecto” por separado. Un perfil no compatible conserva el aspecto actual y no impide restaurar la biblioteca. La exportación separada del aspecto contiene ajustes guardados, no un borrador."
       ],
       "pt": [
         "Criar e verificar uma cópia",
@@ -2001,7 +2055,8 @@
         "Abra Cópia de segurança nas definições de dados, escolha o destino pelo Android e aguarde a verificação. Guarde uma cópia fora do tablet.",
         "Verifique antes o estado da biblioteca e recupere documentos indisponíveis. O arquivo completo contém os seus dados e não é cifrado.",
         "Abra a pré-visualização da reposição. Para correspondências escolha Ignorar, Manter ambos ou juntar dados compatíveis e confirme o plano.",
-        "Para restaurar escolha o arquivo, reveja o resumo e confirme. As cópias locais ficam neste dispositivo e não substituem a cópia exportada."
+        "Para restaurar escolha o arquivo, reveja o resumo e confirme. As cópias locais ficam neste dispositivo e não substituem a cópia exportada.",
+        "Na pré-visualização de restauro pode escolher “Restaurar o aspeto” separadamente. Um perfil não suportado mantém o aspeto atual e não impede restaurar a biblioteca. A exportação separada do aspeto contém definições guardadas, não um rascunho."
       ],
       "uk": [
         "Створити й перевірити резервну копію",
@@ -2009,7 +2064,8 @@
         "У налаштуваннях даних відкрийте резервне копіювання, виберіть місце через Android і дочекайтеся перевірки файла. Зберігайте копію окремо від планшета.",
         "Спершу перевірте стан бібліотеки й відновіть недоступні документи. Повний архів містить ваші дані та не шифрується.",
         "Відкрийте попередній перегляд відновлення. Для збігів виберіть пропуск, збереження обох або об’єднання сумісних відомостей і підтвердьте план.",
-        "Для відновлення виберіть архів, перегляньте підсумок і підтвердьте. Локальні знімки залишаються на пристрої й не замінюють експорт."
+        "Для відновлення виберіть архів, перегляньте підсумок і підтвердьте. Локальні знімки залишаються на пристрої й не замінюють експорт.",
+        "У попередньому перегляді відновлення можна окремо вибрати «Відновити оформлення». Непідтримуваний профіль зберігає поточне оформлення й не заважає відновленню бібліотеки. Окремий експорт оформлення містить збережені налаштування, а не чернетку."
       ],
       "fr": [
         "Créer et vérifier une sauvegarde",
@@ -2017,7 +2073,8 @@
         "Dans les réglages des données, choisissez la destination via Android et attendez la vérification du fichier. Gardez une copie ailleurs que sur la tablette.",
         "Vérifiez d’abord l’état de la bibliothèque et récupérez les documents absents. L’archive complète contient vos données sans chiffrement.",
         "Ouvrez l’aperçu de restauration. Pour les doublons, choisissez Ignorer, Garder les deux ou fusionner les détails compatibles, puis confirmez le plan.",
-        "Pour restaurer, sélectionnez l’archive, vérifiez le résumé et confirmez. Les instantanés locaux restent sur l’appareil et ne remplacent pas l’export."
+        "Pour restaurer, sélectionnez l’archive, vérifiez le résumé et confirmez. Les instantanés locaux restent sur l’appareil et ne remplacent pas l’export.",
+        "L’aperçu de restauration permet de choisir « Restaurer l’apparence » séparément. Un profil non pris en charge conserve votre apparence actuelle sans empêcher la restauration de la bibliothèque. L’export séparé de l’apparence contient les réglages enregistrés, pas un brouillon."
       ],
       "pl": [
         "Utwórz i sprawdź kopię zapasową",
@@ -2025,14 +2082,14 @@
         "W ustawieniach danych wybierz kopię zapasową i miejsce przez Androida; poczekaj na weryfikację pliku. Zachowaj kopię poza tabletem.",
         "Najpierw sprawdź stan biblioteki i odzyskaj niedostępne dokumenty. Pełne archiwum zawiera dane i nie jest szyfrowane.",
         "Otwórz podgląd przywracania. Dla dopasowań wybierz Pomiń, Zachowaj oba lub połącz zgodne dane, potem potwierdź plan.",
-        "Przy przywracaniu wybierz archiwum, sprawdź podsumowanie i potwierdź. Lokalne migawki pozostają na urządzeniu i nie zastępują eksportu."
+        "Przy przywracaniu wybierz archiwum, sprawdź podsumowanie i potwierdź. Lokalne migawki pozostają na urządzeniu i nie zastępują eksportu.",
+        "Podgląd przywracania pozwala oddzielnie wybrać „Przywróć wygląd”. Nieobsługiwany profil zachowuje bieżący wygląd i nie blokuje przywrócenia biblioteki. Oddzielny eksport wyglądu zawiera zapisane ustawienia, nie szkic."
       ]
     }
   },
   {
     "id": "originals-recovery",
     "category": "data",
-    "image": "originals-recovery.png",
     "text": {
       "ru": [
         "Экспорт оригиналов и восстановление файла",
@@ -2200,7 +2257,6 @@
   {
     "id": "earlier-searches",
     "category": "settings",
-    "image": "earlier-searches.png",
     "text": {
       "ru": [
         "Старые поисковые запросы",
@@ -2285,73 +2341,188 @@
         "Язык, тема и помощь",
         "Библиотека работает без аккаунта. Язык и оформление меняются независимо от самих нот.",
         "В настройках выберите один из девяти языков или язык устройства, системную/светлую/тёмную тему. Там же находятся сведения о версии, помощь, политика конфиденциальности, права и источники.",
-        "В разделе «Оформление» настройте «Вид библиотеки» и начальный раздел. Эти настройки меняют навигацию, а не содержимое файлов.",
+        "Откройте «Цвета, фон и обложки», чтобы выбрать общую палитру и темы разделов, фон и стандартные обложки. Плитки/список и начальный раздел остаются отдельными настройками навигации.",
         "В разделе «Справка» нажмите «Руководство пользователя»: откроется этот сайт. Рядом есть поддержка; ссылки на политику, права, источники и условия открываются в браузере.",
-        "Partitoria не требует собственного аккаунта. Объяснение возможностей Pro открывается из настроек или соответствующего расширенного действия. Покупка и восстановление используют Google Play; пока магазинный выпуск готовится, платные предложения могут быть недоступны."
+        "Partitoria не требует собственного аккаунта. Объяснение возможностей Pro открывается из настроек или соответствующего расширенного действия. Покупка и восстановление используют Google Play; пока магазинный выпуск готовится, платные предложения могут быть недоступны.",
+        "«О Partitoria» открывается из настроек и нижней части боковой панели. Там показаны Partitoria: Sheet Music, версия и номер сборки; укажите их при обращении в поддержку."
       ],
       "en": [
         "Language, theme and help",
         "The library works without an account. Language and appearance do not change your scores.",
         "In Settings choose one of nine languages or the device language, plus system, light or dark theme. You can also open version details, help, privacy, rights and sources.",
-        "Under Appearance set Library view and the opening section. These change navigation, not your files.",
+        "Open “Colors, backgrounds and covers” for the app palette, section themes, background and default covers. Library view and the opening section remain separate navigation settings.",
         "Under Help choose User guide to open this site. Support is nearby; privacy, rights, sources and terms open in the browser.",
-        "Partitoria needs no separate account. Open the Pro explanation from Settings or the relevant advanced action. Purchases and restoration use Google Play; paid offers may be unavailable while the store release is being prepared."
+        "Partitoria needs no separate account. Open the Pro explanation from Settings or the relevant advanced action. Purchases and restoration use Google Play; paid offers may be unavailable while the store release is being prepared.",
+        "“About Partitoria” opens from Settings or the bottom of the sidebar. It shows Partitoria: Sheet Music, the version and build number; include these when contacting support."
       ],
       "de": [
         "Sprache, Design und Hilfe",
         "Die Bibliothek funktioniert ohne Konto. Sprache und Design ändern Ihre Noten nicht.",
         "Wählen Sie in Einstellungen eine von neun Sprachen oder die Gerätesprache sowie System-, helles oder dunkles Design. Dort finden Sie Version, Hilfe, Datenschutz, Rechte und Quellen.",
-        "Unter Erscheinungsbild stellen Sie Bibliotheksansicht und Startbereich ein. Die Dateien bleiben dabei unverändert.",
+        "Öffnen Sie „Farben, Hintergründe und Cover“ für die App-Palette, Bereichsdesigns, Hintergrund und Standardcover. Bibliotheksansicht und Startbereich bleiben eigene Navigationseinstellungen.",
         "Unter Hilfe öffnet Benutzerhandbuch diese Website. Support ist daneben; Datenschutz, Rechte, Quellen und Bedingungen öffnen im Browser.",
-        "Partitoria braucht kein eigenes Konto. Öffnen Sie die Pro-Erklärung in Einstellungen oder bei einer erweiterten Aktion. Kauf und Wiederherstellung nutzen Google Play; Angebote können während der Startvorbereitung fehlen."
+        "Partitoria braucht kein eigenes Konto. Öffnen Sie die Pro-Erklärung in Einstellungen oder bei einer erweiterten Aktion. Kauf und Wiederherstellung nutzen Google Play; Angebote können während der Startvorbereitung fehlen.",
+        "„Über Partitoria“ öffnet sich über Einstellungen oder unten in der Seitenleiste. Dort stehen Partitoria: Sheet Music, Version und Buildnummer; nennen Sie diese beim Support."
       ],
       "it": [
         "Lingua, tema e aiuto",
         "La biblioteca funziona senza account. Lingua e aspetto non cambiano gli spartiti.",
         "Nelle Impostazioni scegli una delle nove lingue o quella del dispositivo e il tema sistema, chiaro o scuro. Trovi anche versione, aiuto, privacy, diritti e fonti.",
-        "In Aspetto scegli la vista della biblioteca e la sezione iniziale. Non cambiano i file.",
+        "Apri “Colori, sfondi e copertine” per palette generale, temi delle sezioni, sfondo e copertine predefinite. Vista della biblioteca e sezione iniziale restano impostazioni di navigazione separate.",
         "In Aiuto apri la Guida utente per questo sito. Trovi anche Supporto; privacy, diritti, fonti e condizioni si aprono nel browser.",
-        "Partitoria non richiede un proprio account. Apri la spiegazione Pro dalle Impostazioni o da un’azione avanzata. Acquisto e ripristino usano Google Play; le offerte possono essere indisponibili durante la preparazione del rilascio."
+        "Partitoria non richiede un proprio account. Apri la spiegazione Pro dalle Impostazioni o da un’azione avanzata. Acquisto e ripristino usano Google Play; le offerte possono essere indisponibili durante la preparazione del rilascio.",
+        "“Informazioni su Partitoria” si apre da Impostazioni o dal fondo del pannello laterale. Mostra Partitoria: Sheet Music, versione e numero di build: comunicali all’assistenza."
       ],
       "es": [
         "Idioma, tema y ayuda",
         "La biblioteca funciona sin cuenta. Idioma y aspecto no cambian las partituras.",
         "En Ajustes elige uno de nueve idiomas o el del dispositivo y tema del sistema, claro u oscuro. También encontrarás versión, ayuda, privacidad, derechos y fuentes.",
-        "En Apariencia ajusta la vista de biblioteca y la sección inicial. Tus archivos no cambian.",
+        "Abre “Colores, fondos y portadas” para elegir paleta general, temas de secciones, fondo y portadas predeterminadas. La vista de biblioteca y la sección inicial siguen siendo ajustes de navegación separados.",
         "En Ayuda abre la Guía del usuario para llegar a este sitio. También hay Soporte; privacidad, derechos, fuentes y condiciones se abren en el navegador.",
-        "Partitoria no necesita cuenta propia. Abre la explicación Pro desde Ajustes o una acción avanzada. Compra y restauración usan Google Play; las ofertas pueden no estar disponibles mientras se prepara el lanzamiento."
+        "Partitoria no necesita cuenta propia. Abre la explicación Pro desde Ajustes o una acción avanzada. Compra y restauración usan Google Play; las ofertas pueden no estar disponibles mientras se prepara el lanzamiento.",
+        "“Acerca de Partitoria” se abre desde Ajustes o abajo en el panel lateral. Muestra Partitoria: Sheet Music, versión y número de compilación; inclúyelos al contactar con soporte."
       ],
       "pt": [
         "Idioma, tema e ajuda",
         "A biblioteca funciona sem conta. Idioma e aparência não alteram as partituras.",
         "Em Definições escolha um dos nove idiomas ou o do dispositivo e tema do sistema, claro ou escuro. Também encontra versão, ajuda, privacidade, direitos e fontes.",
-        "Em Aparência defina a vista da biblioteca e a secção inicial. Os ficheiros não mudam.",
+        "Abra “Cores, fundos e capas” para escolher a paleta geral, temas das secções, fundo e capas predefinidas. A vista da biblioteca e a secção inicial continuam a ser definições de navegação separadas.",
         "Em Ajuda abra o Guia do utilizador para este sítio. Há também suporte; privacidade, direitos, fontes e termos abrem no navegador.",
-        "A Partitoria não exige conta própria. Abra a explicação Pro em Definições ou numa ação avançada. Compra e restauro usam a Google Play; as ofertas podem estar indisponíveis durante a preparação do lançamento."
+        "A Partitoria não exige conta própria. Abra a explicação Pro em Definições ou numa ação avançada. Compra e restauro usam a Google Play; as ofertas podem estar indisponíveis durante a preparação do lançamento.",
+        "“Sobre o Partitoria” abre nas Definições ou em baixo no painel lateral. Mostra Partitoria: Sheet Music, versão e número da compilação; indique-os ao contactar o apoio."
       ],
       "uk": [
         "Мова, тема й допомога",
         "Бібліотека працює без акаунта. Мова й оформлення не змінюють нот.",
         "У налаштуваннях виберіть одну з дев’яти мов або мову пристрою, системну, світлу чи темну тему. Там є версія, допомога, приватність, права та джерела.",
-        "У розділі вигляду налаштуйте показ бібліотеки та початковий розділ. Файли від цього не змінюються.",
+        "Відкрийте «Кольори, тло й обкладинки» для загальної палітри, тем розділів, фону та стандартних обкладинок. Вигляд бібліотеки й початковий розділ залишаються окремими налаштуваннями навігації.",
         "У «Довідці» відкрийте посібник користувача — це цей сайт. Поруч підтримка; приватність, права, джерела й умови відкриваються в браузері.",
-        "Partitoria не потребує власного акаунта. Відкрийте пояснення Pro з налаштувань чи розширеної дії. Купівля й відновлення використовують Google Play; під час підготовки випуску пропозиції можуть бути недоступні."
+        "Partitoria не потребує власного акаунта. Відкрийте пояснення Pro з налаштувань чи розширеної дії. Купівля й відновлення використовують Google Play; під час підготовки випуску пропозиції можуть бути недоступні.",
+        "«Про Partitoria» відкривається з налаштувань або внизу бічної панелі. Там показано Partitoria: Sheet Music, версію й номер збірки; зазначайте їх у зверненнях до підтримки."
       ],
       "fr": [
         "Langue, thème et aide",
         "La bibliothèque fonctionne sans compte. Langue et apparence ne modifient pas les partitions.",
         "Dans Réglages, choisissez parmi neuf langues ou celle de l’appareil et le thème système, clair ou sombre. Vous y trouverez version, aide, confidentialité, droits et sources.",
-        "Dans Apparence, réglez la vue de bibliothèque et la section d’accueil. Les fichiers ne changent pas.",
+        "Ouvrez « Couleurs, fonds et couvertures » pour la palette générale, les thèmes des sections, le fond et les couvertures par défaut. Vue de la bibliothèque et section de démarrage restent des réglages de navigation distincts.",
         "Dans Aide, ouvrez le Guide utilisateur pour ce site. L’assistance est à côté ; confidentialité, droits, sources et conditions s’ouvrent dans le navigateur.",
-        "Partitoria ne nécessite pas de compte propre. Ouvrez l’explication Pro depuis Réglages ou une action avancée. Achat et restauration utilisent Google Play ; les offres peuvent être indisponibles pendant la préparation du lancement."
+        "Partitoria ne nécessite pas de compte propre. Ouvrez l’explication Pro depuis Réglages ou une action avancée. Achat et restauration utilisent Google Play ; les offres peuvent être indisponibles pendant la préparation du lancement.",
+        "« À propos de Partitoria » s’ouvre depuis Réglages ou le bas du panneau latéral. Vous y trouverez Partitoria: Sheet Music, la version et le numéro de compilation ; indiquez-les à l’assistance."
       ],
       "pl": [
         "Język, motyw i pomoc",
         "Biblioteka działa bez konta. Język i wygląd nie zmieniają nut.",
         "W Ustawieniach wybierz jeden z dziewięciu języków lub język urządzenia oraz motyw systemowy, jasny lub ciemny. Są tam też wersja, pomoc, prywatność, prawa i źródła.",
-        "W Wyglądzie ustaw widok biblioteki i sekcję początkową. Pliki się nie zmieniają.",
+        "Otwórz „Kolory, tła i okładki”, aby wybrać paletę aplikacji, motywy sekcji, tło i domyślne okładki. Widok biblioteki i sekcja początkowa pozostają oddzielnymi ustawieniami nawigacji.",
         "W Pomocy otwórz Podręcznik użytkownika prowadzący do tej strony. Jest też wsparcie; prywatność, prawa, źródła i warunki otwierają się w przeglądarce.",
-        "Partitoria nie wymaga własnego konta. Otwórz opis Pro w Ustawieniach lub przy działaniu zaawansowanym. Zakup i przywracanie używają Google Play; oferty mogą być niedostępne podczas przygotowania wydania."
+        "Partitoria nie wymaga własnego konta. Otwórz opis Pro w Ustawieniach lub przy działaniu zaawansowanym. Zakup i przywracanie używają Google Play; oferty mogą być niedostępne podczas przygotowania wydania.",
+        "„O Partitoria” otwiera się z Ustawień lub z dołu panelu bocznego. Pokazuje Partitoria: Sheet Music, wersję i numer kompilacji; podaj je, kontaktując się z pomocą."
+      ]
+    }
+  },
+  {
+    "id": "appearance",
+    "category": "settings",
+    "image": "appearance.png",
+    "text": {
+      "ru": [
+        "Цвета, фон и обложки",
+        "Оформление бесплатно и не меняет ваши нотные файлы. Начните в настройках с «Цвета, фон и обложки».",
+        "Для всего приложения выберите «Бархат», «Тушь», «Ноктюрн», «Смарагд» или «Своя». В разделе «Темы разделов» задайте другую палитру отдельному разделу либо «Как во всём приложении», чтобы следовать общей теме.",
+        "Выберите светлый, тёмный или системный режим. Режим, параметры узора и стиль стандартных обложек общие для разделов; цветовая палитра может различаться.",
+        "Фон бывает однотонным, с переплётной тканью или книжным орнаментом. Настройте выраженность и размер узора. Стандартные обложки можно подстроить под тему раздела; собственные изображения сохраняют исходные цвета.",
+        "В своей палитре выберите базовую тему, шестизначный цвет акцента HEX, например #7C2944, нейтральные, тёплые или холодные оттенки поверхностей и обычный либо повышенный контраст. Цвет текста подбирается для читаемости. Применение общей своей палитры меняет все использующие её области.",
+        "Проверьте предпросмотр и нажмите «Применить». До этого действует сохранённое оформление; выход с отказом от изменений оставляет его прежним. Импорт профиля сначала загружает предпросмотр; неподдерживаемый файл не заменяет настройки.",
+        "Экспортируйте сохранённое оформление через системное окно файлов Android. Сброс всего оформления возвращает общую тему, наследование разделов, фон и обложки в предпросмотр; подтвердите результат кнопкой «Применить».",
+        "Экран чтения остаётся нейтральным: узор не рисуется на страницах нот, полях или промежутках между ними. Это оформление интерфейса библиотеки; пользовательские обложки и сами нотные страницы не перекрашиваются."
+      ],
+      "en": [
+        "Colors, backgrounds and covers",
+        "Appearance is free and does not change your score files. Start in Settings with “Colors, backgrounds and covers”.",
+        "For the whole app choose Velvet, Ink, Nocturne, Smaragd or Custom. Under “Section themes”, choose another palette for an individual section or “Same as the whole app” to follow the app palette.",
+        "Choose light, dark or system mode. Mode, pattern settings and default-cover style apply to every section; each section can have its own palette.",
+        "Use a solid background, bookbinding cloth or bookbinding ornament. Adjust pattern intensity and size. Default covers can match the section theme; your own cover images keep their original colors.",
+        "For a custom palette select a base theme, six-digit accent HEX such as #7C2944, neutral/warm/cool surface tones, and standard/increased contrast. Text colors adapt for readability. Applying an edit to the shared custom palette updates every area using it.",
+        "Review the preview and choose Apply. Saved appearance stays active until then; leaving and discarding changes preserves it. Import first loads a profile into the preview; an unsupported file does not replace your settings.",
+        "Export saved appearance through Android’s file picker. Reset all appearance restores the default palette, section inheritance, background and covers in the preview; choose Apply to save the reset.",
+        "Reading remains neutral: patterns do not cover score pages, margins or gaps between pages. These controls style the library interface; neither your own covers nor musical pages are recolored."
+      ],
+      "de": [
+        "Farben, Hintergründe und Cover",
+        "Die Gestaltung ist kostenlos und ändert Ihre Notendateien nicht. Beginnen Sie in Einstellungen mit „Farben, Hintergründe und Cover“.",
+        "Wählen Sie für die ganze App Samt, Tinte, Nachtstück, Smaragd oder Eigene. Unter „Themen der Bereiche“ wählen Sie eine andere Palette je Bereich oder „Wie in der gesamten App“ für die gemeinsame App-Palette.",
+        "Wählen Sie den hellen, dunklen oder Systemmodus. Modus, Muster und Standardcover-Stil gelten für alle Bereiche; die Farbpalette darf je Bereich abweichen.",
+        "Nutzen Sie einen einfarbigen Hintergrund, Buchleinen oder ein Buchornament. Passen Sie Musterstärke und -größe an. Standardcover können dem Bereichsdesign folgen; eigene Coverbilder behalten ihre Farben.",
+        "Wählen Sie für die eigene Palette ein Grunddesign, eine sechsstellige HEX-Akzentfarbe wie #7C2944, neutrale/warme/kühle Flächentöne und normalen/erhöhten Kontrast. Textfarben passen sich für gute Lesbarkeit an. Eine Änderung der gemeinsamen eigenen Palette betrifft alle Bereiche, die sie verwenden.",
+        "Prüfen Sie die Vorschau und wählen Sie Anwenden. Bis dahin bleibt die gespeicherte Gestaltung aktiv; Verwerfen erhält sie. Ein Profilimport öffnet zuerst die Vorschau; eine nicht unterstützte Datei ersetzt keine Einstellungen.",
+        "Exportieren Sie die gespeicherte Gestaltung über Androids Dateiauswahl. Alles zurücksetzen stellt Standardpalette, Vererbung, Hintergrund und Cover in der Vorschau wieder her; speichern Sie mit Anwenden.",
+        "Der Lesebereich bleibt neutral: kein Muster auf Notenseiten, Rändern oder Seitenzwischenräumen. Die Gestaltung betrifft die Bibliotheksoberfläche; eigene Cover und Notenseiten werden nicht umgefärbt."
+      ],
+      "it": [
+        "Colori, sfondi e copertine",
+        "L’aspetto è gratuito e non modifica i file degli spartiti. Inizia da Impostazioni → “Colori, sfondi e copertine”.",
+        "Per tutta l’app scegli Velluto, Inchiostro, Notturno, Smeraldo o Personale. In “Temi delle sezioni” imposta una palette per ogni sezione oppure “Come nel resto dell’app” per seguire quella generale.",
+        "Scegli modalità chiara, scura o di sistema. Modalità, motivo e stile delle copertine predefinite valgono per tutte le sezioni; la palette può essere diversa.",
+        "Usa uno sfondo uniforme, tela da rilegatura o ornamento da libro. Regola intensità e dimensione del motivo. Le copertine predefinite possono seguire il tema della sezione; le immagini personali conservano i colori originali.",
+        "Per la palette personale scegli tema di base, colore HEX a sei cifre come #7C2944, toni neutri/caldi/freddi e contrasto normale/aumentato. I colori del testo si adattano alla leggibilità. Modificare la palette personale condivisa aggiorna tutte le aree che la usano.",
+        "Controlla l’anteprima e premi Applica. Fino ad allora resta attivo l’aspetto salvato; uscire scartando le modifiche lo conserva. Importa carica prima il profilo nell’anteprima; un file non supportato non sostituisce le impostazioni.",
+        "Esporta l’aspetto salvato con il selettore Android. Ripristina tutto riporta palette, ereditarietà, sfondo e copertine predefiniti nell’anteprima; premi Applica per salvare.",
+        "La lettura resta neutra: nessun motivo su spartiti, margini o spazi tra pagine. Queste opzioni riguardano la biblioteca; copertine personali e pagine musicali non vengono ricolorate."
+      ],
+      "es": [
+        "Colores, fondos y portadas",
+        "El aspecto es gratuito y no modifica los archivos de partituras. Empieza en Ajustes → “Colores, fondos y portadas”.",
+        "Para toda la app elige Terciopelo, Tinta, Nocturno, Esmeralda o Personalizado. En “Temas de las secciones” elige otra paleta para cada sección o “Como en toda la aplicación” para seguir la general.",
+        "Elige modo claro, oscuro o del sistema. Modo, patrón y estilo de portadas predeterminadas se aplican a todas las secciones; las paletas pueden variar.",
+        "Usa fondo liso, tela de encuadernación u ornamento de libro. Ajusta intensidad y tamaño del patrón. Las portadas predeterminadas pueden seguir el tema de la sección; tus imágenes conservan sus colores originales.",
+        "Para una paleta propia elige tema base, color HEX de seis cifras como #7C2944, tonos neutros/cálidos/fríos y contraste normal/aumentado. El texto adapta sus colores para facilitar la lectura. Cambiar la paleta propia compartida actualiza todas las áreas que la usan.",
+        "Revisa la vista previa y pulsa Aplicar. Hasta entonces sigue activo el aspecto guardado; salir descartando cambios lo conserva. Importar carga primero el perfil en la vista previa; un archivo no compatible no sustituye los ajustes.",
+        "Exporta el aspecto guardado con el selector Android. Restablecer todo devuelve paleta, herencia, fondo y portadas predeterminados a la vista previa; pulsa Aplicar para guardar.",
+        "La lectura permanece neutra: ningún patrón sobre páginas, márgenes o espacios entre ellas. Estas opciones cambian la interfaz de biblioteca; tus portadas y las páginas musicales no se recolorean."
+      ],
+      "pt": [
+        "Cores, fundos e capas",
+        "O aspeto é gratuito e não altera os ficheiros das partituras. Comece em Definições → “Cores, fundos e capas”.",
+        "Para toda a aplicação escolha Veludo, Tinta, Noturno, Esmeralda ou Personalizado. Em “Temas das secções”, escolha outra paleta para uma secção ou “Como em toda a aplicação” para seguir a geral.",
+        "Escolha modo claro, escuro ou do sistema. Modo, padrão e estilo das capas predefinidas aplicam-se a todas as secções; a paleta pode variar.",
+        "Use fundo liso, tecido de encadernação ou ornamento de livro. Ajuste intensidade e tamanho do padrão. As capas predefinidas podem seguir o tema da secção; as suas imagens mantêm as cores originais.",
+        "Numa paleta própria escolha tema base, cor HEX de seis algarismos como #7C2944, tons neutros/quentes/frios e contraste normal/aumentado. O texto adapta as cores à legibilidade. Alterar a paleta própria partilhada atualiza todas as áreas que a usam.",
+        "Reveja a pré-visualização e prima Aplicar. Até lá mantém-se o aspeto guardado; sair descartando alterações preserva-o. Importar carrega primeiro o perfil na pré-visualização; um ficheiro não suportado não substitui definições.",
+        "Exporte o aspeto guardado pelo seletor Android. Repor tudo devolve paleta, herança, fundo e capas predefinidos à pré-visualização; prima Aplicar para guardar.",
+        "A leitura mantém-se neutra: sem padrão nas páginas, margens ou espaços entre elas. Estas opções alteram a biblioteca; as capas próprias e páginas musicais não são recoloridas."
+      ],
+      "uk": [
+        "Кольори, фон та обкладинки",
+        "Оформлення безкоштовне й не змінює нотних файлів. Почніть у налаштуваннях з «Кольори, тло й обкладинки».",
+        "Для всього застосунку виберіть «Оксамит», «Туш», «Ноктюрн», «Смарагд» або «Власна». У «Теми розділів» задайте палітру розділу або «Як у всьому застосунку», щоб наслідувати загальну.",
+        "Виберіть світлий, темний або системний режим. Режим, параметри візерунка й стиль стандартних обкладинок спільні для розділів; палітра може відрізнятися.",
+        "Фон буває однотонним, з палітурною тканиною або книжковим орнаментом. Налаштуйте виразність і розмір візерунка. Стандартні обкладинки можуть підлаштовуватися під тему розділу; власні зображення зберігають кольори.",
+        "Для власної палітри виберіть основу, шестизначний колір HEX, наприклад #7C2944, нейтральні/теплі/холодні відтінки поверхонь та звичайний/підвищений контраст. Колір тексту добирається для читабельності. Зміна спільної власної палітри оновлює всі області, що її використовують.",
+        "Перевірте попередній перегляд і натисніть «Застосувати». До цього діє збережене оформлення; вихід зі скасуванням змін його зберігає. Імпорт спочатку завантажує профіль у перегляд; непідтримуваний файл не замінює налаштувань.",
+        "Експортуйте збережене оформлення через вибір файлів Android. Повне скидання повертає стандартну палітру, наслідування, фон та обкладинки в перегляд; збережіть кнопкою «Застосувати».",
+        "Екран читання нейтральний: візерунок не накладається на ноти, поля чи проміжки між сторінками. Це оформлення бібліотеки; власні обкладинки та нотні сторінки не перефарбовуються."
+      ],
+      "fr": [
+        "Couleurs, fonds et couvertures",
+        "L’apparence est gratuite et ne modifie pas vos fichiers de partitions. Commencez dans Réglages avec « Couleurs, fonds et couvertures ».",
+        "Pour toute l’application, choisissez Velours, Encre, Nocturne, Émeraude ou Personnel. Sous « Thèmes des sections », choisissez une autre palette par section ou « Comme dans toute l’application » pour suivre la palette générale.",
+        "Choisissez le mode clair, sombre ou système. Mode, motif et style des couvertures par défaut s’appliquent à toutes les sections ; la palette peut varier.",
+        "Utilisez un fond uni, une toile de reliure ou un ornement de livre. Réglez intensité et taille du motif. Les couvertures par défaut peuvent suivre le thème ; vos propres images conservent leurs couleurs.",
+        "Pour une palette personnelle, choisissez une base, une couleur HEX à six chiffres comme #7C2944, des tons neutres/chauds/froids et un contraste normal/renforcé. Les couleurs du texte s’adaptent à la lisibilité. Modifier la palette personnelle commune met à jour toutes les zones qui l’utilisent.",
+        "Vérifiez l’aperçu puis choisissez Appliquer. L’apparence enregistrée reste active jusque-là ; quitter en abandonnant les changements la conserve. L’import charge d’abord le profil dans l’aperçu ; un fichier non pris en charge ne remplace pas les réglages.",
+        "Exportez l’apparence enregistrée avec le sélecteur Android. La réinitialisation complète remet palette, héritage, fond et couvertures par défaut dans l’aperçu ; choisissez Appliquer pour enregistrer.",
+        "La lecture reste neutre : aucun motif sur les partitions, marges ou espaces entre pages. Ces options habillent la bibliothèque ; vos couvertures et les pages musicales ne sont pas recolorées."
+      ],
+      "pl": [
+        "Kolory, tła i okładki",
+        "Wygląd jest bezpłatny i nie zmienia plików nut. Zacznij w Ustawieniach od „Kolory, tła i okładki”.",
+        "Dla całej aplikacji wybierz Aksamit, Tusz, Nokturn, Szmaragd lub Własny. W „Motywy sekcji” wybierz paletę sekcji albo „Jak w całej aplikacji”, by dziedziczyć ogólną.",
+        "Wybierz tryb jasny, ciemny lub systemowy. Tryb, wzór i styl domyślnych okładek dotyczą wszystkich sekcji; paleta może się różnić.",
+        "Użyj jednolitego tła, płótna introligatorskiego lub ornamentu książkowego. Ustaw intensywność i rozmiar wzoru. Domyślne okładki mogą pasować do motywu sekcji; własne obrazy zachowują oryginalne kolory.",
+        "Dla własnej palety wybierz podstawę, sześciocyfrowy kolor HEX, np. #7C2944, neutralne/ciepłe/chłodne odcienie powierzchni i zwykły/podwyższony kontrast. Kolory tekstu dostosowują się do czytelności. Zmiana wspólnej własnej palety obejmuje wszystkie używające jej obszary.",
+        "Sprawdź podgląd i wybierz Zastosuj. Do tego czasu działa zapisany wygląd; wyjście z odrzuceniem zmian go zachowuje. Import najpierw ładuje profil do podglądu; nieobsługiwany plik nie zastępuje ustawień.",
+        "Eksportuj zapisany wygląd przez wybór plików Androida. Reset całości przywraca domyślną paletę, dziedziczenie, tło i okładki w podglądzie; zapisz przyciskiem Zastosuj.",
+        "Czytanie pozostaje neutralne: bez wzorów na nutach, marginesach i przerwach między stronami. Opcje dotyczą biblioteki; własne okładki i strony muzyczne nie są ponownie kolorowane."
       ]
     }
   },
@@ -2369,7 +2540,8 @@
         "Подходящему новому подписчику Google Play предлагает один календарный месяц полного Pro. Это магазинный месяц, а не 30 дней по таймеру приложения. После него списывается полная цена выбранного срока, и подписка продлевается автоматически, если её не отменить. Доступность и точные даты определяет Google Play; смена срока, переустановка или другое устройство не дают повторный trial.",
         "Отмена останавливает продление: доступ сохраняется до подтверждённой магазином даты окончания оплаченного или пробного периода, если покупка не возвращена или не отозвана. Покупка требует вашего подтверждения в Google Play. Отмените подписку в разделе «Платежи и подписки → Подписки» до следующего списания. Удаление приложения не отменяет подписку. Восстановление использует тот же Google-аккаунт; при проблеме с оплатой или возвратом действуют правила Google Play. Сохранённые ноты, пометки, программы и записи остаются доступны для чтения, экспорта, удаления и восстановления после окончания Pro.",
         "После проверки покупки Pro действует офлайн по подписанному разрешению до 7 дней, но не дольше подтверждённого магазином срока доступа. Примерно через сутки после последней проверки приложение может попытаться обновить разрешение, когда оно открыто, есть сеть и доступны сервисы Google Play. Время успешной проверки зависит от их доступности; ежедневное или фоновое обновление не гарантируется. Обновите доступ перед длительной поездкой или выступлением. Уже начатое разрешённое исполнение не прерывается из-за временной недоступности сервиса; после окончания разрешения для новых Pro-действий понадобится проверка. Free-библиотека остаётся офлайн.",
-        "Импорт, обычные сведения, теги и коллекции, локальный поиск и чтение, восстановление, экспорт оригиналов и полные ручные резервные копии остаются бесплатными. Аккаунт Partitoria не нужен."
+        "Импорт, обычные сведения, теги и коллекции, локальный поиск и чтение, восстановление, экспорт оригиналов и полные ручные резервные копии остаются бесплатными. Аккаунт Partitoria не нужен.",
+        "Обычное оформление, включая палитры разделов, фон и обложки, остаётся Free. Если Pro предоставлен бесплатно, приложение показывает обычный Partitoria Pro; сохранённые материалы доступны и после окончания такого права."
       ],
       "en": [
         "Pro subscriptions and your data",
@@ -2380,7 +2552,8 @@
         "Eligible new subscribers can receive one calendar month of full Pro through Google Play. This is a store-managed month, not an app timer counting 30 days. The full selected-period price is charged afterwards and renews automatically unless cancelled. Google Play determines eligibility and exact dates; changing plans, reinstalling or using another device does not create another trial.",
         "Cancellation stops renewal: access continues until the store-confirmed end of the paid or trial period unless the purchase is refunded or revoked. A purchase requires your confirmation in Google Play. Cancel under Payments and subscriptions → Subscriptions before the next charge. Uninstalling does not cancel a subscription. Restore with the same Google account; payment issues and refunds follow Google Play rules. Saved scores, annotations, programmes and recordings remain readable, exportable, deletable and recoverable after Pro ends.",
         "After purchase verification, a signed Pro licence works offline for up to 7 days, capped by the access period confirmed by the store. About 24 hours after the last check, the app may attempt a refresh while open, with internet and Google Play services available. Successful timing depends on their availability; daily or background refresh is not guaranteed. Refresh before a long trip or performance. An admitted performance is not interrupted by a temporary service outage; new Pro actions need verification after the licence expires. Your Free library stays offline.",
-        "Import, ordinary metadata, tags and collections, local search and reading, recovery, original export and complete manual backups stay free. No Partitoria account is needed."
+        "Import, ordinary metadata, tags and collections, local search and reading, recovery, original export and complete manual backups stay free. No Partitoria account is needed.",
+        "Ordinary appearance, including section palettes, backgrounds and covers, stays Free. If Pro is provided without charge, the app shows the same Partitoria Pro; saved material remains available after that access ends."
       ],
       "de": [
         "Pro-Abonnements und Ihre Daten",
@@ -2391,7 +2564,8 @@
         "Berechtigte neue Abonnenten können einen Kalendermonat vollständiges Pro über Google Play erhalten. Es gilt der Store-Monat, kein App-Timer für 30 Tage. Danach wird der volle Laufzeitpreis berechnet; das Abonnement verlängert sich automatisch, sofern es nicht gekündigt wird. Google Play bestimmt Berechtigung und genaue Termine. Ein Planwechsel, eine Neuinstallation oder ein anderes Gerät erzeugt keinen weiteren Testzeitraum.",
         "Die Kündigung stoppt die Verlängerung: Der Zugang bleibt bis zum bestätigten Ende des bezahlten oder Testzeitraums, sofern der Kauf nicht erstattet oder widerrufen wird. Ein Kauf erfordert Ihre Bestätigung in Google Play. Kündigen Sie vor der nächsten Zahlung unter Zahlungen und Abos → Abos. Deinstallation kündigt nicht. Stellen Sie Käufe mit demselben Google-Konto wieder her; für Zahlungsprobleme und Erstattungen gelten die Google-Play-Regeln. Gespeicherte Noten, Anmerkungen, Programme und Aufnahmen bleiben nach Pro lesbar, exportierbar, löschbar und wiederherstellbar.",
         "Nach der Kaufprüfung gilt die signierte Pro-Lizenz offline bis zu 7 Tage, höchstens bis zum bestätigten Ende des Store-Zugangs. Etwa 24 Stunden nach der letzten Prüfung kann die geöffnete App eine Aktualisierung versuchen, wenn Internet und Google-Play-Dienste verfügbar sind. Der erfolgreiche Zeitpunkt hängt von ihrer Verfügbarkeit ab; tägliche oder Hintergrundaktualisierung ist nicht garantiert. Aktualisieren Sie vor einer längeren Reise oder Aufführung. Eine begonnene berechtigte Aufführung wird durch einen vorübergehenden Ausfall nicht unterbrochen; nach Lizenzablauf brauchen neue Pro-Aktionen eine Prüfung. Die kostenlose Bibliothek bleibt offline.",
-        "Import, normale Metadaten, Tags und Sammlungen, lokale Suche und Lesen, Wiederherstellung, Originalexport und vollständige manuelle Sicherungen bleiben kostenlos. Ein Partitoria-Konto ist nicht nötig."
+        "Import, normale Metadaten, Tags und Sammlungen, lokale Suche und Lesen, Wiederherstellung, Originalexport und vollständige manuelle Sicherungen bleiben kostenlos. Ein Partitoria-Konto ist nicht nötig.",
+        "Gewöhnliche Gestaltung mit Bereichspaletten, Hintergründen und Covern bleibt Free. Bei kostenfrei bereitgestelltem Pro zeigt die App ebenfalls Partitoria Pro; gespeicherte Inhalte bleiben nach Ende dieses Zugangs verfügbar."
       ],
       "it": [
         "Abbonamenti Pro e i tuoi dati",
@@ -2402,7 +2576,8 @@
         "I nuovi abbonati idonei possono ricevere un mese di calendario di Pro completo tramite Google Play. È un mese gestito dallo store, non un timer di 30 giorni dell’app. Poi viene addebitato il prezzo totale della durata scelta, con rinnovo automatico salvo disdetta. Google Play stabilisce idoneità e date esatte; cambiare piano, reinstallare o usare un altro dispositivo non concede un’altra prova.",
         "La disdetta ferma il rinnovo: l’accesso continua fino alla scadenza confermata del periodo pagato o di prova, salvo rimborso o revoca. L’acquisto richiede la tua conferma in Google Play. Disdici in Pagamenti e abbonamenti → Abbonamenti prima dell’addebito successivo. Disinstallare non annulla l’abbonamento. Ripristina con lo stesso account Google; per pagamenti e rimborsi valgono le regole di Google Play. Spartiti, annotazioni, programmi e registrazioni salvati restano leggibili, esportabili, eliminabili e recuperabili dopo Pro.",
         "Dopo la verifica dell’acquisto, la licenza Pro firmata funziona offline fino a 7 giorni, senza superare il periodo confermato dallo store. Circa 24 ore dopo l’ultima verifica, l’app aperta può tentare un aggiornamento con internet e servizi Google Play disponibili. Il momento della verifica riuscita dipende dalla loro disponibilità; un aggiornamento quotidiano o in background non è garantito. Aggiornala prima di un viaggio lungo o un concerto. Un’esecuzione già autorizzata non si interrompe per un guasto temporaneo del servizio; dopo la scadenza, le nuove azioni Pro richiedono una verifica. La biblioteca Free resta offline.",
-        "Importazione, metadati ordinari, tag e raccolte, ricerca e lettura locali, recupero, esportazione degli originali e backup manuali completi restano gratuiti. Non serve un account Partitoria."
+        "Importazione, metadati ordinari, tag e raccolte, ricerca e lettura locali, recupero, esportazione degli originali e backup manuali completi restano gratuiti. Non serve un account Partitoria.",
+        "L’aspetto ordinario, comprese palette delle sezioni, sfondi e copertine, resta Free. Se Pro viene fornito gratuitamente, compare lo stesso Partitoria Pro; i materiali salvati restano disponibili alla fine dell’accesso."
       ],
       "es": [
         "Suscripciones Pro y tus datos",
@@ -2413,7 +2588,8 @@
         "Los nuevos suscriptores elegibles pueden recibir un mes natural de Pro completo mediante Google Play. Es un mes gestionado por la tienda, no un temporizador de 30 días en la app. Después se cobra el precio total del periodo elegido y se renueva automáticamente salvo cancelación. Google Play determina la elegibilidad y las fechas; cambiar de plan, reinstalar o usar otro dispositivo no concede otra prueba.",
         "Cancelar detiene la renovación: el acceso continúa hasta el final confirmado del periodo pagado o de prueba, salvo reembolso o revocación. La compra requiere tu confirmación en Google Play. Cancela en Pagos y suscripciones → Suscripciones antes del siguiente cargo. Desinstalar no cancela la suscripción. Restaura con la misma cuenta de Google; los pagos y reembolsos siguen las normas de Google Play. Las partituras, anotaciones, programas y grabaciones guardados se pueden leer, exportar, borrar y recuperar tras finalizar Pro.",
         "Tras verificar la compra, la licencia Pro firmada funciona sin conexión hasta 7 días, sin superar el periodo de acceso confirmado por la tienda. Unas 24 horas después de la última comprobación, la app abierta puede intentar actualizar con internet y servicios Google Play disponibles. El momento de la verificación depende de su disponibilidad; no se garantiza actualización diaria ni en segundo plano. Actualízala antes de un viaje largo o concierto. Una interpretación ya autorizada no se interrumpe por una caída temporal del servicio; tras caducar, las nuevas acciones Pro requieren verificación. La biblioteca Free sigue sin conexión.",
-        "La importación, los metadatos habituales, etiquetas y colecciones, búsqueda y lectura locales, recuperación, exportación de originales y copias manuales completas siguen siendo gratuitos. No necesitas una cuenta Partitoria."
+        "La importación, los metadatos habituales, etiquetas y colecciones, búsqueda y lectura locales, recuperación, exportación de originales y copias manuales completas siguen siendo gratuitos. No necesitas una cuenta Partitoria.",
+        "El aspecto habitual, incluidas paletas por sección, fondos y portadas, sigue siendo Free. Si se proporciona Pro gratuitamente, aparece el mismo Partitoria Pro; el material guardado sigue disponible al terminar ese acceso."
       ],
       "pt": [
         "Subscrições Pro e os seus dados",
@@ -2424,7 +2600,8 @@
         "Novos subscritores elegíveis podem receber um mês de calendário de Pro completo pela Google Play. É um mês gerido pela loja, não um temporizador de 30 dias da aplicação. Depois cobra-se o preço total do período escolhido, com renovação automática salvo cancelamento. A Google Play determina elegibilidade e datas; mudar de plano, reinstalar ou usar outro dispositivo não dá outro teste.",
         "Cancelar impede a renovação: o acesso continua até ao fim confirmado do período pago ou de teste, salvo reembolso ou revogação. A compra exige a sua confirmação na Google Play. Cancele em Pagamentos e subscrições → Subscrições antes da próxima cobrança. Desinstalar não cancela a subscrição. Restaure com a mesma conta Google; pagamentos e reembolsos seguem as regras da Google Play. Partituras, anotações, programas e gravações guardados continuam legíveis, exportáveis, apagáveis e recuperáveis depois de Pro.",
         "Após a verificação da compra, a licença Pro assinada funciona sem ligação até 7 dias, sem ultrapassar o período confirmado pela loja. Cerca de 24 horas após a última verificação, a aplicação aberta pode tentar atualizar com internet e serviços Google Play disponíveis. O momento da verificação bem-sucedida depende da disponibilidade; não se garante atualização diária ou em segundo plano. Atualize antes de uma viagem longa ou concerto. Uma atuação já autorizada não se interrompe por uma falha temporária do serviço; depois da validade, novas ações Pro exigem verificação. A biblioteca Free continua offline.",
-        "Importação, metadados habituais, etiquetas e coleções, pesquisa e leitura locais, recuperação, exportação de originais e cópias manuais completas continuam gratuitos. Não precisa de conta Partitoria."
+        "Importação, metadados habituais, etiquetas e coleções, pesquisa e leitura locais, recuperação, exportação de originais e cópias manuais completas continuam gratuitos. Não precisa de conta Partitoria.",
+        "O aspeto normal, incluindo paletas por secção, fundos e capas, continua Free. Se Pro for fornecido gratuitamente, surge o mesmo Partitoria Pro; os materiais guardados continuam disponíveis depois desse acesso terminar."
       ],
       "uk": [
         "Підписка Pro й ваші дані",
@@ -2435,7 +2612,8 @@
         "Новим підписникам, які відповідають умовам Google Play, доступний один календарний місяць повного Pro. Це магазинний місяць, а не таймер застосунку на 30 днів. Потім списується повна ціна обраного строку з автоматичним продовженням, якщо не скасувати. Google Play визначає право й точні дати; зміна строку, перевстановлення або інший пристрій не дають повторної проби.",
         "Скасування зупиняє продовження: доступ зберігається до підтвердженого кінця оплаченого чи пробного періоду, якщо купівлю не повернено чи відкликано. Купівля потребує вашого підтвердження в Google Play. Скасуйте в «Платежі й підписки → Підписки» до наступного списання. Видалення застосунку не скасовує підписку. Відновіть із тим самим Google-акаунтом; щодо платежів і повернень діють правила Google Play. Збережені ноти, помітки, програми й записи залишаються доступними для читання, експорту, видалення й відновлення після Pro.",
         "Після перевірки купівлі підписаний дозвіл Pro працює офлайн до 7 днів, але не довше підтвердженого магазином строку. Приблизно через 24 години після останньої перевірки відкритий застосунок може спробувати оновити дозвіл за наявності мережі й сервісів Google Play. Час успішної перевірки залежить від їхньої доступності; щоденне чи фонове оновлення не гарантується. Оновіть перед довгою поїздкою або виступом. Уже дозволене виконання не переривається через тимчасову недоступність сервісу; після завершення дозволу нові Pro-дії потребують перевірки. Free-бібліотека залишається офлайн.",
-        "Імпорт, звичайні метадані, теги й колекції, локальні пошук і читання, відновлення, експорт оригіналів і повні ручні резервні копії залишаються безкоштовними. Акаунт Partitoria не потрібен."
+        "Імпорт, звичайні метадані, теги й колекції, локальні пошук і читання, відновлення, експорт оригіналів і повні ручні резервні копії залишаються безкоштовними. Акаунт Partitoria не потрібен.",
+        "Звичайне оформлення, зокрема палітри розділів, фон та обкладинки, залишається Free. Якщо Pro надано безкоштовно, показано звичайний Partitoria Pro; збережені матеріали доступні після завершення такого права."
       ],
       "fr": [
         "Abonnements Pro et vos données",
@@ -2446,7 +2624,8 @@
         "Les nouveaux abonnés éligibles peuvent obtenir un mois civil de Pro complet via Google Play. Il s’agit d’un mois géré par la boutique, pas d’un compteur de 30 jours dans l’application. Le prix total de la durée choisie est ensuite facturé, avec renouvellement automatique sauf résiliation. Google Play fixe l’éligibilité et les dates ; changer de formule, réinstaller ou utiliser un autre appareil ne crée pas un nouvel essai.",
         "La résiliation arrête le renouvellement : l’accès continue jusqu’à la fin confirmée de la période payée ou d’essai, sauf remboursement ou révocation. L’achat exige votre confirmation dans Google Play. Résiliez dans Paiements et abonnements → Abonnements avant le prochain prélèvement. Désinstaller ne résilie pas. Restaurez avec le même compte Google ; paiements et remboursements suivent les règles de Google Play. Partitions, annotations, programmes et enregistrements sauvegardés restent lisibles, exportables, supprimables et récupérables après Pro.",
         "Après vérification de l’achat, la licence Pro signée fonctionne hors connexion jusqu’à 7 jours, sans dépasser la période confirmée par la boutique. Environ 24 heures après la dernière vérification, l’application ouverte peut tenter une actualisation avec internet et les services Google Play disponibles. Le moment de réussite dépend de leur disponibilité ; une actualisation quotidienne ou en arrière-plan n’est pas garantie. Actualisez avant un long voyage ou un concert. Une exécution déjà autorisée n’est pas interrompue par une panne temporaire du service ; après expiration, les nouvelles actions Pro nécessitent une vérification. La bibliothèque Free reste hors connexion.",
-        "Importation, métadonnées ordinaires, étiquettes et collections, recherche et lecture locales, récupération, export des originaux et sauvegardes manuelles complètes restent gratuits. Aucun compte Partitoria n’est nécessaire."
+        "Importation, métadonnées ordinaires, étiquettes et collections, recherche et lecture locales, récupération, export des originaux et sauvegardes manuelles complètes restent gratuits. Aucun compte Partitoria n’est nécessaire.",
+        "L’apparence ordinaire, dont palettes par section, fonds et couvertures, reste Free. Si Pro est fourni gratuitement, le même Partitoria Pro s’affiche ; les éléments enregistrés restent accessibles à la fin de cet accès."
       ],
       "pl": [
         "Subskrypcje Pro i Twoje dane",
@@ -2457,14 +2636,14 @@
         "Uprawnieni nowi subskrybenci mogą otrzymać jeden miesiąc kalendarzowy pełnego Pro przez Google Play. To miesiąc zarządzany przez sklep, a nie licznik 30 dni w aplikacji. Następnie pobierana jest pełna cena wybranego okresu z automatycznym odnowieniem, chyba że anulujesz. Google Play określa uprawnienia i daty; zmiana planu, ponowna instalacja lub inne urządzenie nie dają kolejnej próby.",
         "Anulowanie zatrzymuje odnowienie: dostęp trwa do potwierdzonego końca okresu płatnego lub próbnego, chyba że zakup zostanie zwrócony lub cofnięty. Zakup wymaga Twojego potwierdzenia w Google Play. Anuluj w Płatności i subskrypcje → Subskrypcje przed kolejną opłatą. Odinstalowanie nie anuluje subskrypcji. Przywróć z tym samym kontem Google; płatności i zwroty podlegają zasadom Google Play. Zapisane nuty, adnotacje, programy i nagrania pozostają dostępne do czytania, eksportu, usunięcia i odzyskania po Pro.",
         "Po weryfikacji zakupu podpisana licencja Pro działa offline do 7 dni, nie dłużej niż okres potwierdzony przez sklep. Około 24 godziny po ostatnim sprawdzeniu otwarta aplikacja może próbować odświeżenia, gdy internet i usługi Google Play są dostępne. Termin udanej weryfikacji zależy od ich dostępności; codzienne ani działające w tle odświeżanie nie jest gwarantowane. Odśwież przed długą podróżą lub występem. Rozpoczęty uprawniony występ nie zostaje przerwany przez chwilową awarię usługi; po wygaśnięciu nowe działania Pro wymagają weryfikacji. Biblioteka Free pozostaje offline.",
-        "Import, zwykłe metadane, tagi i kolekcje, lokalne wyszukiwanie i czytanie, odzyskiwanie, eksport oryginałów i pełne ręczne kopie pozostają bezpłatne. Konto Partitoria nie jest potrzebne."
+        "Import, zwykłe metadane, tagi i kolekcje, lokalne wyszukiwanie i czytanie, odzyskiwanie, eksport oryginałów i pełne ręczne kopie pozostają bezpłatne. Konto Partitoria nie jest potrzebne.",
+        "Zwykły wygląd, w tym palety sekcji, tła i okładki, pozostaje Free. Jeśli Pro udostępniono bezpłatnie, aplikacja pokazuje to samo Partitoria Pro; zapisane materiały pozostają dostępne po zakończeniu tego dostępu."
       ]
     }
   },
   {
     "id": "online-privacy",
     "category": "settings",
-    "image": "online-privacy.png",
     "text": {
       "ru": [
         "Онлайн-поиск и конфиденциальность",

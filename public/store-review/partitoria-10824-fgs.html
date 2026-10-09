@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Partitoria 10824: foreground-service review context</title>
+  <meta name="description" content="Current Partitoria foreground-service explanation with an explicitly historical demonstration of the unchanged service workflows.">
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+    body { margin: 0 auto; max-width: 900px; padding: 24px; }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: 1.7rem; }
+    h2 { margin-top: 2rem; font-size: 1.35rem; }
+    h3 { margin-top: 1.5rem; font-size: 1.1rem; }
+    video { display: block; width: 100%; max-height: 75vh; background: #181818; }
+    a { color: inherit; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    .context { border-left: 3px solid currentColor; padding-left: 16px; }
+    li + li { margin-top: 8px; }
+    code { overflow-wrap: anywhere; }
+    footer { margin-top: 32px; border-top: 1px solid currentColor; padding-top: 16px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Partitoria 10824: foreground-service review context</h1>
+    <p>This page describes the two <code>dataSync</code> foreground-service workflows
+      in Partitoria 1.8.0 (10824). Updated 9 October 2026.</p>
+    <div class="context">
+      <p><strong>The embedded video was recorded with build 10764 on 30 September
+        2026. It is not a recording of build 10824.</strong> It demonstrates the
+        import and interrupted manual backup/restore workflows whose service
+        classes and launch/recovery conditions remain unchanged in 10824.</p>
+      <p>The current interface and backup contents have evolved, including appearance
+        settings. This video does not verify every current backup/restore behavior,
+        purchases, subscriptions, access codes, Google Play installation, or release
+        approval.</p>
+    </div>
+    <p><a href="#en">English explanation</a> · <a href="#ru" lang="ru">Описание по-русски</a> ·
+      <a href="partitoria-free-10764-fgs.html">Original recording and full provenance</a></p>
+
+    <section id="video" aria-labelledby="video-title">
+      <h2 id="video-title">Historical workflow demonstration — build 10764</h2>
+      <video controls playsinline preload="metadata" aria-label="Historical Partitoria 10764 import and interrupted backup and restore demonstration">
+        <source src="partitoria-free-10764-fgs.mp4" type="video/mp4">
+        <p><a href="partitoria-free-10764-fgs.mp4">Open the historical MP4</a></p>
+      </video>
+      <ol>
+        <li id="import"><a href="partitoria-free-10764-fgs.mp4#t=0">0:00 — Import</a></li>
+        <li id="backup-recovery"><a href="partitoria-free-10764-fgs.mp4#t=115">1:55 — Recovery of an interrupted manual backup</a></li>
+        <li id="restore-recovery"><a href="partitoria-free-10764-fgs.mp4#t=185">3:05 — Recovery of interrupted restore verification</a></li>
+      </ol>
+      <p>The 5:40 recording uses self-authored CC0 demonstration scores on a
+        disposable diagnostic installation on a TABWEE W90. Its manifest identity
+        differs from the public package. A separate local document provider adds
+        disclosed I/O delays to make progress visible. It is not part of the
+        published app. Operator pauses were removed without changing playback
+        speed. These conditions belong to the historical recording; they do not
+        describe the current public installation.</p>
+      <p>The original video bytes are unchanged: 4,855,131 bytes; SHA-256
+        <code>c9d18509a1e04be9faf574d49bfdaa0e8331786a42a59ecd5c9145c1071b3b76</code>.</p>
+    </section>
+
+    <section id="en" lang="en" aria-labelledby="en-title">
+      <h2 id="en-title">Current workflows in build 10824</h2>
+      <h3>1. User-selected score import</h3>
+      <p>From My library, choose <strong>Add scores → Files</strong>, select files in
+        Android’s file picker and start the import when a selection review is
+        shown. The import coordinator copies and validates the selected files.
+        <code>ImportForegroundService</code> supplies the foreground execution
+        lifetime while the queue runs. Progress and cancellation are available in
+        Import. The service stops when its work stops.</p>
+      <p>Deferring or interrupting this user-started work delays the availability of
+        the selected scores for offline reading. The persisted queue supports
+        recovery; the user’s external original files are not modified.</p>
+
+      <h3>2. Recovery of a previously started manual backup or restore</h3>
+      <p>Open <strong>Settings → Backup and restore</strong>. Choose
+        <strong>Create complete backup</strong>, review and select a destination,
+        or choose <strong>Choose backup</strong> and select an existing archive.
+        An ordinary uninterrupted operation uses its coordinator and in-app
+        progress; it does not itself start the recovery service.</p>
+      <p>If the process is interrupted during an unfinished operation, opening
+        Partitoria again detects the persisted job and starts
+        <code>PortabilityForegroundService</code>. The coordinators resume or
+        revalidate the work and verify the resulting data. The service stops when
+        recovery finishes. Cancellation remains available in the app.</p>
+      <p>Interrupted restore verification returns to a review preview. A ready
+        preview alone does not start recovery or apply data automatically: the
+        user must explicitly confirm the reviewed restore. Deferring recovery
+        delays the requested verified backup or restore result. These workflows
+        process the user-selected documents locally; they do not upload the
+        library to Partitoria servers.</p>
+
+      <h3>Android foreground state and notification visibility</h3>
+      <p>The 10824 manifest declares <code>FOREGROUND_SERVICE</code> and
+        <code>FOREGROUND_SERVICE_DATA_SYNC</code>. Both services are non-exported
+        and declare <code>dataSync</code>. Their service implementations and
+        import/cold-start recovery entry conditions were compared with the source
+        of recorded build 10764 and are unchanged.</p>
+      <p>Each service registers an ongoing notification with generic progress;
+        filenames, document locations and archive contents are omitted. The
+        notification opens the app; it has no Cancel action. Build 10824 does not
+        declare or request <code>POST_NOTIFICATIONS</code>. On a fresh Android 13+
+        installation, ordinary notification-drawer cards are therefore not the
+        demonstrated visibility path. Android exposes foreground-service notices
+        in Task Manager (Active apps), while progress and cancellation are in the
+        app. The historical video does not show the notification drawer or Task
+        Manager. Separate historical runtime receipts confirm that both services
+        entered the foreground; this is not a new 10824 runtime claim.</p>
+      <p>See <a href="https://developer.android.com/develop/ui/compose/notifications/notification-permission">Android’s notification-permission behavior</a>
+        and <a href="https://support.google.com/googleplay/android-developer/answer/13392821">Google Play’s foreground-service declaration guidance</a>.
+        Google determines whether the supplied declaration and evidence are accepted.</p>
+    </section>
+
+    <section id="ru" lang="ru" aria-labelledby="ru-title">
+      <h2 id="ru-title">Актуальные сценарии сборки 10824</h2>
+      <p><strong>Видео выше снято на сборке 10764, а не 10824.</strong> Это архивная
+        демонстрация от 30 сентября 2026 года. Оба класса foreground service и
+        условия их запуска при импорте и восстановлении прерванных операций
+        совпадают с исходниками 10824. Интерфейс и состав резервной копии позднее
+        изменились, в том числе добавлено оформление. Видео не подтверждает все
+        нынешние сценарии восстановления, покупки, коды доступа, установку из
+        Google Play или готовность выпуска к публикации.</p>
+      <h3>Импорт выбранных нот</h3>
+      <p>В библиотеке откройте добавление нот, выберите файлы через системное меню
+        Android и подтвердите импорт, если показан предварительный список.
+        Координатор копирует и проверяет документы, а
+        <code>ImportForegroundService</code> поддерживает выполнение очереди.
+        Прогресс и отмена доступны в разделе импорта. Сервис останавливается
+        вместе с работой. Задержка операции откладывает доступ к выбранным нотам
+        для чтения без сети; внешние оригиналы пользователя не изменяются.</p>
+      <h3>Восстановление прерванного ручного backup/restore</h3>
+      <p>В настройках откройте резервное копирование и восстановление. Создание
+        полной копии начинается после подтверждения и выбора места сохранения;
+        восстановление — после выбора существующего архива. Обычная непрерванная
+        операция выполняется координатором и сама по себе не запускает сервис
+        восстановления.</p>
+      <p>Если процесс прерван во время незавершённой операции, при повторном
+        открытии Partitoria находит сохранённое задание и запускает
+        <code>PortabilityForegroundService</code>. Координаторы возобновляют или
+        повторно проверяют работу и её результат; отмена доступна в приложении.
+        Сервис завершается вместе с восстановлением операции. После прерванной
+        проверки restore возвращается предварительный просмотр: применение
+        данных требует отдельного решения пользователя. Отсрочка откладывает
+        получение запрошенной проверенной копии или результата восстановления.
+        Библиотека не отправляется на сервер Partitoria.</p>
+      <h3>Уведомления и границы записи</h3>
+      <p>Оба неэкспортируемых сервиса объявлены как <code>dataSync</code> и создают
+        уведомление с общим прогрессом, без имён файлов, адресов документов и
+        содержимого архива. Уведомление открывает приложение; кнопки отмены в нём
+        нет. Разрешение <code>POST_NOTIFICATIONS</code> в 10824 не объявлено и не
+        запрашивается. На новой установке Android 13+ карточка в обычной шторке
+        поэтому не является показанным способом наблюдения: Android отображает
+        сведения о foreground service в диспетчере активных приложений, а
+        прогресс и отмена доступны внутри Partitoria. Архивное видео не показывает
+        ни шторку, ни диспетчер. Запуск обоих сервисов подтверждён отдельными
+        историческими Android runtime receipts, а не новой записью 10824.</p>
+      <p>В архиве использованы собственные CC0-ноты, отдельная диагностическая
+        установка на W90 и локальный тестовый провайдер с раскрытыми задержками
+        ввода-вывода. Эти условия не приписываются нынешней публичной сборке.
+        <a href="partitoria-free-10764-fgs.html#ru">Полное происхождение и монтаж записи</a>
+        сохранены без изменений. Решение о принятии материалов принимает Google.</p>
+    </section>
+  </main>
+  <footer><p>Partitoria · Current context: 10824 · Embedded recording: 10764 · 9 October 2026</p></footer>
+</body>
+</html>

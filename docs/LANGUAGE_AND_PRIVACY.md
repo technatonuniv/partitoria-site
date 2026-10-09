@@ -1,5 +1,81 @@
 # Website language and public wording
 
+## Final public guide and privacy source — 2026-10-09
+
+All nine languages retain their existing article URLs and gain the ordinary
+Appearance article. Actual palette/section/About labels are taken from Android
+resources; ordinary appearance is Free, personal cover colors are retained,
+reading stays neutral and incompatible appearance profiles do not block library
+restoration. No public guide reveals the version-tap gesture, code values,
+reviewer-specific route or email sign-in instructions. The old
+`settings-and-account` URL remains a Settings/Help article.
+
+Prepared privacy text adds the complimentary-access implementation contract:
+HTTPS activation/renewal without email/account/payment; installation public
+key/hash, code purpose/terms/status, grants and maximum issued expiry; keyed
+verification value/masked code rather than plaintext in database or logs;
+120-second unfinished challenges, 24-hour completed responses and 180-day
+technical admin audit/operation receipts, with hourly scheduled cleanup of these
+time-limited records. Revoked/disabled installation records
+remain while the code record exists to prevent reactivation. These records are
+not labelled anonymous, and no score/library/payment data is transmitted.
+Existing private-user privacy/deletion obligations remain in their separate
+disclosure. The privacy effective date is 2026-10-09; support/terms dates are
+unchanged.
+
+The existing privacy pages also expose an always-visible **data deletion request**
+section at `#data-deletion`, with a jump link near the page heading. The canonical
+English request URL is `https://partitoria.app/en/privacy#data-deletion`; Russian
+uses `/privacy#data-deletion`, and other locales keep their normal prefix. No new
+page, registration flow or web form is introduced. Three steps explain emailing
+the support address, describing the requested data and verifying the request.
+Already available installation/access identifiers or a relevant Play order
+reference are optional; users are not asked to locate a hidden identifier or send
+raw codes, purchase tokens, scores, backups, passwords or card details.
+The section identifies deletable server/support records, retained protection
+records and their retention, scheduled 30-day backup expiry, local-library
+ownership and separate Google Play cancellation. It is prepared source until the
+website deployment and live anchor readback are recorded.
+
+Local development rendering on 2026-10-09 returned HTTP 200 for all nine existing
+privacy routes, each with one visible `#data-deletion` target, a heading jump,
+three request steps and the prefilled support mail link. Type checking and scoped
+renderer lint passed. This check did not perform a full build or public deployment.
+
+All nine translations now describe the operational **30-day retention policy for
+server-data backup copies**, with deletion by scheduled cleanup rather than a
+promise of deletion at the exact expiry second. This includes mixed archives
+containing server data and keys. Independently held signing/recovery keys,
+material containing only service identity and verification receipts without
+backed-up content have separate recovery custody. The existing OWNER cloud mirror
+and direct Drive 30-day mechanisms remain in place. New manual, deployment and
+isolated data copies must be enrolled in the operational policy.
+
+Maintenance source `9d6932e96d640b10f458e7dc538026e6931ba81e` was deployed separately
+from Android. Root evidence for 2026-10-09 records VPS **58 checked / 0 expired**,
+successful maintenance services and active hourly/daily timers; Windows scheduled
+execution records **95 checked / 0 expired / 0 deleted**, task result **0**. These
+results verify installed cleanup and the current copy inventory; they do not claim
+that age-triggered deletion has already occurred. Detailed operational receipts
+remain in the Android release-completion records, not in public page content.
+
+This is a source update for the authorized final candidate, **not evidence of
+website deployment or a public app release**. Commercial launch-in-preparation wording,
+language consent and the 180-day browser preference contract remain intact.
+No analytics, forms, new website storage or account service was introduced.
+
+The final localized illustration package is now **reviewed and integrated**:
+72 unchanged actual public10824 captures across all nine app languages. The
+selector uses 216 localized images (144 historical10814 + 72 new10824); all 270
+historical capture files and 370 protected live guide/store-review files remain
+byte-identical. [The current capture manifest](../public/guide/10824/localized-captures.json)
+has SHA-256 `4177cca4f3ad9ab963e6698f3dba273bdef29be3bbcb2e2ef0f3ae2ab97986bb`;
+[capture provenance and review evidence](COMMERCIAL_SCREENSHOTS.md) remain separate
+from privacy processing. No codes, activation gesture, private library or purchase
+claim was added. The integrated source's final build/strict verification, CI,
+deployment and final live/browser readback are **PENDING**; the public deletion
+anchor must be read back after actual publication before its Console gate closes.
+
 ## Current screenshot refresh — 2026-10-07
 
 The published website uses public **1.8.0/10814** screenshots: 30 ordinary
@@ -58,10 +134,10 @@ access and 60 days after expiry, except unresolved purchase acknowledgements;
 notification deduplication 32 days; completed challenges one day. Replaced-token
 hashes, installation digests/sequences and voided-purchase records including
 actual order identifiers/status currently have no fixed deletion period.
-These records are not described as anonymous. A
-30-day server-backup promise was removed because rotation is not verified.
-Reconcile this with the deployed verifier before enabling purchases; update
-all nine languages after any actual retention change.
+These records are not described as anonymous. At that 2026-10-01 checkpoint, a
+30-day server-backup promise was removed because rotation was not verified. The
+operational 2026-10-09 retention update above supersedes that backup limitation
+and is reflected in all nine current privacy translations.
 
 Resend appears only in the disclosure for existing closed-channel users. Its
 [official GDPR statement](https://resend.com/security/gdpr), checked 2026-10-01,
