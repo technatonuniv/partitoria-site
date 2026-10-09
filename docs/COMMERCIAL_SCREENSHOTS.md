@@ -24,7 +24,7 @@ normalization was needed.
 | `library-search.png` | `find-in-library` | PASS: filtered total beside display mode |
 | `collections.png` | `collections-and-batch` | PASS: collection query, filters, sort and count |
 | `settings.png` | stable `settings-and-account` URL | PASS: appearance entry and ordinary public settings |
-| `backup-restore.png` | `backup-restore` | PASS: optional appearance-restoration control; not completed restore evidence |
+| `backup-restore.png` | `backup-restore` | PASS: ordinary backup/restore overview; not completed restore evidence |
 | `pro-overview.png` | `pro-and-owned-data` | PASS: truthful signed complimentary-access status; not a Google purchase |
 
 The [10824 manifest](../public/guide/10824/localized-captures.json) records source
