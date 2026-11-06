@@ -6,10 +6,12 @@ import { DocumentLanguage } from './document-language';
 import { localePath, siteCopy, type Locale } from '@/lib/site-content';
 import { commercialCopy } from '@/lib/commercial-content';
 import { SubscriptionPrices } from './subscription-prices';
+import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
 
 export function HomePage({ locale }: { locale: Locale }) {
   const t = siteCopy[locale];
   const commercial = commercialCopy[locale];
+  const features = featuresCopy[locale];
   return (
     <main lang={locale}>
       <DocumentLanguage locale={locale} />
@@ -58,6 +60,28 @@ export function HomePage({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
+      <section className="features" id="features" aria-labelledby="features-title">
+        <div className="features-heading">
+          <div>
+            <p className="eyebrow">Partitoria · Android</p>
+            <h2 id="features-title">{features.title}</h2>
+          </div>
+          <p>{features.intro}</p>
+        </div>
+        <div className="features-grid">
+          {features.items.map((item, index) => (
+            <article className="feature-card" key={item.title}>
+              <div className="feature-card-top"><span className="feature-number">{String(index + 1).padStart(2, '0')}</span><span className="feature-access">{item.pro ? 'Pro' : 'Free'}</span></div>
+              <h3>{item.title}</h3>
+              <p>{item.text}</p>
+            </article>
+          ))}
+        </div>
+        <div className="features-bottom">
+          <p>{features.note}</p>
+          <Link className="text-action" href={localePath(locale, '/guide')}>{features.guide} <span aria-hidden="true">↗</span></Link>
+        </div>
+      </section>
       <section className="guide-invite" aria-labelledby="invite-title">
         <div>
           <h2 id="invite-title">{t.guideTitle}</h2>
@@ -73,8 +97,9 @@ export function HomePage({ locale }: { locale: Locale }) {
           I
         </div>
         <div>
-          <h2 id="status-title">{t.statusTitle}</h2>
-          <p>{t.statusText}</p>
+          <h2 id="status-title">{features.playTitle}</h2>
+          <p>{features.playText}</p>
+          <a className="primary-link" href={googlePlayUrl}>Google Play ↗</a>
         </div>
       </section>
       <section className="commercial-note" aria-labelledby="commercial-title">
@@ -83,7 +108,6 @@ export function HomePage({ locale }: { locale: Locale }) {
         <p>{commercial.pro}</p>
         <SubscriptionPrices locale={locale} />
         <p>{commercial.trial}</p>
-        <p>{commercial.availability}</p>
         <Link className="text-action" href={localePath(locale, '/terms')}>
           {commercial.termsLabel}<span aria-hidden="true">↗</span>
         </Link>

@@ -2533,7 +2533,7 @@
     "text": {
       "ru": [
         "Подписка Pro и ваши данные",
-        "Коммерческий выпуск готовится; сейчас доступ ограничен тестированием. Цель — распространение во всех разрешённых странах Google Play. Подписки доступны только там, где магазин поддерживает оплату; при недоступной оплате сохраняется Free. Официальная ссылка появится после открытия соответствующего выпуска.",
+        "Доступность приложения и подписок зависит от региона и возможностей оплаты Google Play. Если оплата недоступна, бесплатная библиотека сохраняется. Ссылка на страницу приложения находится в меню сайта.",
         "Откройте объяснение Pro из нужного расширенного действия или настроек. Проверяйте предложения только в официальном выпуске Google Play.",
         "Partitoria Pro добавляет пометки, профили чтения и навигацию, программы и режим исполнения, настройку клавиш, педалей и MIDI, репетиционные задачи, метроном и локальное аудио, перенос пометок с проверкой, умные коллекции и автоматические локальные снимки. Все четыре срока открывают одинаковые возможности.",
         "Срок подписки: 1 месяц, 3 месяца, 6 месяцев, 12 месяцев.",
@@ -2545,7 +2545,7 @@
       ],
       "en": [
         "Pro subscriptions and your data",
-        "The commercial release is in preparation; availability is currently limited to testing. Distribution is intended for all permitted Google Play countries. Subscriptions require supported store billing in your market; Free remains available when billing is unavailable. An official link will appear when the corresponding release opens.",
+        "App and subscription availability depends on your region and Google Play billing support. The free library remains available where billing is unavailable. Find the app page in the site menu.",
         "Open the Pro explanation from a relevant advanced action or Settings. Check offers only in the official Google Play release.",
         "Partitoria Pro adds annotations, reading profiles and navigation, programmes and performance mode, custom keyboard, pedal and MIDI controls, rehearsal tasks, metronome and local audio, reviewed annotation transfer, smart collections and automatic local snapshots. All four periods unlock the same features.",
         "Subscription period: 1 month, 3 months, 6 months, 12 months.",
@@ -2557,7 +2557,7 @@
       ],
       "de": [
         "Pro-Abonnements und Ihre Daten",
-        "Der kommerzielle Start wird vorbereitet; der Zugang ist derzeit auf Tests beschränkt. Geplant ist die Verteilung in allen zulässigen Google-Play-Ländern. Abonnements benötigen unterstützte Store-Zahlungen im jeweiligen Markt; ohne diese bleibt Free verfügbar. Der offizielle Link erscheint zum jeweiligen Start.",
+        "Die Verfügbarkeit von App und Abonnements hängt von Ihrer Region und den Google-Play-Zahlungsmöglichkeiten ab. Ohne Zahlungsunterstützung bleibt die kostenlose Bibliothek verfügbar. Den Link zur App finden Sie im Seitenmenü.",
         "Öffnen Sie die Pro-Erklärung bei einer erweiterten Aktion oder in Einstellungen. Prüfen Sie Angebote nur in der offiziellen Google-Play-Version.",
         "Partitoria Pro ergänzt Anmerkungen, Leseprofile und Navigation, Programme und Aufführungsmodus, eigene Tasten-, Pedal- und MIDI-Belegung, Übungsaufgaben, Metronom und lokales Audio, geprüfte Übertragung von Anmerkungen, intelligente Sammlungen und automatische lokale Sicherungen. Alle vier Laufzeiten bieten dieselben Funktionen.",
         "Abonnementlaufzeit: 1 Monat, 3 Monate, 6 Monate, 12 Monate.",
@@ -2569,7 +2569,7 @@
       ],
       "it": [
         "Abbonamenti Pro e i tuoi dati",
-        "Il lancio commerciale è in preparazione; l’accesso attuale è limitato ai test. La distribuzione è prevista in tutti i paesi consentiti da Google Play. Gli abbonamenti richiedono pagamenti supportati nel tuo mercato; Free resta disponibile dove non lo sono. Il link ufficiale apparirà all’apertura del relativo rilascio.",
+        "La disponibilità dell’app e degli abbonamenti dipende dal paese e dai pagamenti supportati da Google Play. La biblioteca gratuita rimane disponibile anche senza pagamenti. Il link all’app si trova nel menu del sito.",
         "Apri la spiegazione Pro da un’azione avanzata o Impostazioni. Controlla le offerte solo nella versione ufficiale Google Play.",
         "Partitoria Pro aggiunge annotazioni, profili di lettura e navigazione, programmi e modalità esecuzione, comandi personalizzati per tastiera, pedali e MIDI, attività di studio, metronomo e audio locale, trasferimento controllato delle annotazioni, raccolte intelligenti e snapshot locali automatici. Le quattro durate offrono le stesse funzioni.",
         "Durata dell’abbonamento: 1 mese, 3 mesi, 6 mesi, 12 mesi.",
@@ -2581,7 +2581,7 @@
       ],
       "es": [
         "Suscripciones Pro y tus datos",
-        "El lanzamiento comercial está en preparación; el acceso actual está limitado a pruebas. Se prevé distribuir en todos los países permitidos de Google Play. Las suscripciones requieren pagos admitidos en tu mercado; Free sigue disponible donde no los hay. El enlace oficial aparecerá cuando se abra el lanzamiento correspondiente.",
+        "La disponibilidad de la aplicación y las suscripciones depende de la región y de los pagos admitidos por Google Play. La biblioteca gratuita sigue disponible donde no hay pagos. Encontrarás el enlace a la aplicación en el menú del sitio.",
         "Abre la explicación Pro desde una acción avanzada o Ajustes. Consulta ofertas solo en la versión oficial Google Play.",
         "Partitoria Pro añade anotaciones, perfiles de lectura y navegación, programas y modo de interpretación, controles personalizados de teclado, pedales y MIDI, tareas de ensayo, metrónomo y audio local, transferencia revisada de anotaciones, colecciones inteligentes y copias locales automáticas. Los cuatro periodos ofrecen las mismas funciones.",
         "Periodo de suscripción: 1 mes, 3 meses, 6 meses, 12 meses.",
@@ -2593,7 +2593,7 @@
       ],
       "pt": [
         "Subscrições Pro e os seus dados",
-        "O lançamento comercial está em preparação; o acesso atual limita-se a testes. Prevê-se distribuição em todos os países permitidos pela Google Play. As subscrições exigem pagamentos suportados no seu mercado; Free continua disponível onde não existem. A ligação oficial aparecerá na abertura do respetivo lançamento.",
+        "A disponibilidade da aplicação e das subscrições depende da região e dos pagamentos suportados pela Google Play. A biblioteca gratuita mantém-se disponível sem pagamentos. A ligação à aplicação está no menu do site.",
         "Abra a explicação Pro numa ação avançada ou em Definições. Consulte ofertas só na versão oficial Google Play.",
         "A Partitoria Pro acrescenta anotações, perfis de leitura e navegação, programas e modo de atuação, comandos personalizados de teclado, pedais e MIDI, tarefas de ensaio, metrónomo e áudio local, transferência revista de anotações, coleções inteligentes e cópias locais automáticas. Os quatro períodos oferecem as mesmas funções.",
         "Período de subscrição: 1 mês, 3 meses, 6 meses, 12 meses.",
@@ -2605,7 +2605,7 @@
       ],
       "uk": [
         "Підписка Pro й ваші дані",
-        "Комерційний випуск готується; зараз доступ обмежений тестуванням. Мета — поширення в усіх дозволених країнах Google Play. Підписки доступні там, де магазин підтримує оплату; без неї зберігається Free. Офіційне посилання з’явиться після відкриття відповідного випуску.",
+        "Доступність застосунку й підписок залежить від регіону та можливостей оплати Google Play. Якщо оплата недоступна, безкоштовна бібліотека залишається доступною. Посилання на застосунок є в меню сайту.",
         "Відкрийте пояснення Pro з розширеної дії чи налаштувань. Перевіряйте пропозиції лише в офіційному випуску Google Play.",
         "Partitoria Pro додає помітки, профілі читання й навігацію, програми та режим виконання, налаштування клавіш, педалей і MIDI, репетиційні завдання, метроном і локальне аудіо, перенесення поміток із перевіркою, розумні колекції та автоматичні локальні знімки. Усі чотири строки відкривають однакові можливості.",
         "Строк підписки: 1 місяць, 3 місяці, 6 місяців, 12 місяців.",
@@ -2617,7 +2617,7 @@
       ],
       "fr": [
         "Abonnements Pro et vos données",
-        "Le lancement commercial est en préparation ; l’accès actuel est limité aux tests. La distribution vise tous les pays autorisés de Google Play. Les abonnements nécessitent un paiement pris en charge dans votre marché ; Free reste disponible sinon. Le lien officiel paraîtra à l’ouverture de la version correspondante.",
+        "La disponibilité de l’application et des abonnements dépend de votre région et des paiements pris en charge par Google Play. La bibliothèque gratuite reste accessible sans paiement. Le lien vers l’application figure dans le menu du site.",
         "Ouvrez l’explication Pro depuis une action avancée ou Réglages. Consultez les offres uniquement dans la version officielle Google Play.",
         "Partitoria Pro ajoute annotations, profils de lecture et navigation, programmes et mode concert, commandes personnalisées de clavier, pédales et MIDI, tâches de travail, métronome et audio local, transfert vérifié des annotations, collections intelligentes et sauvegardes locales automatiques. Les quatre durées offrent les mêmes fonctions.",
         "Durée de l’abonnement: 1 mois, 3 mois, 6 mois, 12 mois.",
@@ -2629,7 +2629,7 @@
       ],
       "pl": [
         "Subskrypcje Pro i Twoje dane",
-        "Wydanie komercyjne jest przygotowywane; obecny dostęp ogranicza się do testów. Dystrybucja jest planowana we wszystkich dozwolonych krajach Google Play. Subskrypcje wymagają obsługiwanych płatności w Twoim rynku; bez nich pozostaje Free. Oficjalny odnośnik pojawi się po otwarciu odpowiedniego wydania.",
+        "Dostępność aplikacji i subskrypcji zależy od regionu oraz obsługi płatności Google Play. Bezpłatna biblioteka pozostaje dostępna, gdy płatności nie są obsługiwane. Odnośnik do aplikacji znajduje się w menu witryny.",
         "Otwórz opis Pro przy działaniu zaawansowanym lub w Ustawieniach. Sprawdzaj oferty tylko w oficjalnym wydaniu Google Play.",
         "Partitoria Pro dodaje adnotacje, profile czytania i nawigację, programy i tryb występu, własne mapowanie klawiatury, pedałów i MIDI, zadania ćwiczeń, metronom i lokalny dźwięk, sprawdzany transfer adnotacji, inteligentne kolekcje oraz automatyczne lokalne kopie. Wszystkie cztery okresy udostępniają te same funkcje.",
         "Okres subskrypcji: 1 miesiąc, 3 miesiące, 6 miesięcy, 12 miesięcy.",

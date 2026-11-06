@@ -35,7 +35,10 @@ function verifyPage(url, locale) {
   const html = fs.readFileSync(file, 'utf8');
   assert.ok(html.includes('Partitoria Studio'), `Missing public credit: ${url}`);
   assert.ok(html.includes('/language-preference.js'), `Missing language negotiation: ${url}`);
-  assert.ok(!html.includes('technaton'), `Old public credit: ${url}`);
+  assert.ok(html.includes('href="https://play.google.com/store/apps/details?id=com.technatonuniv.partitoria"'), `Missing Google Play link: ${url}`);
+  const home = locale === 'ru' ? '/' : `/${locale}`;
+  assert.ok(html.includes(`href="${home}#features"`), `Missing features navigation: ${url}`);
+  assert.ok(!html.replaceAll('https://play.google.com/store/apps/details?id=com.technatonuniv.partitoria', '').includes('technaton'), `Old public credit: ${url}`);
   assert.ok(
     html.includes(`<main lang="${locale}"`),
     `Missing language: ${url}`,
@@ -70,6 +73,8 @@ for (const locale of locales) {
   ]) {
     const html = verifyPage(`${base}${section}` || '/', locale);
     if (!section) {
+      assert.ok(html.includes('id="features"'), `Missing features section: ${locale}`);
+      assert.equal((html.match(/class="feature-card"/g) || []).length, 6, `Expected six feature groups: ${locale}`);
       assert.ok(
         html.includes(`src="/guide/${captureVersionFor(selection, 'library.png')}/${locale}/library.png"`),
         `Missing current localized home screenshot: ${locale}`,

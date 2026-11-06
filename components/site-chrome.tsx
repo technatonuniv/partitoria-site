@@ -7,6 +7,7 @@ import {
   type Locale,
 } from '@/lib/site-content';
 import { languageNotice, automaticLanguage } from '@/lib/language-notice';
+import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
 
 type ChromeProps = { locale?: Locale; section?: string };
 
@@ -35,6 +36,11 @@ export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
               aria-current={!section ? 'page' : undefined}
             >
               {t.home}
+            </Link>
+            <Link
+              href={`${localePath(locale)}#features`}
+            >
+              {featuresCopy[locale].nav}
             </Link>
             <Link
               href={localePath(locale, '/guide')}
@@ -69,6 +75,7 @@ export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
               <a href={section || '/'} data-language-reset="true">{automaticLanguage[locale]}</a>
             </div>
           </details>
+          <a className="header-play" href={googlePlayUrl}>Google Play <span aria-hidden="true">↗</span></a>
         </div>
       </header>
     </>
@@ -86,6 +93,8 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <span>{t.independent}</span>
         </div>
         <nav aria-label={t.navigation}>
+          <Link href={`${localePath(locale)}#features`}>{featuresCopy[locale].nav}</Link>
+          <a href={googlePlayUrl}>Google Play ↗</a>
           <Link href={localePath(locale, '/guide')}>{t.guide}</Link>
           <Link href={localePath(locale, '/support')}>{t.support}</Link>
           <Link href={localePath(locale, '/privacy')}>{t.privacy}</Link>
