@@ -5,7 +5,7 @@ import { siteCopy, type Locale } from '@/lib/site-content';
 import { privacyDetails } from '@/lib/privacy-details';
 import privacyDeletion from '@/lib/privacy-deletion.json';
 import { commercialCopy } from '@/lib/commercial-content';
-import { SubscriptionPrices } from './subscription-prices';
+import { currentSubscriptionTerms } from '@/lib/current-subscription-terms';
 
 const sources = [
   ['IMSLP / Petrucci Music Library', 'https://imslp.org/'],
@@ -30,8 +30,8 @@ function CommercialTerms({ locale }: { locale: Locale }) {
     <h2>{t.termsLabel}</h2>
     <p>{t.free}</p>
     <p>{t.pro}</p>
-    <SubscriptionPrices locale={locale} />
-    {[t.trial, t.manage, t.offline, t.availability].map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+    {currentSubscriptionTerms[locale].map((paragraph) => <p key={paragraph}>{withPolicyLinks(paragraph)}</p>)}
+    <p>{t.offline}</p>
     <p><a href="https://support.google.com/googleplay/answer/7018481" rel="noreferrer">Google Play — {t.termsLabel}</a></p>
   </section>;
 }
@@ -49,7 +49,7 @@ function PrivacyDeletion({ locale }: { locale: Locale }) {
 export function LocalizedLegalPage({ locale, section }: { locale: Locale; section: LegalPage }) {
   const t = siteCopy[locale];
   const [summary, ...paragraphs] = legalContent[locale][section];
-  const effectiveDate = section === 'privacy' ? '2026-10-09' : ['support', 'terms'].includes(section) ? '2026-10-01' : '2026-09-05';
+  const effectiveDate = section === 'terms' ? '2026-11-06' : section === 'privacy' ? '2026-10-09' : section === 'support' ? '2026-10-01' : '2026-09-05';
   return <main lang={locale}>
     <DocumentLanguage locale={locale} />
     <SiteHeader locale={locale} section={`/${section}`} />
