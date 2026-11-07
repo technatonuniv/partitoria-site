@@ -5,7 +5,6 @@ import { SiteFooter, SiteHeader } from './site-chrome';
 import { DocumentLanguage } from './document-language';
 import { localePath, siteCopy, type Locale } from '@/lib/site-content';
 import { commercialCopy } from '@/lib/commercial-content';
-import { SubscriptionPrices } from './subscription-prices';
 import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
 
 export function HomePage({ locale }: { locale: Locale }) {
@@ -106,8 +105,6 @@ export function HomePage({ locale }: { locale: Locale }) {
         <h2 id="commercial-title">{commercial.title}</h2>
         <p>{commercial.free}</p>
         <p>{commercial.pro}</p>
-        <SubscriptionPrices locale={locale} />
-        <p>{commercial.trial}</p>
         <Link className="text-action" href={localePath(locale, '/terms')}>
           {commercial.termsLabel}<span aria-hidden="true">↗</span>
         </Link>
