@@ -161,9 +161,9 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 .commercial-note p { max-width: 75ch; color: var(--muted); }
 .commercial-note .text-action { margin-top: 1rem; color: var(--wine); }
 .subscription-prices { margin: 2rem 0; }
-.subscription-prices table { width: 100%; border-collapse: collapse; text-align: start; }
+.subscription-prices table { width: 100%; table-layout: fixed; border-collapse: collapse; }
 .subscription-prices caption { caption-side: bottom; padding-top: 1rem; text-align: start; color: var(--muted); font-size: .9rem; }
-.subscription-prices th, .subscription-prices td { padding: .8rem .45rem; border-bottom: 1px solid var(--line-light); }
+.subscription-prices th, .subscription-prices td { padding: .8rem .45rem; border-bottom: 1px solid var(--line-light); text-align: center; hyphens: auto; overflow-wrap: anywhere; }
 .subscription-prices thead th { border-bottom-color: var(--wine); font-size: .9rem; }
 .subscription-prices tbody th { font-weight: 500; }
 .subscription-prices td { font-variant-numeric: tabular-nums; }
