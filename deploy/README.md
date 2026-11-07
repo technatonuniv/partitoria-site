@@ -10,6 +10,22 @@ Point `/var/www/partitoria-site/current` to that release, test Nginx with
 `sudo nginx -t`, and reload it. Keep the previous release for rollback by
 repointing `current` and reloading Nginx.
 
+## Release retention — owner decision, 2026-11-07
+
+After a successful deployment and public verification, retain the active site
+release and **only its immediately previous working release** on the VPS.
+Older complete site releases and temporary upload archives should not accumulate.
+Before removing them, verify the active and rollback paths, check for mounts,
+symlinks, open files and external references, and identify any unique historical
+assets or evidence. Preserve unique material outside the VPS and verify its
+hashes before retiring the exact, reviewed paths. Keep the small deployment
+receipts; move historical full-size receipt archives off the VPS before removal.
+
+Keep `/var/www/partitoria-site/shared` and its immutable assets: cached pages may
+still require them. This retention decision concerns the website's release and
+upload copies only; it does not authorize deleting other services, certificates,
+ACME data, user data or unrelated backups.
+
 HTML responses use `Cache-Control: no-cache` so browsers revalidate them.
 Versioned assets use a year of immutable caching. Russian `/ru/...` aliases
 redirect to their canonical short URLs, including the guide linked by old APKs.
