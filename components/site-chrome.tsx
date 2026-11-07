@@ -11,6 +11,18 @@ import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
 
 type ChromeProps = { locale?: Locale; section?: string };
 
+const playBadgeAlt: Record<Locale, string> = {
+  ru: 'Скачать Partitoria в Google Play',
+  en: 'Get Partitoria on Google Play',
+  de: 'Partitoria bei Google Play herunterladen',
+  it: 'Scarica Partitoria su Google Play',
+  es: 'Descarga Partitoria en Google Play',
+  pt: 'Descarregar a Partitoria na Google Play',
+  uk: 'Завантажити Partitoria у Google Play',
+  fr: 'Télécharger Partitoria sur Google Play',
+  pl: 'Pobierz Partitoria w Google Play',
+};
+
 export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
   const t = siteCopy[locale];
   return (
@@ -91,10 +103,14 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <span className="footer-brand">Partitoria</span>
           <span>{t.footer}</span>
           <span>{t.independent}</span>
+          <div className="footer-store-badges">
+            <a className="footer-store-badge" href={googlePlayUrl}>
+              <img src={`/store-badges/google-play-${locale}.png`} alt={playBadgeAlt[locale]} width="646" height="250" />
+            </a>
+          </div>
         </div>
         <nav aria-label={t.navigation}>
           <Link href={`${localePath(locale)}#features`}>{featuresCopy[locale].nav}</Link>
-          <a href={googlePlayUrl}>Google Play ↗</a>
           <Link href={localePath(locale, '/guide')}>{t.guide}</Link>
           <Link href={localePath(locale, '/support')}>{t.support}</Link>
           <Link href={localePath(locale, '/privacy')}>{t.privacy}</Link>
@@ -102,7 +118,10 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <Link href={localePath(locale, '/terms')}>{t.terms}</Link>
           <Link href={localePath(locale, '/sources')}>{t.sources}</Link>
         </nav>
-        <small>© 2026 Partitoria Studio</small>
+        <div className="footer-legal">
+          <small>© 2026 Partitoria Studio</small>
+          <small>Google Play and the Google Play logo are trademarks of Google LLC.</small>
+        </div>
       </div>
     </footer>
   );
