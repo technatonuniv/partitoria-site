@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   localeNames,
   localePath,
@@ -105,7 +106,7 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <span>{t.independent}</span>
           <div className="footer-store-badges">
             <a className="footer-store-badge" href={googlePlayUrl}>
-              <img src={`/store-badges/google-play-${locale}.png`} alt={playBadgeAlt[locale]} width="646" height="250" />
+              <Image src={`/store-badges/google-play-${locale}.png`} alt={playBadgeAlt[locale]} width={646} height={250} unoptimized />
             </a>
           </div>
         </div>
