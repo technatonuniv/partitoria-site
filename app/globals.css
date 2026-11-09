@@ -197,3 +197,15 @@ h1, h2, h3, p { overflow-wrap: break-word; }
   .features-bottom { display: block; }
   .features-bottom .text-action { margin-top: 1.25rem; }
 }
+
+.formats { width: min(1212px, calc(100% - 40px)); margin: 0 auto; padding: clamp(56px, 7vw, 96px) 0 0; }
+.formats-heading { display: grid; grid-template-columns: 1fr minmax(220px, .8fr); gap: 2rem; align-items: end; padding-bottom: 1.8rem; border-bottom: 1px solid var(--wine); }
+.formats-heading h2 { max-width: 16ch; margin: 0; font-size: clamp(2.2rem, 4vw, 3.8rem); letter-spacing: -.04em; text-wrap: balance; }
+.formats-heading p { max-width: 52ch; margin: 0; color: var(--muted); font-size: 1.05rem; }
+.formats-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: var(--line-light); border-bottom: 1px solid var(--line-light); }
+.format-card { min-width: 0; padding: 1.2rem 1.2rem 1.3rem; display: flex; flex-direction: column; gap: .35rem; background: var(--paper); }
+.format-card strong { font-family: Georgia, 'Times New Roman', serif; font-size: 1.3rem; font-weight: 700; color: var(--wine); overflow-wrap: anywhere; }
+.format-card span { color: var(--muted); font-size: .9rem; line-height: 1.45; overflow-wrap: anywhere; }
+.formats-note { margin: 1.2rem 0 0; color: var(--muted); font-size: .92rem; font-weight: 700; }
+@media (max-width: 900px) { .formats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .formats-heading { grid-template-columns: 1fr; gap: 1rem; } }
+@media (max-width: 420px) { .formats-grid { grid-template-columns: 1fr; } }

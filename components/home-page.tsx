@@ -27,6 +27,21 @@ export function HomePage({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
+      <section className="formats" id="formats" aria-labelledby="formats-title">
+        <div className="formats-heading">
+          <h2 id="formats-title">{features.formatsTitle}</h2>
+          <p>{features.formatsIntro}</p>
+        </div>
+        <ul className="formats-grid">
+          {features.formats.map((format) => (
+            <li className="format-card" key={format.name}>
+              <strong>{format.name}</strong>
+              <span>{format.detail}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="formats-note">{features.formatsNote}</p>
+      </section>
       <section
         className="home-intro"
         id="about"
