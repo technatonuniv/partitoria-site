@@ -36,10 +36,10 @@ export function verifyGuideCaptures({ selection, images, publicRoot = 'public', 
     if (!expectedByVersion.has(version)) expectedByVersion.set(version, new Set());
     for (const locale of captureLocales) expectedByVersion.get(version).add(`${locale}/${name}`);
   }
-  // One retained historical set and one final candidate. New locale captures cannot drift
+  // One retained default set, one retained earlier candidate (10824) and one final candidate (11012). New locale captures cannot drift
   // between candidate builds or silently fall back to another language.
   const replacements = [...expectedByVersion.keys()].filter(version => version !== selection.defaultVersionCode);
-  assert.ok(replacements.length <= 1, 'Replacement screenshots must use one final candidate');
+  assert.ok(replacements.length <= 2, 'Replacement screenshots may use at most two retained candidate namespaces (10824 and the final 11012)');
   let selectedCount = 0;
   for (const [version, expected] of expectedByVersion) {
     const namespace = path.join('guide', String(version));
