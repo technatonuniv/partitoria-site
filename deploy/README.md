@@ -32,6 +32,14 @@ redirect to their canonical short URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## 2026-11-12 every-format release — PASS
+
+Active release `/var/www/partitoria-site/releases/20261112-every-format-0fb7a3f-01` (source `0fb7a3f`,
+1,484 files, 11 new shared assets retained), `nginx -t` and reload passed. Live checks: home pages en/ru/de and
+guide 200, new "every format" hero and formats section served without Finale, Pro guide screenshot
+`/guide/11012/ru/annotations.png` 200. Rollback: `20261107-no-prices-04e9e129cd9c-01`; the older
+`20261107-price-align-9919527ef93b-01` release and upload copies were removed per the retention rule.
+
 ## 2026-10-07 current screenshot release — PASS
 
 Deployment03 activated immutable release
