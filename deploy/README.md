@@ -32,6 +32,30 @@ redirect to their canonical short URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## Search discovery release · 25 November 2026
+
+Active release `20261125-search-5b64950` uses source
+`5b64950e1e0f0e0ce345a00165ec8b34dd1a8aaa`. Both approved commits reached
+GitHub main and [Verify website passed](https://github.com/technatonuniv/partitoria-site/actions/runs/45586808402).
+All 1,543 extracted files matched the approved export. Package SHA-256
+`b074534668b8790f6ed13803f3c0860c73021d7b71d0486c7e41c823bbad7164`.
+All 545 earlier guide and store-review assets matched. The server retained 11
+new immutable assets and verified the old stylesheet, Russian and www redirects,
+missing-page 404, and 100 public HTTPS responses against the release bytes.
+
+An independent external check matched the bytes at all 44 changed URLs,
+the sitemap and the public key. Eight search User-Agents each received three
+matching HTTP 200 responses. Public Russian and English facts and the MusicXML
+example were opened in Codex's in-app browser. IndexNow received 44 URLs at
+09:39 UTC with HTTP 202, pending key validation.
+
+Rollback release `20261116-promotion-01` remains on the VPS. The former
+12 November rollback was archived off-host and all 1,484 files were checked
+before retirement. Archive SHA-256
+`c14c84e30170d291b763d1dfdb8cfca485c1467813229285882f948d8b91f730`.
+Deployment, retirement and IndexNow receipts are in
+`/var/www/partitoria-site/deployment-receipts/20261125-search-5b64950/`.
+
 ## 2026-11-16 organic promotion release — PASS
 
 Active release `20261116-promotion-01`, built from the tested local website

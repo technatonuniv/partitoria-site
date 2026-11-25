@@ -1,11 +1,11 @@
 # Partitoria website
 
-## Search and discovery candidate · 25 November 2026
+## Search and discovery release · 25 November 2026
 
-The local export covers 432 canonical URLs in nine languages. Musicians can find
+The published site covers 432 canonical URLs in nine languages. Musicians can find
 the app facts page from the site footer and open the translated articles from
 there. The [verification and measurement report](docs/SEARCH_AND_AI_DISCOVERY.md)
-records the release baseline, source checks, browser tests and publication steps.
+records the release baseline, source checks, browser tests and IndexNow response.
 The dated entries below describe earlier releases.
 
 ## Final guide preparation — 2026-10-09, local candidate
