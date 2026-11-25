@@ -111,7 +111,7 @@
     "text": {
       "ru": [
         "Добавить первые ноты",
-        "Добавьте ноты в любом формате: PDF, сканы и фото, MusicXML, MuseScore, ABC, ChordPro или текст — ноты появятся в вашей библиотеке.",
+        "Добавьте ноты в поддерживаемых форматах: PDF, сканы и фото, MusicXML, MuseScore, ABC, ChordPro или текст — ноты появятся в вашей библиотеке.",
         "В библиотеке нажмите «+» → «Добавить файлы». В окне Android выберите один или несколько файлов: PDF, изображения (JPEG, PNG, WebP, HEIC/HEIF, многостраничный TIFF), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) или текст (.txt). Партитуры из нотных редакторов приложение гравирует в страницы, оригинал не меняется.",
         "В разделе «Импорт» проверьте отмеченные файлы и нажмите «Импортировать выбранное». Для изображений сначала решите: «Изображения как одни ноты» или «Каждое изображение — отдельные ноты».",
         "Если обнаружен такой же PDF, выберите «Использовать имеющиеся ноты» или «Добавить отдельно». После сохранения откройте запись и при необходимости нажмите «Проверить сведения».",
@@ -129,7 +129,7 @@
       ],
       "de": [
         "Erste Noten hinzufügen",
-        "Fügen Sie Noten in jedem Format hinzu (PDF, Scans und Fotos, MusicXML, MuseScore, ABC, ChordPro oder Text), um Ihre eigene Bibliothek aufzubauen.",
+        "Fügen Sie Noten in einem unterstützten Format hinzu (PDF, Scans und Fotos, MusicXML, MuseScore, ABC, ChordPro oder Text), um Ihre eigene Bibliothek aufzubauen.",
         "Tippen Sie in der Bibliothek auf + → Dateien hinzufügen. Wählen Sie im Android-Dialog eine oder mehrere Dateien: PDF, Bilder (JPEG, PNG, WebP, HEIC/HEIF, mehrseitiges TIFF), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) oder Text (.txt). Partituren aus Notationsprogrammen werden zu Seiten gesetzt; Ihr Original bleibt unverändert.",
         "Prüfen Sie im Import die markierten Dateien und starten Sie den Vorgang. Bilder können ein geordnetes Werk oder einzelne Noten bilden.",
         "Bei einem gleichen PDF wählen Sie die vorhandenen Noten oder einen eigenen Eintrag. Öffnen Sie danach den gespeicherten Eintrag und prüfen Sie Angaben bei Bedarf.",
@@ -137,7 +137,7 @@
       ],
       "it": [
         "Aggiungere i primi spartiti",
-        "Aggiungi spartiti in qualsiasi formato (PDF, scansioni e foto, MusicXML, MuseScore, ABC, ChordPro o testo) per creare la tua biblioteca.",
+        "Aggiungi spartiti in uno dei formati supportati (PDF, scansioni e foto, MusicXML, MuseScore, ABC, ChordPro o testo) per creare la tua biblioteca.",
         "Nella Biblioteca tocca + → Aggiungi file. Nel selettore Android scegli uno o più file: PDF, immagini (JPEG, PNG, WebP, HEIC/HEIF, TIFF multipagina), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) o testo (.txt). Le partiture dei programmi di notazione vengono incise in pagine; l’originale resta invariato.",
         "In Importazione controlla i file selezionati e avvia. Le immagini possono formare un unico spartito ordinato oppure spartiti separati.",
         "Se lo stesso PDF esiste già, riusa la voce o creane una indipendente. Apri la voce salvata e controlla i dettagli se richiesto.",
@@ -145,7 +145,7 @@
       ],
       "es": [
         "Añadir las primeras partituras",
-        "Añade partituras en cualquier formato (PDF, escaneos y fotos, MusicXML, MuseScore, ABC, ChordPro o texto) para empezar tu biblioteca.",
+        "Añade partituras en un formato compatible (PDF, escaneos y fotos, MusicXML, MuseScore, ABC, ChordPro o texto) para empezar tu biblioteca.",
         "En Biblioteca pulsa + → Añadir archivos. En el selector de Android elige uno o varios archivos: PDF, imágenes (JPEG, PNG, WebP, HEIC/HEIF, TIFF de varias páginas), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) o texto (.txt). Las partituras de programas de notación se graban en páginas; tu original queda intacto.",
         "En Importación revisa los archivos marcados e inicia. Las imágenes pueden formar una partitura ordenada o varias independientes.",
         "Si el PDF ya existe, reutiliza su entrada o crea otra independiente. Abre el elemento guardado y revisa sus datos si se solicita.",
@@ -153,7 +153,7 @@
       ],
       "pt": [
         "Adicionar as primeiras partituras",
-        "Adicione partituras em qualquer formato (PDF, digitalizações e fotos, MusicXML, MuseScore, ABC, ChordPro ou texto) para começar a sua biblioteca.",
+        "Adicione partituras num formato compatível (PDF, digitalizações e fotos, MusicXML, MuseScore, ABC, ChordPro ou texto) para começar a sua biblioteca.",
         "Na Biblioteca, prima + → Adicionar ficheiros. No seletor Android, escolha um ou mais ficheiros: PDF, imagens (JPEG, PNG, WebP, HEIC/HEIF, TIFF de várias páginas), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) ou texto (.txt). As partituras de programas de notação são gravadas em páginas; o original permanece inalterado.",
         "Em Importação confira os ficheiros marcados e inicie. As imagens podem formar uma partitura ordenada ou várias independentes.",
         "Se já existir o mesmo PDF, reutilize a entrada ou crie outra. Abra o item guardado e reveja os dados se necessário.",
@@ -161,7 +161,7 @@
       ],
       "uk": [
         "Додати перші ноти",
-        "Додайте ноти в будь-якому форматі: PDF, скани й фото, MusicXML, MuseScore, ABC, ChordPro або текст — ноти з’являться у вашій бібліотеці.",
+        "Додайте ноти в підтримуваних форматах: PDF, скани й фото, MusicXML, MuseScore, ABC, ChordPro або текст — ноти з’являться у вашій бібліотеці.",
         "У бібліотеці натисніть «+» → «Додати файли». У вікні Android виберіть один або кілька файлів: PDF, зображення (JPEG, PNG, WebP, HEIC/HEIF, багатосторінковий TIFF), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) або текст (.txt). Партитури з нотних редакторів застосунок гравірує в сторінки, оригінал не змінюється.",
         "У розділі імпорту перевірте вибрані файли й запустіть збереження. Зображення можна об’єднати в одні ноти з порядком сторінок або додати окремо.",
         "Якщо такий PDF уже є, використайте наявний запис або створіть незалежний. Відкрийте збережене й за потреби перевірте відомості.",
@@ -169,7 +169,7 @@
       ],
       "fr": [
         "Ajouter ses premières partitions",
-        "Ajoutez des partitions dans n’importe quel format (PDF, numérisations et photos, MusicXML, MuseScore, ABC, ChordPro ou texte) pour commencer votre bibliothèque.",
+        "Ajoutez des partitions dans un format compatible (PDF, numérisations et photos, MusicXML, MuseScore, ABC, ChordPro ou texte) pour commencer votre bibliothèque.",
         "Dans Bibliothèque, appuyez sur + → Ajouter des fichiers. Dans le sélecteur Android, choisissez un ou plusieurs fichiers : PDF, images (JPEG, PNG, WebP, HEIC/HEIF, TIFF multipage), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) ou texte (.txt). Les partitions des logiciels de notation sont gravées en pages ; l’original reste inchangé.",
         "Dans Import, vérifiez les fichiers cochés et lancez l’opération. Les images peuvent former une partition ordonnée ou plusieurs partitions distinctes.",
         "Si le même PDF existe déjà, réutilisez sa fiche ou créez-en une autre. Ouvrez l’élément enregistré et vérifiez les détails si demandé.",
@@ -177,7 +177,7 @@
       ],
       "pl": [
         "Dodaj pierwsze nuty",
-        "Dodaj nuty w dowolnym formacie (PDF, skany i zdjęcia, MusicXML, MuseScore, ABC, ChordPro lub tekst), aby rozpocząć własną bibliotekę nut.",
+        "Dodaj nuty w obsługiwanym formacie (PDF, skany i zdjęcia, MusicXML, MuseScore, ABC, ChordPro lub tekst), aby rozpocząć własną bibliotekę nut.",
         "W Bibliotece naciśnij + → Dodaj pliki. W oknie Androida wybierz jeden lub kilka plików: PDF, obrazy (JPEG, PNG, WebP, HEIC/HEIF, wielostronicowy TIFF), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) lub tekst (.txt). Partytury z programów nutowych są składane w strony; oryginał pozostaje bez zmian.",
         "W Importowaniu sprawdź zaznaczone pliki i rozpocznij. Obrazy mogą utworzyć jedne nuty z kolejnością stron albo oddzielne pozycje.",
         "Jeśli identyczny PDF już istnieje, użyj istniejącej pozycji albo dodaj osobną. Otwórz zapisany wpis i w razie potrzeby sprawdź dane.",

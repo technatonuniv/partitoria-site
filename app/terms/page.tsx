@@ -1,10 +1,7 @@
-import type { Metadata } from 'next';
+import { legalMetadata } from '@/lib/legal-metadata';
 import { LocalizedLegalPage } from '@/components/localized-legal-page';
 
-export const metadata: Metadata = {
-  title: "Условия использования | Partitoria",
-  description: "Условия Partitoria и будущих подписок Google Play.",
-};
+export const metadata = legalMetadata('ru', 'terms');
 
 export const dynamic = 'force-static';
 

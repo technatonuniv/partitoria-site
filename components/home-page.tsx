@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Screenshot } from './screenshot';
 import { guideNavigationCopy } from '@/lib/guide-navigation';
 import { SiteFooter, SiteHeader } from './site-chrome';
@@ -7,16 +6,17 @@ import { DocumentLanguage } from './document-language';
 import { localePath, siteCopy, type Locale } from '@/lib/site-content';
 import { commercialCopy } from '@/lib/commercial-content';
 import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
-import { guideImage } from '@/lib/guide-image';
+import { ApplicationStructuredData, downloadSummary } from './structured-data';
 
 export function HomePage({ locale }: { locale: Locale }) {
   const t = siteCopy[locale];
   const commercial = commercialCopy[locale];
   const features = featuresCopy[locale];
-  const reader = guideImage(locale, 'reader.png');
   const playLink = `${googlePlayUrl}&referrer=${encodeURIComponent(`utm_source=partitoria_site&utm_medium=website&utm_campaign=home_install_${locale}`)}`;
   return (
     <main lang={locale} className="site-home">
+      <link rel="preload" as="image" href="/concert-hall.webp" media="(min-width: 761px)" fetchPriority="high" />
+      <ApplicationStructuredData locale={locale} />
       <DocumentLanguage locale={locale} />
       <SiteHeader locale={locale} />
       <section className="hero" id="content">
@@ -29,8 +29,11 @@ export function HomePage({ locale }: { locale: Locale }) {
               <Link className="hero-guide" href={localePath(locale, '/guide')}>{t.homeAction}</Link>
             </div>
           </div>
-          <Image className="hero-reader" src={reader.src} alt="" width={1200} height={1920}
-            sizes="(max-width: 760px) 180px, 260px" unoptimized />
+          <picture className="hero-reader">
+            <source srcSet="/home/reader-240.webp 240w, /home/reader-360.webp 360w, /home/reader-540.webp 540w"
+              sizes="(max-width: 444px) 27vw, (max-width: 560px) 120px, (max-width: 760px) 180px, 260px" />
+            <img src="/home/reader-360.webp" alt="" width={360} height={576} />
+          </picture>
         </div>
       </section>
       <section className="formats" id="formats" aria-labelledby="formats-title">
@@ -118,6 +121,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         </div>
         <div>
           <h2 id="status-title">{features.playTitle}</h2>
+          <p>{downloadSummary[locale]}</p>
           <p>{features.playText}</p>
           <a className="primary-link" href={googlePlayUrl}>Google Play ↗</a>
         </div>

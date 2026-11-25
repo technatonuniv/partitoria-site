@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { articleMetadata } from '@/lib/guide-metadata';
 import { GuidePage } from '@/components/guide-page';
 import { guideArticles } from '@/lib/guide-content';
 export const dynamic = 'force-static';
@@ -13,11 +14,7 @@ export async function generateMetadata({
   const { article } = await params;
   const a = guideArticles.find((a) => a.id === article);
   return a
-    ? {
-        title: `${a.text.ru[0]} — Partitoria`,
-        description: a.text.ru[1],
-        alternates: { canonical: `/guide/${a.id}` },
-      }
+    ? articleMetadata('ru', a)
     : {};
 }
 export default async function Article({

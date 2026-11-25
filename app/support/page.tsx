@@ -1,10 +1,7 @@
-import type { Metadata } from 'next';
+import { legalMetadata } from '@/lib/legal-metadata';
 import { LocalizedLegalPage } from '@/components/localized-legal-page';
 
-export const metadata: Metadata = {
-  title: "Поддержка | Partitoria",
-  description: "Помощь по приложению Partitoria, библиотеке и подпискам.",
-};
+export const metadata = legalMetadata('ru', 'support');
 
 export const dynamic = 'force-static';
 

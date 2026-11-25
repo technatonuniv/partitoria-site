@@ -3,9 +3,13 @@ import vm from 'node:vm';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 const code = readFileSync(new URL('../public/language-preference.js', import.meta.url), 'utf8');
-function visit({ path = '/', language = 'ru-RU', languages, saved = null, blocked = false, search = '', hash = '' } = {}) {
+function visit({ path = '/', language = 'ru-RU', languages, translations = [], saved = null, blocked = false, search = '', hash = '' } = {}) {
   let redirect, click, written, removed = false;
-  const document = { documentElement: {}, addEventListener: (_, fn) => { click = fn; } };
+  const document = {
+    documentElement: {},
+    querySelectorAll: () => translations.map(language => ({ dataset: { language } })),
+    addEventListener: (_, fn) => { click = fn; },
+  };
   vm.runInNewContext(code, {
     URLSearchParams, Date, document, navigator: { language, languages },
     location: { pathname: path, search, hash, replace: value => { redirect = value; } },
@@ -41,4 +45,11 @@ test('explicit translated URLs, Russian links and denied storage remain usable',
 test('forgetting a saved language returns to the browser language on the same article', () => {
   const result = visit({ path: '/de/guide/import', language: 'fr' }).reset();
   assert.deepEqual(result, { removed: true, redirect: '/fr/guide/import' });
+});
+
+test('automatic language selection and reset use an existing translation', () => {
+  const options = { language: 'pl', translations: ['en', 'ru'], path: '/answers/example' };
+  assert.equal(visit(options).redirect, '/en/answers/example');
+  assert.equal(visit({ ...options, search: '?lang=ru' }).redirect, undefined);
+  assert.equal(visit({ ...options, path: '/en/answers/example' }).reset().redirect, '/en/answers/example');
 });

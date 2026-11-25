@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://partitoria.app/</loc></url>
+  <url><loc>https://partitoria.app/</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/guide</loc></url>
   <url><loc>https://partitoria.app/support</loc></url>
   <url><loc>https://partitoria.app/privacy</loc></url>
@@ -14,7 +14,7 @@
   <url><loc>https://partitoria.app/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/guide/online-sources</loc></url>
@@ -45,7 +45,14 @@
   <url><loc>https://partitoria.app/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/en</loc></url>
+  <url><loc>https://partitoria.app/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/answers/android-sheet-music-reader</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/answers/bluetooth-page-turner</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/answers/musicxml-musescore-android</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/answers/transfer-sheet-music-library</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/answers/forscore-for-android</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/answers/sheet-music-for-teachers</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/en/guide</loc></url>
   <url><loc>https://partitoria.app/en/support</loc></url>
   <url><loc>https://partitoria.app/en/privacy</loc></url>
@@ -90,7 +97,14 @@
   <url><loc>https://partitoria.app/en/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/en/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/en/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/de</loc></url>
+  <url><loc>https://partitoria.app/en/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en/answers/android-sheet-music-reader</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en/answers/bluetooth-page-turner</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en/answers/musicxml-musescore-android</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en/answers/transfer-sheet-music-library</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en/answers/forscore-for-android</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/en/answers/sheet-music-for-teachers</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/de</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/de/guide</loc></url>
   <url><loc>https://partitoria.app/de/support</loc></url>
   <url><loc>https://partitoria.app/de/privacy</loc></url>
@@ -104,7 +118,7 @@
   <url><loc>https://partitoria.app/de/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/de/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/de/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/de/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/de/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/de/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/de/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/de/guide/online-sources</loc></url>
@@ -135,7 +149,11 @@
   <url><loc>https://partitoria.app/de/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/de/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/de/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/it</loc></url>
+  <url><loc>https://partitoria.app/de/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/de/answers/android-sheet-music-reader</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/de/answers/bluetooth-page-turner</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/de/answers/musicxml-musescore-android</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/it</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/it/guide</loc></url>
   <url><loc>https://partitoria.app/it/support</loc></url>
   <url><loc>https://partitoria.app/it/privacy</loc></url>
@@ -149,7 +167,7 @@
   <url><loc>https://partitoria.app/it/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/it/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/it/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/it/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/it/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/it/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/it/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/it/guide/online-sources</loc></url>
@@ -180,7 +198,8 @@
   <url><loc>https://partitoria.app/it/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/it/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/it/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/es</loc></url>
+  <url><loc>https://partitoria.app/it/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/es</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/es/guide</loc></url>
   <url><loc>https://partitoria.app/es/support</loc></url>
   <url><loc>https://partitoria.app/es/privacy</loc></url>
@@ -194,7 +213,7 @@
   <url><loc>https://partitoria.app/es/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/es/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/es/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/es/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/es/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/es/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/es/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/es/guide/online-sources</loc></url>
@@ -225,7 +244,8 @@
   <url><loc>https://partitoria.app/es/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/es/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/es/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/pt</loc></url>
+  <url><loc>https://partitoria.app/es/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/pt</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/pt/guide</loc></url>
   <url><loc>https://partitoria.app/pt/support</loc></url>
   <url><loc>https://partitoria.app/pt/privacy</loc></url>
@@ -239,7 +259,7 @@
   <url><loc>https://partitoria.app/pt/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/pt/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/pt/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/pt/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/pt/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/pt/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/pt/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/pt/guide/online-sources</loc></url>
@@ -270,7 +290,8 @@
   <url><loc>https://partitoria.app/pt/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/pt/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/pt/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/uk</loc></url>
+  <url><loc>https://partitoria.app/pt/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/uk</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/uk/guide</loc></url>
   <url><loc>https://partitoria.app/uk/support</loc></url>
   <url><loc>https://partitoria.app/uk/privacy</loc></url>
@@ -284,7 +305,7 @@
   <url><loc>https://partitoria.app/uk/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/uk/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/uk/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/uk/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/uk/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/uk/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/uk/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/uk/guide/online-sources</loc></url>
@@ -315,7 +336,8 @@
   <url><loc>https://partitoria.app/uk/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/uk/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/uk/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/fr</loc></url>
+  <url><loc>https://partitoria.app/uk/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/fr</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/fr/guide</loc></url>
   <url><loc>https://partitoria.app/fr/support</loc></url>
   <url><loc>https://partitoria.app/fr/privacy</loc></url>
@@ -329,7 +351,7 @@
   <url><loc>https://partitoria.app/fr/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/fr/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/fr/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/fr/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/fr/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/fr/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/fr/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/fr/guide/online-sources</loc></url>
@@ -360,7 +382,11 @@
   <url><loc>https://partitoria.app/fr/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/fr/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/fr/guide/online-privacy</loc></url>
-  <url><loc>https://partitoria.app/pl</loc></url>
+  <url><loc>https://partitoria.app/fr/facts</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/fr/answers/android-sheet-music-reader</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/fr/answers/bluetooth-page-turner</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/fr/answers/musicxml-musescore-android</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://partitoria.app/pl</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/pl/guide</loc></url>
   <url><loc>https://partitoria.app/pl/support</loc></url>
   <url><loc>https://partitoria.app/pl/privacy</loc></url>
@@ -374,7 +400,7 @@
   <url><loc>https://partitoria.app/pl/guide/section/data</loc></url>
   <url><loc>https://partitoria.app/pl/guide/section/settings</loc></url>
   <url><loc>https://partitoria.app/pl/guide/find-your-way</loc></url>
-  <url><loc>https://partitoria.app/pl/guide/first-scores</loc></url>
+  <url><loc>https://partitoria.app/pl/guide/first-scores</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://partitoria.app/pl/guide/import-inbox</loc></url>
   <url><loc>https://partitoria.app/pl/guide/import-review</loc></url>
   <url><loc>https://partitoria.app/pl/guide/online-sources</loc></url>
@@ -405,4 +431,5 @@
   <url><loc>https://partitoria.app/pl/guide/appearance</loc></url>
   <url><loc>https://partitoria.app/pl/guide/pro-and-owned-data</loc></url>
   <url><loc>https://partitoria.app/pl/guide/online-privacy</loc></url>
+  <url><loc>https://partitoria.app/pl/facts</loc><lastmod>2026-11-25</lastmod></url>
 </urlset>

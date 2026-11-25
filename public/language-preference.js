@@ -18,7 +18,11 @@ function languagePreference() {
   const segment = location.pathname.split('/')[1];
   const explicit = supported.indexOf(segment) >= 0;
   const requested = new URLSearchParams(location.search).get('lang');
-  const language = explicit ? segment : supported.indexOf(requested) >= 0 ? requested : selected || normalize(preferred);
+  const alternatives = Array.from(document.querySelectorAll('a[data-language]'), link => link.dataset.language);
+  function available(locale) {
+    return alternatives.length && !alternatives.includes(locale) ? 'en' : locale;
+  }
+  const language = explicit ? segment : available(supported.indexOf(requested) >= 0 ? requested : selected || normalize(preferred));
   document.documentElement.lang = language;
   if (!explicit && language !== 'ru') {
     location.replace('/' + language + (location.pathname === '/' ? '' : location.pathname) + location.search + location.hash);
@@ -29,7 +33,7 @@ function languagePreference() {
       event.preventDefault();
       try { localStorage.removeItem(key); } catch { /* Optional storage. */ }
       const path = explicit ? location.pathname.slice(segment.length + 1) : location.pathname;
-      const browserLanguage = normalize(preferred);
+      const browserLanguage = available(normalize(preferred));
       location.replace((browserLanguage === 'ru' ? '' : '/' + browserLanguage) + (path || '/'));
       return;
     }

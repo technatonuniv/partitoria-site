@@ -1,10 +1,7 @@
-import type { Metadata } from 'next';
+import { legalMetadata } from '@/lib/legal-metadata';
 import { PolicyLayout } from '@/components/policy-layout';
 
-export const metadata: Metadata = {
-  title: 'Авторские права | Partitoria',
-  description: 'Политика Partitoria в отношении нот, лицензий и обращений правообладателей.',
-};
+export const metadata = legalMetadata('ru', 'copyright');
 
 export const dynamic = 'force-static';
 

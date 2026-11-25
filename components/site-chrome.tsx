@@ -10,7 +10,12 @@ import {
 import { languageNotice, automaticLanguage } from '@/lib/language-notice';
 import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
 
-type ChromeProps = { locale?: Locale; section?: string };
+type ChromeProps = { locale?: Locale; section?: string; playUrl?: string; availableLocales?: readonly Locale[] };
+
+const factsLabel: Record<Locale, string> = {
+  ru: 'О приложении', en: 'About Partitoria', de: 'Über Partitoria', it: 'Informazioni su Partitoria',
+  es: 'Acerca de Partitoria', pt: 'Sobre a Partitoria', uk: 'Про застосунок', fr: 'À propos de Partitoria', pl: 'O aplikacji',
+};
 
 const playBadgeAlt: Record<Locale, string> = {
   ru: 'Скачать Partitoria в Google Play',
@@ -24,7 +29,7 @@ const playBadgeAlt: Record<Locale, string> = {
   pl: 'Pobierz Partitoria w Google Play',
 };
 
-export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
+export function SiteHeader({ locale = 'ru', section = '', playUrl = googlePlayUrl, availableLocales = locales }: ChromeProps) {
   const t = siteCopy[locale];
   return (
     <>
@@ -74,7 +79,7 @@ export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
             </summary>
             <div className="language-options">
               <p className="language-notice">{languageNotice[locale]}</p>
-              {locales.map((target) => (
+              {availableLocales.map((target) => (
                 <a
                   key={target}
                   data-language={target}
@@ -88,14 +93,14 @@ export function SiteHeader({ locale = 'ru', section = '' }: ChromeProps) {
               <a href={section || '/'} data-language-reset="true">{automaticLanguage[locale]}</a>
             </div>
           </details>
-          <a className="header-play" href={googlePlayUrl}>Google Play <span aria-hidden="true">↗</span></a>
+          <a className="header-play" href={playUrl}>Google Play <span aria-hidden="true">↗</span></a>
         </div>
       </header>
     </>
   );
 }
 
-export function SiteFooter({ locale = 'ru' }: ChromeProps) {
+export function SiteFooter({ locale = 'ru', playUrl = googlePlayUrl }: ChromeProps) {
   const t = siteCopy[locale];
   return (
     <footer className="site-footer">
@@ -105,7 +110,7 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
           <span>{t.footer}</span>
           <span>{t.independent}</span>
           <div className="footer-store-badges">
-            <a className="footer-store-badge" href={googlePlayUrl}>
+            <a className="footer-store-badge" href={playUrl}>
               <Image src={`/store-badges/google-play-${locale}.png`} alt={playBadgeAlt[locale]} width={646} height={250} unoptimized />
             </a>
           </div>
@@ -113,6 +118,7 @@ export function SiteFooter({ locale = 'ru' }: ChromeProps) {
         <nav aria-label={t.navigation}>
           <Link href={`${localePath(locale)}#features`}>{featuresCopy[locale].nav}</Link>
           <Link href={localePath(locale, '/guide')}>{t.guide}</Link>
+          <Link href={localePath(locale, '/facts')}>{factsLabel[locale]}</Link>
           <Link href={localePath(locale, '/support')}>{t.support}</Link>
           <Link href={localePath(locale, '/privacy')}>{t.privacy}</Link>
           <Link href={localePath(locale, '/copyright')}>{t.copyright}</Link>

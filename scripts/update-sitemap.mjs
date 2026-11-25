@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import articles from '../lib/guide-articles.json' with { type: 'json' };
+import topicRoutes from '../lib/discovery-topics-routes.json' with { type: 'json' };
 
-const paths = [];
+const entries = [];
 for (const locale of ['ru', 'en', 'de', 'it', 'es', 'pt', 'uk', 'fr', 'pl']) {
   const base = locale === 'ru' ? '' : `/${locale}`;
   const sections = [
@@ -17,14 +18,26 @@ for (const locale of ['ru', 'en', 'de', 'it', 'es', 'pt', 'uk', 'fr', 'pl']) {
     ),
     ...articles.map((a) => `/guide/${a.id}`),
   ];
-  paths.push(...sections.map((section) => `${base}${section}` || '/'));
+  for (const section of sections) {
+    // The home copy and eight localized first-scores articles were corrected on this date.
+    const updated = section === '' || (section === '/guide/first-scores' && locale !== 'en');
+    entries.push({ path: `${base}${section}` || '/', lastmod: updated ? '2026-11-25' : undefined });
+  }
+  entries.push({ path: `${base}/facts`, lastmod: '2026-11-25' });
+  for (const [slug, translations] of Object.entries(topicRoutes)) {
+    if (translations[locale]) {
+      entries.push({ path: `${base}/answers/${slug}`, lastmod: translations[locale] });
+    }
+  }
 }
 fs.writeFileSync(
   'public/sitemap.xml',
   '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    paths
-      .map((p) => `  <url><loc>https://partitoria.app${p}</loc></url>`)
+    entries
+      .map(({ path, lastmod }) =>
+        `  <url><loc>https://partitoria.app${path}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</url>`,
+      )
       .join('\n') +
     '\n</urlset>\n',
 );
-console.log(`Sitemap: ${paths.length} canonical pages`);
+console.log(`Sitemap: ${entries.length} canonical pages`);

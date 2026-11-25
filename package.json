@@ -8,10 +8,12 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
+    "postbuild": "node scripts/localize-document-language.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",
     "verify": "node scripts/verify-site.mjs",
     "sitemap": "node scripts/update-sitemap.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
     "format": "oxfmt"
   },
   "dependencies": {

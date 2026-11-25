@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
+import { categoryMetadata } from '@/lib/guide-metadata';
 import { GuidePage } from '@/components/guide-page';
 import {
-  categoryNames,
   categoryOrder,
   type GuideCategory,
 } from '@/lib/guide-content';
@@ -20,9 +20,7 @@ export async function generateMetadata({
   const { locale, category } = await params;
   return locales.includes(locale as Locale) &&
     categoryOrder.includes(category as GuideCategory)
-    ? {
-        title: `${categoryNames[locale as Locale][category as GuideCategory]} — Partitoria`,
-      }
+    ? categoryMetadata(locale as Locale, category as GuideCategory)
     : {};
 }
 export default async function Category({

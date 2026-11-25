@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
+import { categoryMetadata } from '@/lib/guide-metadata';
 import { GuidePage } from '@/components/guide-page';
 import {
-  categoryNames,
   categoryOrder,
   type GuideCategory,
 } from '@/lib/guide-content';
@@ -16,7 +16,7 @@ export async function generateMetadata({
 }) {
   const { category } = await params;
   return categoryOrder.includes(category as GuideCategory)
-    ? { title: `${categoryNames.ru[category as GuideCategory]} — Partitoria` }
+    ? categoryMetadata('ru', category as GuideCategory)
     : {};
 }
 export default async function Category({

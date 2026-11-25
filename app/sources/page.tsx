@@ -1,10 +1,7 @@
-import type { Metadata } from 'next';
+import { legalMetadata } from '@/lib/legal-metadata';
 import { PolicyLayout } from '@/components/policy-layout';
 
-export const metadata: Metadata = {
-  title: 'Источники нот | Partitoria',
-  description: 'Внешние источники, которые могут использоваться поиском Partitoria.',
-};
+export const metadata = legalMetadata('ru', 'sources');
 
 export const dynamic = 'force-static';
 

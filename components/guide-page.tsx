@@ -10,6 +10,7 @@ import {
 } from '@/lib/guide-content';
 import { guideNavigationCopy } from '@/lib/guide-navigation';
 import { siteCopy, type Locale } from '@/lib/site-content';
+import { GuideBreadcrumbs } from './structured-data';
 
 export function GuidePage({
   locale,
@@ -36,8 +37,16 @@ export function GuidePage({
     image: a.image,
     access: a.access ? accessLabels[locale][a.access] : undefined,
   }));
+  const current = articles.find((article) => article.id === articleId);
+  const activeCategory = current?.category ?? category;
+  const breadcrumbs = [{ name: t.home, path: '' }, { name: t.guide, path: '/guide' }];
+  if (activeCategory) {
+    breadcrumbs.push({ name: categoryNames[locale][activeCategory], path: `/guide/section/${activeCategory}` });
+  }
+  if (current) breadcrumbs.push({ name: current.title, path: section });
   return (
     <main lang={locale}>
+      <GuideBreadcrumbs locale={locale} items={breadcrumbs} />
       <DocumentLanguage locale={locale} />
       <SiteHeader locale={locale} section={section} />
       <GuideBrowser
