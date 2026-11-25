@@ -21,6 +21,7 @@ function one(list, message) {
   return list[0];
 }
 function pagePath(locale, suffix) {
+  if (suffix === '/facts') return `/${locale}/facts`;
   return (locale === 'ru' ? '' : `/${locale}`) + suffix || '/';
 }
 function verifyStructuredData(html, url, suffix, outputFile) {
@@ -70,9 +71,9 @@ function verifyStructuredData(html, url, suffix, outputFile) {
   }
 }
 
-export function verifySearchPage({ html, url, locale, availableLocales, outputFile }) {
-  const suffix = locale === 'ru' ? (url === '/' ? '' : url) : url.slice(locale.length + 1);
-  const canonical = new URL(url, origin).href;
+export function verifySearchPage({ html, url, canonicalPath = url, locale, availableLocales, outputFile }) {
+  const suffix = canonicalPath === '/' ? '' : canonicalPath.replace(new RegExp(`^/${locale}(?=/|$)`), '');
+  const canonical = new URL(canonicalPath, origin).href;
   assert.equal(one(tags(html, 'html'), `Document root: ${url}`).lang, locale, `Document language: ${url}`);
   const head = html.match(/<head>([\s\S]*?)<\/head>/i)?.[1];
   assert.ok(head, `Missing head: ${url}`);
@@ -82,9 +83,11 @@ export function verifySearchPage({ html, url, locale, availableLocales, outputFi
   const title = one([...head.matchAll(/<title>([^<]*)<\/title>/gi)], `Title: ${url}`)[1].trim();
   const description = field('description')?.trim();
   assert.ok(title && description, `Empty title or description: ${url}`);
-  for (const [value, seen] of [[title, titles], [description, descriptions]]) {
-    assert.ok(!seen.has(value), `Repeated metadata at ${url}: ${value}`);
-    seen.add(value);
+  if (canonicalPath === url) {
+    for (const [value, seen] of [[title, titles], [description, descriptions]]) {
+      assert.ok(!seen.has(value), `Repeated metadata at ${url}: ${value}`);
+      seen.add(value);
+    }
   }
   assert.equal(new URL(one(links.filter((tag) => tag.rel === 'canonical'), `Canonical tag: ${url}`).href).href, canonical, `Canonical URL: ${url}`);
   const alternatives = links.filter((tag) => tag.rel === 'alternate' && tag.hreflang);
@@ -103,8 +106,18 @@ export function verifySearchPage({ html, url, locale, availableLocales, outputFi
     assert.doesNotMatch(tag.content, /(?:^|[\s,])(?:noindex|none|nosnippet)(?:$|[\s,])/i, `Blocked indexing/snippet: ${url}`);
   }
   verifyStructuredData(html, url, suffix, outputFile);
-  const anchors = tags(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ''), 'a');
+  const visible = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
+  const anchors = tags(visible, 'a');
   linksByPage.set(url, anchors.filter((a) => a.href?.startsWith('/') && !a['data-language']).map((a) => new URL(a.href, origin).pathname));
+  const footerAnchors = [...visible.matchAll(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi)].flatMap(([footer]) => tags(footer, 'a'));
+  assert.ok(footerAnchors.some((a) => a.href === pagePath(locale, '/facts')), `Missing direct facts link in footer: ${url}`);
+  if (suffix === '/facts') {
+    for (const language of availableLocales) {
+      const anchor = one(anchors.filter((a) => a['data-language'] === language), `Facts language switch ${language}: ${url}`);
+      const target = new URL(anchor.href, origin);
+      assert.ok(target.origin === origin && target.pathname === pagePath(language, '/facts'), `Facts switch target for ${language}: ${url}`);
+    }
+  }
   if (suffix === '/facts' || suffix.startsWith('/answers/')) {
     const slug = suffix.split('/').pop();
     const store = anchors.filter((a) => a.href?.startsWith('https://play.google.com/'));

@@ -167,6 +167,14 @@ Explicit translated URLs stay in their requested language. A manual language
 selection takes priority on subsequent unprefixed visits. The URL retains the
 article path, search and fragment during automatic negotiation.
 
+For the facts page, `/facts` is the language-neutral entry. The static HTML
+provides the English edition when JavaScript is unavailable. With JavaScript,
+the existing language preference rules select one of the nine explicit
+addresses, including `/en/facts` and `/ru/facts`. The German, Russian and
+other localized addresses each keep their own text even when another language
+is preferred. The alternate for an unmatched language (`x-default`) is
+`/en/facts`. English is the primary audience for current Google Play promotion.
+
 The language menu explains that selection saves the preference for 180 days in
 this browser. Only that explicit action writes `partitoria.language.v1` to
 localStorage. There is no language cookie, tracking identifier or automatic

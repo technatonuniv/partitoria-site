@@ -27,8 +27,14 @@ upload copies only; it does not authorize deleting other services, certificates,
 ACME data, user data or unrelated backups.
 
 HTML responses use `Cache-Control: no-cache` so browsers revalidate them.
-Versioned assets use a year of immutable caching. Russian `/ru/...` aliases
-redirect to their canonical short URLs, including the guide linked by old APKs.
+Versioned assets use a year of immutable caching. The Russian facts edition has
+its own `/ru/facts` HTML and `/ru/facts.txt` vinext payload. Deploy these together
+with the narrow exception in the existing HTTPS vhost. Compare the active vhost
+with the rule in this repository before changing it. Run `nginx -t`, verify
+the HTML and payload hashes over HTTPS, and check that `/ru/facts/?x=1`
+redirects to `/ru/facts?x=1`. Roll back the vhost and the release together if
+public checks fail. Other Russian `/ru/...` aliases still redirect to their short
+URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 

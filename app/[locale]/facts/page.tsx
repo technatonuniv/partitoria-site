@@ -3,7 +3,7 @@ import { locales } from '@/lib/site-content';
 
 type Props = { params: Promise<{ locale: string }> };
 export const dynamic = 'force-static';
-export const generateStaticParams = () => locales.filter(locale => locale !== 'ru').map(locale => ({ locale }));
+export const generateStaticParams = () => locales.map(locale => ({ locale }));
 export async function generateMetadata({ params }: Props) {
   return factsMetadata(discoveryLocale((await params).locale));
 }

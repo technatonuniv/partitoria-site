@@ -23,7 +23,7 @@ for (const locale of ['ru', 'en', 'de', 'it', 'es', 'pt', 'uk', 'fr', 'pl']) {
     const updated = section === '' || (section === '/guide/first-scores' && locale !== 'en');
     entries.push({ path: `${base}${section}` || '/', lastmod: updated ? '2026-11-25' : undefined });
   }
-  entries.push({ path: `${base}/facts`, lastmod: '2026-11-25' });
+  entries.push({ path: `/${locale}/facts`, lastmod: '2026-11-25' });
   for (const [slug, translations] of Object.entries(topicRoutes)) {
     if (translations[locale]) {
       entries.push({ path: `${base}/answers/${slug}`, lastmod: translations[locale] });

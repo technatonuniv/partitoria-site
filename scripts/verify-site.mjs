@@ -32,13 +32,13 @@ function outputFile(url) {
     (p) => fs.existsSync(p) && fs.statSync(p).isFile(),
   );
 }
-function verifyPage(url, locale, availableLocales = locales) {
+function verifyPage(url, locale, { availableLocales = locales, canonicalPath = url } = {}) {
   const file = outputFile(url);
   assert.ok(file, `Missing static page: ${url}`);
   const html = fs.readFileSync(file, 'utf8');
   assert.ok(html.includes('Partitoria Studio'), `Missing public credit: ${url}`);
   assert.ok(html.includes('/language-preference.js'), `Missing language negotiation: ${url}`);
-  if (!discoveryPaths.has(url)) {
+  if (!discoveryPaths.has(canonicalPath)) {
     assert.ok(html.includes('href="https://play.google.com/store/apps/details?id=com.technatonuniv.partitoria"'), `Missing Google Play link: ${url}`);
   }
   const home = locale === 'ru' ? '/' : `/${locale}`;
@@ -62,8 +62,8 @@ function verifyPage(url, locale, availableLocales = locales) {
       `Broken local reference ${value} in ${url}`,
     );
   }
-  verifySearchPage({ html, url, locale, availableLocales, outputFile });
-  canonical.push(url);
+  verifySearchPage({ html, url, canonicalPath, locale, availableLocales, outputFile });
+  if (url === canonicalPath) canonical.push(url);
   return html;
 }
 for (const locale of locales) {
@@ -89,14 +89,14 @@ for (const locale of locales) {
   }
   for (const category of categories)
     verifyPage(`${base}/guide/section/${category}`, locale);
-  const factsPath = `${base}/facts`;
+  const factsPath = `/${locale}/facts`;
   discoveryPaths.add(factsPath);
   verifyPage(factsPath, locale);
   for (const [slug, translations] of Object.entries(topicRoutes)) {
     if (!translations[locale]) continue;
     const topicPath = `${base}/answers/${slug}`;
     discoveryPaths.add(topicPath);
-    verifyPage(topicPath, locale, Object.keys(translations));
+    verifyPage(topicPath, locale, { availableLocales: Object.keys(translations) });
   }
   for (const article of articles) {
     assert.ok(categories.includes(article.category), article.id);
@@ -141,11 +141,16 @@ for (const locale of locales) {
     }
   }
 }
+// Without JavaScript the language-selection entry serves the English edition.
+const gateway = verifyPage('/facts', 'en', { canonicalPath: '/en/facts' });
+const englishFacts = fs.readFileSync(outputFile('/en/facts'), 'utf8');
+const factsText = (html) => [...html.matchAll(/<(h1|h2|p)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((match) => match[2]);
+assert.deepEqual(factsText(gateway), factsText(englishFacts), 'The /facts fallback must display the English facts before JavaScript');
 const captureResult = verifyGuideCaptures({ selection, images: expectedImages, exportRoot: root });
 verifyDiscoveryLinks(locales, discoveryPaths);
 verifyPublishedSearchFiles(root, canonical, discoveryPaths);
 console.log(
-  `PASS: ${canonical.length} canonical pages with reciprocal hreflang, social metadata, JSON-LD, sitemap and open robots policy. ${discoveryPaths.size} discovery pages linked from the site with tagged Play CTAs. ${articles.length} articles × 9 languages, local links and ${captureResult.selectedCount} selected localized tablet portrait captures with original provenance.`,
+  `PASS: ${canonical.length} canonical pages with reciprocal hreflang, social metadata, JSON-LD, sitemap and open robots policy. The /facts entry serves the English fallback. ${discoveryPaths.size} discovery pages linked from the site with tagged Play CTAs. ${articles.length} articles × 9 languages, local links and ${captureResult.selectedCount} selected localized tablet portrait captures with original provenance.`,
 );
 console.log(
   'Static verification only; browser rendering and interactions require separate checks.',

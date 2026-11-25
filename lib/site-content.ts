@@ -7,7 +7,8 @@ export const localeNames: Record<Locale, string> = {
 };
 
 export function localePath(locale: Locale, path = '') {
-  return locale === 'ru' ? path || '/' : `/${locale}${path}`;
+  if (locale === 'ru' && path !== '/facts') return path || '/';
+  return `/${locale}${path}`;
 }
 
 type SiteCopy = {
