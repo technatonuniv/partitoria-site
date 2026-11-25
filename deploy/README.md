@@ -38,9 +38,19 @@ URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## Android 1.11.1 screenshots · 25 November 2026
+
+The active website release is `20261125-guide-11032-ae52a4c`. It serves the 225 approved screenshots from Android build 11032 and 27 responsive reader previews. [Screenshot inventory](../docs/COMMERCIAL_SCREENSHOTS.md) · [Tested source](https://github.com/technatonuniv/partitoria-site/commit/ae52a4ce05b517b68925f861eed8032110161eef) · [Verify website](https://github.com/technatonuniv/partitoria-site/actions/runs/45613244031)
+
+The archive contained 1,800 files. Every extracted file matched its manifest. Archive SHA-256 `84dda0ccff502866a0c0ae118f1a776882b072b0a341072e996e6739d7952daf`. The new release preserved 557 previously published assets, and the shared directory retained ten new immutable build assets.
+
+The origin and a separate HTTPS check from the workstation each matched 713 public responses, covering all 432 canonical pages, the new screenshots and all home image sizes. Each check also verified four redirects and error responses. In Codex’s in-app browser, the English home loaded the new reader at desktop and mobile widths, the Pro annotations dialog opened the 1200 × 1920 original, and the French MusicXML page displayed its localized preview.
+
+The rollback release is `20261125-ru-facts-c125b91`. The retired release `20261125-search-5b64950` matched all 1,543 members of its off-host archive before removal. The upload directory was removed. Activation, external verification and retention receipts are stored under `/var/www/partitoria-site/deployment-receipts/20261125-guide-11032-ae52a4c/`.
+
 ## Stable Russian facts URL · 25 November 2026
 
-Active release `20261125-ru-facts-c125b91` uses commit `c125b91`.
+Release `20261125-ru-facts-c125b91` used commit `c125b91`.
 [Verify website passed](https://github.com/technatonuniv/partitoria-site/actions/runs/45600127233).
 The package contained 1,545 verified files. SHA-256
 `3e23c38ae6dba5e2a69217456e5caff07fbdd8eae658cad0877bfb03f80a0064`.
