@@ -2,7 +2,16 @@
 
 25 ноября 2026 года. Выпуск `20261125-search-5b64950` опубликован на **partitoria.app** из коммита `5b64950`. Проверенная версия Android — **1.11.1 (11032)**. Во встроенном браузере Codex открыты русская и английская страницы фактов и русский пример MusicXML. [Русская страница фактов](https://partitoria.app/facts?lang=ru) · [English facts](https://partitoria.app/en/facts)
 
-Все 44 новых и исправленных адреса, публичная карта сайта и файл ключа вернули HTTP 200 с ожидаемыми хешами. В 09:39 UTC IndexNow принял 44 адреса с ответом **HTTP 202**. Проверка ключа сервисом и индексация страниц пока не подтверждены. Владение доменом для Google Search Console и Bing Webmaster Tools в рамках этой выкладки не подтверждалось. Исходные показатели поиска приведены в разделе об ежемесячном замере. [Квитанция выкладки](../deploy/README.md#search-discovery-release--25-november-2026)
+Все 44 новых и исправленных адреса, публичная карта сайта и файл ключа вернули HTTP 200 с ожидаемыми хешами. В 09:39 UTC IndexNow принял 44 адреса с ответом **HTTP 202**. Исходные показатели поиска приведены в разделе об ежемесячном замере. [Квитанция выкладки](../deploy/README.md#search-discovery-release--25-november-2026)
+
+## Права на сайт и приём карты 25 ноября 2026 года
+
+| Сервис | Подтверждение | Результат обработки карты |
+| --- | --- | --- |
+| Google Search Console | Доменный ресурс `partitoria.app`. Google показал «Право собственности подтверждено» после добавления корневой TXT-записи. | Статус «Успешно», 432 выявленные страницы, дата последней обработки 25 ноября. [Отчёт Google](https://search.google.com/search-console/sitemaps?resource_id=sc-domain%3Apartitoria.app) |
+| Bing Webmaster Tools | Для `https://partitoria.app/` раздел Site ownership показывает «You are a verified administrator» и «Verified by: DNS». Для проверки добавлен CNAME в режиме DNS only. | Статус Success, 432 обнаруженных URL, последнее сканирование 25 ноября. [Права Bing](https://www.bing.com/webmasters/usermgmt?siteUrl=https://partitoria.app/) · [Отчёт Bing](https://www.bing.com/webmasters/sitemaps?siteUrl=https://partitoria.app/) |
+
+В 09:54 UTC оба авторитетных сервера Cloudflare вернули ожидаемые TXT и CNAME. Записи следует сохранить для повторных проверок владения. При первоначальной проверке отдельных адресов Google сообщил, что `/facts` ещё неизвестен индексу, Bing показал Not discovered для `/en/facts`. Число 432 относится к обработанной карте. [Карта сайта](https://partitoria.app/sitemap.xml)
 
 ## Какие страницы получит музыкант
 
