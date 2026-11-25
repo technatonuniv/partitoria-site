@@ -5,7 +5,8 @@ import { factsCopy, factsSupportEmail, factsVideoUrl } from '@/lib/discovery-fac
 import { getTopic, topicLocales, topicSlugs, type TopicContent } from '@/lib/discovery-topics';
 import { googlePlayUrl } from '@/lib/features-content';
 import { guideArticles } from '@/lib/guide-content';
-import { guideImage } from '@/lib/guide-image';
+import { guideImage, musicXmlPreview } from '@/lib/guide-image';
+import { guideNavigationCopy } from '@/lib/guide-navigation';
 import historicalImageCopy from '@/lib/guide-image-history.json';
 import { pageMetadata } from '@/lib/page-metadata';
 import { locales, localePath, siteCopy, type Locale } from '@/lib/site-content';
@@ -31,17 +32,23 @@ function taggedPlayUrl(slug: string, locale: Locale) {
   return link.href;
 }
 
-function Screenshot({ locale, screenshot }: { locale: Locale; screenshot: TopicContent['screenshot'] }) {
+function discoveryImage(locale: Locale, screenshot: TopicContent['screenshot']) {
+  if (screenshot.example === 'musicxml-preview') {
+    const image = musicXmlPreview(locale);
+    return { ...image, note: image.uiLocale !== locale ? guideNavigationCopy[locale].imageLanguage : '' };
+  }
   const article = guideArticles.find(entry => entry.id === screenshot.article);
-  const image = article?.image ? guideImage(locale, article.image) : undefined;
-  const source = screenshot.src || image?.src;
-  if (!source) throw new Error(`Missing discovery screenshot for ${locale}/${screenshot.article}`);
-  const landscape = Boolean(screenshot.src);
+  if (!article?.image) throw new Error(`Missing discovery screenshot for ${locale}/${screenshot.article}`);
+  const image = guideImage(locale, article.image);
+  return { src: image.src, width: 1200, height: 1920, note: image.versionCode === 10814 ? historicalImageCopy[locale] : '' };
+}
+
+function Screenshot({ locale, screenshot }: { locale: Locale; screenshot: TopicContent['screenshot'] }) {
+  const image = discoveryImage(locale, screenshot);
   return (
-    <figure className={landscape ? 'discovery-figure landscape' : 'discovery-figure'}>
-      <Image src={source} alt={screenshot.alt} width={landscape ? 960 : 1200}
-        height={landscape ? 600 : 1920} unoptimized />
-      <figcaption>{screenshot.alt}{!landscape && image?.versionCode === 10814 && ` ${historicalImageCopy[locale]}`}</figcaption>
+    <figure className={image.width > image.height ? 'discovery-figure landscape' : 'discovery-figure'}>
+      <Image src={image.src} alt={screenshot.alt} width={image.width} height={image.height} unoptimized />
+      <figcaption>{screenshot.alt}{image.note && ` ${image.note}`}</figcaption>
     </figure>
   );
 }
@@ -69,9 +76,14 @@ function Layout({ locale, slug, title, intro, children }: {
   );
 }
 
+function factsScreenshot(locale: Locale) {
+  const article = guideArticles.find(entry => entry.id === 'find-in-library')!;
+  return { article: article.id, alt: article.text[locale][0] };
+}
+
 export function factsMetadata(locale: Locale) {
   const { title, intro } = factsCopy[locale];
-  return pageMetadata({ locale, path: '/facts', title, description: intro });
+  return pageMetadata({ locale, path: '/facts', title, description: intro, image: discoveryImage(locale, factsScreenshot(locale)).src });
 }
 
 export function FactsPage({ locale }: { locale: Locale }) {
@@ -87,7 +99,7 @@ export function FactsPage({ locale }: { locale: Locale }) {
         <div className="discovery-prose">
           {copy.sections.map(section => <section key={section.title}><h2>{section.title}</h2><p>{section.text}</p></section>)}
         </div>
-        <Screenshot locale={locale} screenshot={{ article: 'find-in-library', alt: guideArticles.find(entry => entry.id === 'find-in-library')!.text[locale][0] }} />
+        <Screenshot locale={locale} screenshot={factsScreenshot(locale)} />
       </div>
       {topics.length > 0 && <section className="discovery-links">
         <h2>{questionsLabel[locale]}</h2>
@@ -110,6 +122,7 @@ export function topicMetadata(locale: Locale, slug: string) {
   if (!topic) notFound();
   return pageMetadata({
     locale, path: `/answers/${slug}`, title: `${topic.title} | Partitoria`, description: topic.description,
+    image: discoveryImage(locale, topic.screenshot).src,
     availableLocales: topicLocales(slug),
   });
 }

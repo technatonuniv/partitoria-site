@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Screenshot } from './screenshot';
 import { guideNavigationCopy } from '@/lib/guide-navigation';
+import { homeReader } from '@/lib/guide-image';
 import { SiteFooter, SiteHeader } from './site-chrome';
 import { DocumentLanguage } from './document-language';
 import { localePath, siteCopy, type Locale } from '@/lib/site-content';
@@ -12,6 +13,7 @@ export function HomePage({ locale }: { locale: Locale }) {
   const t = siteCopy[locale];
   const commercial = commercialCopy[locale];
   const features = featuresCopy[locale];
+  const reader = homeReader(locale);
   const playLink = `${googlePlayUrl}&referrer=${encodeURIComponent(`utm_source=partitoria_site&utm_medium=website&utm_campaign=home_install_${locale}`)}`;
   return (
     <main lang={locale} className="site-home">
@@ -30,9 +32,9 @@ export function HomePage({ locale }: { locale: Locale }) {
             </div>
           </div>
           <picture className="hero-reader">
-            <source srcSet="/home/reader-240.webp 240w, /home/reader-360.webp 360w, /home/reader-540.webp 540w"
+            <source srcSet={reader.srcSet}
               sizes="(max-width: 444px) 27vw, (max-width: 560px) 120px, (max-width: 760px) 180px, 260px" />
-            <img src="/home/reader-360.webp" alt="" width={360} height={576} />
+            <img src={reader.src} alt="" width={360} height={576} />
           </picture>
         </div>
       </section>

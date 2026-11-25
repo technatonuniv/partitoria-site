@@ -1,0 +1,4989 @@
+{
+  "schemaVersion": 1,
+  "recordHash": "SHA-256 of sorted compact UTF-8 JSON, ensure_ascii=false",
+  "artifact": {
+    "versionName": "1.11.1",
+    "versionCode": 11032,
+    "sourceCommit": "57b0fb0fc2d7f6be941fa51bebeab6676faf2823",
+    "inputFingerprint": "d5daf3d4f396299f70af2fd30ad6ee4fb4453c0196f3a925daee40facd975d88",
+    "apkSha256": "28ed4fe7f7b37596259d8d87187d571033d111250f5d16d714736b29722f9319",
+    "apkBytes": 72893939,
+    "appCertificateSha256": "1b9c439d7020c9fe4277a890313ef58209c19cbb6b8d8bc2518ab9ef86dfb5e3",
+    "applicationId": "com.technatonuniv.partitoria",
+    "paidActivation": true,
+    "signatureSchemeV3": true,
+    "origin": "Signed universal capture APK derived from the published release bundle, as recorded in the release and reshoot journals."
+  },
+  "installation": {
+    "installedApkSha256": "28ed4fe7f7b37596259d8d87187d571033d111250f5d16d714736b29722f9319",
+    "versionCode": 11032,
+    "versionName": "1.11.1",
+    "applicationId": "com.technatonuniv.partitoria",
+    "androidUser": 10,
+    "qemu": true,
+    "readOnlyAvd": true,
+    "width": 1200,
+    "height": 1920,
+    "avd": "Partitoria_Promo_Video_20261116",
+    "densityDpi": 260,
+    "proAccess": "test-code",
+    "apiLevel": 36,
+    "pageSizeBytes": 4096,
+    "fontScale": 1.0,
+    "observedUtc": "2026-11-25T11:37:54.945928+00:00",
+    "installationUtc": "2026-11-25T11:32:57.930899+00:00",
+    "captureSettingsFromUtc": "2026-11-25T11:37:54.945928+00:00"
+  },
+  "frames": {
+    "de/annotations.png": {
+      "capture": {
+        "path": "de/annotations.png",
+        "sha256": "5e0f883014943a4605099d42ecb4d653b300cc51ec4a6768d7c25278c07b5cfe",
+        "capturedUtc": "2026-11-25T11:46:28.594420+00:00",
+        "uiLocale": "de",
+        "bytes": 482344,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/annotations.png",
+        "sha256": "5e0f883014943a4605099d42ecb4d653b300cc51ec4a6768d7c25278c07b5cfe",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:47:14+00:00",
+        "sheetSha256": "f935bedaaa1245a4c3b830cef89b4eabe99f916b7daa30b1e7ab956f8d3b07e5"
+      }
+    },
+    "de/appearance.png": {
+      "capture": {
+        "path": "de/appearance.png",
+        "sha256": "f9d9423204858bba140f986976d734e7a3c0865061d34f9117050c45d079543f",
+        "capturedUtc": "2026-11-25T11:44:51.403818+00:00",
+        "uiLocale": "de",
+        "bytes": 111507,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/appearance.png",
+        "sha256": "f9d9423204858bba140f986976d734e7a3c0865061d34f9117050c45d079543f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "6f1fbda789f9c8205acbb7b4168ed8972d805c3296acdce0213766ff491ba266"
+      }
+    },
+    "de/backup-restore.png": {
+      "capture": {
+        "path": "de/backup-restore.png",
+        "sha256": "edf73f473a2c0b498b9dc0df75806b6aa860c9210efb823322898fe49f518726",
+        "capturedUtc": "2026-11-25T11:44:59.658237+00:00",
+        "uiLocale": "de",
+        "bytes": 226318,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/backup-restore.png",
+        "sha256": "edf73f473a2c0b498b9dc0df75806b6aa860c9210efb823322898fe49f518726",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "737704dcbe8ccf9f728a43238270e5343742fb774fc44733077cf7c0b0c7a929"
+      }
+    },
+    "de/collections.png": {
+      "capture": {
+        "path": "de/collections.png",
+        "sha256": "56f03cd9aa69b64b72e8cd03087415e09c060685e2c22de9e611d0b57f4fdb6f",
+        "capturedUtc": "2026-11-25T11:45:24.939372+00:00",
+        "uiLocale": "de",
+        "bytes": 87910,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/collections.png",
+        "sha256": "56f03cd9aa69b64b72e8cd03087415e09c060685e2c22de9e611d0b57f4fdb6f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "737704dcbe8ccf9f728a43238270e5343742fb774fc44733077cf7c0b0c7a929"
+      }
+    },
+    "de/import-inbox.png": {
+      "capture": {
+        "path": "de/import-inbox.png",
+        "sha256": "eaa42436ffd7cb7ffc9d9f2d32f86c40b7c033452dedaa557a49a9cd073e971e",
+        "capturedUtc": "2026-11-25T11:48:53.566672+00:00",
+        "uiLocale": "de",
+        "bytes": 179560,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/import-inbox.png",
+        "sha256": "eaa42436ffd7cb7ffc9d9f2d32f86c40b7c033452dedaa557a49a9cd073e971e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:49:10+00:00",
+        "sheetSha256": "3c9fd9256b91353b8e587e05f1163b87a87f258c14b0b49ce85f5029c9863c4c"
+      }
+    },
+    "de/import-review.png": {
+      "capture": {
+        "path": "de/import-review.png",
+        "sha256": "84d35be90b6fd0fb042eeb5fc268800742dec82a679bbb2123dc23074da8fff8",
+        "capturedUtc": "2026-11-25T11:48:18.465069+00:00",
+        "uiLocale": "de",
+        "bytes": 96864,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/import-review.png",
+        "sha256": "84d35be90b6fd0fb042eeb5fc268800742dec82a679bbb2123dc23074da8fff8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:49:10+00:00",
+        "sheetSha256": "7945f64b2975cfa5adcc31f590097e2ad6874e415cd08e10dbacf6b715a2ca18"
+      }
+    },
+    "de/input-controls.png": {
+      "capture": {
+        "path": "de/input-controls.png",
+        "sha256": "8c97c0f4c1d639c4b4a27999fe97d69358de1378bd5bbe9f68c0f75f20f0a9ce",
+        "capturedUtc": "2026-11-25T11:47:23.070268+00:00",
+        "uiLocale": "de",
+        "bytes": 158689,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/input-controls.png",
+        "sha256": "8c97c0f4c1d639c4b4a27999fe97d69358de1378bd5bbe9f68c0f75f20f0a9ce",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:48:05+00:00",
+        "sheetSha256": "62c497cea9435c34bfbe68e5662289c9a5a13ce27293beae23ecae77c90ba3dc"
+      }
+    },
+    "de/library-health.png": {
+      "capture": {
+        "path": "de/library-health.png",
+        "sha256": "9492580569bf85e840099dba8cb0029ce85afa6c44b8ff227f67dd80024b53ae",
+        "capturedUtc": "2026-11-25T11:45:35.642671+00:00",
+        "uiLocale": "de",
+        "bytes": 146529,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/library-health.png",
+        "sha256": "9492580569bf85e840099dba8cb0029ce85afa6c44b8ff227f67dd80024b53ae",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:46:59+00:00",
+        "sheetSha256": "443976d5057c7a0a506597ff6841cc70ad09b774e10513a7dd51689d3adff6c7"
+      }
+    },
+    "de/library-search.png": {
+      "capture": {
+        "path": "de/library-search.png",
+        "sha256": "2f9675a7fed0d0ca00a70fed575dfee0e6f5e3bdfc9b7224213009acbb3c73d8",
+        "capturedUtc": "2026-11-25T11:45:14.839729+00:00",
+        "uiLocale": "de",
+        "bytes": 129588,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/library-search.png",
+        "sha256": "2f9675a7fed0d0ca00a70fed575dfee0e6f5e3bdfc9b7224213009acbb3c73d8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "737704dcbe8ccf9f728a43238270e5343742fb774fc44733077cf7c0b0c7a929"
+      }
+    },
+    "de/library.png": {
+      "capture": {
+        "path": "de/library.png",
+        "sha256": "f561f6ffc061894934e548c2e19a818ccea2ebb2653c70bb4b0ef6e7fa9987e3",
+        "capturedUtc": "2026-11-25T11:44:30.601593+00:00",
+        "uiLocale": "de",
+        "bytes": 334936,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/library.png",
+        "sha256": "f561f6ffc061894934e548c2e19a818ccea2ebb2653c70bb4b0ef6e7fa9987e3",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "6f1fbda789f9c8205acbb7b4168ed8972d805c3296acdce0213766ff491ba266"
+      }
+    },
+    "de/local-snapshots.png": {
+      "capture": {
+        "path": "de/local-snapshots.png",
+        "sha256": "5b8e1101d166d7e5badad2f19ac7c7a52d23a7e2fce388a77d67fc5d9ed920dd",
+        "capturedUtc": "2026-11-25T11:47:56.259416+00:00",
+        "uiLocale": "de",
+        "bytes": 154197,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/local-snapshots.png",
+        "sha256": "5b8e1101d166d7e5badad2f19ac7c7a52d23a7e2fce388a77d67fc5d9ed920dd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:49:10+00:00",
+        "sheetSha256": "7945f64b2975cfa5adcc31f590097e2ad6874e415cd08e10dbacf6b715a2ca18"
+      }
+    },
+    "de/metronome.png": {
+      "capture": {
+        "path": "de/metronome.png",
+        "sha256": "eb8719caa50feb7feb51fdf2c1a85072fa03dc54618e225e91a7be1b96b021f9",
+        "capturedUtc": "2026-11-25T11:46:59.295516+00:00",
+        "uiLocale": "de",
+        "bytes": 133123,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/metronome.png",
+        "sha256": "eb8719caa50feb7feb51fdf2c1a85072fa03dc54618e225e91a7be1b96b021f9",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:48:05+00:00",
+        "sheetSha256": "62c497cea9435c34bfbe68e5662289c9a5a13ce27293beae23ecae77c90ba3dc"
+      }
+    },
+    "de/musicxml-preview.png": {
+      "capture": {
+        "path": "de/musicxml-preview.png",
+        "sha256": "edd235b818907ff0f23c870dedc7af4f6aac0529a7c14cbca44a66dd32072c46",
+        "capturedUtc": "2026-11-25T11:48:46.377388+00:00",
+        "uiLocale": "de",
+        "bytes": 89631,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/musicxml-preview.png",
+        "sha256": "edd235b818907ff0f23c870dedc7af4f6aac0529a7c14cbca44a66dd32072c46",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:49:10+00:00",
+        "sheetSha256": "7945f64b2975cfa5adcc31f590097e2ad6874e415cd08e10dbacf6b715a2ca18"
+      }
+    },
+    "de/paper-marks.png": {
+      "capture": {
+        "path": "de/paper-marks.png",
+        "sha256": "ca215b0ee61420317adfb925dc29b77c95cb99f647d588787dd19589209c2d85",
+        "capturedUtc": "2026-11-25T11:47:46.398380+00:00",
+        "uiLocale": "de",
+        "bytes": 90234,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/paper-marks.png",
+        "sha256": "ca215b0ee61420317adfb925dc29b77c95cb99f647d588787dd19589209c2d85",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:49:10+00:00",
+        "sheetSha256": "7945f64b2975cfa5adcc31f590097e2ad6874e415cd08e10dbacf6b715a2ca18"
+      }
+    },
+    "de/practice-history.png": {
+      "capture": {
+        "path": "de/practice-history.png",
+        "sha256": "3ee34084fec6caf03624cac29cd42ae3174b2f38a1a3294423c42171158e37ad",
+        "capturedUtc": "2026-11-25T11:45:48.750047+00:00",
+        "uiLocale": "de",
+        "bytes": 127511,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/practice-history.png",
+        "sha256": "3ee34084fec6caf03624cac29cd42ae3174b2f38a1a3294423c42171158e37ad",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:46:59+00:00",
+        "sheetSha256": "443976d5057c7a0a506597ff6841cc70ad09b774e10513a7dd51689d3adff6c7"
+      }
+    },
+    "de/practice-tools.png": {
+      "capture": {
+        "path": "de/practice-tools.png",
+        "sha256": "73d9eedd0dacc28d448ee73e250b1bd1d3a54fb1db59829b9649c633b7d08e77",
+        "capturedUtc": "2026-11-25T11:46:48.294692+00:00",
+        "uiLocale": "de",
+        "bytes": 72466,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/practice-tools.png",
+        "sha256": "73d9eedd0dacc28d448ee73e250b1bd1d3a54fb1db59829b9649c633b7d08e77",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:47:14+00:00",
+        "sheetSha256": "f935bedaaa1245a4c3b830cef89b4eabe99f916b7daa30b1e7ab956f8d3b07e5"
+      }
+    },
+    "de/pro-overview.png": {
+      "capture": {
+        "path": "de/pro-overview.png",
+        "sha256": "85d2383ebb8a26f402e3628e4a4d9ab60333bc5c8d3858f4c48dd4f6ec49a384",
+        "capturedUtc": "2026-11-25T11:45:08.456109+00:00",
+        "uiLocale": "de",
+        "bytes": 89933,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/pro-overview.png",
+        "sha256": "85d2383ebb8a26f402e3628e4a4d9ab60333bc5c8d3858f4c48dd4f6ec49a384",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "737704dcbe8ccf9f728a43238270e5343742fb774fc44733077cf7c0b0c7a929"
+      }
+    },
+    "de/programmes.png": {
+      "capture": {
+        "path": "de/programmes.png",
+        "sha256": "2bf6f7c9fe057a553ce399203d194cc44beef9428f1652f3c3c8a667988b6a17",
+        "capturedUtc": "2026-11-25T11:46:35.558111+00:00",
+        "uiLocale": "de",
+        "bytes": 134805,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/programmes.png",
+        "sha256": "2bf6f7c9fe057a553ce399203d194cc44beef9428f1652f3c3c8a667988b6a17",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:47:14+00:00",
+        "sheetSha256": "f935bedaaa1245a4c3b830cef89b4eabe99f916b7daa30b1e7ab956f8d3b07e5"
+      }
+    },
+    "de/reader.png": {
+      "capture": {
+        "path": "de/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T11:45:56.141051+00:00",
+        "uiLocale": "de",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:46:59+00:00",
+        "sheetSha256": "443976d5057c7a0a506597ff6841cc70ad09b774e10513a7dd51689d3adff6c7"
+      }
+    },
+    "de/reading-profiles.png": {
+      "capture": {
+        "path": "de/reading-profiles.png",
+        "sha256": "0f0dbb609a011387b93e8bb68991be04446a9810063f3dbfb638a61f593c84a5",
+        "capturedUtc": "2026-11-25T11:46:16.490549+00:00",
+        "uiLocale": "de",
+        "bytes": 81901,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/reading-profiles.png",
+        "sha256": "0f0dbb609a011387b93e8bb68991be04446a9810063f3dbfb638a61f593c84a5",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:47:14+00:00",
+        "sheetSha256": "f935bedaaa1245a4c3b830cef89b4eabe99f916b7daa30b1e7ab956f8d3b07e5"
+      }
+    },
+    "de/rehearsal-audio.png": {
+      "capture": {
+        "path": "de/rehearsal-audio.png",
+        "sha256": "9f7396838a516a06bbc8aa4479a151c52070c09fb8058a795b47cf1f0e0440de",
+        "capturedUtc": "2026-11-25T11:47:34.918686+00:00",
+        "uiLocale": "de",
+        "bytes": 110742,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/rehearsal-audio.png",
+        "sha256": "9f7396838a516a06bbc8aa4479a151c52070c09fb8058a795b47cf1f0e0440de",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:48:05+00:00",
+        "sheetSha256": "62c497cea9435c34bfbe68e5662289c9a5a13ce27293beae23ecae77c90ba3dc"
+      }
+    },
+    "de/settings.png": {
+      "capture": {
+        "path": "de/settings.png",
+        "sha256": "fc4c1372bc314f7a140f35c3fc1dfe2892e8f9e7768142cd5b2e8a719bd04909",
+        "capturedUtc": "2026-11-25T11:44:43.706172+00:00",
+        "uiLocale": "de",
+        "bytes": 205746,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/settings.png",
+        "sha256": "fc4c1372bc314f7a140f35c3fc1dfe2892e8f9e7768142cd5b2e8a719bd04909",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "6f1fbda789f9c8205acbb7b4168ed8972d805c3296acdce0213766ff491ba266"
+      }
+    },
+    "de/sidebar.png": {
+      "capture": {
+        "path": "de/sidebar.png",
+        "sha256": "200ae7fe01a4a33e59b8ab4f51f164704d01241b8a4db73d897c13ec5b543dd0",
+        "capturedUtc": "2026-11-25T11:44:36.735243+00:00",
+        "uiLocale": "de",
+        "bytes": 190127,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/sidebar.png",
+        "sha256": "200ae7fe01a4a33e59b8ab4f51f164704d01241b8a4db73d897c13ec5b543dd0",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:45:48+00:00",
+        "sheetSha256": "6f1fbda789f9c8205acbb7b4168ed8972d805c3296acdce0213766ff491ba266"
+      }
+    },
+    "de/smart-collections.png": {
+      "capture": {
+        "path": "de/smart-collections.png",
+        "sha256": "2af6802a5499a6efcb0da26a6fa00a2bb654dc2b429e221325bf7cc57303a32b",
+        "capturedUtc": "2026-11-25T11:46:04.685801+00:00",
+        "uiLocale": "de",
+        "bytes": 104230,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/smart-collections.png",
+        "sha256": "2af6802a5499a6efcb0da26a6fa00a2bb654dc2b429e221325bf7cc57303a32b",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:46:59+00:00",
+        "sheetSha256": "443976d5057c7a0a506597ff6841cc70ad09b774e10513a7dd51689d3adff6c7"
+      }
+    },
+    "de/versions-transfer.png": {
+      "capture": {
+        "path": "de/versions-transfer.png",
+        "sha256": "db3255303a506b34d6a1c3e2c30f091ec6bf2becd058c9ca210a1df546258080",
+        "capturedUtc": "2026-11-25T11:47:14.123611+00:00",
+        "uiLocale": "de",
+        "bytes": 98315,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "de/versions-transfer.png",
+        "sha256": "db3255303a506b34d6a1c3e2c30f091ec6bf2becd058c9ca210a1df546258080",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:48:05+00:00",
+        "sheetSha256": "62c497cea9435c34bfbe68e5662289c9a5a13ce27293beae23ecae77c90ba3dc"
+      }
+    },
+    "en/annotations.png": {
+      "capture": {
+        "path": "en/annotations.png",
+        "sha256": "19e3dcd90c97d3dc570c37debe241d3112b9a7e1c5ce7a18453ef65b80f708f6",
+        "capturedUtc": "2026-11-25T11:41:37.625632+00:00",
+        "uiLocale": "en",
+        "bytes": 482236,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/annotations.png",
+        "sha256": "19e3dcd90c97d3dc570c37debe241d3112b9a7e1c5ce7a18453ef65b80f708f6",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:42:57+00:00",
+        "sheetSha256": "f8e67822512f9b1f392e2341cb4575d6a740c94f3f8bafaf178b158c34d3e17c"
+      }
+    },
+    "en/appearance.png": {
+      "capture": {
+        "path": "en/appearance.png",
+        "sha256": "6b2ae386e9125e4af7307c453923df4f9548aab015a92a4d187ffccc3b8e925f",
+        "capturedUtc": "2026-11-25T11:40:16.844656+00:00",
+        "uiLocale": "en",
+        "bytes": 107845,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/appearance.png",
+        "sha256": "6b2ae386e9125e4af7307c453923df4f9548aab015a92a4d187ffccc3b8e925f",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:40:49+00:00",
+        "sheetSha256": "56b18723233f9a6d9b0985c054d798de998509ceffb97ce9fc47540bf25616cc"
+      }
+    },
+    "en/backup-restore.png": {
+      "capture": {
+        "path": "en/backup-restore.png",
+        "sha256": "b0a793f990731150ccdcb948ec2765267420fc56d15ee730f2f53defa3d9745b",
+        "capturedUtc": "2026-11-25T11:40:24.380662+00:00",
+        "uiLocale": "en",
+        "bytes": 179755,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/backup-restore.png",
+        "sha256": "b0a793f990731150ccdcb948ec2765267420fc56d15ee730f2f53defa3d9745b",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:07+00:00",
+        "sheetSha256": "3642bb685e34f087917f74ef3bd69f1dc3a0bd76f8d62af401ba4525c873c2a7"
+      }
+    },
+    "en/collections.png": {
+      "capture": {
+        "path": "en/collections.png",
+        "sha256": "46a0981394f7bcfd0dfd7ebad43ec4e66fba55a9efc1e4b917714a7dc716c236",
+        "capturedUtc": "2026-11-25T11:40:47.600609+00:00",
+        "uiLocale": "en",
+        "bytes": 85570,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/collections.png",
+        "sha256": "46a0981394f7bcfd0dfd7ebad43ec4e66fba55a9efc1e4b917714a7dc716c236",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:07+00:00",
+        "sheetSha256": "3642bb685e34f087917f74ef3bd69f1dc3a0bd76f8d62af401ba4525c873c2a7"
+      }
+    },
+    "en/import-inbox.png": {
+      "capture": {
+        "path": "en/import-inbox.png",
+        "sha256": "00a13a3531c63e0865d3859b1ff0b4919843079760611d6d02a9d56e7758f67f",
+        "capturedUtc": "2026-11-25T11:44:24.528995+00:00",
+        "uiLocale": "en",
+        "bytes": 168088,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/import-inbox.png",
+        "sha256": "00a13a3531c63e0865d3859b1ff0b4919843079760611d6d02a9d56e7758f67f",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:45:06+00:00",
+        "sheetSha256": "c3bfb9d2266310500e43880f2cf588dde9eeebdb3315a5244687e2c4f8c29ef7"
+      }
+    },
+    "en/import-review.png": {
+      "capture": {
+        "path": "en/import-review.png",
+        "sha256": "3524c30a9a727c6de022dfd84c4520be21c147d4609bf34089b408144e52d8a9",
+        "capturedUtc": "2026-11-25T11:43:39.620652+00:00",
+        "uiLocale": "en",
+        "bytes": 87093,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/import-review.png",
+        "sha256": "3524c30a9a727c6de022dfd84c4520be21c147d4609bf34089b408144e52d8a9",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:45:06+00:00",
+        "sheetSha256": "c3bfb9d2266310500e43880f2cf588dde9eeebdb3315a5244687e2c4f8c29ef7"
+      }
+    },
+    "en/input-controls.png": {
+      "capture": {
+        "path": "en/input-controls.png",
+        "sha256": "cfac176a8d11529b4d20f3d465e05c0f0458b47ebfd050a1f643ea1c645d34f7",
+        "capturedUtc": "2026-11-25T11:42:45.873720+00:00",
+        "uiLocale": "en",
+        "bytes": 162697,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/input-controls.png",
+        "sha256": "cfac176a8d11529b4d20f3d465e05c0f0458b47ebfd050a1f643ea1c645d34f7",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:43:30+00:00",
+        "sheetSha256": "7a3a69e2d9f32427714c2f66ef0ccd55f49d338a899e03ed6a5ffec0a24b6e5b"
+      }
+    },
+    "en/library-health.png": {
+      "capture": {
+        "path": "en/library-health.png",
+        "sha256": "1c57177e78db581a426578e9e0c4f1dd856bce0577fec7844011a99388e5fd86",
+        "capturedUtc": "2026-11-25T11:40:57.360193+00:00",
+        "uiLocale": "en",
+        "bytes": 134957,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/library-health.png",
+        "sha256": "1c57177e78db581a426578e9e0c4f1dd856bce0577fec7844011a99388e5fd86",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:49+00:00",
+        "sheetSha256": "959c10a10e30dfe9f2a6875f52cb6d2c673fb73076401d1b8c6be04af5134ae0"
+      }
+    },
+    "en/library-search.png": {
+      "capture": {
+        "path": "en/library-search.png",
+        "sha256": "e5c17cb7e67cb2f8aaef43d57bff61c485bb2ae34b119338c3c4b41b56211cf0",
+        "capturedUtc": "2026-11-25T11:40:39.237335+00:00",
+        "uiLocale": "en",
+        "bytes": 126414,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/library-search.png",
+        "sha256": "e5c17cb7e67cb2f8aaef43d57bff61c485bb2ae34b119338c3c4b41b56211cf0",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:07+00:00",
+        "sheetSha256": "3642bb685e34f087917f74ef3bd69f1dc3a0bd76f8d62af401ba4525c873c2a7"
+      }
+    },
+    "en/library.png": {
+      "capture": {
+        "path": "en/library.png",
+        "sha256": "0b6ac98c79f9c9726b5872c7c13ed06748328b08c62db37203b91a69de38df03",
+        "capturedUtc": "2026-11-25T11:39:55.700389+00:00",
+        "uiLocale": "en",
+        "bytes": 331537,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/library.png",
+        "sha256": "0b6ac98c79f9c9726b5872c7c13ed06748328b08c62db37203b91a69de38df03",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:40:49+00:00",
+        "sheetSha256": "56b18723233f9a6d9b0985c054d798de998509ceffb97ce9fc47540bf25616cc"
+      }
+    },
+    "en/local-snapshots.png": {
+      "capture": {
+        "path": "en/local-snapshots.png",
+        "sha256": "54eeb0ee71bd4d88a26e4ff8a6807dbf5752109bbac5e158e562f6048719d35e",
+        "capturedUtc": "2026-11-25T11:43:19.486325+00:00",
+        "uiLocale": "en",
+        "bytes": 141326,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/local-snapshots.png",
+        "sha256": "54eeb0ee71bd4d88a26e4ff8a6807dbf5752109bbac5e158e562f6048719d35e",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:45:06+00:00",
+        "sheetSha256": "c3bfb9d2266310500e43880f2cf588dde9eeebdb3315a5244687e2c4f8c29ef7"
+      }
+    },
+    "en/metronome.png": {
+      "capture": {
+        "path": "en/metronome.png",
+        "sha256": "6f7280be4076a458799d8b73baf6af2bbe0076484064601ae9ba34e035dd6fc3",
+        "capturedUtc": "2026-11-25T11:42:00.184318+00:00",
+        "uiLocale": "en",
+        "bytes": 125788,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/metronome.png",
+        "sha256": "6f7280be4076a458799d8b73baf6af2bbe0076484064601ae9ba34e035dd6fc3",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:43:30+00:00",
+        "sheetSha256": "7a3a69e2d9f32427714c2f66ef0ccd55f49d338a899e03ed6a5ffec0a24b6e5b"
+      }
+    },
+    "en/musicxml-preview.png": {
+      "capture": {
+        "path": "en/musicxml-preview.png",
+        "sha256": "0994eaa21ecda2be6840fae574a145ed10847fcd73859904507c244d6b41b2bc",
+        "capturedUtc": "2026-11-25T12:19:18.755021+00:00",
+        "uiLocale": "en",
+        "bytes": 90719,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/musicxml-preview.png",
+        "sha256": "0994eaa21ecda2be6840fae574a145ed10847fcd73859904507c244d6b41b2bc",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T12:19:57+00:00",
+        "sheetSha256": "27b8405a8bb6e77fc7f6b43c4298bb668d314416bb715ad60ea41d6bc7f41432"
+      }
+    },
+    "en/paper-marks.png": {
+      "capture": {
+        "path": "en/paper-marks.png",
+        "sha256": "c0c1db5eac702de6cda4721bd953f8b4e4fee38fbe21eb2c763fc003b5441e12",
+        "capturedUtc": "2026-11-25T11:43:10.001260+00:00",
+        "uiLocale": "en",
+        "bytes": 78952,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/paper-marks.png",
+        "sha256": "c0c1db5eac702de6cda4721bd953f8b4e4fee38fbe21eb2c763fc003b5441e12",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:45:06+00:00",
+        "sheetSha256": "c3bfb9d2266310500e43880f2cf588dde9eeebdb3315a5244687e2c4f8c29ef7"
+      }
+    },
+    "en/practice-history.png": {
+      "capture": {
+        "path": "en/practice-history.png",
+        "sha256": "d0880265ad6f5e1f424ab924dd619e587e2fa0ef1e7641f2d337615b922434d9",
+        "capturedUtc": "2026-11-25T11:42:15.125289+00:00",
+        "uiLocale": "en",
+        "bytes": 101554,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/practice-history.png",
+        "sha256": "d0880265ad6f5e1f424ab924dd619e587e2fa0ef1e7641f2d337615b922434d9",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:42:57+00:00",
+        "sheetSha256": "f8e67822512f9b1f392e2341cb4575d6a740c94f3f8bafaf178b158c34d3e17c"
+      }
+    },
+    "en/practice-tools.png": {
+      "capture": {
+        "path": "en/practice-tools.png",
+        "sha256": "9ddaf7bb42cb6d7c7aa821d08d8a4c7684a6ab3dfb5ff61d95a26fff9c435939",
+        "capturedUtc": "2026-11-25T11:42:25.956872+00:00",
+        "uiLocale": "en",
+        "bytes": 67533,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/practice-tools.png",
+        "sha256": "9ddaf7bb42cb6d7c7aa821d08d8a4c7684a6ab3dfb5ff61d95a26fff9c435939",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:42:57+00:00",
+        "sheetSha256": "f8e67822512f9b1f392e2341cb4575d6a740c94f3f8bafaf178b158c34d3e17c"
+      }
+    },
+    "en/pro-overview.png": {
+      "capture": {
+        "path": "en/pro-overview.png",
+        "sha256": "ce0ab877c81872dd9ee90c9859bfc2fbeae4c0286e3380021753864b432281bc",
+        "capturedUtc": "2026-11-25T11:40:32.391917+00:00",
+        "uiLocale": "en",
+        "bytes": 89273,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/pro-overview.png",
+        "sha256": "ce0ab877c81872dd9ee90c9859bfc2fbeae4c0286e3380021753864b432281bc",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:07+00:00",
+        "sheetSha256": "3642bb685e34f087917f74ef3bd69f1dc3a0bd76f8d62af401ba4525c873c2a7"
+      }
+    },
+    "en/programmes.png": {
+      "capture": {
+        "path": "en/programmes.png",
+        "sha256": "bc9e17d6c85470923656784c7cb0dd4286d904814c07fbd972303f0dceca9da5",
+        "capturedUtc": "2026-11-25T11:41:46.454968+00:00",
+        "uiLocale": "en",
+        "bytes": 129799,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/programmes.png",
+        "sha256": "bc9e17d6c85470923656784c7cb0dd4286d904814c07fbd972303f0dceca9da5",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:42:57+00:00",
+        "sheetSha256": "f8e67822512f9b1f392e2341cb4575d6a740c94f3f8bafaf178b158c34d3e17c"
+      }
+    },
+    "en/reader.png": {
+      "capture": {
+        "path": "en/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T11:41:07.429792+00:00",
+        "uiLocale": "en",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:49+00:00",
+        "sheetSha256": "959c10a10e30dfe9f2a6875f52cb6d2c673fb73076401d1b8c6be04af5134ae0"
+      }
+    },
+    "en/reading-profiles.png": {
+      "capture": {
+        "path": "en/reading-profiles.png",
+        "sha256": "0a656cd19783f2fa8d36b34c71761584d113b001eac7c432543e48781384b189",
+        "capturedUtc": "2026-11-25T11:41:27.515189+00:00",
+        "uiLocale": "en",
+        "bytes": 78462,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/reading-profiles.png",
+        "sha256": "0a656cd19783f2fa8d36b34c71761584d113b001eac7c432543e48781384b189",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:49+00:00",
+        "sheetSha256": "959c10a10e30dfe9f2a6875f52cb6d2c673fb73076401d1b8c6be04af5134ae0"
+      }
+    },
+    "en/rehearsal-audio.png": {
+      "capture": {
+        "path": "en/rehearsal-audio.png",
+        "sha256": "86fa0f31c37329549f46188ae4dd1805512010ed072d08dc867a52e501aba469",
+        "capturedUtc": "2026-11-25T11:42:57.773052+00:00",
+        "uiLocale": "en",
+        "bytes": 98218,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/rehearsal-audio.png",
+        "sha256": "86fa0f31c37329549f46188ae4dd1805512010ed072d08dc867a52e501aba469",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:43:30+00:00",
+        "sheetSha256": "7a3a69e2d9f32427714c2f66ef0ccd55f49d338a899e03ed6a5ffec0a24b6e5b"
+      }
+    },
+    "en/settings.png": {
+      "capture": {
+        "path": "en/settings.png",
+        "sha256": "a5ae8417dd75616196316a9ce1fc26dcbbc8a1b7e844f81c596400c19d053d6e",
+        "capturedUtc": "2026-11-25T11:40:08.220968+00:00",
+        "uiLocale": "en",
+        "bytes": 197325,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/settings.png",
+        "sha256": "a5ae8417dd75616196316a9ce1fc26dcbbc8a1b7e844f81c596400c19d053d6e",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:40:49+00:00",
+        "sheetSha256": "56b18723233f9a6d9b0985c054d798de998509ceffb97ce9fc47540bf25616cc"
+      }
+    },
+    "en/sidebar.png": {
+      "capture": {
+        "path": "en/sidebar.png",
+        "sha256": "1f4548697782c220ec73af02dc4cebc073824517c4e5dfaf831ad499f6884fde",
+        "capturedUtc": "2026-11-25T11:40:01.082256+00:00",
+        "uiLocale": "en",
+        "bytes": 188130,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/sidebar.png",
+        "sha256": "1f4548697782c220ec73af02dc4cebc073824517c4e5dfaf831ad499f6884fde",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:40:49+00:00",
+        "sheetSha256": "56b18723233f9a6d9b0985c054d798de998509ceffb97ce9fc47540bf25616cc"
+      }
+    },
+    "en/smart-collections.png": {
+      "capture": {
+        "path": "en/smart-collections.png",
+        "sha256": "e27b3349034c753ef2eb6fdf551e8b7e2b5adfa5e1b803cfcf971c3f0dba12b1",
+        "capturedUtc": "2026-11-25T11:41:15.922901+00:00",
+        "uiLocale": "en",
+        "bytes": 102836,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/smart-collections.png",
+        "sha256": "e27b3349034c753ef2eb6fdf551e8b7e2b5adfa5e1b803cfcf971c3f0dba12b1",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:41:49+00:00",
+        "sheetSha256": "959c10a10e30dfe9f2a6875f52cb6d2c673fb73076401d1b8c6be04af5134ae0"
+      }
+    },
+    "en/versions-transfer.png": {
+      "capture": {
+        "path": "en/versions-transfer.png",
+        "sha256": "941301619fc35766b0dd057a1be3a36addd5341a544c60ecbc4c2fc64e4347fe",
+        "capturedUtc": "2026-11-25T11:42:37.487942+00:00",
+        "uiLocale": "en",
+        "bytes": 92796,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "en/versions-transfer.png",
+        "sha256": "941301619fc35766b0dd057a1be3a36addd5341a544c60ecbc4c2fc64e4347fe",
+        "verdict": "PASS",
+        "reviewer": "Codex",
+        "at": "2026-11-25T11:43:30+00:00",
+        "sheetSha256": "7a3a69e2d9f32427714c2f66ef0ccd55f49d338a899e03ed6a5ffec0a24b6e5b"
+      }
+    },
+    "es/annotations.png": {
+      "capture": {
+        "path": "es/annotations.png",
+        "sha256": "150011eb0445b2eda608095fb32d1dc3052ad53b651e8112650972b680b25ac0",
+        "capturedUtc": "2026-11-25T11:59:43.807317+00:00",
+        "uiLocale": "es",
+        "bytes": 482401,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/annotations.png",
+        "sha256": "150011eb0445b2eda608095fb32d1dc3052ad53b651e8112650972b680b25ac0",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:00:28+00:00",
+        "sheetSha256": "9efe9b85cc5a1e7a6a76dccd2cd23755842ddcb0afe3b1b3b8cc26f2acbb493a"
+      }
+    },
+    "es/appearance.png": {
+      "capture": {
+        "path": "es/appearance.png",
+        "sha256": "4d7f682ea3cf2e2b24196cc29d1bf92cc065af085e1cfc8357ed945579c4b142",
+        "capturedUtc": "2026-11-25T11:58:08.977032+00:00",
+        "uiLocale": "es",
+        "bytes": 109628,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/appearance.png",
+        "sha256": "4d7f682ea3cf2e2b24196cc29d1bf92cc065af085e1cfc8357ed945579c4b142",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:58:28+00:00",
+        "sheetSha256": "4d4e1c1df7a8f2321cfd8bb415dd1471c1b662df331e82f9511c6b71198b4b5a"
+      }
+    },
+    "es/backup-restore.png": {
+      "capture": {
+        "path": "es/backup-restore.png",
+        "sha256": "b5aa5fca425904901971c4cea4801cc2fe2c66a5994ac74912c73078e8202cdd",
+        "capturedUtc": "2026-11-25T11:58:17.577236+00:00",
+        "uiLocale": "es",
+        "bytes": 231272,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/backup-restore.png",
+        "sha256": "b5aa5fca425904901971c4cea4801cc2fe2c66a5994ac74912c73078e8202cdd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:04+00:00",
+        "sheetSha256": "ed20a0fc68f2c6cd8302a1125690826216a756e799bf5592aafac5ba75a1ef79"
+      }
+    },
+    "es/collections.png": {
+      "capture": {
+        "path": "es/collections.png",
+        "sha256": "2c8f36ff88ec0bd749efb2136f1c31388b7a974b55b19fda08362dd95f4c41e5",
+        "capturedUtc": "2026-11-25T11:58:41.063991+00:00",
+        "uiLocale": "es",
+        "bytes": 88633,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/collections.png",
+        "sha256": "2c8f36ff88ec0bd749efb2136f1c31388b7a974b55b19fda08362dd95f4c41e5",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:04+00:00",
+        "sheetSha256": "ed20a0fc68f2c6cd8302a1125690826216a756e799bf5592aafac5ba75a1ef79"
+      }
+    },
+    "es/import-inbox.png": {
+      "capture": {
+        "path": "es/import-inbox.png",
+        "sha256": "a2f8f6f5a436c423320ec32baaec4e420df0aa5197b2a2d6e0e02670d64d56fc",
+        "capturedUtc": "2026-11-25T12:01:36.021582+00:00",
+        "uiLocale": "es",
+        "bytes": 193327,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/import-inbox.png",
+        "sha256": "a2f8f6f5a436c423320ec32baaec4e420df0aa5197b2a2d6e0e02670d64d56fc",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:24+00:00",
+        "sheetSha256": "1c8933d470a83cf330dc52ed59aebe9053e557d458f21a2354fb9ddcc0276750"
+      }
+    },
+    "es/import-review.png": {
+      "capture": {
+        "path": "es/import-review.png",
+        "sha256": "c90a813ccbbee09314bebfb996a552ac4aeb7accdb02e5ae1f88c4182fa549cd",
+        "capturedUtc": "2026-11-25T12:01:17.228082+00:00",
+        "uiLocale": "es",
+        "bytes": 95746,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/import-review.png",
+        "sha256": "c90a813ccbbee09314bebfb996a552ac4aeb7accdb02e5ae1f88c4182fa549cd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:14+00:00",
+        "sheetSha256": "3825f1055547ffc839dd1d1e8f810ed1db53de4943e26b6a0f8211ab22a32af7"
+      }
+    },
+    "es/input-controls.png": {
+      "capture": {
+        "path": "es/input-controls.png",
+        "sha256": "cb1f8de41c25da37463bb863e228eb9c634c81383a6d2521697dc99b525a5127",
+        "capturedUtc": "2026-11-25T12:00:33.639433+00:00",
+        "uiLocale": "es",
+        "bytes": 166928,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/input-controls.png",
+        "sha256": "cb1f8de41c25da37463bb863e228eb9c634c81383a6d2521697dc99b525a5127",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:01:04+00:00",
+        "sheetSha256": "a58744b29897bf5e62c65f1641f98d6dfdd215f5b845014e04c4afba2949a0ba"
+      }
+    },
+    "es/library-health.png": {
+      "capture": {
+        "path": "es/library-health.png",
+        "sha256": "3641bb29f8d28caba03714d0221e5a2b4e3ec7e8420ce3ed8501bd10925718bd",
+        "capturedUtc": "2026-11-25T11:58:52.812195+00:00",
+        "uiLocale": "es",
+        "bytes": 152282,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/library-health.png",
+        "sha256": "3641bb29f8d28caba03714d0221e5a2b4e3ec7e8420ce3ed8501bd10925718bd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:44+00:00",
+        "sheetSha256": "e8af30b558a5d494df4c0c066f970d7a7c0383b532136da825893f49d6e4b7cd"
+      }
+    },
+    "es/library-search.png": {
+      "capture": {
+        "path": "es/library-search.png",
+        "sha256": "2a8369416b313f941eaad325acaf1472987784b52b278687d3a8574ab9afcfd0",
+        "capturedUtc": "2026-11-25T11:58:33.673518+00:00",
+        "uiLocale": "es",
+        "bytes": 137281,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/library-search.png",
+        "sha256": "2a8369416b313f941eaad325acaf1472987784b52b278687d3a8574ab9afcfd0",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:04+00:00",
+        "sheetSha256": "ed20a0fc68f2c6cd8302a1125690826216a756e799bf5592aafac5ba75a1ef79"
+      }
+    },
+    "es/library.png": {
+      "capture": {
+        "path": "es/library.png",
+        "sha256": "3a95cf446aeaaef5cf52fc8ce7806ef6edbcc2623a79ac2cb176d5efa7173a7a",
+        "capturedUtc": "2026-11-25T11:57:44.838694+00:00",
+        "uiLocale": "es",
+        "bytes": 344384,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/library.png",
+        "sha256": "3a95cf446aeaaef5cf52fc8ce7806ef6edbcc2623a79ac2cb176d5efa7173a7a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:58:28+00:00",
+        "sheetSha256": "4d4e1c1df7a8f2321cfd8bb415dd1471c1b662df331e82f9511c6b71198b4b5a"
+      }
+    },
+    "es/local-snapshots.png": {
+      "capture": {
+        "path": "es/local-snapshots.png",
+        "sha256": "1c4d147af8373cf21d82af9723c408c6adcf01a426fa2d51f708ab02167c59c6",
+        "capturedUtc": "2026-11-25T12:01:08.331198+00:00",
+        "uiLocale": "es",
+        "bytes": 139322,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/local-snapshots.png",
+        "sha256": "1c4d147af8373cf21d82af9723c408c6adcf01a426fa2d51f708ab02167c59c6",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:14+00:00",
+        "sheetSha256": "3825f1055547ffc839dd1d1e8f810ed1db53de4943e26b6a0f8211ab22a32af7"
+      }
+    },
+    "es/metronome.png": {
+      "capture": {
+        "path": "es/metronome.png",
+        "sha256": "37959fae31eb991cd5ae7e9b13443fd472b2361da83766055fee889f5145a301",
+        "capturedUtc": "2026-11-25T12:00:13.056139+00:00",
+        "uiLocale": "es",
+        "bytes": 136339,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/metronome.png",
+        "sha256": "37959fae31eb991cd5ae7e9b13443fd472b2361da83766055fee889f5145a301",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:01:04+00:00",
+        "sheetSha256": "a58744b29897bf5e62c65f1641f98d6dfdd215f5b845014e04c4afba2949a0ba"
+      }
+    },
+    "es/musicxml-preview.png": {
+      "capture": {
+        "path": "es/musicxml-preview.png",
+        "sha256": "d37684c3fb07126e66077a45a709ec623c68b64e6a623a197c7603216473a698",
+        "capturedUtc": "2026-11-25T12:01:28.060836+00:00",
+        "uiLocale": "es",
+        "bytes": 92414,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/musicxml-preview.png",
+        "sha256": "d37684c3fb07126e66077a45a709ec623c68b64e6a623a197c7603216473a698",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:14+00:00",
+        "sheetSha256": "3825f1055547ffc839dd1d1e8f810ed1db53de4943e26b6a0f8211ab22a32af7"
+      }
+    },
+    "es/paper-marks.png": {
+      "capture": {
+        "path": "es/paper-marks.png",
+        "sha256": "ac0a763e314709389cd383defaa13d44303f6b1a7f5a0c7a7449abee3471943f",
+        "capturedUtc": "2026-11-25T12:00:58.792932+00:00",
+        "uiLocale": "es",
+        "bytes": 82344,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/paper-marks.png",
+        "sha256": "ac0a763e314709389cd383defaa13d44303f6b1a7f5a0c7a7449abee3471943f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:14+00:00",
+        "sheetSha256": "3825f1055547ffc839dd1d1e8f810ed1db53de4943e26b6a0f8211ab22a32af7"
+      }
+    },
+    "es/practice-history.png": {
+      "capture": {
+        "path": "es/practice-history.png",
+        "sha256": "239ccf431d2de31518881c89def7f4f25b200c914c466fb16b2fa2192e872b99",
+        "capturedUtc": "2026-11-25T11:59:04.370145+00:00",
+        "uiLocale": "es",
+        "bytes": 150810,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/practice-history.png",
+        "sha256": "239ccf431d2de31518881c89def7f4f25b200c914c466fb16b2fa2192e872b99",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:44+00:00",
+        "sheetSha256": "e8af30b558a5d494df4c0c066f970d7a7c0383b532136da825893f49d6e4b7cd"
+      }
+    },
+    "es/practice-tools.png": {
+      "capture": {
+        "path": "es/practice-tools.png",
+        "sha256": "162aae706082bead902949a267fd931000234e35900d55a91d2ead70ac08aac6",
+        "capturedUtc": "2026-11-25T12:00:02.461904+00:00",
+        "uiLocale": "es",
+        "bytes": 70913,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/practice-tools.png",
+        "sha256": "162aae706082bead902949a267fd931000234e35900d55a91d2ead70ac08aac6",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:00:28+00:00",
+        "sheetSha256": "9efe9b85cc5a1e7a6a76dccd2cd23755842ddcb0afe3b1b3b8cc26f2acbb493a"
+      }
+    },
+    "es/pro-overview.png": {
+      "capture": {
+        "path": "es/pro-overview.png",
+        "sha256": "aa9483bb96e9cf2b43fac2bbdc00fb844c7ead9f9c907ccd16edf9cda67ce639",
+        "capturedUtc": "2026-11-25T11:58:26.635967+00:00",
+        "uiLocale": "es",
+        "bytes": 96272,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/pro-overview.png",
+        "sha256": "aa9483bb96e9cf2b43fac2bbdc00fb844c7ead9f9c907ccd16edf9cda67ce639",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:04+00:00",
+        "sheetSha256": "ed20a0fc68f2c6cd8302a1125690826216a756e799bf5592aafac5ba75a1ef79"
+      }
+    },
+    "es/programmes.png": {
+      "capture": {
+        "path": "es/programmes.png",
+        "sha256": "3bec2020ef8c2ffa2f81468666bedc2a2334c671a9a227a6062587f63d5d335d",
+        "capturedUtc": "2026-11-25T11:59:50.525661+00:00",
+        "uiLocale": "es",
+        "bytes": 133874,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/programmes.png",
+        "sha256": "3bec2020ef8c2ffa2f81468666bedc2a2334c671a9a227a6062587f63d5d335d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:00:28+00:00",
+        "sheetSha256": "9efe9b85cc5a1e7a6a76dccd2cd23755842ddcb0afe3b1b3b8cc26f2acbb493a"
+      }
+    },
+    "es/reader.png": {
+      "capture": {
+        "path": "es/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T11:59:12.330226+00:00",
+        "uiLocale": "es",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:44+00:00",
+        "sheetSha256": "e8af30b558a5d494df4c0c066f970d7a7c0383b532136da825893f49d6e4b7cd"
+      }
+    },
+    "es/reading-profiles.png": {
+      "capture": {
+        "path": "es/reading-profiles.png",
+        "sha256": "a6a7baac657fa57b9403b7446e507a42d625113164d572a1c191fb30e605592e",
+        "capturedUtc": "2026-11-25T11:59:33.256606+00:00",
+        "uiLocale": "es",
+        "bytes": 85419,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/reading-profiles.png",
+        "sha256": "a6a7baac657fa57b9403b7446e507a42d625113164d572a1c191fb30e605592e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:00:28+00:00",
+        "sheetSha256": "9efe9b85cc5a1e7a6a76dccd2cd23755842ddcb0afe3b1b3b8cc26f2acbb493a"
+      }
+    },
+    "es/rehearsal-audio.png": {
+      "capture": {
+        "path": "es/rehearsal-audio.png",
+        "sha256": "66d72f63a5e29473dab3e016e81fdf6ae62feacae3793b3054e154e42c9f98b8",
+        "capturedUtc": "2026-11-25T12:00:46.536212+00:00",
+        "uiLocale": "es",
+        "bytes": 99686,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/rehearsal-audio.png",
+        "sha256": "66d72f63a5e29473dab3e016e81fdf6ae62feacae3793b3054e154e42c9f98b8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:01:04+00:00",
+        "sheetSha256": "a58744b29897bf5e62c65f1641f98d6dfdd215f5b845014e04c4afba2949a0ba"
+      }
+    },
+    "es/settings.png": {
+      "capture": {
+        "path": "es/settings.png",
+        "sha256": "177e4b32562b09ac7eb18160ca6d28dbad9819009a4dc68b47d82a368bc83d28",
+        "capturedUtc": "2026-11-25T11:57:59.731049+00:00",
+        "uiLocale": "es",
+        "bytes": 205710,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/settings.png",
+        "sha256": "177e4b32562b09ac7eb18160ca6d28dbad9819009a4dc68b47d82a368bc83d28",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:58:28+00:00",
+        "sheetSha256": "4d4e1c1df7a8f2321cfd8bb415dd1471c1b662df331e82f9511c6b71198b4b5a"
+      }
+    },
+    "es/sidebar.png": {
+      "capture": {
+        "path": "es/sidebar.png",
+        "sha256": "cb30ef29ce72bef2ce0abaaf0517a041e78fef338b44f7367d59165980059d9a",
+        "capturedUtc": "2026-11-25T11:57:51.141169+00:00",
+        "uiLocale": "es",
+        "bytes": 206677,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/sidebar.png",
+        "sha256": "cb30ef29ce72bef2ce0abaaf0517a041e78fef338b44f7367d59165980059d9a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:58:28+00:00",
+        "sheetSha256": "4d4e1c1df7a8f2321cfd8bb415dd1471c1b662df331e82f9511c6b71198b4b5a"
+      }
+    },
+    "es/smart-collections.png": {
+      "capture": {
+        "path": "es/smart-collections.png",
+        "sha256": "d0d7ce90e8569296a962aa16856a15ac4f7c7b09ac145978ff140970e282756f",
+        "capturedUtc": "2026-11-25T11:59:21.065577+00:00",
+        "uiLocale": "es",
+        "bytes": 106258,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/smart-collections.png",
+        "sha256": "d0d7ce90e8569296a962aa16856a15ac4f7c7b09ac145978ff140970e282756f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T11:59:44+00:00",
+        "sheetSha256": "e8af30b558a5d494df4c0c066f970d7a7c0383b532136da825893f49d6e4b7cd"
+      }
+    },
+    "es/versions-transfer.png": {
+      "capture": {
+        "path": "es/versions-transfer.png",
+        "sha256": "31d7dc2a49bf5c7139251d7e649fbdd98298adafda166dcc028dbe62c585b22c",
+        "capturedUtc": "2026-11-25T12:00:25.082159+00:00",
+        "uiLocale": "es",
+        "bytes": 99953,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "es/versions-transfer.png",
+        "sha256": "31d7dc2a49bf5c7139251d7e649fbdd98298adafda166dcc028dbe62c585b22c",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:01:04+00:00",
+        "sheetSha256": "a58744b29897bf5e62c65f1641f98d6dfdd215f5b845014e04c4afba2949a0ba"
+      }
+    },
+    "fr/annotations.png": {
+      "capture": {
+        "path": "fr/annotations.png",
+        "sha256": "25aa13ec1fc057c3d9be033071c6471d388b09f184d8c4712b01637cbc082b11",
+        "capturedUtc": "2026-11-25T11:51:05.267503+00:00",
+        "uiLocale": "fr",
+        "bytes": 482268,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/annotations.png",
+        "sha256": "25aa13ec1fc057c3d9be033071c6471d388b09f184d8c4712b01637cbc082b11",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:51:57+00:00",
+        "sheetSha256": "0692d4ba3ac1dc694af7f5af18b185100757af86da814877846495f7f3f9b937"
+      }
+    },
+    "fr/appearance.png": {
+      "capture": {
+        "path": "fr/appearance.png",
+        "sha256": "234eb41ea211468effe39e73237d943e61d57361f6e14c8a3c3b021c244bc7bd",
+        "capturedUtc": "2026-11-25T11:49:23.563662+00:00",
+        "uiLocale": "fr",
+        "bytes": 110705,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/appearance.png",
+        "sha256": "234eb41ea211468effe39e73237d943e61d57361f6e14c8a3c3b021c244bc7bd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:04+00:00",
+        "sheetSha256": "2e2404f78cb15fcc7f02cccaa7610f5fae037bd99f71128ee5d4c3931992e33b"
+      }
+    },
+    "fr/backup-restore.png": {
+      "capture": {
+        "path": "fr/backup-restore.png",
+        "sha256": "f4a15e9e1f3d884f0ca2cf00b38fe6fa9f5f32a6a84239f081a0c5a2110386e7",
+        "capturedUtc": "2026-11-25T11:49:33.465487+00:00",
+        "uiLocale": "fr",
+        "bytes": 221506,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/backup-restore.png",
+        "sha256": "f4a15e9e1f3d884f0ca2cf00b38fe6fa9f5f32a6a84239f081a0c5a2110386e7",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:04+00:00",
+        "sheetSha256": "01df5719e5578c24d6b964c7b55e955e893c389dab4b0829c658e6da66aad7f6"
+      }
+    },
+    "fr/collections.png": {
+      "capture": {
+        "path": "fr/collections.png",
+        "sha256": "444f4ae13c218ebb7d8a759012acaac86a399badd63d5561542282879c5d9e1a",
+        "capturedUtc": "2026-11-25T11:50:04.663068+00:00",
+        "uiLocale": "fr",
+        "bytes": 90453,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/collections.png",
+        "sha256": "444f4ae13c218ebb7d8a759012acaac86a399badd63d5561542282879c5d9e1a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:57+00:00",
+        "sheetSha256": "95c9426c32e6bc325d50e67c2afff8e3b78ab08f8ae1d1748aeda4032aa210cb"
+      }
+    },
+    "fr/import-inbox.png": {
+      "capture": {
+        "path": "fr/import-inbox.png",
+        "sha256": "a5910cf8af59d19f7b7faec9a2875173c1ff8d5aa9b93f3a77727a6c6e8a171e",
+        "capturedUtc": "2026-11-25T12:19:29.387282+00:00",
+        "uiLocale": "fr",
+        "bytes": 178723,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/import-inbox.png",
+        "sha256": "a5910cf8af59d19f7b7faec9a2875173c1ff8d5aa9b93f3a77727a6c6e8a171e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T12:19:48+00:00",
+        "sheetSha256": "28da08efada16ae899817de1caf9d9faecf46c401ad38a87de52a9530ebafa5c"
+      }
+    },
+    "fr/import-review.png": {
+      "capture": {
+        "path": "fr/import-review.png",
+        "sha256": "65f93c19ccd4503ffc034034dc611778b17d1b9c715eb246235ab033c301c882",
+        "capturedUtc": "2026-11-25T11:52:50.421842+00:00",
+        "uiLocale": "fr",
+        "bytes": 92037,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/import-review.png",
+        "sha256": "65f93c19ccd4503ffc034034dc611778b17d1b9c715eb246235ab033c301c882",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:53:53+00:00",
+        "sheetSha256": "617df4e8f7bf8ad372c5e66871da31ecc926aadb47e78ab82b60637d7182bfee"
+      }
+    },
+    "fr/input-controls.png": {
+      "capture": {
+        "path": "fr/input-controls.png",
+        "sha256": "0b3df182bc0d5b259ff9a1b66cfa7015555bceb206445bbb462459705278e7b8",
+        "capturedUtc": "2026-11-25T11:51:54.234689+00:00",
+        "uiLocale": "fr",
+        "bytes": 164907,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/input-controls.png",
+        "sha256": "0b3df182bc0d5b259ff9a1b66cfa7015555bceb206445bbb462459705278e7b8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:52:48+00:00",
+        "sheetSha256": "6bd015909a0b5382e55802dc465de25bae6f81cfb7f7e205775709b8565daf59"
+      }
+    },
+    "fr/library-health.png": {
+      "capture": {
+        "path": "fr/library-health.png",
+        "sha256": "435b12d05163eb8f63f2fdb1d9c3ba5c571768b487d2f1edbed2d9f35180fe65",
+        "capturedUtc": "2026-11-25T11:50:15.723995+00:00",
+        "uiLocale": "fr",
+        "bytes": 143815,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/library-health.png",
+        "sha256": "435b12d05163eb8f63f2fdb1d9c3ba5c571768b487d2f1edbed2d9f35180fe65",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:57+00:00",
+        "sheetSha256": "923e2af2eb358cb0e23e746f3b6a3d693e208404ecc31da9566e8929c705d948"
+      }
+    },
+    "fr/library-search.png": {
+      "capture": {
+        "path": "fr/library-search.png",
+        "sha256": "35b2ad3401b41d4b3b911b1f36727ec1e60136e68f524f98a550f58b9e9665ad",
+        "capturedUtc": "2026-11-25T11:49:55.713793+00:00",
+        "uiLocale": "fr",
+        "bytes": 135982,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/library-search.png",
+        "sha256": "35b2ad3401b41d4b3b911b1f36727ec1e60136e68f524f98a550f58b9e9665ad",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:57+00:00",
+        "sheetSha256": "95c9426c32e6bc325d50e67c2afff8e3b78ab08f8ae1d1748aeda4032aa210cb"
+      }
+    },
+    "fr/library.png": {
+      "capture": {
+        "path": "fr/library.png",
+        "sha256": "b572718f849e32bee945c02a8e3f851e7515127d0fae3f2412422fdd24958a3f",
+        "capturedUtc": "2026-11-25T11:49:01.361927+00:00",
+        "uiLocale": "fr",
+        "bytes": 343663,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/library.png",
+        "sha256": "b572718f849e32bee945c02a8e3f851e7515127d0fae3f2412422fdd24958a3f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:04+00:00",
+        "sheetSha256": "2e2404f78cb15fcc7f02cccaa7610f5fae037bd99f71128ee5d4c3931992e33b"
+      }
+    },
+    "fr/local-snapshots.png": {
+      "capture": {
+        "path": "fr/local-snapshots.png",
+        "sha256": "98536c71de4cb63c2956b887f278a95155c532ecb6d67e3eac2851fe64e34119",
+        "capturedUtc": "2026-11-25T11:52:28.102699+00:00",
+        "uiLocale": "fr",
+        "bytes": 143684,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/local-snapshots.png",
+        "sha256": "98536c71de4cb63c2956b887f278a95155c532ecb6d67e3eac2851fe64e34119",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:53:53+00:00",
+        "sheetSha256": "617df4e8f7bf8ad372c5e66871da31ecc926aadb47e78ab82b60637d7182bfee"
+      }
+    },
+    "fr/metronome.png": {
+      "capture": {
+        "path": "fr/metronome.png",
+        "sha256": "6416c1b094048fc4e6c5f49aaca028928100b1ff9635c0075b963f1e25fe6622",
+        "capturedUtc": "2026-11-25T11:51:34.530565+00:00",
+        "uiLocale": "fr",
+        "bytes": 135471,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/metronome.png",
+        "sha256": "6416c1b094048fc4e6c5f49aaca028928100b1ff9635c0075b963f1e25fe6622",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:52:48+00:00",
+        "sheetSha256": "6bd015909a0b5382e55802dc465de25bae6f81cfb7f7e205775709b8565daf59"
+      }
+    },
+    "fr/musicxml-preview.png": {
+      "capture": {
+        "path": "fr/musicxml-preview.png",
+        "sha256": "9589eb1156bfe5bc10b97b630dfd7a9954c68e4331e0de44b6e7a3bcf8ce57d0",
+        "capturedUtc": "2026-11-25T12:19:43.045947+00:00",
+        "uiLocale": "fr",
+        "bytes": 91399,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/musicxml-preview.png",
+        "sha256": "9589eb1156bfe5bc10b97b630dfd7a9954c68e4331e0de44b6e7a3bcf8ce57d0",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T12:20:07+00:00",
+        "sheetSha256": "ff10e2606abdd05a8d2e99f4375ecc3f170d7efba112877d0b7f169cd565cf7e"
+      }
+    },
+    "fr/paper-marks.png": {
+      "capture": {
+        "path": "fr/paper-marks.png",
+        "sha256": "45cde34d0a9bf8e529a0e395d30ccf857ecf51048565cafd666fd16b38a2c64f",
+        "capturedUtc": "2026-11-25T11:52:18.641530+00:00",
+        "uiLocale": "fr",
+        "bytes": 88976,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/paper-marks.png",
+        "sha256": "45cde34d0a9bf8e529a0e395d30ccf857ecf51048565cafd666fd16b38a2c64f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:53:53+00:00",
+        "sheetSha256": "617df4e8f7bf8ad372c5e66871da31ecc926aadb47e78ab82b60637d7182bfee"
+      }
+    },
+    "fr/practice-history.png": {
+      "capture": {
+        "path": "fr/practice-history.png",
+        "sha256": "4f315a93e412802388b505c557ea2f2c312aaa7dc6f5523659afda761086401b",
+        "capturedUtc": "2026-11-25T11:50:26.413893+00:00",
+        "uiLocale": "fr",
+        "bytes": 153745,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/practice-history.png",
+        "sha256": "4f315a93e412802388b505c557ea2f2c312aaa7dc6f5523659afda761086401b",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:57+00:00",
+        "sheetSha256": "923e2af2eb358cb0e23e746f3b6a3d693e208404ecc31da9566e8929c705d948"
+      }
+    },
+    "fr/practice-tools.png": {
+      "capture": {
+        "path": "fr/practice-tools.png",
+        "sha256": "680abee685d9918c42b4f6c658a66dbe89cfa1319a9112f37dbc54311672b444",
+        "capturedUtc": "2026-11-25T11:51:24.065375+00:00",
+        "uiLocale": "fr",
+        "bytes": 69902,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/practice-tools.png",
+        "sha256": "680abee685d9918c42b4f6c658a66dbe89cfa1319a9112f37dbc54311672b444",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:51:57+00:00",
+        "sheetSha256": "0692d4ba3ac1dc694af7f5af18b185100757af86da814877846495f7f3f9b937"
+      }
+    },
+    "fr/pro-overview.png": {
+      "capture": {
+        "path": "fr/pro-overview.png",
+        "sha256": "e913d0663713e26fcf4b27cafc060b9255ac3228f8ed188b8d07456c69dc04a5",
+        "capturedUtc": "2026-11-25T11:49:44.441076+00:00",
+        "uiLocale": "fr",
+        "bytes": 91252,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/pro-overview.png",
+        "sha256": "e913d0663713e26fcf4b27cafc060b9255ac3228f8ed188b8d07456c69dc04a5",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:04+00:00",
+        "sheetSha256": "01df5719e5578c24d6b964c7b55e955e893c389dab4b0829c658e6da66aad7f6"
+      }
+    },
+    "fr/programmes.png": {
+      "capture": {
+        "path": "fr/programmes.png",
+        "sha256": "5b398d38bfda3aa14fb9e807a44d83f87f8ea655ac39b2fb6024c33422bd7598",
+        "capturedUtc": "2026-11-25T11:51:11.743224+00:00",
+        "uiLocale": "fr",
+        "bytes": 134941,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/programmes.png",
+        "sha256": "5b398d38bfda3aa14fb9e807a44d83f87f8ea655ac39b2fb6024c33422bd7598",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:51:57+00:00",
+        "sheetSha256": "0692d4ba3ac1dc694af7f5af18b185100757af86da814877846495f7f3f9b937"
+      }
+    },
+    "fr/reader.png": {
+      "capture": {
+        "path": "fr/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T11:50:32.931126+00:00",
+        "uiLocale": "fr",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:57+00:00",
+        "sheetSha256": "923e2af2eb358cb0e23e746f3b6a3d693e208404ecc31da9566e8929c705d948"
+      }
+    },
+    "fr/reading-profiles.png": {
+      "capture": {
+        "path": "fr/reading-profiles.png",
+        "sha256": "7b9dbc4365bd994d37fdbff9d8f7f64549f72bb69f3bdb9f6859079a6d0a7939",
+        "capturedUtc": "2026-11-25T11:50:54.494472+00:00",
+        "uiLocale": "fr",
+        "bytes": 82954,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/reading-profiles.png",
+        "sha256": "7b9dbc4365bd994d37fdbff9d8f7f64549f72bb69f3bdb9f6859079a6d0a7939",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:51:57+00:00",
+        "sheetSha256": "0692d4ba3ac1dc694af7f5af18b185100757af86da814877846495f7f3f9b937"
+      }
+    },
+    "fr/rehearsal-audio.png": {
+      "capture": {
+        "path": "fr/rehearsal-audio.png",
+        "sha256": "2f8b3fbe70f820373fbf7ee62f82d047c4b75aa86bfa0667fe6d8a56f78ee0c4",
+        "capturedUtc": "2026-11-25T11:52:06.097885+00:00",
+        "uiLocale": "fr",
+        "bytes": 103796,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/rehearsal-audio.png",
+        "sha256": "2f8b3fbe70f820373fbf7ee62f82d047c4b75aa86bfa0667fe6d8a56f78ee0c4",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:52:48+00:00",
+        "sheetSha256": "6bd015909a0b5382e55802dc465de25bae6f81cfb7f7e205775709b8565daf59"
+      }
+    },
+    "fr/settings.png": {
+      "capture": {
+        "path": "fr/settings.png",
+        "sha256": "74ef850692d4867cdeee4440726165377e3c6c999feba6b7a6148af4ec4dce2d",
+        "capturedUtc": "2026-11-25T11:49:14.672618+00:00",
+        "uiLocale": "fr",
+        "bytes": 209256,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/settings.png",
+        "sha256": "74ef850692d4867cdeee4440726165377e3c6c999feba6b7a6148af4ec4dce2d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:04+00:00",
+        "sheetSha256": "2e2404f78cb15fcc7f02cccaa7610f5fae037bd99f71128ee5d4c3931992e33b"
+      }
+    },
+    "fr/sidebar.png": {
+      "capture": {
+        "path": "fr/sidebar.png",
+        "sha256": "3449497661f7977cbabf76b155047332b9c15912f7b29b44298b5cd21b6c89ca",
+        "capturedUtc": "2026-11-25T11:49:07.409759+00:00",
+        "uiLocale": "fr",
+        "bytes": 209923,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/sidebar.png",
+        "sha256": "3449497661f7977cbabf76b155047332b9c15912f7b29b44298b5cd21b6c89ca",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:04+00:00",
+        "sheetSha256": "2e2404f78cb15fcc7f02cccaa7610f5fae037bd99f71128ee5d4c3931992e33b"
+      }
+    },
+    "fr/smart-collections.png": {
+      "capture": {
+        "path": "fr/smart-collections.png",
+        "sha256": "12854192ab309968db534ec9ea2e7de2a880bbc1cf0696421652283e29f7f17e",
+        "capturedUtc": "2026-11-25T11:50:41.549232+00:00",
+        "uiLocale": "fr",
+        "bytes": 108149,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/smart-collections.png",
+        "sha256": "12854192ab309968db534ec9ea2e7de2a880bbc1cf0696421652283e29f7f17e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:50:57+00:00",
+        "sheetSha256": "923e2af2eb358cb0e23e746f3b6a3d693e208404ecc31da9566e8929c705d948"
+      }
+    },
+    "fr/versions-transfer.png": {
+      "capture": {
+        "path": "fr/versions-transfer.png",
+        "sha256": "00f77417e1469960d6a91be2355a4fd6f72fb3de82afeaf8ff687165eb78a266",
+        "capturedUtc": "2026-11-25T11:51:46.294922+00:00",
+        "uiLocale": "fr",
+        "bytes": 98159,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "fr/versions-transfer.png",
+        "sha256": "00f77417e1469960d6a91be2355a4fd6f72fb3de82afeaf8ff687165eb78a266",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:52:48+00:00",
+        "sheetSha256": "6bd015909a0b5382e55802dc465de25bae6f81cfb7f7e205775709b8565daf59"
+      }
+    },
+    "it/annotations.png": {
+      "capture": {
+        "path": "it/annotations.png",
+        "sha256": "2ff6fed9b6409d99b51123c48826fdb6e6841664c38b5af38f129dc7eeebb24d",
+        "capturedUtc": "2026-11-25T11:55:24.005508+00:00",
+        "uiLocale": "it",
+        "bytes": 482301,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/annotations.png",
+        "sha256": "2ff6fed9b6409d99b51123c48826fdb6e6841664c38b5af38f129dc7eeebb24d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:25+00:00",
+        "sheetSha256": "abf599e48779ce029307e9d48e1c1d979f8d2f9db2b71eb74c350561c7469f0e"
+      }
+    },
+    "it/appearance.png": {
+      "capture": {
+        "path": "it/appearance.png",
+        "sha256": "4f6e90cf8fd73adb0278510ac68060cab57c8647c3bd886b3b459e4502e1cbd2",
+        "capturedUtc": "2026-11-25T11:53:51.471560+00:00",
+        "uiLocale": "it",
+        "bytes": 106408,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/appearance.png",
+        "sha256": "4f6e90cf8fd73adb0278510ac68060cab57c8647c3bd886b3b459e4502e1cbd2",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:54:12+00:00",
+        "sheetSha256": "6bfa14902b3553791c8d26179c00ab8001249e55541f24c8ce2ba48cab98e32a"
+      }
+    },
+    "it/backup-restore.png": {
+      "capture": {
+        "path": "it/backup-restore.png",
+        "sha256": "d3c9a606c67021649cc694d86e7e4c084d64fa6ce8f64659ed29ed0577d04a4f",
+        "capturedUtc": "2026-11-25T11:54:02.173810+00:00",
+        "uiLocale": "it",
+        "bytes": 201925,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/backup-restore.png",
+        "sha256": "d3c9a606c67021649cc694d86e7e4c084d64fa6ce8f64659ed29ed0577d04a4f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "7ab14ae523213f01410dfa05240707bec631c23da417a8cd182dd40d8d374a5e"
+      }
+    },
+    "it/collections.png": {
+      "capture": {
+        "path": "it/collections.png",
+        "sha256": "93bfc1393363307ede777e86e5a6591e1bac086d2190e505cfdbc74bcdec28ab",
+        "capturedUtc": "2026-11-25T11:54:25.661825+00:00",
+        "uiLocale": "it",
+        "bytes": 83941,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/collections.png",
+        "sha256": "93bfc1393363307ede777e86e5a6591e1bac086d2190e505cfdbc74bcdec28ab",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "7ab14ae523213f01410dfa05240707bec631c23da417a8cd182dd40d8d374a5e"
+      }
+    },
+    "it/import-inbox.png": {
+      "capture": {
+        "path": "it/import-inbox.png",
+        "sha256": "d1d163a86f486b28b5cc08d5257aaa3b0d2d5678a209eefbc138b6fddacc2d70",
+        "capturedUtc": "2026-11-25T11:57:38.493330+00:00",
+        "uiLocale": "it",
+        "bytes": 169142,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/import-inbox.png",
+        "sha256": "d1d163a86f486b28b5cc08d5257aaa3b0d2d5678a209eefbc138b6fddacc2d70",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:57:59+00:00",
+        "sheetSha256": "fbaf76f3e978815f2836dd36c914606e175132da3a64b63772763687fae8247b"
+      }
+    },
+    "it/import-review.png": {
+      "capture": {
+        "path": "it/import-review.png",
+        "sha256": "c02526ddcd489a7230bb125483808f159467eb75125af38cc295b6da379123fa",
+        "capturedUtc": "2026-11-25T11:56:59.821471+00:00",
+        "uiLocale": "it",
+        "bytes": 89159,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/import-review.png",
+        "sha256": "c02526ddcd489a7230bb125483808f159467eb75125af38cc295b6da379123fa",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:57:59+00:00",
+        "sheetSha256": "5243c41d0249471068e4745a45b5a709a9460ea638e225e58576078059417f67"
+      }
+    },
+    "it/input-controls.png": {
+      "capture": {
+        "path": "it/input-controls.png",
+        "sha256": "367d683c8ff0b031d6844dd9fed2edd87c2be39fc4678ba628702ec2f937a8c5",
+        "capturedUtc": "2026-11-25T11:56:13.083543+00:00",
+        "uiLocale": "it",
+        "bytes": 161803,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/input-controls.png",
+        "sha256": "367d683c8ff0b031d6844dd9fed2edd87c2be39fc4678ba628702ec2f937a8c5",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:35+00:00",
+        "sheetSha256": "af8e107349bdc131911a64de66cfd9d273cdf59f2297dc08bee5371afb03ca0a"
+      }
+    },
+    "it/library-health.png": {
+      "capture": {
+        "path": "it/library-health.png",
+        "sha256": "2ecc84421a851a252fd56bb7134065317a40b4b5737319858f633fb4dba875f0",
+        "capturedUtc": "2026-11-25T11:54:35.543036+00:00",
+        "uiLocale": "it",
+        "bytes": 139061,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/library-health.png",
+        "sha256": "2ecc84421a851a252fd56bb7134065317a40b4b5737319858f633fb4dba875f0",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "cbcbc1f92eb8bdf6412a89b5a71fefd149923de1dcd1fd19d24f2ec9357e533b"
+      }
+    },
+    "it/library-search.png": {
+      "capture": {
+        "path": "it/library-search.png",
+        "sha256": "1af050abfdcca13743d1f2eb4556efc1f6c4cd3a3cbb786f617ce778b26a3511",
+        "capturedUtc": "2026-11-25T11:54:18.254001+00:00",
+        "uiLocale": "it",
+        "bytes": 129156,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/library-search.png",
+        "sha256": "1af050abfdcca13743d1f2eb4556efc1f6c4cd3a3cbb786f617ce778b26a3511",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "7ab14ae523213f01410dfa05240707bec631c23da417a8cd182dd40d8d374a5e"
+      }
+    },
+    "it/library.png": {
+      "capture": {
+        "path": "it/library.png",
+        "sha256": "2adcf076a322992d0f1f20e74cc659ccdcd9ea21cb06b0941ac657946d7e714b",
+        "capturedUtc": "2026-11-25T11:53:29.036573+00:00",
+        "uiLocale": "it",
+        "bytes": 333667,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/library.png",
+        "sha256": "2adcf076a322992d0f1f20e74cc659ccdcd9ea21cb06b0941ac657946d7e714b",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:54:12+00:00",
+        "sheetSha256": "6bfa14902b3553791c8d26179c00ab8001249e55541f24c8ce2ba48cab98e32a"
+      }
+    },
+    "it/local-snapshots.png": {
+      "capture": {
+        "path": "it/local-snapshots.png",
+        "sha256": "31cc2f1e7776293eb55818898cf55dc8c856d68a512f20f9ff479fb621a824b3",
+        "capturedUtc": "2026-11-25T11:56:50.037738+00:00",
+        "uiLocale": "it",
+        "bytes": 129660,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/local-snapshots.png",
+        "sha256": "31cc2f1e7776293eb55818898cf55dc8c856d68a512f20f9ff479fb621a824b3",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:57:59+00:00",
+        "sheetSha256": "5243c41d0249471068e4745a45b5a709a9460ea638e225e58576078059417f67"
+      }
+    },
+    "it/metronome.png": {
+      "capture": {
+        "path": "it/metronome.png",
+        "sha256": "8fc3d0fd01c476d28a98c6351a65839e4af03a9fb21627fa0156ab86fa2682ee",
+        "capturedUtc": "2026-11-25T11:55:53.353423+00:00",
+        "uiLocale": "it",
+        "bytes": 131072,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/metronome.png",
+        "sha256": "8fc3d0fd01c476d28a98c6351a65839e4af03a9fb21627fa0156ab86fa2682ee",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:35+00:00",
+        "sheetSha256": "af8e107349bdc131911a64de66cfd9d273cdf59f2297dc08bee5371afb03ca0a"
+      }
+    },
+    "it/musicxml-preview.png": {
+      "capture": {
+        "path": "it/musicxml-preview.png",
+        "sha256": "da4f679e858cfc255c0e1f57c8ab8e063a362181cf04dc477f36a07b569a61d1",
+        "capturedUtc": "2026-11-25T12:19:59.719184+00:00",
+        "uiLocale": "it",
+        "bytes": 91397,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/musicxml-preview.png",
+        "sha256": "da4f679e858cfc255c0e1f57c8ab8e063a362181cf04dc477f36a07b569a61d1",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T12:20:20+00:00",
+        "sheetSha256": "d29ac260db6c2bcd24e1894440e0cc9536cb467303c9d55122fd61cd5f2d5943"
+      }
+    },
+    "it/paper-marks.png": {
+      "capture": {
+        "path": "it/paper-marks.png",
+        "sha256": "97b877138b6f8fb0c1553dcf48e82eb632e2d41c5f21b5575a40a79788706411",
+        "capturedUtc": "2026-11-25T11:56:39.052317+00:00",
+        "uiLocale": "it",
+        "bytes": 80504,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/paper-marks.png",
+        "sha256": "97b877138b6f8fb0c1553dcf48e82eb632e2d41c5f21b5575a40a79788706411",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:57:59+00:00",
+        "sheetSha256": "5243c41d0249471068e4745a45b5a709a9460ea638e225e58576078059417f67"
+      }
+    },
+    "it/practice-history.png": {
+      "capture": {
+        "path": "it/practice-history.png",
+        "sha256": "24d5f17754fe6f776b713d5c78447aaaf171585ed6483c07d67a0f928c173cba",
+        "capturedUtc": "2026-11-25T11:54:46.179462+00:00",
+        "uiLocale": "it",
+        "bytes": 151450,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/practice-history.png",
+        "sha256": "24d5f17754fe6f776b713d5c78447aaaf171585ed6483c07d67a0f928c173cba",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "cbcbc1f92eb8bdf6412a89b5a71fefd149923de1dcd1fd19d24f2ec9357e533b"
+      }
+    },
+    "it/practice-tools.png": {
+      "capture": {
+        "path": "it/practice-tools.png",
+        "sha256": "97563e14b82d46225da2a0d0adddcf23b7f991e5f177f1362fc7223931707c2d",
+        "capturedUtc": "2026-11-25T11:55:42.686198+00:00",
+        "uiLocale": "it",
+        "bytes": 67598,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/practice-tools.png",
+        "sha256": "97563e14b82d46225da2a0d0adddcf23b7f991e5f177f1362fc7223931707c2d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:25+00:00",
+        "sheetSha256": "abf599e48779ce029307e9d48e1c1d979f8d2f9db2b71eb74c350561c7469f0e"
+      }
+    },
+    "it/pro-overview.png": {
+      "capture": {
+        "path": "it/pro-overview.png",
+        "sha256": "3c21e50d67bb05e6daf41b2086e7333001274833209130d23c09bd4421d3abae",
+        "capturedUtc": "2026-11-25T11:54:10.670969+00:00",
+        "uiLocale": "it",
+        "bytes": 88172,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/pro-overview.png",
+        "sha256": "3c21e50d67bb05e6daf41b2086e7333001274833209130d23c09bd4421d3abae",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "7ab14ae523213f01410dfa05240707bec631c23da417a8cd182dd40d8d374a5e"
+      }
+    },
+    "it/programmes.png": {
+      "capture": {
+        "path": "it/programmes.png",
+        "sha256": "465cd5090cb7551939e3a9d5db464d46516eb097585cc873c1447c0a859911cb",
+        "capturedUtc": "2026-11-25T11:55:31.492444+00:00",
+        "uiLocale": "it",
+        "bytes": 130329,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/programmes.png",
+        "sha256": "465cd5090cb7551939e3a9d5db464d46516eb097585cc873c1447c0a859911cb",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:25+00:00",
+        "sheetSha256": "abf599e48779ce029307e9d48e1c1d979f8d2f9db2b71eb74c350561c7469f0e"
+      }
+    },
+    "it/reader.png": {
+      "capture": {
+        "path": "it/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T11:54:52.869645+00:00",
+        "uiLocale": "it",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "cbcbc1f92eb8bdf6412a89b5a71fefd149923de1dcd1fd19d24f2ec9357e533b"
+      }
+    },
+    "it/reading-profiles.png": {
+      "capture": {
+        "path": "it/reading-profiles.png",
+        "sha256": "e64803bde58d12c18ddb1258bfa6b27823872111eb3c958d5f1a0cbbda42fcd7",
+        "capturedUtc": "2026-11-25T11:55:12.943335+00:00",
+        "uiLocale": "it",
+        "bytes": 78767,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/reading-profiles.png",
+        "sha256": "e64803bde58d12c18ddb1258bfa6b27823872111eb3c958d5f1a0cbbda42fcd7",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:25+00:00",
+        "sheetSha256": "abf599e48779ce029307e9d48e1c1d979f8d2f9db2b71eb74c350561c7469f0e"
+      }
+    },
+    "it/rehearsal-audio.png": {
+      "capture": {
+        "path": "it/rehearsal-audio.png",
+        "sha256": "c671cdfdb9dc02ad7e70c8ddfd37028ddbe266f776aa19b31723bce6a0afe880",
+        "capturedUtc": "2026-11-25T11:56:26.172945+00:00",
+        "uiLocale": "it",
+        "bytes": 101137,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/rehearsal-audio.png",
+        "sha256": "c671cdfdb9dc02ad7e70c8ddfd37028ddbe266f776aa19b31723bce6a0afe880",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:35+00:00",
+        "sheetSha256": "af8e107349bdc131911a64de66cfd9d273cdf59f2297dc08bee5371afb03ca0a"
+      }
+    },
+    "it/settings.png": {
+      "capture": {
+        "path": "it/settings.png",
+        "sha256": "5e19635091eadea4d32a93ee181aa981e1b75db8a95b7d1a9f91181db9240c30",
+        "capturedUtc": "2026-11-25T11:53:42.679715+00:00",
+        "uiLocale": "it",
+        "bytes": 197756,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/settings.png",
+        "sha256": "5e19635091eadea4d32a93ee181aa981e1b75db8a95b7d1a9f91181db9240c30",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:54:12+00:00",
+        "sheetSha256": "6bfa14902b3553791c8d26179c00ab8001249e55541f24c8ce2ba48cab98e32a"
+      }
+    },
+    "it/sidebar.png": {
+      "capture": {
+        "path": "it/sidebar.png",
+        "sha256": "02c41d38b8ef199a8a0a0c7641badce1d8bf6bbb301ea3ffd9dfaa5314b86df8",
+        "capturedUtc": "2026-11-25T11:53:35.101119+00:00",
+        "uiLocale": "it",
+        "bytes": 195904,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/sidebar.png",
+        "sha256": "02c41d38b8ef199a8a0a0c7641badce1d8bf6bbb301ea3ffd9dfaa5314b86df8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:54:12+00:00",
+        "sheetSha256": "6bfa14902b3553791c8d26179c00ab8001249e55541f24c8ce2ba48cab98e32a"
+      }
+    },
+    "it/smart-collections.png": {
+      "capture": {
+        "path": "it/smart-collections.png",
+        "sha256": "157cd8233dfc30b54cfba12a92fe11d984c04e43f7567bc46303f6c9e297a371",
+        "capturedUtc": "2026-11-25T11:55:01.083858+00:00",
+        "uiLocale": "it",
+        "bytes": 103641,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/smart-collections.png",
+        "sha256": "157cd8233dfc30b54cfba12a92fe11d984c04e43f7567bc46303f6c9e297a371",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:55:20+00:00",
+        "sheetSha256": "cbcbc1f92eb8bdf6412a89b5a71fefd149923de1dcd1fd19d24f2ec9357e533b"
+      }
+    },
+    "it/versions-transfer.png": {
+      "capture": {
+        "path": "it/versions-transfer.png",
+        "sha256": "82cfdb3cafecd06df44caa60f38e34d77acecbb203e8ca65089b55b9ccac0535",
+        "capturedUtc": "2026-11-25T11:56:04.892318+00:00",
+        "uiLocale": "it",
+        "bytes": 89717,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "it/versions-transfer.png",
+        "sha256": "82cfdb3cafecd06df44caa60f38e34d77acecbb203e8ca65089b55b9ccac0535",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-DFI",
+        "at": "2026-11-25T11:56:35+00:00",
+        "sheetSha256": "af8e107349bdc131911a64de66cfd9d273cdf59f2297dc08bee5371afb03ca0a"
+      }
+    },
+    "pl/annotations.png": {
+      "capture": {
+        "path": "pl/annotations.png",
+        "sha256": "fd78348d52dced8b4302e240fa9a17498f11e03d5b6559ca7fe96ffc0d57ef09",
+        "capturedUtc": "2026-11-25T12:12:05.894523+00:00",
+        "uiLocale": "pl",
+        "bytes": 482258,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/annotations.png",
+        "sha256": "fd78348d52dced8b4302e240fa9a17498f11e03d5b6559ca7fe96ffc0d57ef09",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:12:36+00:00",
+        "sheetSha256": "9dd570c933888c16fe8806db30f4829cfea59d0fc37b22dc50b78e2426f8c78a"
+      }
+    },
+    "pl/appearance.png": {
+      "capture": {
+        "path": "pl/appearance.png",
+        "sha256": "1f099f25fdbd55392bd8bcb1d43609dcb74efa691de2a09025eb5463551ca713",
+        "capturedUtc": "2026-11-25T12:09:57.020136+00:00",
+        "uiLocale": "pl",
+        "bytes": 114870,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/appearance.png",
+        "sha256": "1f099f25fdbd55392bd8bcb1d43609dcb74efa691de2a09025eb5463551ca713",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:10:48+00:00",
+        "sheetSha256": "565e1224ebf8d4fbe49b33531b42d89b908ea93f60056d59487db61492cf460f"
+      }
+    },
+    "pl/backup-restore.png": {
+      "capture": {
+        "path": "pl/backup-restore.png",
+        "sha256": "d7f2cb87e07d082f98b002b30d1008d6d9c18ce8ba31bd9e569f1648cc32f8a9",
+        "capturedUtc": "2026-11-25T12:10:06.858479+00:00",
+        "uiLocale": "pl",
+        "bytes": 239957,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/backup-restore.png",
+        "sha256": "d7f2cb87e07d082f98b002b30d1008d6d9c18ce8ba31bd9e569f1648cc32f8a9",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:10:48+00:00",
+        "sheetSha256": "f95a721c6c986da95dbb858caddffc02fa51734208c23e52ac5be6e340f7781a"
+      }
+    },
+    "pl/collections.png": {
+      "capture": {
+        "path": "pl/collections.png",
+        "sha256": "808b83a8c08492ca6e48f5ee8d39faf921265865561a6d2f92a897158c9c5b4e",
+        "capturedUtc": "2026-11-25T12:10:40.705261+00:00",
+        "uiLocale": "pl",
+        "bytes": 87103,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/collections.png",
+        "sha256": "808b83a8c08492ca6e48f5ee8d39faf921265865561a6d2f92a897158c9c5b4e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:11:12+00:00",
+        "sheetSha256": "3745f300b3a90875b020d823cfc5ce29ec1233f0ace61678861c23e4da7181ca"
+      }
+    },
+    "pl/import-inbox.png": {
+      "capture": {
+        "path": "pl/import-inbox.png",
+        "sha256": "a0adec325dffa3840d710dc05bd56f2aa6d70f75d3d76c7b7864408a87c922f0",
+        "capturedUtc": "2026-11-25T12:14:27.895637+00:00",
+        "uiLocale": "pl",
+        "bytes": 189739,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/import-inbox.png",
+        "sha256": "a0adec325dffa3840d710dc05bd56f2aa6d70f75d3d76c7b7864408a87c922f0",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:14:48+00:00",
+        "sheetSha256": "9374f1550ebd5737ebc960b029d4cad94dccff9bb3d5bc9a94c23e54666c4ba2"
+      }
+    },
+    "pl/import-review.png": {
+      "capture": {
+        "path": "pl/import-review.png",
+        "sha256": "7be7de5a9c245ddab5a797ec3646da76503aae8a4e658e69d115bcff27fa6d6a",
+        "capturedUtc": "2026-11-25T12:14:02.403694+00:00",
+        "uiLocale": "pl",
+        "bytes": 95121,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/import-review.png",
+        "sha256": "7be7de5a9c245ddab5a797ec3646da76503aae8a4e658e69d115bcff27fa6d6a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:14:24+00:00",
+        "sheetSha256": "4dcf4fc13e70ecc6da5ca216df0c24e804261f06469ee48fd3fc4cac92bb944e"
+      }
+    },
+    "pl/input-controls.png": {
+      "capture": {
+        "path": "pl/input-controls.png",
+        "sha256": "2217b7a4f8b8d446f820ea0a0be4032ecf6d2f27c4d193d40ff2878e42c8def3",
+        "capturedUtc": "2026-11-25T12:13:10.278710+00:00",
+        "uiLocale": "pl",
+        "bytes": 195892,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/input-controls.png",
+        "sha256": "2217b7a4f8b8d446f820ea0a0be4032ecf6d2f27c4d193d40ff2878e42c8def3",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:13:24+00:00",
+        "sheetSha256": "29234869758b8c8cfa3bad9cd0dc16956df6dec9a90882ec9a78aada748b31af"
+      }
+    },
+    "pl/library-health.png": {
+      "capture": {
+        "path": "pl/library-health.png",
+        "sha256": "22faa6899dd4a38fa7f8c0e5bc7a123a90db474d75490ab3e9602dfd7a6d87d6",
+        "capturedUtc": "2026-11-25T12:10:56.549871+00:00",
+        "uiLocale": "pl",
+        "bytes": 155389,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/library-health.png",
+        "sha256": "22faa6899dd4a38fa7f8c0e5bc7a123a90db474d75490ab3e9602dfd7a6d87d6",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:11:12+00:00",
+        "sheetSha256": "da51a295fce2dba4c74eb0f956236e75548cbd6683744e881340b88447a03555"
+      }
+    },
+    "pl/library-search.png": {
+      "capture": {
+        "path": "pl/library-search.png",
+        "sha256": "996306093f12d70496d9f9bffc5ce47e02961fed2c4fa5db032ad4708c98d793",
+        "capturedUtc": "2026-11-25T12:10:29.229862+00:00",
+        "uiLocale": "pl",
+        "bytes": 133022,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/library-search.png",
+        "sha256": "996306093f12d70496d9f9bffc5ce47e02961fed2c4fa5db032ad4708c98d793",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:11:12+00:00",
+        "sheetSha256": "3745f300b3a90875b020d823cfc5ce29ec1233f0ace61678861c23e4da7181ca"
+      }
+    },
+    "pl/library.png": {
+      "capture": {
+        "path": "pl/library.png",
+        "sha256": "f7f68f7e26dee36316a4d41a221471c69eff248d16c07b510fd883176365537a",
+        "capturedUtc": "2026-11-25T12:09:27.305745+00:00",
+        "uiLocale": "pl",
+        "bytes": 340153,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/library.png",
+        "sha256": "f7f68f7e26dee36316a4d41a221471c69eff248d16c07b510fd883176365537a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:10:23+00:00",
+        "sheetSha256": "2bd0d8db799198e9f1303aca17570c00abf85fc7d2fcc8ab22a714b3f381ddbe"
+      }
+    },
+    "pl/local-snapshots.png": {
+      "capture": {
+        "path": "pl/local-snapshots.png",
+        "sha256": "6ae1686edbb1b300d0b5925d7ac713fe439a4a3721439f19e2e2ec4b672486db",
+        "capturedUtc": "2026-11-25T12:13:51.979465+00:00",
+        "uiLocale": "pl",
+        "bytes": 147269,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/local-snapshots.png",
+        "sha256": "6ae1686edbb1b300d0b5925d7ac713fe439a4a3721439f19e2e2ec4b672486db",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:14:24+00:00",
+        "sheetSha256": "4dcf4fc13e70ecc6da5ca216df0c24e804261f06469ee48fd3fc4cac92bb944e"
+      }
+    },
+    "pl/metronome.png": {
+      "capture": {
+        "path": "pl/metronome.png",
+        "sha256": "2059d575b111dcb23de7d68d3e8d827ef3dbff990ad716bd974b551235428bb4",
+        "capturedUtc": "2026-11-25T12:12:46.266512+00:00",
+        "uiLocale": "pl",
+        "bytes": 145059,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/metronome.png",
+        "sha256": "2059d575b111dcb23de7d68d3e8d827ef3dbff990ad716bd974b551235428bb4",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:13:23+00:00",
+        "sheetSha256": "a292b09d1e9667e5a6c953a2a596c20c1976de2986dfe620f3ce97e6ec751353"
+      }
+    },
+    "pl/musicxml-preview.png": {
+      "capture": {
+        "path": "pl/musicxml-preview.png",
+        "sha256": "f910dcb20cc5b23be01a93cad362a7b92c2ee4cddb2601dd548fce7117107011",
+        "capturedUtc": "2026-11-25T12:14:17.351391+00:00",
+        "uiLocale": "pl",
+        "bytes": 95042,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/musicxml-preview.png",
+        "sha256": "f910dcb20cc5b23be01a93cad362a7b92c2ee4cddb2601dd548fce7117107011",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:14:48+00:00",
+        "sheetSha256": "9374f1550ebd5737ebc960b029d4cad94dccff9bb3d5bc9a94c23e54666c4ba2"
+      }
+    },
+    "pl/paper-marks.png": {
+      "capture": {
+        "path": "pl/paper-marks.png",
+        "sha256": "9db40239cee18fc7871bde958f98651194d5f58aa0a7b76732a1309af7a63daa",
+        "capturedUtc": "2026-11-25T12:13:39.666914+00:00",
+        "uiLocale": "pl",
+        "bytes": 91584,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/paper-marks.png",
+        "sha256": "9db40239cee18fc7871bde958f98651194d5f58aa0a7b76732a1309af7a63daa",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:14:23+00:00",
+        "sheetSha256": "3bc7ded2c13fc0f587e18a460c209145cc51065c8e9b49667587d13c795afb30"
+      }
+    },
+    "pl/practice-history.png": {
+      "capture": {
+        "path": "pl/practice-history.png",
+        "sha256": "220859125157435a694c733b25756d6b4db784aff7ab113dbdac68494f453412",
+        "capturedUtc": "2026-11-25T12:11:14.098487+00:00",
+        "uiLocale": "pl",
+        "bytes": 147196,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/practice-history.png",
+        "sha256": "220859125157435a694c733b25756d6b4db784aff7ab113dbdac68494f453412",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:12:19+00:00",
+        "sheetSha256": "a847a27602f0ca311e559ce1c7c935a2e8c1e2dd0df40ada4e98ec4490e820bb"
+      }
+    },
+    "pl/practice-tools.png": {
+      "capture": {
+        "path": "pl/practice-tools.png",
+        "sha256": "34e3f0576a178aec14eba73e2cac6f7a1bb67e8bde7da2e3eb8a13e885224e19",
+        "capturedUtc": "2026-11-25T12:12:31.513683+00:00",
+        "uiLocale": "pl",
+        "bytes": 76389,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/practice-tools.png",
+        "sha256": "34e3f0576a178aec14eba73e2cac6f7a1bb67e8bde7da2e3eb8a13e885224e19",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:13:23+00:00",
+        "sheetSha256": "a292b09d1e9667e5a6c953a2a596c20c1976de2986dfe620f3ce97e6ec751353"
+      }
+    },
+    "pl/pro-overview.png": {
+      "capture": {
+        "path": "pl/pro-overview.png",
+        "sha256": "0afde60bc320abbd1dfdbb022be0df2939ca434a822259cb725e1c3a7dc39409",
+        "capturedUtc": "2026-11-25T12:10:19.081650+00:00",
+        "uiLocale": "pl",
+        "bytes": 94918,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/pro-overview.png",
+        "sha256": "0afde60bc320abbd1dfdbb022be0df2939ca434a822259cb725e1c3a7dc39409",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:10:48+00:00",
+        "sheetSha256": "f95a721c6c986da95dbb858caddffc02fa51734208c23e52ac5be6e340f7781a"
+      }
+    },
+    "pl/programmes.png": {
+      "capture": {
+        "path": "pl/programmes.png",
+        "sha256": "88658f55e31f1b895312042a3da332c9e370323f0f4ee9e8fe1a1f20fb76f2c1",
+        "capturedUtc": "2026-11-25T12:12:15.148641+00:00",
+        "uiLocale": "pl",
+        "bytes": 136536,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/programmes.png",
+        "sha256": "88658f55e31f1b895312042a3da332c9e370323f0f4ee9e8fe1a1f20fb76f2c1",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:12:36+00:00",
+        "sheetSha256": "9dd570c933888c16fe8806db30f4829cfea59d0fc37b22dc50b78e2426f8c78a"
+      }
+    },
+    "pl/reader.png": {
+      "capture": {
+        "path": "pl/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T12:11:24.998799+00:00",
+        "uiLocale": "pl",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:12:19+00:00",
+        "sheetSha256": "a847a27602f0ca311e559ce1c7c935a2e8c1e2dd0df40ada4e98ec4490e820bb"
+      }
+    },
+    "pl/reading-profiles.png": {
+      "capture": {
+        "path": "pl/reading-profiles.png",
+        "sha256": "715f71f1c499c4275fde2e0f8d0982d4816ffe4d977d63d4def00512e9b11945",
+        "capturedUtc": "2026-11-25T12:11:52.077103+00:00",
+        "uiLocale": "pl",
+        "bytes": 84807,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/reading-profiles.png",
+        "sha256": "715f71f1c499c4275fde2e0f8d0982d4816ffe4d977d63d4def00512e9b11945",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:12:19+00:00",
+        "sheetSha256": "4c1b2481ca9ad3403d2b8e12c1a8c193d4d621f9f4a60ca49e074f9d4a18c5a5"
+      }
+    },
+    "pl/rehearsal-audio.png": {
+      "capture": {
+        "path": "pl/rehearsal-audio.png",
+        "sha256": "6270279cb1d01598308c7b7f30e28f004f8c8379bce530c9ccfa40f5c12801e8",
+        "capturedUtc": "2026-11-25T12:13:24.896534+00:00",
+        "uiLocale": "pl",
+        "bytes": 108724,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/rehearsal-audio.png",
+        "sha256": "6270279cb1d01598308c7b7f30e28f004f8c8379bce530c9ccfa40f5c12801e8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:14:23+00:00",
+        "sheetSha256": "3bc7ded2c13fc0f587e18a460c209145cc51065c8e9b49667587d13c795afb30"
+      }
+    },
+    "pl/settings.png": {
+      "capture": {
+        "path": "pl/settings.png",
+        "sha256": "434b4ccab4de2a917df49ae61adca72bb75d62f954e834bcfe0918f56da724fc",
+        "capturedUtc": "2026-11-25T12:09:45.667717+00:00",
+        "uiLocale": "pl",
+        "bytes": 210648,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/settings.png",
+        "sha256": "434b4ccab4de2a917df49ae61adca72bb75d62f954e834bcfe0918f56da724fc",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:10:48+00:00",
+        "sheetSha256": "565e1224ebf8d4fbe49b33531b42d89b908ea93f60056d59487db61492cf460f"
+      }
+    },
+    "pl/sidebar.png": {
+      "capture": {
+        "path": "pl/sidebar.png",
+        "sha256": "4031a4c421d294520430c7fe28ae92aa1081f9a7dd24a2d435116955b961a7d3",
+        "capturedUtc": "2026-11-25T12:09:35.367919+00:00",
+        "uiLocale": "pl",
+        "bytes": 199839,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/sidebar.png",
+        "sha256": "4031a4c421d294520430c7fe28ae92aa1081f9a7dd24a2d435116955b961a7d3",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:10:23+00:00",
+        "sheetSha256": "2bd0d8db799198e9f1303aca17570c00abf85fc7d2fcc8ab22a714b3f381ddbe"
+      }
+    },
+    "pl/smart-collections.png": {
+      "capture": {
+        "path": "pl/smart-collections.png",
+        "sha256": "d59c0d3d17eb46af3822d5b725905c74a7808bf08bda3381d211cda054c89f40",
+        "capturedUtc": "2026-11-25T12:11:36.142676+00:00",
+        "uiLocale": "pl",
+        "bytes": 113325,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/smart-collections.png",
+        "sha256": "d59c0d3d17eb46af3822d5b725905c74a7808bf08bda3381d211cda054c89f40",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:12:19+00:00",
+        "sheetSha256": "4c1b2481ca9ad3403d2b8e12c1a8c193d4d621f9f4a60ca49e074f9d4a18c5a5"
+      }
+    },
+    "pl/versions-transfer.png": {
+      "capture": {
+        "path": "pl/versions-transfer.png",
+        "sha256": "9222b92caba50a5efb89bbb002460fa9131f19f079b28f4fd76da1b30789b4dc",
+        "capturedUtc": "2026-11-25T12:13:00.905593+00:00",
+        "uiLocale": "pl",
+        "bytes": 104219,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pl/versions-transfer.png",
+        "sha256": "9222b92caba50a5efb89bbb002460fa9131f19f079b28f4fd76da1b30789b4dc",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:13:24+00:00",
+        "sheetSha256": "29234869758b8c8cfa3bad9cd0dc16956df6dec9a90882ec9a78aada748b31af"
+      }
+    },
+    "pt/annotations.png": {
+      "capture": {
+        "path": "pt/annotations.png",
+        "sha256": "f23c56d229662c8c5f143573ff890758adf46c2d6871842a20cbe3037a84436b",
+        "capturedUtc": "2026-11-25T12:03:34.079164+00:00",
+        "uiLocale": "pt",
+        "bytes": 482395,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/annotations.png",
+        "sha256": "f23c56d229662c8c5f143573ff890758adf46c2d6871842a20cbe3037a84436b",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:04:16+00:00",
+        "sheetSha256": "4bd7ec24f66b894540102feff6601aeb8d704713e6f248cc899ee1fa852a0bd0"
+      }
+    },
+    "pt/appearance.png": {
+      "capture": {
+        "path": "pt/appearance.png",
+        "sha256": "b83c33853ef3303a95a368d4f7af029ad5c6c81e551ed844bdcedb8370ad6401",
+        "capturedUtc": "2026-11-25T12:02:04.146196+00:00",
+        "uiLocale": "pt",
+        "bytes": 111596,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/appearance.png",
+        "sha256": "b83c33853ef3303a95a368d4f7af029ad5c6c81e551ed844bdcedb8370ad6401",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:43+00:00",
+        "sheetSha256": "9454e06613382ba4da7bf8ebcae1e9932c12fa96de8a7654fe57e7cdb9d90064"
+      }
+    },
+    "pt/backup-restore.png": {
+      "capture": {
+        "path": "pt/backup-restore.png",
+        "sha256": "a429d1355b74c3ce457b6bd849e494b9bbe374bed572b27432ba3b996387c34c",
+        "capturedUtc": "2026-11-25T12:02:12.010083+00:00",
+        "uiLocale": "pt",
+        "bytes": 236574,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/backup-restore.png",
+        "sha256": "a429d1355b74c3ce457b6bd849e494b9bbe374bed572b27432ba3b996387c34c",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:53+00:00",
+        "sheetSha256": "5cdbfe8988261a1f6ffed0d0c379d1335226c41e5538b50f190ff3cd780e073e"
+      }
+    },
+    "pt/collections.png": {
+      "capture": {
+        "path": "pt/collections.png",
+        "sha256": "63fd0dc6e3156ba441c0bd2abfa7c481adc27327490eb2e9403ce8dfc91fdd4d",
+        "capturedUtc": "2026-11-25T12:02:35.139872+00:00",
+        "uiLocale": "pt",
+        "bytes": 88152,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/collections.png",
+        "sha256": "63fd0dc6e3156ba441c0bd2abfa7c481adc27327490eb2e9403ce8dfc91fdd4d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:53+00:00",
+        "sheetSha256": "5cdbfe8988261a1f6ffed0d0c379d1335226c41e5538b50f190ff3cd780e073e"
+      }
+    },
+    "pt/import-inbox.png": {
+      "capture": {
+        "path": "pt/import-inbox.png",
+        "sha256": "58e20ca7e97b6a58e3b38e546ca16b9dc17a018df60a0ab222eb3ebc96870f84",
+        "capturedUtc": "2026-11-25T12:05:26.630431+00:00",
+        "uiLocale": "pt",
+        "bytes": 194364,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/import-inbox.png",
+        "sha256": "58e20ca7e97b6a58e3b38e546ca16b9dc17a018df60a0ab222eb3ebc96870f84",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:07+00:00",
+        "sheetSha256": "51d7c8d22bc7740ca10a3d76736e267ad9b63abc87b0880d6fc71dce38303925"
+      }
+    },
+    "pt/import-review.png": {
+      "capture": {
+        "path": "pt/import-review.png",
+        "sha256": "b38dfbda086c2202f03483dffe5583f475b1937eaf4c108e8bbf06bb31f833b2",
+        "capturedUtc": "2026-11-25T12:05:07.918242+00:00",
+        "uiLocale": "pt",
+        "bytes": 95957,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/import-review.png",
+        "sha256": "b38dfbda086c2202f03483dffe5583f475b1937eaf4c108e8bbf06bb31f833b2",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:55+00:00",
+        "sheetSha256": "eb525576b5f1391007ab622a0a3eef4f36f8089c540db9df66274d5173f99a50"
+      }
+    },
+    "pt/input-controls.png": {
+      "capture": {
+        "path": "pt/input-controls.png",
+        "sha256": "43ff417fcb41fbfcfc9f9e02cfadd7526f90cf464bfc908077c55210711aa183",
+        "capturedUtc": "2026-11-25T12:04:23.788294+00:00",
+        "uiLocale": "pt",
+        "bytes": 168294,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/input-controls.png",
+        "sha256": "43ff417fcb41fbfcfc9f9e02cfadd7526f90cf464bfc908077c55210711aa183",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:02+00:00",
+        "sheetSha256": "65a91a508a139bb6a6dc72365e0d2e7671739d3d2e2a051c4cf3090900278efd"
+      }
+    },
+    "pt/library-health.png": {
+      "capture": {
+        "path": "pt/library-health.png",
+        "sha256": "ba75de4c321627710d4e4ee266abb35133e6d7ca4d8586e5d926a9c1efb52e61",
+        "capturedUtc": "2026-11-25T12:02:45.456523+00:00",
+        "uiLocale": "pt",
+        "bytes": 143265,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/library-health.png",
+        "sha256": "ba75de4c321627710d4e4ee266abb35133e6d7ca4d8586e5d926a9c1efb52e61",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:03:44+00:00",
+        "sheetSha256": "0d6453eb8abece3a693a847e3e69df2523660897dc6d8686bbc049096b30f91b"
+      }
+    },
+    "pt/library-search.png": {
+      "capture": {
+        "path": "pt/library-search.png",
+        "sha256": "f376064e719114a3844b1761d999a3b959379f1509637168948407316d661bdf",
+        "capturedUtc": "2026-11-25T12:02:27.647715+00:00",
+        "uiLocale": "pt",
+        "bytes": 137512,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/library-search.png",
+        "sha256": "f376064e719114a3844b1761d999a3b959379f1509637168948407316d661bdf",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:53+00:00",
+        "sheetSha256": "5cdbfe8988261a1f6ffed0d0c379d1335226c41e5538b50f190ff3cd780e073e"
+      }
+    },
+    "pt/library.png": {
+      "capture": {
+        "path": "pt/library.png",
+        "sha256": "a912e433289c630a4c8e456593044a8465738833fd592bbd3e76a95fbb4e2f82",
+        "capturedUtc": "2026-11-25T12:01:41.666573+00:00",
+        "uiLocale": "pt",
+        "bytes": 345697,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/library.png",
+        "sha256": "a912e433289c630a4c8e456593044a8465738833fd592bbd3e76a95fbb4e2f82",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:43+00:00",
+        "sheetSha256": "9454e06613382ba4da7bf8ebcae1e9932c12fa96de8a7654fe57e7cdb9d90064"
+      }
+    },
+    "pt/local-snapshots.png": {
+      "capture": {
+        "path": "pt/local-snapshots.png",
+        "sha256": "1fbb8c046134315104edd5b436e1bb7f46080a812374757292cb58ad3b687438",
+        "capturedUtc": "2026-11-25T12:04:58.395164+00:00",
+        "uiLocale": "pt",
+        "bytes": 141383,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/local-snapshots.png",
+        "sha256": "1fbb8c046134315104edd5b436e1bb7f46080a812374757292cb58ad3b687438",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:55+00:00",
+        "sheetSha256": "eb525576b5f1391007ab622a0a3eef4f36f8089c540db9df66274d5173f99a50"
+      }
+    },
+    "pt/metronome.png": {
+      "capture": {
+        "path": "pt/metronome.png",
+        "sha256": "b947b919d1abfc7d18e4558daf5b058b3f1254f8fb440104c30b188d7f9d0cc3",
+        "capturedUtc": "2026-11-25T12:04:03.259321+00:00",
+        "uiLocale": "pt",
+        "bytes": 140467,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/metronome.png",
+        "sha256": "b947b919d1abfc7d18e4558daf5b058b3f1254f8fb440104c30b188d7f9d0cc3",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:02+00:00",
+        "sheetSha256": "65a91a508a139bb6a6dc72365e0d2e7671739d3d2e2a051c4cf3090900278efd"
+      }
+    },
+    "pt/musicxml-preview.png": {
+      "capture": {
+        "path": "pt/musicxml-preview.png",
+        "sha256": "133151c55c06a6a8c0b3be562226430bb677364dbcb5d02b66f16262bb3e176e",
+        "capturedUtc": "2026-11-25T12:05:18.576774+00:00",
+        "uiLocale": "pt",
+        "bytes": 91229,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/musicxml-preview.png",
+        "sha256": "133151c55c06a6a8c0b3be562226430bb677364dbcb5d02b66f16262bb3e176e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:56+00:00",
+        "sheetSha256": "eb525576b5f1391007ab622a0a3eef4f36f8089c540db9df66274d5173f99a50"
+      }
+    },
+    "pt/paper-marks.png": {
+      "capture": {
+        "path": "pt/paper-marks.png",
+        "sha256": "8c469f6a19778c1905f5dea8b0805092664db6fa2486ea13c0b6abab320dbf2e",
+        "capturedUtc": "2026-11-25T12:04:48.808205+00:00",
+        "uiLocale": "pt",
+        "bytes": 84760,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/paper-marks.png",
+        "sha256": "8c469f6a19778c1905f5dea8b0805092664db6fa2486ea13c0b6abab320dbf2e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:55+00:00",
+        "sheetSha256": "eb525576b5f1391007ab622a0a3eef4f36f8089c540db9df66274d5173f99a50"
+      }
+    },
+    "pt/practice-history.png": {
+      "capture": {
+        "path": "pt/practice-history.png",
+        "sha256": "3516e178e812ce0a4663bab64f305012372d8d9c22dc90ccbc0ffe73e52e4134",
+        "capturedUtc": "2026-11-25T12:02:56.960024+00:00",
+        "uiLocale": "pt",
+        "bytes": 154807,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/practice-history.png",
+        "sha256": "3516e178e812ce0a4663bab64f305012372d8d9c22dc90ccbc0ffe73e52e4134",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:03:44+00:00",
+        "sheetSha256": "0d6453eb8abece3a693a847e3e69df2523660897dc6d8686bbc049096b30f91b"
+      }
+    },
+    "pt/practice-tools.png": {
+      "capture": {
+        "path": "pt/practice-tools.png",
+        "sha256": "c45a4d3b4da5ea060a33ad8bcb5ebb894cdd413db29e04be30b17af2405c46b2",
+        "capturedUtc": "2026-11-25T12:03:52.672206+00:00",
+        "uiLocale": "pt",
+        "bytes": 70945,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/practice-tools.png",
+        "sha256": "c45a4d3b4da5ea060a33ad8bcb5ebb894cdd413db29e04be30b17af2405c46b2",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:04:16+00:00",
+        "sheetSha256": "4bd7ec24f66b894540102feff6601aeb8d704713e6f248cc899ee1fa852a0bd0"
+      }
+    },
+    "pt/pro-overview.png": {
+      "capture": {
+        "path": "pt/pro-overview.png",
+        "sha256": "d35c184a073265d992844ad9eeaaf3f9a4fa75f03c24f6eb72ee8cf5100306fd",
+        "capturedUtc": "2026-11-25T12:02:20.744537+00:00",
+        "uiLocale": "pt",
+        "bytes": 96485,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/pro-overview.png",
+        "sha256": "d35c184a073265d992844ad9eeaaf3f9a4fa75f03c24f6eb72ee8cf5100306fd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:53+00:00",
+        "sheetSha256": "5cdbfe8988261a1f6ffed0d0c379d1335226c41e5538b50f190ff3cd780e073e"
+      }
+    },
+    "pt/programmes.png": {
+      "capture": {
+        "path": "pt/programmes.png",
+        "sha256": "2c6feed7287edae7e7e851607ed73a11a79bbb5dbb5f751ee3c8446d1aaab0d2",
+        "capturedUtc": "2026-11-25T12:03:40.895959+00:00",
+        "uiLocale": "pt",
+        "bytes": 134911,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/programmes.png",
+        "sha256": "2c6feed7287edae7e7e851607ed73a11a79bbb5dbb5f751ee3c8446d1aaab0d2",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:04:16+00:00",
+        "sheetSha256": "4bd7ec24f66b894540102feff6601aeb8d704713e6f248cc899ee1fa852a0bd0"
+      }
+    },
+    "pt/reader.png": {
+      "capture": {
+        "path": "pt/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T12:03:03.624295+00:00",
+        "uiLocale": "pt",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:03:44+00:00",
+        "sheetSha256": "0d6453eb8abece3a693a847e3e69df2523660897dc6d8686bbc049096b30f91b"
+      }
+    },
+    "pt/reading-profiles.png": {
+      "capture": {
+        "path": "pt/reading-profiles.png",
+        "sha256": "ebdd9e0624c5c4c222db997b99666afcee9ec03af1e67badea642c3da2ec024e",
+        "capturedUtc": "2026-11-25T12:03:23.650243+00:00",
+        "uiLocale": "pt",
+        "bytes": 82222,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/reading-profiles.png",
+        "sha256": "ebdd9e0624c5c4c222db997b99666afcee9ec03af1e67badea642c3da2ec024e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:04:16+00:00",
+        "sheetSha256": "4bd7ec24f66b894540102feff6601aeb8d704713e6f248cc899ee1fa852a0bd0"
+      }
+    },
+    "pt/rehearsal-audio.png": {
+      "capture": {
+        "path": "pt/rehearsal-audio.png",
+        "sha256": "c40e526399f9417fc80cf0e3f569d0f6b63183cd1795d33ca9ce3a0646c30c60",
+        "capturedUtc": "2026-11-25T12:04:35.300624+00:00",
+        "uiLocale": "pt",
+        "bytes": 102131,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/rehearsal-audio.png",
+        "sha256": "c40e526399f9417fc80cf0e3f569d0f6b63183cd1795d33ca9ce3a0646c30c60",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:02+00:00",
+        "sheetSha256": "65a91a508a139bb6a6dc72365e0d2e7671739d3d2e2a051c4cf3090900278efd"
+      }
+    },
+    "pt/settings.png": {
+      "capture": {
+        "path": "pt/settings.png",
+        "sha256": "3efac3ba97257358eb9c1765e96a4bb86a6019328e2dd63ecc7b9d8067115c41",
+        "capturedUtc": "2026-11-25T12:01:55.320747+00:00",
+        "uiLocale": "pt",
+        "bytes": 210511,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/settings.png",
+        "sha256": "3efac3ba97257358eb9c1765e96a4bb86a6019328e2dd63ecc7b9d8067115c41",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:43+00:00",
+        "sheetSha256": "9454e06613382ba4da7bf8ebcae1e9932c12fa96de8a7654fe57e7cdb9d90064"
+      }
+    },
+    "pt/sidebar.png": {
+      "capture": {
+        "path": "pt/sidebar.png",
+        "sha256": "50b66ba992ce5de88ad3b3d07517feff2c187be706cb16cdccac62e7aef1e15c",
+        "capturedUtc": "2026-11-25T12:01:47.823506+00:00",
+        "uiLocale": "pt",
+        "bytes": 209872,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/sidebar.png",
+        "sha256": "50b66ba992ce5de88ad3b3d07517feff2c187be706cb16cdccac62e7aef1e15c",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:02:43+00:00",
+        "sheetSha256": "9454e06613382ba4da7bf8ebcae1e9932c12fa96de8a7654fe57e7cdb9d90064"
+      }
+    },
+    "pt/smart-collections.png": {
+      "capture": {
+        "path": "pt/smart-collections.png",
+        "sha256": "51fd4b8717d39dbc3fc56c3b5d4fc82055bb5bea489540af8ae1beca2697c12e",
+        "capturedUtc": "2026-11-25T12:03:12.028440+00:00",
+        "uiLocale": "pt",
+        "bytes": 106379,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/smart-collections.png",
+        "sha256": "51fd4b8717d39dbc3fc56c3b5d4fc82055bb5bea489540af8ae1beca2697c12e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:03:44+00:00",
+        "sheetSha256": "0d6453eb8abece3a693a847e3e69df2523660897dc6d8686bbc049096b30f91b"
+      }
+    },
+    "pt/versions-transfer.png": {
+      "capture": {
+        "path": "pt/versions-transfer.png",
+        "sha256": "c3f4448d7ea14520d66a86f19d47b8512ec1cd59509f91a050cfaefbe3b793e6",
+        "capturedUtc": "2026-11-25T12:04:15.379877+00:00",
+        "uiLocale": "pt",
+        "bytes": 102148,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "pt/versions-transfer.png",
+        "sha256": "c3f4448d7ea14520d66a86f19d47b8512ec1cd59509f91a050cfaefbe3b793e6",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:05:02+00:00",
+        "sheetSha256": "65a91a508a139bb6a6dc72365e0d2e7671739d3d2e2a051c4cf3090900278efd"
+      }
+    },
+    "ru/annotations.png": {
+      "capture": {
+        "path": "ru/annotations.png",
+        "sha256": "e97d5e4ec62a12ed76914cb5421478a060ac49b0e1b59cfb032b45cdc0c05979",
+        "capturedUtc": "2026-11-25T12:16:51.625352+00:00",
+        "uiLocale": "ru",
+        "bytes": 482363,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/annotations.png",
+        "sha256": "e97d5e4ec62a12ed76914cb5421478a060ac49b0e1b59cfb032b45cdc0c05979",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:17:26+00:00",
+        "sheetSha256": "b315e644061caabb92813c94d3eb70d751738815d5d47038cc00cd9c2824aea5"
+      }
+    },
+    "ru/appearance.png": {
+      "capture": {
+        "path": "ru/appearance.png",
+        "sha256": "36c2528b3c594e10e7e04c73dc4401e2ed8c7ce4de9a9e66bcd84c95d0dd828f",
+        "capturedUtc": "2026-11-25T12:15:03.101149+00:00",
+        "uiLocale": "ru",
+        "bytes": 119777,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/appearance.png",
+        "sha256": "36c2528b3c594e10e7e04c73dc4401e2ed8c7ce4de9a9e66bcd84c95d0dd828f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:09+00:00",
+        "sheetSha256": "7ee1169c3b3b68cbfddbdbb127da9f3f0fbf153778542b2f21c1f11cd3d93197"
+      }
+    },
+    "ru/backup-restore.png": {
+      "capture": {
+        "path": "ru/backup-restore.png",
+        "sha256": "63abed75a6e8c71bb32690876b1268923be60d4caed8073fe6ab7793c1103871",
+        "capturedUtc": "2026-11-25T12:15:12.403080+00:00",
+        "uiLocale": "ru",
+        "bytes": 224282,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/backup-restore.png",
+        "sha256": "63abed75a6e8c71bb32690876b1268923be60d4caed8073fe6ab7793c1103871",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:09+00:00",
+        "sheetSha256": "7ee1169c3b3b68cbfddbdbb127da9f3f0fbf153778542b2f21c1f11cd3d93197"
+      }
+    },
+    "ru/collections.png": {
+      "capture": {
+        "path": "ru/collections.png",
+        "sha256": "8b5b6d96d0171f36de86139af80992edc2f0e9f910c60bb683f3f53c48570833",
+        "capturedUtc": "2026-11-25T12:15:37.735151+00:00",
+        "uiLocale": "ru",
+        "bytes": 86186,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/collections.png",
+        "sha256": "8b5b6d96d0171f36de86139af80992edc2f0e9f910c60bb683f3f53c48570833",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:10+00:00",
+        "sheetSha256": "f32cff7f1d3aca64df32aae154596d567f4c49a51dd888773a491c5b3230c1e0"
+      }
+    },
+    "ru/import-inbox.png": {
+      "capture": {
+        "path": "ru/import-inbox.png",
+        "sha256": "bc7273d7e788fea729e2c53819fbdd57059d58816269a6378f66517341ee6d6e",
+        "capturedUtc": "2026-11-25T12:19:03.766628+00:00",
+        "uiLocale": "ru",
+        "bytes": 197342,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/import-inbox.png",
+        "sha256": "bc7273d7e788fea729e2c53819fbdd57059d58816269a6378f66517341ee6d6e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:19:30+00:00",
+        "sheetSha256": "bbb7a8595a5e68f2621438dea33d23236d65fad939304c76f941d20f02eda043"
+      }
+    },
+    "ru/import-review.png": {
+      "capture": {
+        "path": "ru/import-review.png",
+        "sha256": "292216038636ca7320b297b17dc1a1daba345764aa0a959fe792d19a3792357f",
+        "capturedUtc": "2026-11-25T12:18:41.535148+00:00",
+        "uiLocale": "ru",
+        "bytes": 99015,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/import-review.png",
+        "sha256": "292216038636ca7320b297b17dc1a1daba345764aa0a959fe792d19a3792357f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:19:08+00:00",
+        "sheetSha256": "22c9b43e88dbb84ffb2f82c8507dc0ef23fc8f2befa6263d38be9be33acce46a"
+      }
+    },
+    "ru/input-controls.png": {
+      "capture": {
+        "path": "ru/input-controls.png",
+        "sha256": "d3187a32b6ca1b484eb6c208d00d531ca4e4b26ee392362a76ca03dbe9cc62aa",
+        "capturedUtc": "2026-11-25T12:17:48.727917+00:00",
+        "uiLocale": "ru",
+        "bytes": 175264,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/input-controls.png",
+        "sha256": "d3187a32b6ca1b484eb6c208d00d531ca4e4b26ee392362a76ca03dbe9cc62aa",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:18:18+00:00",
+        "sheetSha256": "908ee3e5be5e40f39c62d2e2fee158b7a0ce6ae3228d13b6ecae6b5770cac1e7"
+      }
+    },
+    "ru/library-health.png": {
+      "capture": {
+        "path": "ru/library-health.png",
+        "sha256": "324c25ea6456cdc3480159c36ca6dbd419b508617e9eca3e832c579c6c028cf1",
+        "capturedUtc": "2026-11-25T12:15:49.277445+00:00",
+        "uiLocale": "ru",
+        "bytes": 156329,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/library-health.png",
+        "sha256": "324c25ea6456cdc3480159c36ca6dbd419b508617e9eca3e832c579c6c028cf1",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:31+00:00",
+        "sheetSha256": "9d525fdaadbcff94cce60719c24514defd257998cf14b09112524824555fa5ea"
+      }
+    },
+    "ru/library-search.png": {
+      "capture": {
+        "path": "ru/library-search.png",
+        "sha256": "82bb0359be42702f2734915540c42d0811ca9ba79479a0e7e04ab390e636bec6",
+        "capturedUtc": "2026-11-25T12:15:29.033166+00:00",
+        "uiLocale": "ru",
+        "bytes": 130150,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/library-search.png",
+        "sha256": "82bb0359be42702f2734915540c42d0811ca9ba79479a0e7e04ab390e636bec6",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:10+00:00",
+        "sheetSha256": "66fc8920be2b45832c099c2d113c45c772064cb88b4a7135ced9c264db014e7d"
+      }
+    },
+    "ru/library.png": {
+      "capture": {
+        "path": "ru/library.png",
+        "sha256": "f2a20f793d488fa738516d1bcc4e214ff7b1af202feae780c10bf918db8f10d4",
+        "capturedUtc": "2026-11-25T12:14:34.985143+00:00",
+        "uiLocale": "ru",
+        "bytes": 336264,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/library.png",
+        "sha256": "f2a20f793d488fa738516d1bcc4e214ff7b1af202feae780c10bf918db8f10d4",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:15:07+00:00",
+        "sheetSha256": "5d6448e713964b47a4c4b4c03c2eb5822b4d323ddc5ed1f1e453191e4f58c92b"
+      }
+    },
+    "ru/local-snapshots.png": {
+      "capture": {
+        "path": "ru/local-snapshots.png",
+        "sha256": "949e66223fec678f3ab7ea43cd226b9d4100f154c890afe61095c51d12b0d688",
+        "capturedUtc": "2026-11-25T12:18:31.797417+00:00",
+        "uiLocale": "ru",
+        "bytes": 144804,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/local-snapshots.png",
+        "sha256": "949e66223fec678f3ab7ea43cd226b9d4100f154c890afe61095c51d12b0d688",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:19:07+00:00",
+        "sheetSha256": "9b65bfaa52b6d23df720448489d9a25bd20df1c90a8cf1d69bdb76574739f81c"
+      }
+    },
+    "ru/metronome.png": {
+      "capture": {
+        "path": "ru/metronome.png",
+        "sha256": "1c0b8804565e41269d7eaa3fd95c859d266ce9dbc4efb03429b41429f7874830",
+        "capturedUtc": "2026-11-25T12:17:25.921692+00:00",
+        "uiLocale": "ru",
+        "bytes": 143380,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/metronome.png",
+        "sha256": "1c0b8804565e41269d7eaa3fd95c859d266ce9dbc4efb03429b41429f7874830",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:18:18+00:00",
+        "sheetSha256": "f09bf7d600cfa9fff0e6606dea87b1c24f1ce30acaa4c50bd05981d4278ede92"
+      }
+    },
+    "ru/musicxml-preview.png": {
+      "capture": {
+        "path": "ru/musicxml-preview.png",
+        "sha256": "2d6cae2c4d51cfb91cefb19950db66c00c4a549580dc4e77f411b5c9ca60ae8a",
+        "capturedUtc": "2026-11-25T12:18:54.164017+00:00",
+        "uiLocale": "ru",
+        "bytes": 91601,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/musicxml-preview.png",
+        "sha256": "2d6cae2c4d51cfb91cefb19950db66c00c4a549580dc4e77f411b5c9ca60ae8a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:19:08+00:00",
+        "sheetSha256": "22c9b43e88dbb84ffb2f82c8507dc0ef23fc8f2befa6263d38be9be33acce46a"
+      }
+    },
+    "ru/paper-marks.png": {
+      "capture": {
+        "path": "ru/paper-marks.png",
+        "sha256": "19532bcb6423d2fbe54c1e539a6a39a1459605fdd8bf069665e0e70d53cc0db3",
+        "capturedUtc": "2026-11-25T12:18:18.720253+00:00",
+        "uiLocale": "ru",
+        "bytes": 90820,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/paper-marks.png",
+        "sha256": "19532bcb6423d2fbe54c1e539a6a39a1459605fdd8bf069665e0e70d53cc0db3",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:19:07+00:00",
+        "sheetSha256": "9b65bfaa52b6d23df720448489d9a25bd20df1c90a8cf1d69bdb76574739f81c"
+      }
+    },
+    "ru/practice-history.png": {
+      "capture": {
+        "path": "ru/practice-history.png",
+        "sha256": "01c8922309be73138b8b7227f9cefcf014b77212cd23d61a970fc833d1bf22ba",
+        "capturedUtc": "2026-11-25T12:16:02.317170+00:00",
+        "uiLocale": "ru",
+        "bytes": 149291,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/practice-history.png",
+        "sha256": "01c8922309be73138b8b7227f9cefcf014b77212cd23d61a970fc833d1bf22ba",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:31+00:00",
+        "sheetSha256": "9d525fdaadbcff94cce60719c24514defd257998cf14b09112524824555fa5ea"
+      }
+    },
+    "ru/practice-tools.png": {
+      "capture": {
+        "path": "ru/practice-tools.png",
+        "sha256": "004ee1bec5b4775953a1ef48c4482374700b72ca184844fc5d826a67181222a1",
+        "capturedUtc": "2026-11-25T12:17:12.545662+00:00",
+        "uiLocale": "ru",
+        "bytes": 74286,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/practice-tools.png",
+        "sha256": "004ee1bec5b4775953a1ef48c4482374700b72ca184844fc5d826a67181222a1",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:17:27+00:00",
+        "sheetSha256": "9b4061a3c950f9ae7714508433bf447b064d11657570f653d79984a19ee67f76"
+      }
+    },
+    "ru/pro-overview.png": {
+      "capture": {
+        "path": "ru/pro-overview.png",
+        "sha256": "70ef49082301fb50b65b203128bc8f4b99fdf49c9e0e9157732063381e317372",
+        "capturedUtc": "2026-11-25T12:15:21.621314+00:00",
+        "uiLocale": "ru",
+        "bytes": 90932,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/pro-overview.png",
+        "sha256": "70ef49082301fb50b65b203128bc8f4b99fdf49c9e0e9157732063381e317372",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:10+00:00",
+        "sheetSha256": "66fc8920be2b45832c099c2d113c45c772064cb88b4a7135ced9c264db014e7d"
+      }
+    },
+    "ru/programmes.png": {
+      "capture": {
+        "path": "ru/programmes.png",
+        "sha256": "4a4e6f146c212cb7b572f822a011e9eba400c52d56192e6a4203f2568be7eaae",
+        "capturedUtc": "2026-11-25T12:16:59.354867+00:00",
+        "uiLocale": "ru",
+        "bytes": 130996,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/programmes.png",
+        "sha256": "4a4e6f146c212cb7b572f822a011e9eba400c52d56192e6a4203f2568be7eaae",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:17:26+00:00",
+        "sheetSha256": "b315e644061caabb92813c94d3eb70d751738815d5d47038cc00cd9c2824aea5"
+      }
+    },
+    "ru/reader.png": {
+      "capture": {
+        "path": "ru/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T12:16:12.501298+00:00",
+        "uiLocale": "ru",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:16:31+00:00",
+        "sheetSha256": "ae1b373779920e29185968f186a7af0d5c52e81ca37b09fdf43d56693697c8db"
+      }
+    },
+    "ru/reading-profiles.png": {
+      "capture": {
+        "path": "ru/reading-profiles.png",
+        "sha256": "08a773ab53a861c4473def9bd10cd318d1b9638c1a8101c785d1f48f7d5e764a",
+        "capturedUtc": "2026-11-25T12:16:38.682195+00:00",
+        "uiLocale": "ru",
+        "bytes": 83341,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/reading-profiles.png",
+        "sha256": "08a773ab53a861c4473def9bd10cd318d1b9638c1a8101c785d1f48f7d5e764a",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:17:26+00:00",
+        "sheetSha256": "d755c400bf8743f1de173137ebabc48524c5e3d999be1efe87ae3760911a08e9"
+      }
+    },
+    "ru/rehearsal-audio.png": {
+      "capture": {
+        "path": "ru/rehearsal-audio.png",
+        "sha256": "373a8c673f3721ccc9480f01eb1dae5d751e78065037ad72885772bf76d9012e",
+        "capturedUtc": "2026-11-25T12:18:02.834428+00:00",
+        "uiLocale": "ru",
+        "bytes": 110356,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/rehearsal-audio.png",
+        "sha256": "373a8c673f3721ccc9480f01eb1dae5d751e78065037ad72885772bf76d9012e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:18:18+00:00",
+        "sheetSha256": "908ee3e5be5e40f39c62d2e2fee158b7a0ce6ae3228d13b6ecae6b5770cac1e7"
+      }
+    },
+    "ru/settings.png": {
+      "capture": {
+        "path": "ru/settings.png",
+        "sha256": "a3d5184f2ca1d5ca4cc2d81c6c44feec8119493d5375a129d03469831788f317",
+        "capturedUtc": "2026-11-25T12:14:52.691708+00:00",
+        "uiLocale": "ru",
+        "bytes": 205209,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/settings.png",
+        "sha256": "a3d5184f2ca1d5ca4cc2d81c6c44feec8119493d5375a129d03469831788f317",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:15:07+00:00",
+        "sheetSha256": "2bb90139d6e7dcbfe3ba606ae3b3dc575a50758f71ce0a5022ef52c352eb1a14"
+      }
+    },
+    "ru/sidebar.png": {
+      "capture": {
+        "path": "ru/sidebar.png",
+        "sha256": "7058be0d1aea1b648fff82a67788590fe81ad629087cbc97033529b53bbb732d",
+        "capturedUtc": "2026-11-25T12:14:42.905427+00:00",
+        "uiLocale": "ru",
+        "bytes": 188282,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/sidebar.png",
+        "sha256": "7058be0d1aea1b648fff82a67788590fe81ad629087cbc97033529b53bbb732d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:15:07+00:00",
+        "sheetSha256": "5d6448e713964b47a4c4b4c03c2eb5822b4d323ddc5ed1f1e453191e4f58c92b"
+      }
+    },
+    "ru/smart-collections.png": {
+      "capture": {
+        "path": "ru/smart-collections.png",
+        "sha256": "bc216f587f41651c0431cd766018396a1644835872c06e9e488ac36efdf6ba2e",
+        "capturedUtc": "2026-11-25T12:16:22.709086+00:00",
+        "uiLocale": "ru",
+        "bytes": 113626,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/smart-collections.png",
+        "sha256": "bc216f587f41651c0431cd766018396a1644835872c06e9e488ac36efdf6ba2e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:17:26+00:00",
+        "sheetSha256": "d755c400bf8743f1de173137ebabc48524c5e3d999be1efe87ae3760911a08e9"
+      }
+    },
+    "ru/versions-transfer.png": {
+      "capture": {
+        "path": "ru/versions-transfer.png",
+        "sha256": "f5916552b23361f3a99cd60292a3c579e8cd2b0f1db99d9b72659d761011c8d9",
+        "capturedUtc": "2026-11-25T12:17:39.794536+00:00",
+        "uiLocale": "ru",
+        "bytes": 101577,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "ru/versions-transfer.png",
+        "sha256": "f5916552b23361f3a99cd60292a3c579e8cd2b0f1db99d9b72659d761011c8d9",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-PR",
+        "at": "2026-11-25T12:18:18+00:00",
+        "sheetSha256": "f09bf7d600cfa9fff0e6606dea87b1c24f1ce30acaa4c50bd05981d4278ede92"
+      }
+    },
+    "uk/annotations.png": {
+      "capture": {
+        "path": "uk/annotations.png",
+        "sha256": "3a424aca819297edbbc6318c501702d87f381c3b004fb8642739371fdb8d7d3d",
+        "capturedUtc": "2026-11-25T12:07:28.470522+00:00",
+        "uiLocale": "uk",
+        "bytes": 482379,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/annotations.png",
+        "sha256": "3a424aca819297edbbc6318c501702d87f381c3b004fb8642739371fdb8d7d3d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:10+00:00",
+        "sheetSha256": "59ced0407eff9856d4608b5599d709f662bf1036bfaedcad3f929fe4cf553e76"
+      }
+    },
+    "uk/appearance.png": {
+      "capture": {
+        "path": "uk/appearance.png",
+        "sha256": "4b013a09919ebb4e329f1db97521e87f779a379374b22bbecd332f522446b016",
+        "capturedUtc": "2026-11-25T12:05:54.980282+00:00",
+        "uiLocale": "uk",
+        "bytes": 121718,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/appearance.png",
+        "sha256": "4b013a09919ebb4e329f1db97521e87f779a379374b22bbecd332f522446b016",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:24+00:00",
+        "sheetSha256": "b0f283e6b05acd80fa1d414c0fc3591661cd59b47270cb69e17fba4f6a399edc"
+      }
+    },
+    "uk/backup-restore.png": {
+      "capture": {
+        "path": "uk/backup-restore.png",
+        "sha256": "b47753c72615d7aa604754fd5d6a626bc45df4af17a461e0c932f1155eb3b59c",
+        "capturedUtc": "2026-11-25T12:06:03.359430+00:00",
+        "uiLocale": "uk",
+        "bytes": 225972,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/backup-restore.png",
+        "sha256": "b47753c72615d7aa604754fd5d6a626bc45df4af17a461e0c932f1155eb3b59c",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:52+00:00",
+        "sheetSha256": "ead22b1fe9c065b66fd9f931916540ec84620fc0884e951bc992570796c9ce94"
+      }
+    },
+    "uk/collections.png": {
+      "capture": {
+        "path": "uk/collections.png",
+        "sha256": "c7cf944063342a3e96548724f90197541bbdf7abe07de776fceec1a713b40754",
+        "capturedUtc": "2026-11-25T12:06:26.392204+00:00",
+        "uiLocale": "uk",
+        "bytes": 84386,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/collections.png",
+        "sha256": "c7cf944063342a3e96548724f90197541bbdf7abe07de776fceec1a713b40754",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:52+00:00",
+        "sheetSha256": "ead22b1fe9c065b66fd9f931916540ec84620fc0884e951bc992570796c9ce94"
+      }
+    },
+    "uk/import-inbox.png": {
+      "capture": {
+        "path": "uk/import-inbox.png",
+        "sha256": "71c5dbe3cfe32f7c21ed8b4475da08d2c635f0130f9541070ea3621f7f7ad73e",
+        "capturedUtc": "2026-11-25T12:09:20.529819+00:00",
+        "uiLocale": "uk",
+        "bytes": 193942,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/import-inbox.png",
+        "sha256": "71c5dbe3cfe32f7c21ed8b4475da08d2c635f0130f9541070ea3621f7f7ad73e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:10:10+00:00",
+        "sheetSha256": "8e21619f0ae5d75dde03c2dcfa29c1dcf1a6ed29c8fc64fb3dbbf523042540f1"
+      }
+    },
+    "uk/import-review.png": {
+      "capture": {
+        "path": "uk/import-review.png",
+        "sha256": "5079a833761f99005f2cdb68b2ac28ede45d98d25763ac51b1d397fa257bbd68",
+        "capturedUtc": "2026-11-25T12:08:58.206951+00:00",
+        "uiLocale": "uk",
+        "bytes": 96923,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/import-review.png",
+        "sha256": "5079a833761f99005f2cdb68b2ac28ede45d98d25763ac51b1d397fa257bbd68",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:09:53+00:00",
+        "sheetSha256": "801db7ae6c179a9bb9863fa3774c4d7bc1dbebd4905df7b385d1622ae9140fe1"
+      }
+    },
+    "uk/input-controls.png": {
+      "capture": {
+        "path": "uk/input-controls.png",
+        "sha256": "4b78b7344ee21719889cc6f43e49f21d972e4694185b2b6477f9efa34caed5f8",
+        "capturedUtc": "2026-11-25T12:08:16.587986+00:00",
+        "uiLocale": "uk",
+        "bytes": 169899,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/input-controls.png",
+        "sha256": "4b78b7344ee21719889cc6f43e49f21d972e4694185b2b6477f9efa34caed5f8",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:52+00:00",
+        "sheetSha256": "7cd815e3bbb63aa412dc3a1fd6bdd0af505499b84664e82a3d84ae623409b598"
+      }
+    },
+    "uk/library-health.png": {
+      "capture": {
+        "path": "uk/library-health.png",
+        "sha256": "4f9b6262b2493933e6f8c0bfe276ccef9b605608a4aaefc7023766b4f299a750",
+        "capturedUtc": "2026-11-25T12:06:36.993105+00:00",
+        "uiLocale": "uk",
+        "bytes": 157933,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/library-health.png",
+        "sha256": "4f9b6262b2493933e6f8c0bfe276ccef9b605608a4aaefc7023766b4f299a750",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:07:38+00:00",
+        "sheetSha256": "8e6372634e21e171890679ac4d81f993b3affefd8320e76f0c08ccb57ba82879"
+      }
+    },
+    "uk/library-search.png": {
+      "capture": {
+        "path": "uk/library-search.png",
+        "sha256": "03c9283bf2a881f1c5d1292b830a50e5425caf8a5c0bcff4373e38c35b3633bd",
+        "capturedUtc": "2026-11-25T12:06:18.757794+00:00",
+        "uiLocale": "uk",
+        "bytes": 128706,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/library-search.png",
+        "sha256": "03c9283bf2a881f1c5d1292b830a50e5425caf8a5c0bcff4373e38c35b3633bd",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:52+00:00",
+        "sheetSha256": "ead22b1fe9c065b66fd9f931916540ec84620fc0884e951bc992570796c9ce94"
+      }
+    },
+    "uk/library.png": {
+      "capture": {
+        "path": "uk/library.png",
+        "sha256": "ac8c6e17e41ac50bd0a89de5b21b479301a427a798976e3ab88665379ad3afa7",
+        "capturedUtc": "2026-11-25T12:05:32.267957+00:00",
+        "uiLocale": "uk",
+        "bytes": 333981,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/library.png",
+        "sha256": "ac8c6e17e41ac50bd0a89de5b21b479301a427a798976e3ab88665379ad3afa7",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:24+00:00",
+        "sheetSha256": "b0f283e6b05acd80fa1d414c0fc3591661cd59b47270cb69e17fba4f6a399edc"
+      }
+    },
+    "uk/local-snapshots.png": {
+      "capture": {
+        "path": "uk/local-snapshots.png",
+        "sha256": "b0dde3e4c87424ca6243f4c4fc821c77454d194a0e58d11906deac82182af674",
+        "capturedUtc": "2026-11-25T12:08:49.381622+00:00",
+        "uiLocale": "uk",
+        "bytes": 140612,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/local-snapshots.png",
+        "sha256": "b0dde3e4c87424ca6243f4c4fc821c77454d194a0e58d11906deac82182af674",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:09:53+00:00",
+        "sheetSha256": "801db7ae6c179a9bb9863fa3774c4d7bc1dbebd4905df7b385d1622ae9140fe1"
+      }
+    },
+    "uk/metronome.png": {
+      "capture": {
+        "path": "uk/metronome.png",
+        "sha256": "1552f2b72e2516a082a0c4702b299abd282172e665921ecdd90e4a061c68cbec",
+        "capturedUtc": "2026-11-25T12:07:56.681508+00:00",
+        "uiLocale": "uk",
+        "bytes": 139879,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/metronome.png",
+        "sha256": "1552f2b72e2516a082a0c4702b299abd282172e665921ecdd90e4a061c68cbec",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:52+00:00",
+        "sheetSha256": "7cd815e3bbb63aa412dc3a1fd6bdd0af505499b84664e82a3d84ae623409b598"
+      }
+    },
+    "uk/musicxml-preview.png": {
+      "capture": {
+        "path": "uk/musicxml-preview.png",
+        "sha256": "e92cb08a061c1e3ce921648e82484474ddcdb718cffafbd18b6c81f4206ff8fb",
+        "capturedUtc": "2026-11-25T12:09:11.355233+00:00",
+        "uiLocale": "uk",
+        "bytes": 90693,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/musicxml-preview.png",
+        "sha256": "e92cb08a061c1e3ce921648e82484474ddcdb718cffafbd18b6c81f4206ff8fb",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:09:53+00:00",
+        "sheetSha256": "801db7ae6c179a9bb9863fa3774c4d7bc1dbebd4905df7b385d1622ae9140fe1"
+      }
+    },
+    "uk/paper-marks.png": {
+      "capture": {
+        "path": "uk/paper-marks.png",
+        "sha256": "2e7bb755422a220d4c641a4d6a738aeb1f916afdc8c3941630ee23f6491800b4",
+        "capturedUtc": "2026-11-25T12:08:39.627238+00:00",
+        "uiLocale": "uk",
+        "bytes": 86372,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/paper-marks.png",
+        "sha256": "2e7bb755422a220d4c641a4d6a738aeb1f916afdc8c3941630ee23f6491800b4",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:09:53+00:00",
+        "sheetSha256": "801db7ae6c179a9bb9863fa3774c4d7bc1dbebd4905df7b385d1622ae9140fe1"
+      }
+    },
+    "uk/practice-history.png": {
+      "capture": {
+        "path": "uk/practice-history.png",
+        "sha256": "035f12748470ca13e521c93f3a0821346818e4ec5607ed89f30b0a87969f9b97",
+        "capturedUtc": "2026-11-25T12:06:48.284920+00:00",
+        "uiLocale": "uk",
+        "bytes": 151383,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/practice-history.png",
+        "sha256": "035f12748470ca13e521c93f3a0821346818e4ec5607ed89f30b0a87969f9b97",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:07:38+00:00",
+        "sheetSha256": "8e6372634e21e171890679ac4d81f993b3affefd8320e76f0c08ccb57ba82879"
+      }
+    },
+    "uk/practice-tools.png": {
+      "capture": {
+        "path": "uk/practice-tools.png",
+        "sha256": "26c85e3a2cf6d9b79bf88461a70cb2a3bee7443a7a5f58569529caabb6a5219e",
+        "capturedUtc": "2026-11-25T12:07:46.413296+00:00",
+        "uiLocale": "uk",
+        "bytes": 75559,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/practice-tools.png",
+        "sha256": "26c85e3a2cf6d9b79bf88461a70cb2a3bee7443a7a5f58569529caabb6a5219e",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:10+00:00",
+        "sheetSha256": "59ced0407eff9856d4608b5599d709f662bf1036bfaedcad3f929fe4cf553e76"
+      }
+    },
+    "uk/pro-overview.png": {
+      "capture": {
+        "path": "uk/pro-overview.png",
+        "sha256": "73b52829f5e449cd9338fb79d4c15354bf82b6fe1e989a5ff8a84279c1d08f0b",
+        "capturedUtc": "2026-11-25T12:06:11.811919+00:00",
+        "uiLocale": "uk",
+        "bytes": 90480,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/pro-overview.png",
+        "sha256": "73b52829f5e449cd9338fb79d4c15354bf82b6fe1e989a5ff8a84279c1d08f0b",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:52+00:00",
+        "sheetSha256": "ead22b1fe9c065b66fd9f931916540ec84620fc0884e951bc992570796c9ce94"
+      }
+    },
+    "uk/programmes.png": {
+      "capture": {
+        "path": "uk/programmes.png",
+        "sha256": "40288f569904ea813416a352cf63136fabcd080783177ca17125a47db71fdfa9",
+        "capturedUtc": "2026-11-25T12:07:34.897163+00:00",
+        "uiLocale": "uk",
+        "bytes": 128067,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/programmes.png",
+        "sha256": "40288f569904ea813416a352cf63136fabcd080783177ca17125a47db71fdfa9",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:10+00:00",
+        "sheetSha256": "59ced0407eff9856d4608b5599d709f662bf1036bfaedcad3f929fe4cf553e76"
+      }
+    },
+    "uk/reader.png": {
+      "capture": {
+        "path": "uk/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "capturedUtc": "2026-11-25T12:06:57.237132+00:00",
+        "uiLocale": "uk",
+        "bytes": 440146,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/reader.png",
+        "sha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:07:38+00:00",
+        "sheetSha256": "8e6372634e21e171890679ac4d81f993b3affefd8320e76f0c08ccb57ba82879"
+      }
+    },
+    "uk/reading-profiles.png": {
+      "capture": {
+        "path": "uk/reading-profiles.png",
+        "sha256": "caee60afd062c3e8a92c7eb6941402c9da45ca376a4dc609ecddae5cb936c08f",
+        "capturedUtc": "2026-11-25T12:07:17.397821+00:00",
+        "uiLocale": "uk",
+        "bytes": 84458,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/reading-profiles.png",
+        "sha256": "caee60afd062c3e8a92c7eb6941402c9da45ca376a4dc609ecddae5cb936c08f",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:10+00:00",
+        "sheetSha256": "59ced0407eff9856d4608b5599d709f662bf1036bfaedcad3f929fe4cf553e76"
+      }
+    },
+    "uk/rehearsal-audio.png": {
+      "capture": {
+        "path": "uk/rehearsal-audio.png",
+        "sha256": "a69a225976f9802e49b2a2a17e81b230809a19a0c16a5cf9cb23810e75121631",
+        "capturedUtc": "2026-11-25T12:08:27.736442+00:00",
+        "uiLocale": "uk",
+        "bytes": 105480,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/rehearsal-audio.png",
+        "sha256": "a69a225976f9802e49b2a2a17e81b230809a19a0c16a5cf9cb23810e75121631",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:52+00:00",
+        "sheetSha256": "7cd815e3bbb63aa412dc3a1fd6bdd0af505499b84664e82a3d84ae623409b598"
+      }
+    },
+    "uk/settings.png": {
+      "capture": {
+        "path": "uk/settings.png",
+        "sha256": "f7a1a114940c776e2cb5ce697fe307ce659db8acb1b3f8f12269a59c55065b3c",
+        "capturedUtc": "2026-11-25T12:05:45.488504+00:00",
+        "uiLocale": "uk",
+        "bytes": 203119,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/settings.png",
+        "sha256": "f7a1a114940c776e2cb5ce697fe307ce659db8acb1b3f8f12269a59c55065b3c",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:24+00:00",
+        "sheetSha256": "b0f283e6b05acd80fa1d414c0fc3591661cd59b47270cb69e17fba4f6a399edc"
+      }
+    },
+    "uk/sidebar.png": {
+      "capture": {
+        "path": "uk/sidebar.png",
+        "sha256": "741512ca5111ac1efe3012d10c35a66622cb95d52dd39594a94a9302d8e6522d",
+        "capturedUtc": "2026-11-25T12:05:38.426069+00:00",
+        "uiLocale": "uk",
+        "bytes": 186630,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/sidebar.png",
+        "sha256": "741512ca5111ac1efe3012d10c35a66622cb95d52dd39594a94a9302d8e6522d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:06:24+00:00",
+        "sheetSha256": "b0f283e6b05acd80fa1d414c0fc3591661cd59b47270cb69e17fba4f6a399edc"
+      }
+    },
+    "uk/smart-collections.png": {
+      "capture": {
+        "path": "uk/smart-collections.png",
+        "sha256": "11fadb4d4cacd2e2b7a75dc76c8b72be9d4ced7352859765a232edf7df696c0d",
+        "capturedUtc": "2026-11-25T12:07:05.965219+00:00",
+        "uiLocale": "uk",
+        "bytes": 110185,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/smart-collections.png",
+        "sha256": "11fadb4d4cacd2e2b7a75dc76c8b72be9d4ced7352859765a232edf7df696c0d",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:07:38+00:00",
+        "sheetSha256": "8e6372634e21e171890679ac4d81f993b3affefd8320e76f0c08ccb57ba82879"
+      }
+    },
+    "uk/versions-transfer.png": {
+      "capture": {
+        "path": "uk/versions-transfer.png",
+        "sha256": "e812a34fbf5a704de32b5c9a25b96092725be4484ed443fa2e565709e6a11064",
+        "capturedUtc": "2026-11-25T12:08:08.614129+00:00",
+        "uiLocale": "uk",
+        "bytes": 98660,
+        "width": 1200,
+        "height": 1920,
+        "foregroundPackage": "com.technatonuniv.partitoria",
+        "appUser": 10,
+        "densityDpi": 260
+      },
+      "visualReview": {
+        "path": "uk/versions-transfer.png",
+        "sha256": "e812a34fbf5a704de32b5c9a25b96092725be4484ed443fa2e565709e6a11064",
+        "verdict": "PASS",
+        "reviewer": "Codex-QA-EPU",
+        "at": "2026-11-25T12:08:52+00:00",
+        "sheetSha256": "7cd815e3bbb63aa412dc3a1fd6bdd0af505499b84664e82a3d84ae623409b598"
+      }
+    }
+  }
+}

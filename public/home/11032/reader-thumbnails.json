@@ -1,0 +1,77 @@
+{
+  "versionCode": 11032,
+  "locales": {
+    "ru": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "en": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "de": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "it": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "es": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "pt": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "uk": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "fr": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    },
+    "pl": {
+      "sourceSha256": "f99a96f417cd917049df720c291e30c694e6464e6cfbfdcb1e82f8c392598a83",
+      "sha256ByWidth": {
+        "240": "62a6aec9d556a99ef5487f3e81be91fb914e516996c13b0f93c4809e07e46f10",
+        "360": "6e898f8c00dee2bbe7ea6d21b89238fa943a23376c5365e587bcaeaf9b5e5297",
+        "540": "8fcff36ebd309410640c5143f94eeb6a80e71ffe5cade71f8166c5b8cf0e8c88"
+      }
+    }
+  }
+}

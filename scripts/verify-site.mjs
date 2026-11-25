@@ -1,11 +1,13 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
+import { parseArgs } from 'node:util';
 import articles from '../lib/guide-articles.json' with { type: 'json' };
 import selection from '../lib/guide-capture-selection.json' with { type: 'json' };
 import historicalImageCopy from '../lib/guide-image-history.json' with { type: 'json' };
 import topicRoutes from '../lib/discovery-topics-routes.json' with { type: 'json' };
 import { captureVersionFor, selectedGuideImages, verifyGuideCaptures } from './verify-guide-captures.mjs';
+import { verifyRenderedCaptures, verifyReaderThumbnails } from './verify-reader-assets.mjs';
 import { verifyDiscoveryLinks, verifyPublishedSearchFiles, verifySearchPage } from './verify-search.mjs';
 
 const locales = ['ru', 'en', 'de', 'it', 'es', 'pt', 'uk', 'fr', 'pl'];
@@ -18,7 +20,16 @@ const categories = [
   'settings',
 ];
 const root = path.resolve('dist/client');
-const expectedImages = selectedGuideImages(articles);
+const expectedImages = selectedGuideImages(articles, selection);
+const requestedVersion = parseArgs({ options: { 'capture-version': { type: 'string' } } }).values['capture-version'];
+if (requestedVersion !== undefined) {
+  assert.match(requestedVersion, /^[1-9]\d*$/, '--capture-version must be an Android versionCode');
+  const version = Number(requestedVersion);
+  assert.equal(selection.defaultVersionCode, version, 'The screenshot selector has not switched to the requested baseline');
+  for (const name of expectedImages) {
+    assert.equal(captureVersionFor(selection, name), version, `Capture from another release: ${name}`);
+  }
+}
 assert.equal(
   new Set(articles.map((a) => a.id)).size,
   articles.length,
@@ -62,7 +73,8 @@ function verifyPage(url, locale, { availableLocales = locales, canonicalPath = u
       `Broken local reference ${value} in ${url}`,
     );
   }
-  verifySearchPage({ html, url, canonicalPath, locale, availableLocales, outputFile });
+  const nodes = verifySearchPage({ html, url, canonicalPath, locale, availableLocales, outputFile });
+  verifyRenderedCaptures({ html, url: canonicalPath, locale, selection, articles, images: expectedImages, nodes, outputFile });
   if (url === canonicalPath) canonical.push(url);
   return html;
 }
@@ -147,6 +159,7 @@ const englishFacts = fs.readFileSync(outputFile('/en/facts'), 'utf8');
 const factsText = (html) => [...html.matchAll(/<(h1|h2|p)\b[^>]*>([\s\S]*?)<\/\1>/gi)].map((match) => match[2]);
 assert.deepEqual(factsText(gateway), factsText(englishFacts), 'The /facts fallback must display the English facts before JavaScript');
 const captureResult = verifyGuideCaptures({ selection, images: expectedImages, exportRoot: root });
+verifyReaderThumbnails({ selection, exportRoot: root });
 verifyDiscoveryLinks(locales, discoveryPaths);
 verifyPublishedSearchFiles(root, canonical, discoveryPaths);
 console.log(

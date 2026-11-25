@@ -114,8 +114,8 @@ export default {
     ],
     "screenshot": {
       "article": "import-review",
-      "alt": "Aperçu en anglais de Flute-and-Piano-Study.musicxml, avec les trois portées sur une seule page",
-      "src": "/discovery/musicxml-preview.jpg"
+      "alt": "Aperçu de Flute-and-Piano-Study.musicxml avec trois portées sur une page",
+      "example": "musicxml-preview"
     }
   }
 } satisfies Partial<Record<TopicSlug, TopicContent>>;

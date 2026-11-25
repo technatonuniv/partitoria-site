@@ -1,5 +1,14 @@
 # Partitoria website
 
+## Android 1.11.1 screenshots · 25 November 2026
+
+The site source selects **225 reviewed screenshots** from the signed public
+Android app, version **1.11.1 (11032)**. They cover 25 screen subjects in nine
+app languages. The home page uses 27 WebP thumbnails derived from the reader
+captures. The site has 32 guide articles, six musician questions and a separate
+facts page. [Screenshot inventory and verification](docs/COMMERCIAL_SCREENSHOTS.md)
+· [Active website release and deployment receipts](deploy/README.md)
+
 ## Search and discovery release · 25 November 2026
 
 The published site covers 432 canonical URLs in nine languages. Musicians can find
@@ -8,7 +17,7 @@ there. The [verification and measurement report](docs/SEARCH_AND_AI_DISCOVERY.md
 records the release baseline, source checks, browser tests and IndexNow response.
 The dated entries below describe earlier releases.
 
-## Final guide preparation — 2026-10-09, local candidate
+## Historical guide preparation — 2026-10-09, local candidate
 
 The guide now contains **32 articles and 405 canonical pages** across all nine
 languages. Existing URLs, including `settings-and-account`, stay unchanged.
@@ -54,7 +63,7 @@ is claimed. See [privacy wording and evidence](docs/LANGUAGE_AND_PRIVACY.md).
 This prepared website update does not establish website publication, a store
 purchase or a public app release.
 
-## Current screenshot refresh — 2026-10-07
+## Historical screenshot refresh — 2026-10-07
 
 The published website uses public **1.8.0/10814** screenshots: 30 ordinary
 screens in all nine app UI languages, covering all 31 Guide articles and Home.

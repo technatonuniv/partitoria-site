@@ -13,7 +13,7 @@ function attributes(tag) {
   return Object.fromEntries([...tag.matchAll(/\s([\w:-]+)="([^"]*)"/g)].map(([, key, value]) =>
     [key.toLowerCase(), value.replaceAll('&amp;', '&')]));
 }
-function tags(html, name) {
+export function tags(html, name) {
   return [...html.matchAll(new RegExp(`<${name}\\b[^>]*>`, 'gi'))].map(([tag]) => attributes(tag));
 }
 function one(list, message) {
@@ -24,7 +24,7 @@ function pagePath(locale, suffix) {
   if (suffix === '/facts') return `/${locale}/facts`;
   return (locale === 'ru' ? '' : `/${locale}`) + suffix || '/';
 }
-function verifyStructuredData(html, url, suffix, outputFile) {
+export function structuredNodes(html, url) {
   const nodes = [];
   for (const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) {
     if (attributes(match[1]).type !== 'application/ld+json') continue;
@@ -39,6 +39,9 @@ function verifyStructuredData(html, url, suffix, outputFile) {
       nodes.push(...(block['@graph'] ?? [block]));
     }
   }
+  return nodes;
+}
+function verifyStructuredData(nodes, url, suffix, outputFile) {
   const typed = (type) => nodes.filter((node) => [node['@type']].flat().includes(type));
   for (const node of nodes) {
     assert.ok(node['@type'], `Missing Schema.org type: ${url}`);
@@ -105,7 +108,8 @@ export function verifySearchPage({ html, url, canonicalPath = url, locale, avail
   for (const tag of meta.filter((item) => /^(?:robots|googlebot|bingbot)$/i.test(item.name))) {
     assert.doesNotMatch(tag.content, /(?:^|[\s,])(?:noindex|none|nosnippet)(?:$|[\s,])/i, `Blocked indexing/snippet: ${url}`);
   }
-  verifyStructuredData(html, url, suffix, outputFile);
+  const nodes = structuredNodes(html, url);
+  verifyStructuredData(nodes, url, suffix, outputFile);
   const visible = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   const anchors = tags(visible, 'a');
   linksByPage.set(url, anchors.filter((a) => a.href?.startsWith('/') && !a['data-language']).map((a) => new URL(a.href, origin).pathname));
@@ -132,6 +136,7 @@ export function verifySearchPage({ html, url, canonicalPath = url, locale, avail
       assert.equal(referrer.get('utm_campaign'), `${slug}_${locale}`, `Play campaign: ${url}`);
     }
   }
+  return nodes;
 }
 
 export function verifyDiscoveryLinks(locales, newPaths) {

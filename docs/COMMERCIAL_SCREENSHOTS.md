@@ -1,6 +1,51 @@
 # Commercial website screenshot inventory
 
-## Final candidate handoff — 2026-10-09, 72 reviewed captures integrated
+## Android 1.11.1 (11032) · 25 November 2026
+
+**All 225 original screenshots passed visual review and are registered in the
+site source.** Each app language has 25 portrait screenshots at 1200 × 1920,
+covering the earlier 24 subjects and a new MusicXML import preview. The nine
+editions are RU, EN, DE, IT, ES, PT, UK, FR and PL. The home page uses 27
+derived WebP files, at 240, 360 and 540 pixels wide per locale. All nine reader
+originals have the same bytes because the full-screen score contains no localized
+controls; the library and MusicXML preview each have nine distinct captures.
+The site has 32 guide articles, six musician questions and a facts page.
+The MusicXML answer displays its localized example in EN, RU, DE and FR.
+
+The public Android package `com.technatonuniv.partitoria` comes from source
+`57b0fb0fc2d7f6be941fa51bebeab6676faf2823`. The 72,893,939-byte universal
+APK derived from the release bundle passed v3 signature verification. Its
+SHA-256 and the installed base APK hash both equal
+`28ed4fe7f7b37596259d8d87187d571033d111250f5d16d714736b29722f9319`.
+The capture session uses an Android 16 tablet emulator with a separate demo
+profile and owner-authorized test access to Pro.
+
+The demonstration programme is *Evening Recital*. The reader and annotation
+examples use Erik Satie’s *Gymnopédie No. 1*, typeset by Evin Robertson.
+The A4 PDF matches Mutopia edition `Mutopia-2014/12/14-37` byte for byte,
+SHA-256 `e2b99b96bbca71077194c903cb4e390a435756892edf37040ae9dbea4cc7492a`.
+The edition carries a Public Domain dedication. [Mutopia edition and rights](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=37)
+
+The 225 original PNGs total 36,908,633 bytes. Their manifest binds each file
+to the signed APK, its installation, the individual capture and the visual
+review. The thumbnail manifest binds each WebP to the original reader for its
+locale. [Original capture manifest](../public/guide/11032/localized-captures.json)
+· [Capture and review evidence](../public/guide/11032/capture-evidence.json)
+· [Reader thumbnail manifest](../public/home/11032/reader-thumbnails.json)
+· [Selected version](../lib/guide-capture-selection.json)
+
+The built 11032 export passed `npm run verify -- --capture-version 11032`
+for all 432 canonical URLs and all 225 selected originals. An independent check
+covered all 481 exported HTML documents and 478 client navigation payloads.
+It checked 956 social image references, 250 thumbnail buttons and 250 matching
+full-size images in dialogs, including the generated Russian aliases.
+The 545 historical guide and store-review files matched the preceding export;
+the three previous home thumbnails and the earlier discovery JPEG also retained
+their recorded hashes. Exact-source CI, activation and verification of public
+URLs are recorded against the deployed website release.
+[Static verifier](../scripts/verify-site.mjs) · [Website releases and receipts](../deploy/README.md)
+
+## Historical candidate handoff — 2026-10-09, 72 reviewed captures integrated
 
 All **72 genuine screenshots** of public **1.8.0/10824** (eight topics × nine
 languages) are directly reviewed and imported unchanged. The actual selector
@@ -90,7 +135,7 @@ Root next runs the existing final check sequence, one final main push, exact-SHA
 CI and immutable-release publication with live readback. Screenshot acceptance
 does not establish official purchases, Console approval or public app release.
 
-## Current screenshot refresh — 2026-10-07
+## Historical screenshot refresh — 2026-10-07
 
 The published screenshot set uses public **1.8.0/10814**, Android source
 `695c2200e529218c26ec2e94857c7ae17dedd022`, input

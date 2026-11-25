@@ -9,6 +9,7 @@ import ts from 'typescript';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { selectedGuideImages, verifyGuideCaptures } from './verify-guide-captures.mjs';
+import { verifyRenderedCaptures } from './verify-reader-assets.mjs';
 
 // Synthetic receipt variants live only in a temporary directory. They are validation fixtures,
 // never screenshot provenance or release evidence.
@@ -77,9 +78,62 @@ test('a missing locale, relabelled APK, unreviewed image or changed bytes reject
 
 test('coverage follows actual article images plus Home and rejects malformed optional images', () => {
   assert.deepEqual([...selectedGuideImages([{ id:'text-only' }, { id:'illustrated', image:'sidebar.png' }])],
-    ['library.png', 'sidebar.png']);
+    ['library.png', 'reader.png', 'sidebar.png']);
+  assert.ok(selectedGuideImages([], { defaultVersionCode:11032, versionsByImage:{} }).has('musicxml-preview.png'));
   for (const image of ['', null, '../library.png', 'library.jpg'])
     assert.throws(() => selectedGuideImages([{ id:'invalid', image }]));
+});
+
+test('hero derivatives and MusicXML preview follow the source locale and selected release', () => {
+  for (const version of [10814, 11032]) {
+    const resolver = loadComponent('lib/guide-image.ts', {
+      './guide-capture-selection.json': { defaultVersionCode: version, versionsByImage: {} },
+    });
+    const hero = resolver.homeReader('fr');
+    assert.equal(hero.src, version === 10814 ? '/home/reader-360.webp' : '/home/11032/fr/reader-360.webp');
+    assert.ok(hero.srcSet.includes('240w') && hero.srcSet.includes('540w'));
+    const preview = resolver.musicXmlPreview('fr');
+    assert.equal(preview.src, version === 10814 ? '/discovery/musicxml-preview.jpg' : '/guide/11032/fr/musicxml-preview.png');
+    assert.equal(preview.uiLocale, version === 10814 ? 'en' : 'fr');
+    assert.equal(preview.width > preview.height, version === 10814);
+  }
+});
+
+test('a stale, wrong-locale or unregistered capture cannot pass as an active social or visible screenshot', () => {
+  const selection = { defaultVersionCode: 11032, versionsByImage: {} };
+  const images = selectedGuideImages([], selection);
+  const expected = '/guide/11032/fr/musicxml-preview.png';
+  function verify(image = expected, social = expected, extra = '') {
+    const html = `<meta property="og:image" content="https://partitoria.app${social}">
+      <meta name="twitter:image" content="https://partitoria.app${social}">
+      <figure class="discovery-figure"><img src="${image}" width="1200" height="1920"></figure>${extra}`;
+    verifyRenderedCaptures({ html, url: '/fr/answers/musicxml-musescore-android', locale: 'fr', selection, articles: [], images });
+  }
+  assert.doesNotThrow(() => verify());
+  for (const stale of ['/guide/10814/fr/reader.png', '/discovery/musicxml-preview.jpg', '/guide/11032/en/musicxml-preview.png']) {
+    assert.throws(() => verify(stale));
+    assert.throws(() => verify(expected, stale));
+    assert.throws(() => verify(expected, expected, `<source srcSet="${stale} 240w">`));
+    assert.throws(() => verify(expected, expected, `<img src="https://partitoria.app${stale}">`));
+    const json = { '@context': 'https://schema.org', '@type': 'SoftwareApplication',
+      screenshot: [{ '@type': 'ImageObject', contentUrl: 'https://partitoria.app' + stale }] };
+    assert.throws(() => verify(expected, expected, `<script type="application/ld+json">${JSON.stringify(json)}</script>`));
+  }
+});
+
+test('guide thumbnail and lightbox must each mount the exact article capture', () => {
+  const selection = { defaultVersionCode: 11032, versionsByImage: {} };
+  const articles = [{ id: 'reader', image: 'reader.png' }];
+  const images = selectedGuideImages(articles, selection);
+  function verify(preview, full) {
+    const image = name => `<img src="/guide/11032/fr/${name}" width="1200" height="1920">`;
+    const html = `<button class="screenshot-trigger">${image(preview)}</button>
+      <dialog class="screenshot-dialog">${image(full)}</dialog>`;
+    verifyRenderedCaptures({ html, url: '/fr/guide/reader', locale: 'fr', selection, articles, images });
+  }
+  assert.doesNotThrow(() => verify('reader.png', 'reader.png'));
+  assert.throws(() => verify('library.png', 'reader.png'), /Wrong preview/);
+  assert.throws(() => verify('reader.png', 'library.png'), /Wrong dialog/);
 });
 
 function loadComponent(file, dependencies = {}) {

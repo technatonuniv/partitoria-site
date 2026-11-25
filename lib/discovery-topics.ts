@@ -14,7 +14,7 @@ export type TopicContent = {
   sections: { heading: string; paragraphs: string[] }[];
   faq: { question: string; answer: string }[];
   guideSlugs: string[];
-  screenshot: { article: string; alt: string; src?: string };
+  screenshot: { article: string; alt: string; example?: 'musicxml-preview' };
   sources?: { label: string; href: string }[];
 };
 

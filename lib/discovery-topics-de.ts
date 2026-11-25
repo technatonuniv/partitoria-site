@@ -114,8 +114,8 @@ export default {
     ],
     "screenshot": {
       "article": "import-review",
-      "alt": "Englische Importvorschau von Flute-and-Piano-Study.musicxml mit allen drei Notensystemen auf einer Seite",
-      "src": "/discovery/musicxml-preview.jpg"
+      "alt": "Importvorschau von Flute-and-Piano-Study.musicxml mit drei Notensystemen auf einer Seite",
+      "example": "musicxml-preview"
     }
   }
 } satisfies Partial<Record<TopicSlug, TopicContent>>;

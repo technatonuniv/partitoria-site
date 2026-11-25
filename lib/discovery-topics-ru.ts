@@ -114,8 +114,8 @@ export default {
     ],
     "screenshot": {
       "article": "import-review",
-      "alt": "Предпросмотр Flute-and-Piano-Study.musicxml в английском интерфейсе: три нотоносца на одной странице",
-      "src": "/discovery/musicxml-preview.jpg"
+      "alt": "Три нотоносца на одной странице в предпросмотре Flute-and-Piano-Study.musicxml",
+      "example": "musicxml-preview"
     }
   },
   "transfer-sheet-music-library": {

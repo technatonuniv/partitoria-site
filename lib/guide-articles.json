@@ -6,102 +6,75 @@
     "text": {
       "ru": [
         "Где найти нужную функцию",
-        "«Библиотека», «Избранное» и «Коллекции» доступны в нижней навигации или в боковой панели ☰. Остальные действия находятся на соответствующих экранах.",
-        "На экране библиотеки нажмите «+», чтобы добавить файлы, найти издание в интернете или восстановить копию.",
-        "Меню с тремя точками ведёт к программам, очереди импорта и инструментам.",
-        "В «Инструментах» собраны занятия, аудио, перенос пометок и умные коллекции.",
-        "Шестерёнка открывает настройки, резервные копии и справку.",
-        "Состав некоторых инструментов зависит от доступных возможностей приложения.",
-        "В панели ☰ сверху показано текущее право: Partitoria Free или Partitoria Pro. В первой группе находятся «Библиотека», «Избранное» и «Коллекции»; после разделителя — «Импорт», «Программы» и «Инструменты».",
-        "«Настройки» и «О приложении» закреплены внизу панели и доступны при прокрутке. Переход закрывает панель; кнопка «Назад» сначала закрывает её, сохраняя выделение нот."
+        "В главном окне доступны «Библиотека», «Концерты», «Коллекции» и «Ещё». Их кнопки расположены внизу, а в широкой компоновке — слева.",
+        "В библиотеке нажмите «Добавить ноты», чтобы пополнить репертуар. Кнопка «Избранное» рядом с полем поиска покажет ноты, отмеченные звёздочкой.",
+        "В разделе «Концерты» соберите программу выступления. В разделе «Коллекции» объедините ноты для урока или ансамбля.",
+        "Откройте «Ещё». В группе «Организация библиотеки» находится «Импорт». Ниже расположены инструменты для занятий и переноса пометок.",
+        "В группе «Приложение» нажмите «Настройки», чтобы сменить язык или перейти к резервному копированию и восстановлению. В пункте «О Partitoria» указаны версия и номер сборки."
       ],
       "en": [
         "Find your way around",
-        "Library, Favorites and Collections are available in the bottom navigation or the ☰ sidebar. Other actions appear on their own screens.",
-        "On the Library screen, press + to add files, find an edition online or restore a backup.",
-        "The three-dot menu opens Programmes, the import inbox and Tools.",
-        "Tools groups practice, audio, mark transfer and smart collections.",
-        "The gear opens Settings, backups and Help.",
-        "Some tools appear only when their feature is available.",
-        "The ☰ sidebar shows your current access at the top: Partitoria Free or Partitoria Pro. Library, Favorites and Collections form the first group; Import, Programmes and Tools follow a divider.",
-        "Settings and About stay fixed at the bottom and remain available while the menu scrolls. Choosing a destination closes the panel; Back closes it first and keeps your score selection."
+        "The main sections are Library, Concerts, Collections and More. Their buttons sit along the bottom, or on the left in a wide layout.",
+        "In Library, choose Add scores to add music. Choose Favorites next to the search field to show the scores you have starred.",
+        "Use Concerts for a performance set and Collections to group scores for a lesson or ensemble.",
+        "Open More. The Library organization group includes Import. Scroll down for practice tools and annotation transfer.",
+        "In the App group, choose Settings to change the language or find backup and restore. Choose About Partitoria to see the version and build number."
       ],
       "de": [
         "Funktionen finden",
-        "Bibliothek, Favoriten und Sammlungen finden Sie in der unteren Navigation oder in der Seitenleiste ☰. Weitere Aktionen finden Sie auf den jeweiligen Bildschirmen.",
-        "Tippen Sie in der Bibliothek auf +, um Dateien hinzuzufügen, online eine Ausgabe zu suchen oder eine Sicherung wiederherzustellen.",
-        "Das Menü mit drei Punkten öffnet Programme, Import und Werkzeuge.",
-        "Unter Werkzeuge finden Sie Üben, Audio, Markierungsübertragung und intelligente Sammlungen.",
-        "Das Zahnrad führt zu Einstellungen, Sicherungen und Hilfe.",
-        "Manche Werkzeuge erscheinen nur, wenn die Funktion verfügbar ist.",
-        "Oben in der Seitenleiste ☰ steht Ihr aktueller Zugang: Partitoria Free oder Partitoria Pro. Bibliothek, Favoriten und Sammlungen bilden die erste Gruppe; nach einer Trennlinie folgen Import, Programme und Werkzeuge.",
-        "Einstellungen und Info bleiben unten befestigt und auch beim Scrollen erreichbar. Ein Ziel schließt die Leiste; Zurück schließt zunächst die Leiste und behält Ihre Notenauswahl."
+        "Die Hauptbereiche heißen „Bibliothek“, „Konzerte“, „Sammlungen“ und „Mehr“. Die Schaltflächen stehen unten, bei breiter Ansicht links.",
+        "Über „Noten hinzufügen“ nehmen Sie neue Noten in die Bibliothek auf. Mit „Favoriten“ neben dem Suchfeld zeigen Sie die mit einem Stern markierten Noten an.",
+        "Unter „Konzerte“ stellen Sie ein Konzertprogramm zusammen. Unter „Sammlungen“ gruppieren Sie Noten für den Unterricht oder ein Ensemble.",
+        "Öffnen Sie „Mehr“. In der Gruppe „Bibliothek organisieren“ finden Sie „Import“. Weiter unten folgen Werkzeuge zum Üben und zum Übertragen von Anmerkungen.",
+        "Unter „App“ öffnen Sie die „Einstellungen“, um die Sprache zu ändern oder zur Datensicherung und Wiederherstellung zu gelangen. „Über Partitoria“ zeigt Version und Buildnummer."
       ],
       "it": [
         "Trovare le funzioni",
-        "Biblioteca, Preferiti e Raccolte sono disponibili nella navigazione in basso o nel pannello laterale ☰. Le altre azioni si trovano nelle rispettive schermate.",
-        "Nella Biblioteca tocca + per aggiungere file, cercare un’edizione online o ripristinare un backup.",
-        "Il menu con tre punti apre Programmi, importazione e Strumenti.",
-        "Strumenti riunisce studio, audio, trasferimento dei segni e raccolte intelligenti.",
-        "L’ingranaggio apre Impostazioni, backup e Aiuto.",
-        "Alcuni strumenti compaiono solo se la funzione è disponibile.",
-        "In alto nel pannello ☰ compare l’accesso attuale: Partitoria Free o Partitoria Pro. Biblioteca, Preferiti e Raccolte formano il primo gruppo; dopo una linea trovi Importazione, Programmi e Strumenti.",
-        "Impostazioni e Informazioni restano fissi in basso e accessibili durante lo scorrimento. Una destinazione chiude il pannello; Indietro chiude prima il pannello conservando la selezione degli spartiti."
+        "Le sezioni principali sono «Biblioteca», «Concerti», «Raccolte» e «Altro». I pulsanti sono in basso, oppure a sinistra quando lo schermo è largo.",
+        "In Biblioteca tocca «Aggiungi spartiti» per aggiungere spartiti. Tocca «Preferiti» accanto al campo di ricerca per vedere quelli contrassegnati con una stella.",
+        "Usa «Concerti» per preparare il programma di un’esibizione e «Raccolte» per raggruppare gli spartiti di una lezione o di un ensemble.",
+        "Apri «Altro». Trovi «Importazioni» nel gruppo «Organizzazione della biblioteca». Più in basso ci sono gli strumenti per lo studio e il trasferimento delle annotazioni.",
+        "Nel gruppo «App» apri «Impostazioni» per cambiare lingua o accedere al backup e al ripristino. «Informazioni su Partitoria» mostra la versione e il numero di build."
       ],
       "es": [
         "Encontrar las funciones",
-        "Biblioteca, Favoritos y Colecciones están en la navegación inferior o en el panel lateral ☰. Las demás acciones aparecen en sus pantallas.",
-        "En Biblioteca pulsa + para añadir archivos, buscar una edición en línea o restaurar una copia.",
-        "El menú de tres puntos abre Programas, importación y Herramientas.",
-        "Herramientas agrupa práctica, audio, transferencia de marcas y colecciones inteligentes.",
-        "El engranaje abre Ajustes, copias y Ayuda.",
-        "Algunas herramientas solo aparecen cuando su función está disponible.",
-        "En la parte superior del panel ☰ aparece el acceso actual: Partitoria Free o Partitoria Pro. Biblioteca, Favoritos y Colecciones forman el primer grupo; después de una línea están Importación, Programas y Herramientas.",
-        "Ajustes y Acerca de quedan fijos abajo y accesibles al desplazar el menú. Elegir un destino cierra el panel; Atrás lo cierra primero y conserva la selección de partituras."
+        "Las secciones principales son «Biblioteca», «Conciertos», «Colecciones» y «Más». Los botones se encuentran en la parte inferior o, si la pantalla es ancha, a la izquierda.",
+        "En la biblioteca, toca «Añadir partituras» para incorporar partituras. Toca «Favoritos» junto al campo de búsqueda para ver las que has marcado con una estrella.",
+        "Utiliza «Conciertos» para preparar el programa de una actuación y «Colecciones» para agrupar las partituras de una clase o un conjunto.",
+        "Abre «Más». En el grupo «Organización de la biblioteca» encontrarás «Importación». Más abajo están las herramientas de práctica y de transferencia de anotaciones.",
+        "En el grupo «Aplicación», abre «Ajustes» para cambiar el idioma o acceder a las copias de seguridad y la restauración. «Acerca de Partitoria» muestra la versión y el número de compilación."
       ],
       "pt": [
         "Encontrar as funções",
-        "Biblioteca, Favoritos e Coleções estão na navegação inferior ou no painel lateral ☰. As outras ações aparecem nos respetivos ecrãs.",
-        "Na Biblioteca prima + para adicionar ficheiros, procurar uma edição online ou repor uma cópia.",
-        "O menu de três pontos abre Programas, importação e Ferramentas.",
-        "Ferramentas reúne estudo, áudio, transferência de marcas e coleções inteligentes.",
-        "A roda dentada abre Definições, cópias e Ajuda.",
-        "Algumas ferramentas só aparecem quando a função está disponível.",
-        "No topo do painel ☰ surge o acesso atual: Partitoria Free ou Partitoria Pro. Biblioteca, Favoritos e Coleções formam o primeiro grupo; após uma linha estão Importação, Programas e Ferramentas.",
-        "Definições e Sobre ficam fixos em baixo e acessíveis ao percorrer o menu. Escolher um destino fecha o painel; Voltar fecha-o primeiro e mantém a seleção de partituras."
+        "As secções principais são «Biblioteca», «Concertos», «Coleções» e «Mais». Os botões ficam em baixo ou, quando há mais espaço na horizontal, à esquerda.",
+        "Na biblioteca, toque em «Adicionar partituras» para adicionar partituras. Toque em «Favoritos» junto ao campo de pesquisa para ver as que marcou com uma estrela.",
+        "Use «Concertos» para preparar o programa de uma atuação e «Coleções» para agrupar partituras de uma aula ou de um conjunto.",
+        "Abra «Mais». Encontra «Importação» no grupo «Organização da biblioteca». Mais abaixo estão as ferramentas de estudo e transferência de anotações.",
+        "No grupo «Aplicação», abra «Configurações» para mudar o idioma ou aceder às cópias de segurança e ao restauro. «Sobre o Partitoria» mostra a versão e o número de compilação."
       ],
       "uk": [
         "Де знайти потрібну функцію",
-        "«Бібліотека», «Обране» і «Колекції» доступні в нижній навігації або на бічній панелі ☰. Решта дій — на відповідних екранах.",
-        "На екрані бібліотеки натисніть «+», щоб додати файли, знайти видання в інтернеті чи відновити копію.",
-        "Меню з трьома крапками відкриває програми, імпорт та інструменти.",
-        "В «Інструментах» зібрано заняття, аудіо, перенесення поміток і розумні колекції.",
-        "Шестерня відкриває налаштування, резервні копії й довідку.",
-        "Деякі інструменти видно лише тоді, коли функція доступна.",
-        "Угорі панелі ☰ показано поточне право: Partitoria Free або Partitoria Pro. Перша група — «Бібліотека», «Обране» та «Колекції»; після розділювача — «Імпорт», «Програми» та «Інструменти».",
-        "«Налаштування» та «Про застосунок» закріплені внизу й доступні під час прокручування. Перехід закриває панель; «Назад» спочатку закриває її, зберігаючи вибір нот."
+        "У головному вікні доступні «Бібліотека», «Концерти», «Колекції» і «Ще». Кнопки розташовані внизу, а за широкого компонування — ліворуч.",
+        "У бібліотеці натисніть «Додати ноти», щоб поповнити репертуар. Натисніть «Обране» біля поля пошуку, щоб переглянути ноти, позначені зірочкою.",
+        "У розділі «Концерти» складіть програму виступу. У розділі «Колекції» об’єднайте ноти для уроку або ансамблю.",
+        "Відкрийте «Ще». У групі «Організація бібліотеки» міститься «Імпорт». Нижче розташовані інструменти для занять і перенесення позначок.",
+        "У групі «Застосунок» натисніть «Налаштування», щоб змінити мову або перейти до резервного копіювання та відновлення. У пункті «Про Partitoria» вказані версія та номер збірки."
       ],
       "fr": [
         "Trouver une fonction",
-        "Bibliothèque, Favoris et Collections sont accessibles dans la navigation du bas ou dans le panneau latéral ☰. Les autres actions se trouvent sur leurs écrans respectifs.",
-        "Dans Bibliothèque, appuyez sur + pour ajouter des fichiers, chercher une édition en ligne ou restaurer une sauvegarde.",
-        "Le menu à trois points ouvre Programmes, l’import et Outils.",
-        "Outils regroupe travail, audio, transfert des marques et collections intelligentes.",
-        "La roue dentée ouvre Réglages, sauvegardes et Aide.",
-        "Certains outils n’apparaissent que si leur fonction est disponible.",
-        "En haut du panneau ☰ figure votre accès actuel : Partitoria Free ou Partitoria Pro. Bibliothèque, Favoris et Collections forment le premier groupe ; Import, Programmes et Outils suivent une séparation.",
-        "Réglages et À propos restent fixés en bas et accessibles pendant le défilement. Une destination ferme le panneau ; Retour ferme d’abord le panneau en conservant la sélection de partitions."
+        "Les quatre rubriques principales sont « Bibliothèque », « Concerts », « Collections » et « Plus ». Leurs boutons se trouvent en bas de l’écran ou sur la gauche lorsque l’affichage est large.",
+        "Dans la bibliothèque, touchez « Ajouter des partitions » pour ajouter des partitions. Touchez « Favoris » à côté du champ de recherche pour retrouver celles que vous avez marquées d’une étoile.",
+        "Utilisez « Concerts » pour préparer le programme d’un concert et « Collections » pour regrouper les partitions d’un cours ou d’un ensemble.",
+        "Ouvrez « Plus ». La rubrique « Organisation de la bibliothèque » contient « Importation ». Plus bas, vous trouverez les outils de répétition et de transfert des annotations.",
+        "Dans la rubrique « Application », ouvrez « Réglages » pour changer de langue ou accéder à la sauvegarde et à la restauration. « À propos de Partitoria » indique la version et le numéro de build."
       ],
       "pl": [
         "Gdzie znaleźć funkcje",
-        "Biblioteka, Ulubione i Kolekcje są dostępne w dolnej nawigacji lub w panelu bocznym ☰. Pozostałe działania znajdują się na odpowiednich ekranach.",
-        "W Bibliotece naciśnij +, aby dodać pliki, znaleźć wydanie online lub przywrócić kopię.",
-        "Menu z trzema kropkami otwiera Programy, import i Narzędzia.",
-        "Narzędzia grupują ćwiczenia, audio, przenoszenie oznaczeń i inteligentne kolekcje.",
-        "Koło zębate otwiera Ustawienia, kopie i Pomoc.",
-        "Niektóre narzędzia pojawiają się tylko wtedy, gdy funkcja jest dostępna.",
-        "U góry panelu ☰ widnieje bieżący dostęp: Partitoria Free lub Partitoria Pro. Biblioteka, Ulubione i Kolekcje tworzą pierwszą grupę; za separatorem są Import, Programy i Narzędzia.",
-        "Ustawienia i O aplikacji pozostają przypięte na dole i dostępne podczas przewijania. Wybór miejsca zamyka panel; Wstecz najpierw zamyka panel, zachowując wybór nut."
+        "Główne sekcje to „Biblioteka”, „Koncerty”, „Kolekcje” i „Więcej”. Przyciski znajdują się na dole ekranu, a w szerokim układzie po lewej stronie.",
+        "W bibliotece wybierz „Dodaj nuty”, aby dodać nuty. Przycisk „Ulubione” obok pola wyszukiwania pokazuje nuty oznaczone gwiazdką.",
+        "W sekcji „Koncerty” ułóż program występu. W sekcji „Kolekcje” zbierz nuty na lekcję lub próbę zespołu.",
+        "Otwórz „Więcej”. W grupie „Organizacja biblioteki” znajdziesz pozycję „Import”. Niżej są narzędzia do ćwiczeń i przenoszenia adnotacji.",
+        "W grupie „Aplikacja” otwórz „Ustawienia”, aby zmienić język lub przejść do tworzenia i przywracania kopii zapasowych. „O Partitoria” pokazuje wersję i numer kompilacji."
       ]
     }
   },
@@ -193,7 +166,7 @@
       "ru": [
         "Очередь импорта и повторная попытка",
         "Очередь показывает каждое задание и его итог. К ней можно вернуться после выхода с экрана импорта.",
-        "В библиотеке откройте меню с тремя точками → «Импорт».",
+        "Откройте «Ещё» и выберите «Импорт» в группе «Организация библиотеки».",
         "Посмотрите число найденных, сохранённых, пропущенных и ошибочных файлов.",
         "Нажмите «Показать файлы», чтобы увидеть отдельные позиции и те, которым нужна проверка.",
         "До запуска можно снять отметку с лишнего файла; начатое задание можно приостановить или возобновить.",
@@ -203,7 +176,7 @@
       "en": [
         "Import inbox and retry",
         "The inbox shows each import job and its outcome. You can return after leaving the import screen.",
-        "In Library open the three-dot menu → Import.",
+        "Open More and choose Import under Library organization.",
         "Check found, saved, skipped and failed counts.",
         "Press Show files to inspect individual items and those needing review.",
         "Before starting, deselect files you do not want; you can pause or resume a running job.",
@@ -214,7 +187,7 @@
       "de": [
         "Importliste und erneuter Versuch",
         "Die Importliste zeigt jedes Vorhaben und sein Ergebnis. Sie bleibt auch nach Verlassen der Ansicht erreichbar.",
-        "Öffnen Sie in der Bibliothek das Menü mit drei Punkten → Import.",
+        "Öffnen Sie „Mehr“ und wählen Sie „Import“ in der Gruppe „Bibliothek organisieren“.",
         "Prüfen Sie gefundene, gespeicherte, übersprungene und fehlerhafte Dateien.",
         "Über Dateien anzeigen sehen Sie einzelne Einträge und offene Prüfungen.",
         "Vor dem Start können Sie Dateien abwählen; laufende Arbeiten lassen sich pausieren und fortsetzen.",
@@ -225,7 +198,7 @@
       "it": [
         "Coda di importazione e nuovo tentativo",
         "La coda mostra ogni operazione e il suo esito. Puoi tornarci dopo aver lasciato la schermata.",
-        "In Biblioteca apri il menu con tre punti → Importazioni.",
+        "Apri «Altro» e scegli «Importazioni» nel gruppo «Organizzazione della biblioteca».",
         "Controlla i file trovati, salvati, saltati e falliti.",
         "Tocca Mostra file per vedere gli elementi e quelli da rivedere.",
         "Prima di iniziare deseleziona i file superflui; puoi sospendere o riprendere un’operazione.",
@@ -236,7 +209,7 @@
       "es": [
         "Cola de importación y reintento",
         "La cola muestra cada tarea y su resultado. Puedes volver después de salir de la pantalla.",
-        "En Biblioteca abre el menú de tres puntos → Importación.",
+        "Abre «Más» y elige «Importación» en el grupo «Organización de la biblioteca».",
         "Revisa cuántos archivos se encontraron, guardaron, omitieron o fallaron.",
         "Pulsa Mostrar archivos para ver cada elemento y los pendientes de revisión.",
         "Antes de empezar desmarca lo que no quieras; puedes pausar o reanudar una tarea.",
@@ -247,7 +220,7 @@
       "pt": [
         "Fila de importação e nova tentativa",
         "A fila mostra cada tarefa e o seu resultado. Pode voltar depois de sair do ecrã.",
-        "Na Biblioteca abra o menu de três pontos → Importação.",
+        "Abra «Mais» e escolha «Importação» no grupo «Organização da biblioteca».",
         "Veja quantos ficheiros foram encontrados, guardados, ignorados ou falharam.",
         "Prima Mostrar ficheiros para ver cada item e os que precisam de revisão.",
         "Antes de começar desmarque ficheiros indesejados; pode pausar ou retomar a tarefa.",
@@ -258,7 +231,7 @@
       "uk": [
         "Черга імпорту й повторна спроба",
         "Черга показує кожне завдання та його результат. До неї можна повернутися після виходу з екрана імпорту.",
-        "У бібліотеці відкрийте меню з трьома крапками → «Імпорт».",
+        "Відкрийте «Ще» і виберіть «Імпорт» у групі «Організація бібліотеки».",
         "Перегляньте кількість знайдених, збережених, пропущених і помилкових файлів.",
         "Натисніть «Показати файли», щоб побачити окремі позиції та ті, що потребують перевірки.",
         "До початку зніміть позначку із зайвих файлів; завдання можна призупинити й відновити.",
@@ -269,7 +242,7 @@
       "fr": [
         "File d’import et nouvel essai",
         "La file montre chaque tâche et son résultat. Vous pouvez y revenir après avoir quitté l’écran.",
-        "Dans Bibliothèque, ouvrez le menu à trois points → Importation.",
+        "Ouvrez « Plus », puis choisissez « Importation » dans la rubrique « Organisation de la bibliothèque ».",
         "Vérifiez les nombres trouvés, enregistrés, ignorés ou en échec.",
         "Appuyez sur Afficher les fichiers pour voir chaque élément et ceux à vérifier.",
         "Avant de lancer, décochez les fichiers inutiles ; vous pouvez suspendre ou reprendre la tâche.",
@@ -280,7 +253,7 @@
       "pl": [
         "Kolejka importu i ponowienie",
         "Kolejka pokazuje każde zadanie i wynik. Możesz do niej wrócić po opuszczeniu ekranu.",
-        "W Bibliotece otwórz menu z trzema kropkami → Import.",
+        "Otwórz „Więcej” i wybierz „Import” w grupie „Organizacja biblioteki”.",
         "Sprawdź liczby znalezionych, zapisanych, pominiętych i błędnych plików.",
         "Naciśnij Pokaż pliki, aby zobaczyć pozycje wymagające kontroli.",
         "Przed startem odznacz niepotrzebne pliki; zadanie można wstrzymać i wznowić.",
@@ -728,7 +701,7 @@
       "ru": [
         "Умные коллекции и проверяемые действия",
         "Умная коллекция показывает подходящие ноты по локальным условиям, не создавая копий файлов.",
-        "Задайте понятные условия: избранное, доступность, инструмент, тег, коллекция или сохранённый поиск.",
+        "Введите слова для поиска и выберите фильтр, например «Избранное» или «Локальные файлы». В результат попадут ноты, для которых найдутся все введённые слова.",
         "Перед повторяемым массовым действием просмотрите точный список затрагиваемых нот и подтвердите его.",
         "История позволяет отменить завершённое действие в предусмотренных случаях.",
         "Обычные теги, коллекции и выбор нескольких карточек остаются бесплатными; создание автоматизации требует Pro."
@@ -736,7 +709,7 @@
       "en": [
         "Smart collections and reviewed actions",
         "A smart collection shows matching local scores without making file copies.",
-        "Set visible conditions such as favorites, availability, instrument, tag, collection or saved search.",
+        "Enter the words to search for and choose a filter. For example, “Favorites” matches favorites and “Offline files” matches scores available offline. All the words you enter must match.",
         "Before a repeatable batch action, inspect the exact affected list and confirm it.",
         "Action history supports undo where available.",
         "Ordinary tags, collections and multi-selection remain Free; creating automation needs Pro."
@@ -744,7 +717,7 @@
       "de": [
         "Intelligente Sammlungen und geprüfte Aktionen",
         "Eine intelligente Sammlung zeigt passende lokale Noten, ohne Dateien zu kopieren.",
-        "Legen Sie sichtbare Bedingungen wie Favoriten, Verfügbarkeit, Instrument, Tag, Sammlung oder Suche fest.",
+        "Geben Sie die Suchwörter ein und wählen Sie einen Filter, etwa „Favoriten“ oder „Lokale Dateien“. Ein Stück erscheint in den Ergebnissen, wenn alle eingegebenen Wörter zutreffen.",
         "Prüfen Sie vor wiederholbaren Mehrfachaktionen die betroffene Liste und bestätigen Sie sie.",
         "Die Historie ermöglicht gegebenenfalls Rücknahme.",
         "Normale Tags, Sammlungen und Mehrfachauswahl bleiben kostenlos; neue Automatisierung benötigt Pro."
@@ -752,7 +725,7 @@
       "it": [
         "Raccolte intelligenti e azioni controllate",
         "Una raccolta intelligente mostra spartiti locali corrispondenti senza duplicare file.",
-        "Imposta condizioni visibili: preferiti, disponibilità, strumento, tag, raccolta o ricerca.",
+        "Inserisci i termini da cercare e scegli un filtro, ad esempio «Preferiti» o «File locali». I risultati comprendono soltanto i brani che corrispondono a tutti i termini inseriti.",
         "Prima di un’azione multipla ripetibile controlla l’elenco esatto e conferma.",
         "La cronologia consente l’annullamento quando previsto.",
         "Tag, raccolte e selezione multipla ordinari restano gratuiti; creare automazioni richiede Pro."
@@ -760,7 +733,7 @@
       "es": [
         "Colecciones inteligentes y acciones revisadas",
         "Una colección inteligente muestra partituras locales coincidentes sin copiar archivos.",
-        "Define condiciones visibles: favoritos, disponibilidad, instrumento, etiqueta, colección o búsqueda.",
+        "Introduce los términos de búsqueda y elige un filtro, como «Favoritos» o «Archivos locales». Solo aparecerán las partituras que coincidan con todos los términos.",
         "Antes de una acción en lote repetible revisa la lista exacta y confirma.",
         "El historial permite deshacer cuando corresponde.",
         "Etiquetas, colecciones y selección múltiple normales siguen siendo gratis; crear automatizaciones requiere Pro."
@@ -768,7 +741,7 @@
       "pt": [
         "Coleções inteligentes e ações revistas",
         "Uma coleção inteligente mostra partituras locais que correspondem às condições sem copiar ficheiros.",
-        "Defina condições visíveis: favoritos, disponibilidade, instrumento, etiqueta, coleção ou pesquisa.",
+        "Introduza as palavras a procurar e escolha um filtro, por exemplo «Favoritos» ou «Ficheiros locais». Só aparecem as partituras que correspondem a todas as palavras introduzidas.",
         "Antes de uma ação em lote repetível reveja a lista exata e confirme.",
         "O histórico permite desfazer quando disponível.",
         "Etiquetas, coleções e seleção múltipla comuns continuam gratuitas; criar automatizações exige Pro."
@@ -776,7 +749,7 @@
       "uk": [
         "Розумні колекції та перевірені дії",
         "Розумна колекція показує відповідні локальні ноти, не копіюючи файлів.",
-        "Задайте видимі умови: обране, доступність, інструмент, тег, колекцію чи пошук.",
+        "Введіть слова для пошуку та виберіть фільтр, наприклад «Обране» або «Локальні файли». До результатів потраплять лише ноти, які відповідають усім введеним словам.",
         "Перед повторюваною масовою дією перегляньте точний список і підтвердьте.",
         "Історія дає змогу скасувати дію, де це підтримується.",
         "Звичайні теги, колекції й груповий вибір безкоштовні; нова автоматизація потребує Pro."
@@ -784,7 +757,7 @@
       "fr": [
         "Collections intelligentes et actions contrôlées",
         "Une collection intelligente montre les partitions locales correspondantes sans copier les fichiers.",
-        "Définissez des critères visibles : favoris, disponibilité, instrument, étiquette, collection ou recherche.",
+        "Saisissez les mots à rechercher et choisissez un filtre, par exemple « Favoris » ou « Fichiers locaux ». Un morceau apparaît dans les résultats s’il correspond à tous les mots saisis.",
         "Avant une action groupée répétable, vérifiez la liste exacte et confirmez.",
         "L’historique permet l’annulation quand elle existe.",
         "Étiquettes, collections et sélection multiple ordinaires restent gratuites ; créer une automatisation demande Pro."
@@ -792,7 +765,7 @@
       "pl": [
         "Inteligentne kolekcje i sprawdzane działania",
         "Inteligentna kolekcja pokazuje pasujące lokalne nuty bez kopiowania plików.",
-        "Ustaw widoczne warunki: ulubione, dostępność, instrument, tag, kolekcję lub wyszukiwanie.",
+        "Wpisz szukane słowa i wybierz filtr, na przykład „Ulubione” lub „Pliki lokalne”. W wynikach znajdą się tylko utwory pasujące do wszystkich wpisanych słów.",
         "Przed powtarzalnym działaniem zbiorczym sprawdź dokładną listę i potwierdź.",
         "Historia umożliwia cofnięcie tam, gdzie jest dostępne.",
         "Zwykłe tagi, kolekcje i wielokrotny wybór są bezpłatne; tworzenie automatyzacji wymaga Pro."
@@ -1045,7 +1018,7 @@
       "ru": [
         "Настроить показ страниц",
         "Профили чтения сохраняют вид конкретной редакции: кадрирование, половины страницы, развороты и порядок.",
-        "Откройте инструменты просмотра и настройте профиль.",
+        "На панели читалки откройте «Ещё» → «Вид страницы». Если параметры профиля скрыты, нажмите «Ещё» на этом экране. Появятся поле «Название профиля» и настройки.",
         "Используйте закладки и заметки для точных мест; повторные переходы задавайте явно, чтобы во время исполнения не менять порядок случайно.",
         "Сохранённый профиль остаётся доступен для чтения, применения, экспорта и восстановления после окончания Pro.",
         "Новое редактирование профилей требует подтверждённого права."
@@ -1053,7 +1026,7 @@
       "en": [
         "Set up page display",
         "Reading profiles keep an exact edition’s crop, half pages, spreads and page order.",
-        "Open reader tools and set a profile.",
+        "From the reader controls, choose “More” → “Page view”. If the profile settings are hidden, tap “More” on that screen to see “Profile name” and the editing options.",
         "Use bookmarks and notes for exact places; add repeat links deliberately so performance order is predictable.",
         "Saved profiles stay readable, applicable, exportable and recoverable after Pro ends.",
         "New profile editing needs verified access."
@@ -1061,7 +1034,7 @@
       "de": [
         "Seitenanzeige einrichten",
         "Leseprofile speichern Beschnitt, Halbseiten, Doppelseiten und Reihenfolge einer bestimmten Ausgabe.",
-        "Öffnen Sie die Leserwerkzeuge und richten Sie ein Profil ein.",
+        "Wählen Sie in der Leseansicht „Mehr“ → „Seitenansicht“. Falls die Profileinstellungen ausgeblendet sind, tippen Sie in diesem Fenster auf „Mehr“. Dort finden Sie das Feld „Profilname“ und die Bearbeitungsoptionen.",
         "Setzen Sie Lesezeichen und Notizen; Wiederholungen legen Sie bewusst fest.",
         "Gespeicherte Profile bleiben auch nach Pro lesbar, anwendbar, exportierbar und wiederherstellbar.",
         "Neue Bearbeitung braucht bestätigten Zugang."
@@ -1069,7 +1042,7 @@
       "it": [
         "Impostare la visualizzazione",
         "I profili conservano ritaglio, mezze pagine, doppie pagine e ordine di una precisa edizione.",
-        "Apri gli strumenti di lettura e imposta un profilo.",
+        "Dai comandi di lettura scegli «Altro» → «Vista pagina». Se le impostazioni del profilo sono nascoste, tocca «Altro» in questa schermata per visualizzare il campo «Nome del profilo» e le opzioni di modifica.",
         "Usa segnalibri e note per i punti esatti; definisci i salti di ripetizione esplicitamente.",
         "I profili salvati restano leggibili, applicabili, esportabili e recuperabili dopo Pro.",
         "Nuove modifiche richiedono accesso verificato."
@@ -1077,7 +1050,7 @@
       "es": [
         "Configurar las páginas",
         "Los perfiles guardan recorte, medias páginas, páginas enfrentadas y orden de una edición exacta.",
-        "Abre las herramientas del lector y configura un perfil.",
+        "En los controles de lectura, elige «Más» → «Vista de página». Si los ajustes del perfil están ocultos, pulsa «Más» en esa pantalla para ver el campo «Nombre del perfil» y las opciones de edición.",
         "Usa marcadores y notas; define los saltos de repetición expresamente.",
         "Los perfiles guardados siguen disponibles para leer, aplicar, exportar y recuperar tras Pro.",
         "Editar uno nuevo requiere acceso verificado."
@@ -1085,7 +1058,7 @@
       "pt": [
         "Configurar as páginas",
         "Os perfis guardam recorte, meias páginas, páginas duplas e ordem de uma edição exata.",
-        "Abra as ferramentas do leitor e configure um perfil.",
+        "Nos comandos de leitura, escolha «Mais» → «Vista da página». Se as definições do perfil estiverem ocultas, toque em «Mais» nesse ecrã para ver o campo «Nome do perfil» e as opções de edição.",
         "Use marcadores e notas; defina saltos de repetição de forma explícita.",
         "Perfis guardados continuam legíveis, aplicáveis, exportáveis e recuperáveis após Pro.",
         "Nova edição exige acesso confirmado."
@@ -1093,7 +1066,7 @@
       "uk": [
         "Налаштувати показ сторінок",
         "Профілі зберігають обрізання, половини, розвороти й порядок сторінок певного видання.",
-        "Відкрийте інструменти переглядача й налаштуйте профіль.",
+        "На панелі читання виберіть «Ще» → «Вигляд сторінки». Якщо налаштування профілю приховано, натисніть «Ще» на цьому екрані. З’являться поле «Назва профілю» та параметри редагування.",
         "Використовуйте закладки та нотатки; повторні переходи задавайте явно.",
         "Збережені профілі можна читати, застосовувати, експортувати й відновлювати після завершення Pro.",
         "Нове редагування потребує підтвердженого доступу."
@@ -1101,7 +1074,7 @@
       "fr": [
         "Régler l’affichage",
         "Les profils conservent recadrage, demi-pages, doubles pages et ordre d’une édition précise.",
-        "Ouvrez les outils du lecteur et configurez un profil.",
+        "Dans les commandes de lecture, choisissez « Plus » → « Affichage de la page ». Si les réglages du profil sont masqués, touchez « Plus » dans cet écran pour afficher le champ « Nom du profil » et les options de modification.",
         "Utilisez signets et notes ; définissez les retours de répétition volontairement.",
         "Les profils enregistrés restent lisibles, applicables, exportables et récupérables après Pro.",
         "Les nouvelles modifications demandent un accès vérifié."
@@ -1109,7 +1082,7 @@
       "pl": [
         "Ustaw wyświetlanie stron",
         "Profile zapisują kadrowanie, półstrony, rozkładówki i kolejność konkretnego wydania.",
-        "Otwórz narzędzia czytnika i ustaw profil.",
+        "W czytniku wybierz „Więcej” → „Widok strony”. Jeśli ustawienia profilu są ukryte, dotknij na tym ekranie „Więcej”. Zobaczysz pole „Nazwa profilu” i opcje edycji.",
         "Korzystaj z zakładek i notatek; skoki powtórzeń określ świadomie.",
         "Zapisane profile można czytać, stosować, eksportować i odzyskać po Pro.",
         "Nowa edycja wymaga potwierdzonego dostępu."
@@ -1294,72 +1267,72 @@
       "ru": [
         "Трудные места и план занятия",
         "Рабочая область музыканта связывает задачу с конкретной страницей, областью и редакцией.",
-        "В открытых нотах сохраните фрагмент, укажите такт или репетиционную букву, партию и цель.",
-        "Добавьте начальный и целевой темп, затем включите задачу в упорядоченный план занятия.",
+        "В открытых нотах выберите «Ещё» → «Трудные места» → «Сохранить текущий фрагмент». Укажите номер такта или репетиционную метку и партию, затем сохраните фрагмент.",
+        "Откройте сохранённый фрагмент и нажмите «Добавить задачу». Укажите цель, начальный и целевой темп. Выберите «Добавить в план занятия», чтобы включить задачу в план.",
         "Статус меняет сам музыкант: приложение не оценивает исполнение автоматически.",
         "Если точный оригинал недоступен, ссылка не подменяется похожими нотами."
       ],
       "en": [
         "Difficult passages and practice plan",
         "The musician workspace ties a task to an exact page, region and edition.",
-        "From an open score save a passage; add a measure or rehearsal label, part and goal.",
-        "Set starting and target tempo, then place the task in an ordered practice queue.",
+        "With the score open, choose “More” → “Practice passages” → “Save current fragment”. Enter a bar number or rehearsal mark and the part, then save the passage.",
+        "Open the saved passage and choose “Add task”. Set a goal and starting and target tempos, then choose “Add to practice plan” to put the task in your practice plan.",
         "You set the task status yourself; the app does not assess playing automatically.",
         "A missing exact original is not replaced by a similar score."
       ],
       "de": [
         "Schwierige Stellen und Übeplan",
         "Der Musikerbereich bindet eine Aufgabe an genaue Seite, Bereich und Ausgabe.",
-        "Speichern Sie aus geöffneten Noten eine Stelle und ergänzen Sie Takt/Probezeichen, Stimme und Ziel.",
-        "Tragen Sie Start- und Zieltempo ein und ordnen Sie die Aufgabe im Übeplan.",
+        "Wählen Sie in der geöffneten Partitur „Mehr“ → „Übestellen“ → „Aktuellen Ausschnitt speichern“. Geben Sie eine Taktnummer oder ein Probenzeichen und die Stimme an, dann speichern Sie die Passage.",
+        "Öffnen Sie die gespeicherte Passage und wählen Sie „Aufgabe hinzufügen“. Legen Sie Übeziel, Anfangs- und Zieltempo fest. Mit „Zum Übeplan hinzufügen“ übernehmen Sie die Aufgabe in den Übeplan.",
         "Den Status setzen Sie selbst; die App bewertet das Spiel nicht automatisch.",
         "Ein fehlendes Original wird nicht durch ähnliche Noten ersetzt."
       ],
       "it": [
         "Passaggi difficili e piano di studio",
         "L’area musicista lega un compito a pagina, zona ed edizione esatte.",
-        "Da uno spartito aperto salva un passaggio, indica battuta o lettera di prova, parte e obiettivo.",
-        "Imposta tempo iniziale e finale e mettilo nel piano ordinato.",
+        "Con la partitura aperta, scegli «Altro» → «Passaggi da studiare» → «Salva frammento attuale». Indica il numero di battuta o un segno di prova e la parte, poi salva il passaggio.",
+        "Apri il passaggio salvato e scegli «Aggiungi obiettivo». Indica l’obiettivo, il tempo iniziale e quello da raggiungere. Seleziona «Aggiungi al piano di studio» per inserire l’attività nel piano di studio.",
         "Decidi tu lo stato: l’app non valuta automaticamente l’esecuzione.",
         "Un originale mancante non viene sostituito da spartiti simili."
       ],
       "es": [
         "Pasajes difíciles y plan de estudio",
         "El espacio del músico vincula una tarea con página, región y edición exactas.",
-        "Desde una partitura abierta guarda un pasaje, añade compás o letra de ensayo, parte y objetivo.",
-        "Define tempo inicial y final y ordénalo en el plan.",
+        "Con la partitura abierta, elige «Más» → «Pasajes de práctica» → «Guardar fragmento actual». Indica el número de compás o una marca de ensayo y la parte. Después, guarda el pasaje.",
+        "Abre el pasaje guardado y elige «Añadir tarea». Indica el objetivo, el tempo inicial y el tempo que quieres alcanzar. Selecciona «Añadir al plan de práctica» para incorporar la tarea al plan de estudio.",
         "Tú cambias el estado; la app no evalúa la interpretación automáticamente.",
         "Un original faltante no se sustituye por otro parecido."
       ],
       "pt": [
         "Passagens difíceis e plano de estudo",
         "A área do músico liga uma tarefa a página, região e edição exatas.",
-        "Com a partitura aberta guarde uma passagem, indique compasso ou letra de ensaio, parte e objetivo.",
-        "Defina tempos inicial e final e ordene-a no plano.",
+        "Com a partitura aberta, escolha «Mais» → «Passagens de estudo» → «Guardar fragmento atual». Indique o número do compasso ou uma letra de ensaio e a parte, e guarde a passagem.",
+        "Abra a passagem guardada e escolha «Adicionar tarefa». Defina o objetivo, o andamento inicial e o andamento pretendido. Selecione «Adicionar ao plano de estudo» para incluir a tarefa no plano de estudo.",
         "É o músico que define o estado; a aplicação não avalia a execução automaticamente.",
         "Um original em falta não é substituído por outro semelhante."
       ],
       "uk": [
         "Складні місця й план занять",
         "Робоча область прив’язує задачу до точної сторінки, ділянки та видання.",
-        "У відкритих нотах збережіть фрагмент, укажіть такт або репетиційну літеру, партію та мету.",
-        "Задайте початковий і цільовий темп та місце в плані.",
+        "У відкритій партитурі виберіть «Ще» → «Складні місця» → «Зберегти поточний фрагмент». Вкажіть номер такту або репетиційну позначку й партію, потім збережіть фрагмент.",
+        "Відкрийте збережений фрагмент і виберіть «Додати завдання». Задайте мету, початковий і цільовий темп. Виберіть «Додати до плану заняття», щоб додати завдання до плану занять.",
         "Стан визначає музикант; застосунок не оцінює гру автоматично.",
         "Відсутній оригінал не замінюється схожими нотами."
       ],
       "fr": [
         "Passages difficiles et plan de travail",
         "L’espace musicien relie une tâche à une page, une zone et une édition précises.",
-        "Depuis une partition ouverte, gardez un passage avec mesure ou repère, partie et objectif.",
-        "Fixez les tempos initial et cible puis classez la tâche dans le plan.",
+        "Dans la partition ouverte, choisissez « Plus » → « Passages à travailler » → « Enregistrer le fragment actuel ». Indiquez un numéro de mesure ou un repère de répétition ainsi que la partie, puis enregistrez le passage.",
+        "Ouvrez le passage enregistré et choisissez « Ajouter un objectif ». Indiquez l’objectif, le tempo de départ et le tempo visé. Sélectionnez « Ajouter au plan de travail » pour inscrire la tâche au programme de travail.",
         "Vous décidez de l’état ; l’application n’évalue pas automatiquement le jeu.",
         "Un original absent n’est pas remplacé par une partition semblable."
       ],
       "pl": [
         "Trudne fragmenty i plan ćwiczeń",
         "Obszar muzyka wiąże zadanie z dokładną stroną, obszarem i wydaniem.",
-        "Z otwartych nut zapisz fragment, podaj takt lub literę próby, partię i cel.",
-        "Ustaw tempo początkowe i docelowe oraz kolejność w planie.",
+        "W otwartej partyturze wybierz „Więcej” → „Miejsca do ćwiczenia” → „Zapisz bieżący fragment”. Podaj numer taktu lub znak próbny oraz partię, a następnie zapisz fragment.",
+        "Otwórz zapisany fragment i wybierz „Dodaj zadanie”. Podaj cel, tempo początkowe i docelowe. Wybierz „Dodaj do planu ćwiczeń”, aby dodać zadanie do planu ćwiczeń.",
         "Samodzielnie zmieniasz stan; aplikacja nie ocenia gry automatycznie.",
         "Brakujący oryginał nie jest zastępowany podobnymi nutami."
       ]
@@ -1374,7 +1347,7 @@
       "ru": [
         "Метроном",
         "Настройте темп и акценты для самостоятельного занятия.",
-        "В открытых нотах вызовите панель инструментов и откройте «Метроном». Он также доступен в программе и при работе с трудными местами.",
+        "Коснитесь открытой партитуры, чтобы показать панель читалки. Нажмите «Метроном», затем «Все настройки метронома», чтобы выбрать размер и акценты. Он также доступен в программе и при работе с трудными местами.",
         "Задайте темп ползунком. Кнопками «Медленнее» и «Быстрее» можно менять его по одному удару в минуту.",
         "Выберите число долей, длительность доли и акценты. Нажмите запуск; после занятия остановите метроном.",
         "Чтобы вернуться к настройкам, дайте им имя и сохраните набор. Метроном работает, пока приложение на переднем плане; при прерывании проверьте его состояние."
@@ -1382,7 +1355,7 @@
       "en": [
         "Metronome",
         "Set a tempo and accents for your practice session.",
-        "Open a score, show its tools and choose Metronome. It is also available in programmes and difficult-passage practice.",
+        "Tap the open score to show the reader controls. Choose “Metronome”, then “All metronome settings” to adjust the meter and accents. It is also available in programmes and difficult-passage practice.",
         "Set the tempo with the slider. Slower and Faster adjust it by one beat per minute.",
         "Choose the number of beats, beat unit and accents. Start the metronome, then stop it when you finish.",
         "Name and save a preset to use these settings again. The metronome runs in the foreground; check its state after an interruption."
@@ -1390,7 +1363,7 @@
       "de": [
         "Metronom",
         "Stellen Sie Tempo und Betonungen für das Üben ein.",
-        "Öffnen Sie eine Partitur, blenden Sie die Werkzeuge ein und wählen Sie Metronom. Es ist auch in Programmen und beim Üben schwieriger Stellen verfügbar.",
+        "Tippen Sie auf die geöffnete Partitur, um die Bedienelemente einzublenden. Wählen Sie „Metronom“ und anschließend „Alle Metronom-Einstellungen“, um Taktart und Betonungen einzustellen. Es ist auch in Programmen und beim Üben schwieriger Stellen verfügbar.",
         "Stellen Sie das Tempo mit dem Regler ein. Langsamer und Schneller ändern es um einen Schlag pro Minute.",
         "Wählen Sie Schlagzahl, Notenwert und Betonungen. Starten Sie das Metronom und stoppen Sie es nach dem Üben.",
         "Benennen und speichern Sie die Einstellung zur späteren Verwendung. Das Metronom läuft im Vordergrund; prüfen Sie den Zustand nach einer Unterbrechung."
@@ -1398,7 +1371,7 @@
       "it": [
         "Metronomo",
         "Imposta tempo e accenti per lo studio.",
-        "Apri uno spartito, mostra gli strumenti e scegli Metronomo. È disponibile anche nei programmi e nello studio dei passaggi difficili.",
+        "Tocca la partitura per mostrare i comandi di lettura. Scegli «Metronomo», poi «Tutte le impostazioni del metronomo» per regolare il metro e gli accenti. È disponibile anche nei programmi e nello studio dei passaggi difficili.",
         "Imposta il tempo con il cursore. Più lento e Più veloce lo modificano di un battito al minuto.",
         "Scegli numero di battiti, unità e accenti. Avvia il metronomo e fermalo alla fine dello studio.",
         "Assegna un nome e salva le impostazioni per riutilizzarle. Il metronomo funziona in primo piano; controllane lo stato dopo un’interruzione."
@@ -1406,7 +1379,7 @@
       "es": [
         "Metrónomo",
         "Ajusta el tempo y los acentos para estudiar.",
-        "Abre una partitura, muestra las herramientas y elige Metrónomo. También está disponible en programas y al practicar pasajes difíciles.",
+        "Toca la partitura para mostrar los controles de lectura. Elige «Metrónomo» y luego «Todos los ajustes del metrónomo» para ajustar el compás y los acentos. También está disponible en programas y al practicar pasajes difíciles.",
         "Ajusta el tempo con el deslizador. Más lento y Más rápido lo cambian un pulso por minuto.",
         "Elige el número de pulsos, la figura y los acentos. Inicia el metrónomo y detenlo al terminar.",
         "Pon nombre al ajuste y guárdalo para reutilizarlo. El metrónomo funciona en primer plano; comprueba su estado tras una interrupción."
@@ -1414,7 +1387,7 @@
       "pt": [
         "Metrónomo",
         "Ajuste o andamento e os acentos para estudar.",
-        "Abra uma partitura, mostre as ferramentas e escolha Metrónomo. Também está disponível nos programas e no estudo de passagens difíceis.",
+        "Toque na partitura para mostrar os comandos de leitura. Escolha «Metrónomo» e, em seguida, «Todas as definições do metrónomo» para ajustar o compasso e as acentuações. Também está disponível nos programas e no estudo de passagens difíceis.",
         "Ajuste o andamento com o cursor. Mais lento e Mais rápido alteram-no um batimento por minuto.",
         "Escolha o número de tempos, a unidade e os acentos. Inicie o metrónomo e pare-o no fim do estudo.",
         "Dê um nome e guarde a configuração para a reutilizar. O metrónomo funciona em primeiro plano; verifique o estado após uma interrupção."
@@ -1422,7 +1395,7 @@
       "uk": [
         "Метроном",
         "Налаштуйте темп і акценти для самостійного заняття.",
-        "Відкрийте ноти, викличте панель інструментів і виберіть «Метроном». Він також доступний у програмі та під час роботи зі складними місцями.",
+        "Торкніться партитури, щоб побачити панель керування. Виберіть «Метроном», а потім «Усі налаштування метронома», щоб налаштувати музичний розмір і акценти. Він також доступний у програмі та під час роботи зі складними місцями.",
         "Задайте темп повзунком. Кнопки сповільнення й прискорення змінюють його на один удар за хвилину.",
         "Виберіть кількість долей, тривалість долі та акценти. Запустіть метроном, а після заняття зупиніть.",
         "Дайте налаштуванням назву та збережіть їх. Метроном працює, поки застосунок на передньому плані; після переривання перевірте його стан."
@@ -1430,7 +1403,7 @@
       "fr": [
         "Métronome",
         "Réglez le tempo et les accents pour votre séance de travail.",
-        "Ouvrez une partition, affichez les outils et choisissez Métronome. Il est aussi disponible dans les programmes et le travail des passages difficiles.",
+        "Touchez la partition pour afficher les commandes de lecture. Choisissez « Métronome », puis « Tous les réglages du métronome » pour régler la mesure et les accents. Il est aussi disponible dans les programmes et le travail des passages difficiles.",
         "Réglez le tempo avec le curseur. Plus lent et Plus rapide le modifient d’un battement par minute.",
         "Choisissez le nombre de temps, leur unité et les accents. Lancez le métronome, puis arrêtez-le à la fin de la séance.",
         "Nommez et enregistrez ce réglage pour le réutiliser. Le métronome fonctionne au premier plan ; vérifiez son état après une interruption."
@@ -1438,7 +1411,7 @@
       "pl": [
         "Metronom",
         "Ustaw tempo i akcenty do ćwiczenia.",
-        "Otwórz nuty, pokaż narzędzia i wybierz Metronom. Jest też dostępny w programach i podczas pracy nad trudnymi fragmentami.",
+        "Dotknij partytury, aby wyświetlić elementy sterujące czytnika. Wybierz „Metronom”, a następnie „Wszystkie ustawienia metronomu”, aby ustawić metrum i akcenty. Jest też dostępny w programach i podczas pracy nad trudnymi fragmentami.",
         "Ustaw tempo suwakiem. Wolniej i Szybciej zmieniają je o jedno uderzenie na minutę.",
         "Wybierz liczbę miar, jednostkę rytmiczną i akcenty. Uruchom metronom i zatrzymaj go po ćwiczeniu.",
         "Nazwij i zapisz ustawienie do ponownego użycia. Metronom działa na pierwszym planie; sprawdź jego stan po przerwaniu."
@@ -1533,7 +1506,7 @@
       "ru": [
         "Подготовить концертный PDF",
         "Экспорт программы создаёт отдельную копию для чтения или печати, но не заменяет полную резервную копию.",
-        "Выберите сохранённую программу, проверьте зафиксированный порядок, повторы, заметки, формат A4/Letter, целые страницы или подготовленные области и нужные слои пометок.",
+        "В разделе «Концерты» откройте сохранённую программу и выберите «Действия с концертом» → «Концертный PDF». Проверьте порядок, повторы и заметки. Выберите формат A4 или Letter, целые страницы или подготовленные области и нужные слои пометок.",
         "Просмотрите результат перед сохранением.",
         "Концертный файл не меняет исходные PDF и не содержит все данные библиотеки.",
         "Откройте сохранённый PDF и проверьте первые и последние страницы, порядок произведений и видимость пометок."
@@ -1541,7 +1514,7 @@
       "en": [
         "Prepare a concert PDF",
         "Programme export creates a reading or print copy, not a full backup.",
-        "Choose a saved programme and review its frozen order, repeats, notes, A4/Letter size, full pages or prepared regions, and selected annotation layers.",
+        "In “Concerts”, open a saved programme and choose “Concert actions” → “Concert PDF”. Check the order, repeats and notes. Choose A4 or Letter, full pages or prepared regions, and the annotation layers to include.",
         "Preview before saving.",
         "The concert file does not modify source PDFs or contain all library data.",
         "Open the saved PDF and check its first and last pages, programme order and annotation visibility."
@@ -1549,7 +1522,7 @@
       "de": [
         "Konzert-PDF vorbereiten",
         "Der Programmexport erstellt eine Lese- oder Druckkopie, keine vollständige Sicherung.",
-        "Prüfen Sie Reihenfolge, Wiederholungen, Notizen, A4/Letter, ganze Seiten oder vorbereitete Bereiche sowie die gewählten Markierungsebenen.",
+        "Öffnen Sie unter „Konzerte“ ein gespeichertes Programm und wählen Sie „Konzertaktionen“ → „Konzert-PDF“. Prüfen Sie Reihenfolge, Wiederholungen und Notizen. Wählen Sie A4 oder Letter, ganze Seiten oder vorbereitete Ausschnitte und die gewünschten Markierungsebenen.",
         "Sehen Sie die Vorschau vor dem Speichern an.",
         "Die Ausgangs-PDFs bleiben unverändert; die Datei enthält nicht die ganze Bibliothek.",
         "Öffnen Sie die gespeicherte PDF und prüfen Sie Anfang, Ende, Werkreihenfolge und sichtbare Markierungen."
@@ -1557,7 +1530,7 @@
       "it": [
         "Preparare un PDF da concerto",
         "L’esportazione crea una copia per lettura o stampa, non un backup completo.",
-        "Controlla ordine, ripetizioni, note, formato A4/Letter, pagine intere o aree preparate e livelli di annotazione scelti.",
+        "In «Concerti» apri un programma salvato e scegli «Azioni del concerto» → «PDF da concerto». Controlla l’ordine, le ripetizioni e le note. Scegli il formato A4 o Letter, le pagine intere o le aree preparate e i livelli di annotazione da includere.",
         "Guarda l’anteprima prima di salvare.",
         "I PDF originali non cambiano e il file non contiene tutta la biblioteca.",
         "Apri il PDF salvato e controlla prima e ultima pagina, ordine dei brani e visibilità delle annotazioni."
@@ -1565,7 +1538,7 @@
       "es": [
         "Preparar un PDF de concierto",
         "La exportación crea una copia de lectura o impresión, no una copia de seguridad completa.",
-        "Revisa orden, repeticiones, notas, tamaño A4/Letter, páginas completas o regiones preparadas y capas de anotación elegidas.",
+        "En «Conciertos», abre un programa guardado y elige «Acciones del concierto» → «PDF de concierto». Comprueba el orden, las repeticiones y las notas. Elige el formato A4 o Letter, las páginas completas o las zonas preparadas y las capas de anotaciones que quieres incluir.",
         "Previsualiza antes de guardar.",
         "Los PDF originales no cambian y el archivo no contiene toda la biblioteca.",
         "Abre el PDF guardado y revisa primera y última página, orden de las obras y visibilidad de las anotaciones."
@@ -1573,7 +1546,7 @@
       "pt": [
         "Preparar um PDF de concerto",
         "A exportação cria uma cópia para leitura ou impressão, não uma cópia de segurança completa.",
-        "Reveja ordem, repetições, notas, formato A4/Letter, páginas completas ou regiões preparadas e camadas escolhidas.",
+        "Em «Concertos», abra um programa guardado e escolha «Ações do concerto» → «PDF de concerto». Verifique a ordem, as repetições e as notas. Escolha o formato A4 ou Letter, as páginas inteiras ou as áreas preparadas e as camadas de anotações a incluir.",
         "Pré-visualize antes de guardar.",
         "Os PDFs de origem não mudam e o ficheiro não contém toda a biblioteca.",
         "Abra o PDF guardado e confira primeira e última página, ordem das obras e visibilidade das anotações."
@@ -1581,7 +1554,7 @@
       "uk": [
         "Підготувати концертний PDF",
         "Експорт програми створює копію для читання чи друку, а не повну резервну копію.",
-        "Перевірте порядок, повтори, нотатки, формат A4/Letter, цілі сторінки чи підготовлені ділянки та вибрані шари поміток.",
+        "У розділі «Концерти» відкрийте збережену програму й виберіть «Дії з концертом» → «Концертний PDF». Перевірте порядок, повтори та нотатки. Виберіть формат A4 або Letter, цілі сторінки чи підготовлені ділянки та потрібні шари позначок.",
         "Перегляньте результат до збереження.",
         "Вихідні PDF не змінюються, а файл не містить усієї бібліотеки.",
         "Відкрийте збережений PDF і перевірте першу й останню сторінки, порядок творів та видимість поміток."
@@ -1589,7 +1562,7 @@
       "fr": [
         "Préparer un PDF de concert",
         "L’export du programme crée une copie pour lire ou imprimer, pas une sauvegarde complète.",
-        "Vérifiez l’ordre, les reprises, les notes, le format A4/Letter, les pages entières ou zones préparées et les calques choisis.",
+        "Dans « Concerts », ouvrez un programme enregistré et choisissez « Actions du concert » → « PDF de concert ». Vérifiez l’ordre, les reprises et les notes. Choisissez le format A4 ou Letter, les pages entières ou les zones préparées, ainsi que les calques d’annotations à inclure.",
         "Prévisualisez avant d’enregistrer.",
         "Les PDF sources ne changent pas et le fichier ne contient pas toute la bibliothèque.",
         "Ouvrez le PDF enregistré et vérifiez les premières et dernières pages, l’ordre des œuvres et les annotations visibles."
@@ -1597,7 +1570,7 @@
       "pl": [
         "Przygotuj koncertowy PDF",
         "Eksport programu tworzy kopię do czytania lub druku, nie pełną kopię zapasową.",
-        "Sprawdź kolejność, powtórzenia, notatki, format A4/Letter, całe strony lub przygotowane obszary i wybrane warstwy.",
+        "W sekcji „Koncerty” otwórz zapisany program i wybierz „Działania koncertu” → „Koncertowy PDF”. Sprawdź kolejność, powtórzenia i notatki. Wybierz format A4 lub Letter, całe strony lub przygotowane obszary oraz warstwy adnotacji do uwzględnienia.",
         "Obejrzyj podgląd przed zapisem. Źródłowe PDF nie zmieniają się, a plik nie zawiera całej biblioteki.",
         "Otwórz zapisany PDF i sprawdź pierwszą i ostatnią stronę, kolejność utworów oraz widoczność adnotacji."
       ]
@@ -1612,7 +1585,7 @@
       "ru": [
         "Клавиши, педали и MIDI",
         "Обычные клавиши работают бесплатно. Собственные привязки команд — возможность Pro.",
-        "В «Настройки» → «Клавиатура, педали и MIDI» выберите команду и нажмите клавишу либо настройте выбранный порт MIDI 1.",
+        "Откройте «Настройки» → «Клавиатура, педали и MIDI». Выберите команду, нажмите «Назначить клавишу», затем нажмите нужную клавишу на клавиатуре или педали. Для MIDI откройте «Устройство и привязки MIDI» и выберите порт MIDI 1.",
         "Конфликтующую привязку сначала удалите.",
         "Нажмите «Проверить управление»: счётчик покажет команду без изменения нот.",
         "MIDI не воспроизводит музыку; касание экрана и системная «Назад» остаются доступны."
@@ -1620,7 +1593,7 @@
       "en": [
         "Keyboard, pedals and MIDI",
         "Ordinary keys work in Free. Custom command mapping needs Pro.",
-        "In Settings → Keyboard, pedals and MIDI choose a command and press a key, or select a MIDI 1 port.",
+        "In “Settings” → “Keyboard, pedals and MIDI”, choose a command, tap “Assign key”, then press the key on your keyboard or pedal. For MIDI, choose “MIDI device and mapping” and select a MIDI 1 port.",
         "Remove a conflicting mapping first.",
         "Run Test controls to count commands without changing a score.",
         "MIDI does not play music here; touch and Android Back remain available."
@@ -1628,7 +1601,7 @@
       "de": [
         "Tastatur, Pedale und MIDI",
         "Normale Tasten funktionieren kostenlos; eigene Befehlszuordnung braucht Pro.",
-        "Wählen Sie unter Einstellungen → Tastatur, Pedale und MIDI einen Befehl und drücken Sie eine Taste oder wählen Sie einen MIDI-1-Port.",
+        "Wählen Sie unter „Einstellungen“ → „Tastatur, Pedale und MIDI“ einen Befehl. Tippen Sie auf „Taste zuweisen“ und drücken Sie die gewünschte Taste an der Tastatur oder am Pedal. Für MIDI wählen Sie unter „MIDI-Gerät und Zuordnung“ einen MIDI-1-Port aus.",
         "Entfernen Sie widersprüchliche Zuordnungen.",
         "Testen Sie die Steuerung ohne Notenänderung.",
         "MIDI spielt hier keine Musik; Berührung und Android-Zurück bleiben verfügbar."
@@ -1636,7 +1609,7 @@
       "it": [
         "Tastiera, pedali e MIDI",
         "I tasti ordinari funzionano gratis; le assegnazioni personalizzate richiedono Pro.",
-        "In Impostazioni → Tastiera, pedali e MIDI scegli un comando e premi un tasto o seleziona una porta MIDI 1.",
+        "In «Impostazioni» → «Tastiera, pedali e MIDI» scegli un comando, tocca «Assegna tasto» e premi il tasto desiderato sulla tastiera o sul pedale. Per il MIDI, apri «Dispositivo e mappature MIDI» e seleziona una porta MIDI 1.",
         "Rimuovi prima gli assegnamenti in conflitto.",
         "Prova i comandi senza cambiare lo spartito.",
         "MIDI qui non suona musica; tocco e Indietro restano disponibili."
@@ -1644,7 +1617,7 @@
       "es": [
         "Teclado, pedales y MIDI",
         "Las teclas normales funcionan gratis; asignar órdenes propias requiere Pro.",
-        "En Ajustes → Teclado, pedales y MIDI elige una orden y pulsa una tecla o selecciona un puerto MIDI 1.",
+        "En «Ajustes» → «Teclado, pedales y MIDI», elige una orden, pulsa «Asignar tecla» y después presiona la tecla del teclado o del pedal. Para MIDI, abre «Dispositivo y asignaciones MIDI» y selecciona un puerto MIDI 1.",
         "Elimina antes las asignaciones en conflicto.",
         "Prueba los controles sin cambiar la partitura.",
         "MIDI no reproduce música aquí; tocar y Atrás siguen disponibles."
@@ -1652,7 +1625,7 @@
       "pt": [
         "Teclado, pedais e MIDI",
         "As teclas comuns funcionam gratuitamente; mapear comandos próprios exige Pro.",
-        "Em Definições → Teclado, pedais e MIDI escolha um comando e prima uma tecla ou selecione uma porta MIDI 1.",
+        "Em «Configurações» → «Teclado, pedais e MIDI», escolha um comando, toque em «Atribuir tecla» e prima a tecla pretendida no teclado ou no pedal. Para MIDI, abra «Dispositivo e associações MIDI» e selecione uma porta MIDI 1.",
         "Remova primeiro conflitos.",
         "Teste os controlos sem alterar a partitura.",
         "MIDI não toca música aqui; toque e Voltar continuam disponíveis."
@@ -1660,7 +1633,7 @@
       "uk": [
         "Клавіші, педалі та MIDI",
         "Звичайні клавіші працюють безкоштовно; власні прив’язки команд потребують Pro.",
-        "У «Налаштування» → «Клавіатура, педалі та MIDI» виберіть команду й натисніть клавішу або порт MIDI 1.",
+        "Відкрийте «Налаштування» → «Клавіатура, педалі та MIDI». Виберіть команду, натисніть «Призначити клавішу», а потім потрібну клавішу на клавіатурі або педалі. Для MIDI відкрийте «Пристрій і прив’язки MIDI» й виберіть порт MIDI 1.",
         "Спершу приберіть конфлікт.",
         "Перевірте керування без зміни нот.",
         "MIDI тут не відтворює музику; дотик і системна «Назад» лишаються."
@@ -1668,7 +1641,7 @@
       "fr": [
         "Clavier, pédales et MIDI",
         "Les touches ordinaires sont gratuites ; attribuer ses propres commandes demande Pro.",
-        "Dans Réglages → Clavier, pédales et MIDI, choisissez une commande puis une touche ou un port MIDI 1.",
+        "Dans « Réglages » → « Clavier, pédales et MIDI », choisissez une commande, touchez « Attribuer une touche », puis appuyez sur la touche du clavier ou de la pédale. Pour le MIDI, ouvrez « Périphérique et associations MIDI » et sélectionnez un port MIDI 1.",
         "Retirez d’abord toute attribution conflictuelle.",
         "Testez les commandes sans modifier la partition.",
         "MIDI ne joue pas de musique ici ; toucher et Retour restent possibles."
@@ -1676,7 +1649,7 @@
       "pl": [
         "Klawiatura, pedały i MIDI",
         "Zwykłe klawisze działają bezpłatnie; własne przypisania wymagają Pro.",
-        "W Ustawieniach → Klawiatura, pedały i MIDI wybierz polecenie i klawisz albo port MIDI 1.",
+        "Wybierz „Ustawienia” → „Klawiatura, pedały i MIDI”. Wskaż polecenie, dotknij „Przypisz klawisz”, a następnie naciśnij przycisk na klawiaturze lub pedale. Aby skonfigurować MIDI, otwórz „Urządzenie i przypisania MIDI” i wybierz port MIDI 1.",
         "Najpierw usuń konfliktujące przypisanie.",
         "Sprawdź sterowanie bez zmiany nut.",
         "MIDI nie odtwarza tu muzyki; dotyk i systemowy Wstecz pozostają dostępne."
@@ -1692,72 +1665,72 @@
       "ru": [
         "Локальная запись репетиции",
         "Запись запускается вручную и остаётся на устройстве. Создание и сохранение цикла A–B требуют Pro.",
-        "Откройте «Аудио репетиций», нажмите «Записать» и разрешите микрофон Android.",
-        "Запись видна на экране и останавливается при потере фокуса; затем нажмите «Остановить и сохранить» или удалите дубль.",
+        "В открытых нотах выберите «Ещё» → «Аудио репетиций» → «Добавить или записать аудио». Нажмите «Записать». Если Android запросит доступ к микрофону, разрешите его и снова нажмите «Записать», чтобы начать запись.",
+        "Оставьте экран записи открытым. Чтобы закончить дубль, нажмите «Остановить и сохранить» или «Удалить дубль». Если уйти с экрана записи, запись остановится.",
         "Сохранённый звук можно воспроизвести, экспортировать как исходное аудио, удалить или восстановить бесплатно.",
         "При прослушивании задайте A и B, если нужен повтор фрагмента."
       ],
       "en": [
         "Record a local rehearsal",
         "Recording starts by your action and stays on the device. Creating and saving an A–B loop needs Pro.",
-        "Open Rehearsal audio, press Record and grant Android microphone access.",
-        "Recording stays visible and stops if the screen loses focus; then Stop and save or discard the take.",
+        "With the score open, choose “More” → “Local rehearsal audio” → “Add or record audio”. Tap “Record”. If Android asks for microphone access, allow it, then tap “Record” again to start.",
+        "Keep the recording screen open. To finish the take, choose “Stop and save” or “Discard take”. Leaving the recording screen stops recording.",
         "Saved audio remains playable, exportable, deletable and recoverable in Free.",
         "During playback set A and B to repeat a passage if needed."
       ],
       "de": [
         "Probe lokal aufnehmen",
         "Die Aufnahme startet bewusst und bleibt auf dem Gerät. Neue A–B-Schleifen brauchen Pro.",
-        "Öffnen Sie Proben-Audio, drücken Sie Aufnehmen und erlauben Sie das Mikrofon.",
-        "Die sichtbare Aufnahme stoppt bei Fokusverlust; speichern oder verwerfen Sie den Durchgang.",
+        "Wählen Sie in der geöffneten Partitur „Mehr“ → „Lokales Probenaudio“ → „Audio hinzufügen oder aufnehmen“. Tippen Sie auf „Aufnehmen“. Fragt Android nach dem Mikrofonzugriff, erlauben Sie ihn und tippen Sie zum Starten erneut auf „Aufnehmen“.",
+        "Lassen Sie den Aufnahmebildschirm geöffnet. Zum Beenden wählen Sie „Stoppen und speichern“ oder „Aufnahme verwerfen“. Beim Verlassen des Aufnahmebildschirms endet die Aufnahme.",
         "Gespeichertes Audio bleibt kostenlos abspielbar, exportierbar, löschbar und wiederherstellbar.",
         "Für Wiederholung setzen Sie beim Abspielen A und B."
       ],
       "it": [
         "Registrare una prova in locale",
         "La registrazione parte su comando e resta sul dispositivo. Creare un ciclo A–B richiede Pro.",
-        "Apri Audio delle prove, premi Registra e consenti il microfono Android.",
-        "La registrazione visibile si ferma se la schermata perde il fuoco; salva o scarta la prova.",
+        "Con la partitura aperta, scegli «Altro» → «Audio locale delle prove» → «Aggiungi o registra audio». Tocca «Registra». Se Android chiede di usare il microfono, concedi l’accesso e tocca di nuovo «Registra» per iniziare.",
+        "Tieni aperta la schermata di registrazione. Per concludere la ripresa, scegli «Ferma e salva» o «Scarta registrazione». Se esci da questa schermata, la registrazione si interrompe.",
         "L’audio salvato si può ascoltare, esportare, eliminare e recuperare gratis.",
         "Durante l’ascolto imposta A e B per ripetere un tratto."
       ],
       "es": [
         "Grabar un ensayo local",
         "La grabación empieza cuando lo indicas y queda en el dispositivo. Crear un bucle A–B requiere Pro.",
-        "Abre Audio de ensayo, pulsa Grabar y permite el micrófono.",
-        "La grabación visible se detiene si la pantalla pierde el foco; guarda o descarta la toma.",
+        "Con la partitura abierta, elige «Más» → «Audio local de ensayo» → «Añadir o grabar audio». Pulsa «Grabar». Si Android solicita acceso al micrófono, concédelo y vuelve a pulsar «Grabar» para empezar.",
+        "Mantén abierta la pantalla de grabación. Para terminar la toma, elige «Detener y guardar» o «Descartar toma». Si sales de esta pantalla, la grabación se detiene.",
         "El audio guardado puede reproducirse, exportarse, borrarse y recuperarse gratis.",
         "Durante la escucha marca A y B para repetir."
       ],
       "pt": [
         "Gravar um ensaio local",
         "A gravação começa por comando explícito e fica no dispositivo. Criar um ciclo A–B exige Pro.",
-        "Abra Áudio de ensaio, prima Gravar e permita o microfone.",
-        "A gravação visível para se o ecrã perder foco; guarde ou descarte a tomada.",
+        "Com a partitura aberta, escolha «Mais» → «Áudio local de ensaio» → «Adicionar ou gravar áudio». Toque em «Gravar». Se o Android pedir acesso ao microfone, autorize-o e volte a tocar em «Gravar» para começar.",
+        "Mantenha o ecrã de gravação aberto. Para terminar a gravação, escolha «Parar e guardar» ou «Descartar gravação». Se sair deste ecrã, a gravação é interrompida.",
         "Áudio guardado pode ser ouvido, exportado, apagado e recuperado gratuitamente.",
         "Na reprodução marque A e B para repetir."
       ],
       "uk": [
         "Локально записати репетицію",
         "Запис починається лише за вашою дією й лишається на пристрої. Створення циклу A–B потребує Pro.",
-        "Відкрийте аудіо репетицій, натисніть «Записати» й дозвольте мікрофон.",
-        "Видимий запис зупиняється при втраті фокусу; збережіть або відкиньте дубль.",
+        "У відкритій партитурі виберіть «Ще» → «Аудіо репетицій» → «Додати або записати аудіо». Натисніть «Записати». Якщо Android запитає дозвіл на використання мікрофона, надайте його й знову натисніть «Записати», щоб почати запис.",
+        "Залиште екран запису відкритим. Щоб завершити дубль, виберіть «Зупинити й зберегти» або «Видалити дубль». Якщо вийти з цього екрана, запис зупиниться.",
         "Збережене аудіо можна слухати, експортувати, видаляти й відновлювати безкоштовно.",
         "Під час прослуховування задайте A і B для повтору."
       ],
       "fr": [
         "Enregistrer une répétition locale",
         "L’enregistrement démarre sur demande et reste sur l’appareil. Créer une boucle A–B demande Pro.",
-        "Ouvrez Audio de répétition, appuyez sur Enregistrer et autorisez le micro.",
-        "L’enregistrement visible s’arrête si l’écran perd le focus ; gardez ou jetez la prise.",
+        "Dans la partition ouverte, choisissez « Plus » → « Audio local de répétition » → « Ajouter ou enregistrer un audio ». Touchez « Enregistrer ». Si Android demande l’accès au micro, accordez-le, puis touchez à nouveau « Enregistrer » pour lancer l’enregistrement.",
+        "Gardez l’écran d’enregistrement ouvert. Pour terminer la prise, choisissez « Arrêter et sauvegarder » ou « Supprimer la prise ». Quitter cet écran interrompt l’enregistrement.",
         "L’audio conservé reste lisible, exportable, supprimable et récupérable gratuitement.",
         "Pendant l’écoute, marquez A et B pour répéter."
       ],
       "pl": [
         "Nagraj próbę lokalnie",
         "Nagranie zaczyna się świadomie i zostaje na urządzeniu. Tworzenie pętli A–B wymaga Pro.",
-        "Otwórz Audio prób, naciśnij Nagraj i zezwól na mikrofon.",
-        "Widoczne nagranie zatrzyma się po utracie fokusu; zapisz lub odrzuć próbę.",
+        "W otwartej partyturze wybierz „Więcej” → „Lokalne audio prób” → „Dodaj lub nagraj dźwięk”. Dotknij „Nagrywaj”. Jeśli Android poprosi o dostęp do mikrofonu, zezwól na niego i ponownie dotknij „Nagrywaj”, aby rozpocząć nagrywanie.",
+        "Pozostaw ekran nagrywania otwarty. Aby zakończyć nagranie, wybierz „Zatrzymaj i zapisz” lub „Odrzuć nagranie”. Po opuszczeniu tego ekranu nagrywanie się zatrzyma.",
         "Zapisane audio można odtwarzać, eksportować, usuwać i odzyskiwać bezpłatnie.",
         "Podczas słuchania ustaw A i B do powtórki."
       ]
@@ -1850,7 +1823,7 @@
       "ru": [
         "Перенос между партиями и изданиями",
         "Перенесите выбранные пометки туда, где они нужны в другой партии или редакции.",
-        "В библиотеке откройте ⋮ → «Инструменты» → «Перенос пометок». Выберите исходные и целевые ноты.",
+        "Откройте «Ещё» и в группе «Пометки и перенос» нажмите «Перенести пометки». Выберите «В другой партии», затем исходные и целевые ноты.",
         "Задайте соответствия музыкальных мест: части произведения, такты и репетиционные буквы. Укажите нужную партию.",
         "Проверьте каждое предложенное размещение на странице новых нот. Неясные совпадения уточните вручную или оставьте без переноса.",
         "В итоговом предпросмотре отметьте нужные пометки и подтвердите перенос. Затем откройте целевые ноты и проверьте результат."
@@ -1858,7 +1831,7 @@
       "en": [
         "Transfer between parts and editions",
         "Place selected annotations in the corresponding passages of another part or edition.",
-        "In Library, open ⋮ → Tools → Annotation transfer. Choose the source and destination scores.",
+        "Open More and choose Move marks under Marks and transfer. Select “In another part”, then choose the source and destination scores.",
         "Match musical locations such as movements, bars and rehearsal letters. Specify the relevant part.",
         "Check each proposed placement on the destination page. Resolve uncertain matches manually or leave them out.",
         "Select the annotations in the final preview and confirm the transfer. Open the destination score and check the result."
@@ -1866,7 +1839,7 @@
       "de": [
         "Übertragung zwischen Stimmen und Ausgaben",
         "Übertragen Sie ausgewählte Markierungen an passende Stellen einer anderen Stimme oder Ausgabe.",
-        "Öffnen Sie in der Bibliothek ⋮ → Werkzeuge → Markierungsübertragung. Wählen Sie Quell- und Zielnoten.",
+        "Öffnen Sie „Mehr“ und wählen Sie unter „Anmerkungen und Übertragung“ den Eintrag „Markierungen übertragen“. Wählen Sie „In einer anderen Stimme“ und geben Sie anschließend Ausgangs- und Zielnoten an.",
         "Ordnen Sie musikalische Stellen wie Sätze, Takte und Probenbuchstaben einander zu. Geben Sie die betreffende Stimme an.",
         "Prüfen Sie jede vorgeschlagene Position auf der Zielseite. Klären Sie unsichere Zuordnungen von Hand oder lassen Sie diese aus.",
         "Wählen Sie in der abschließenden Vorschau die Markierungen und bestätigen Sie die Übertragung. Öffnen Sie die Zielnoten zur Kontrolle."
@@ -1874,7 +1847,7 @@
       "it": [
         "Trasferire tra parti ed edizioni",
         "Posiziona le annotazioni scelte nei passaggi corrispondenti di un’altra parte o edizione.",
-        "Nella Biblioteca apri ⋮ → Strumenti → Trasferimento annotazioni. Scegli spartiti di origine e destinazione.",
+        "Apri «Altro» e scegli «Trasferisci annotazioni» nel gruppo «Annotazioni e trasferimento». Seleziona «In un’altra parte», poi indica lo spartito di origine e quello di destinazione.",
         "Abbina i punti musicali: movimenti, battute e lettere di prova. Specifica la parte interessata.",
         "Controlla ogni posizione proposta sulla pagina di destinazione. Correggi manualmente gli abbinamenti incerti oppure escludili.",
         "Nell’anteprima finale seleziona le annotazioni e conferma il trasferimento. Apri lo spartito di destinazione e controlla il risultato."
@@ -1882,7 +1855,7 @@
       "es": [
         "Transferir entre partes y ediciones",
         "Coloca las anotaciones elegidas en los pasajes correspondientes de otra parte o edición.",
-        "En Biblioteca abre ⋮ → Herramientas → Transferir anotaciones. Elige partituras de origen y destino.",
+        "Abre «Más» y elige «Trasladar marcas» en el grupo «Anotaciones y transferencia». Selecciona «En otra parte» y elige las partituras de origen y de destino.",
         "Relaciona los lugares musicales: movimientos, compases y letras de ensayo. Indica la parte correspondiente.",
         "Comprueba cada posición propuesta en la página de destino. Ajusta manualmente las coincidencias dudosas o exclúyelas.",
         "Selecciona las anotaciones en la vista previa final y confirma la transferencia. Abre la partitura de destino y revisa el resultado."
@@ -1890,7 +1863,7 @@
       "pt": [
         "Transferir entre partes e edições",
         "Coloque as anotações escolhidas nas passagens correspondentes de outra parte ou edição.",
-        "Na Biblioteca, abra ⋮ → Ferramentas → Transferir anotações. Escolha as partituras de origem e destino.",
+        "Abra «Mais» e escolha «Transferir marcas» no grupo «Anotações e transferência». Selecione «Noutra parte» e indique as partituras de origem e de destino.",
         "Relacione os locais musicais: andamentos, compassos e letras de ensaio. Indique a parte pretendida.",
         "Confira cada posição proposta na página de destino. Ajuste manualmente as correspondências incertas ou exclua-as.",
         "Selecione as anotações na pré-visualização final e confirme a transferência. Abra a partitura de destino e verifique o resultado."
@@ -1898,7 +1871,7 @@
       "uk": [
         "Перенесення між партіями та виданнями",
         "Розмістіть вибрані помітки у відповідних місцях іншої партії чи редакції.",
-        "У бібліотеці відкрийте ⋮ → «Інструменти» → «Перенесення поміток». Виберіть початкові та цільові ноти.",
+        "Відкрийте «Ще» і в групі «Позначки та перенесення» натисніть «Перенести позначки». Виберіть «В іншій партії», потім вихідні та цільові ноти.",
         "Зіставте музичні місця: частини твору, такти та репетиційні літери. Укажіть потрібну партію.",
         "Перевірте кожне запропоноване розміщення на цільовій сторінці. Неточні відповідності виправте вручну або пропустіть.",
         "В остаточному перегляді виберіть потрібні помітки та підтвердьте перенесення. Відкрийте цільові ноти й перевірте результат."
@@ -1906,7 +1879,7 @@
       "fr": [
         "Transférer entre parties et éditions",
         "Placez les annotations choisies aux passages correspondants d’une autre partie ou édition.",
-        "Dans Bibliothèque, ouvrez ⋮ → Outils → Transfert d’annotations. Choisissez les partitions source et cible.",
+        "Ouvrez « Plus » et choisissez « Transférer les annotations » dans la rubrique « Annotations et transfert ». Sélectionnez « Dans une autre partie », puis les partitions de départ et de destination.",
         "Faites correspondre les repères musicaux : mouvements, mesures et lettres de répétition. Précisez la partie concernée.",
         "Vérifiez chaque placement proposé sur la page cible. Corrigez manuellement les correspondances incertaines ou excluez-les.",
         "Sélectionnez les annotations dans l’aperçu final et confirmez le transfert. Ouvrez la partition cible pour vérifier le résultat."
@@ -1914,7 +1887,7 @@
       "pl": [
         "Przenoszenie między partiami i wydaniami",
         "Umieść wybrane adnotacje w odpowiednich miejscach innej partii lub wydania.",
-        "W Bibliotece otwórz ⋮ → Narzędzia → Przenoszenie adnotacji. Wybierz nuty źródłowe i docelowe.",
+        "Otwórz „Więcej” i wybierz „Przenieś adnotacje” w grupie „Adnotacje i przenoszenie”. Wybierz „W innej partii”, a następnie wskaż nuty źródłowe i docelowe.",
         "Dopasuj miejsca muzyczne: części utworu, takty i litery prób. Wskaż odpowiednią partię.",
         "Sprawdź każdą proponowaną pozycję na stronie docelowej. Niepewne dopasowania popraw ręcznie lub pomiń.",
         "W końcowym podglądzie wybierz adnotacje i potwierdź przeniesienie. Otwórz nuty docelowe i sprawdź wynik."
@@ -1930,7 +1903,7 @@
       "ru": [
         "Пометки с бумажных нот",
         "Используйте фотографию или скан, чтобы перенести рукописные пометки в библиотеку.",
-        "В ⋮ → «Инструменты» выберите «Бумажные пометки с чистым образцом», если есть такая же страница без пометок. Без образца используйте «Выделение бумажных пометок».",
+        "Откройте чистую партитуру и выберите «Ещё» → «Новый PDF и перенос пометок» → «Бумажные пометки с чистым образцом». Чтобы использовать сохранённые фрагменты или выделить пометки без чистого образца, в библиотеке откройте «Ещё» → «Перенести пометки» → «В сохранённых фрагментах».",
         "Выберите фотографию или страницу PDF. Если работаете с образцом, укажите чистую страницу и проверьте их совмещение.",
         "Просмотрите выделенные фрагменты. Удалите лишнее и вручную уточните области: печатные ноты не должны стать частью пометки.",
         "Выберите целевые ноты и страницу, проверьте размер и положение фрагмента перед сохранением. Откройте результат ещё раз и убедитесь, что ноты читаются свободно."
@@ -1938,7 +1911,7 @@
       "en": [
         "Marks from paper scores",
         "Use a photo or scan to bring handwritten marks into your library.",
-        "In ⋮ → Tools, choose Paper marks with a clean reference if you have the same page without handwriting. Otherwise use Paper mark extraction.",
+        "Open the clean score and choose “More” → “Revised PDF and markings” → “Paper marks with a clean reference”. To use saved fragments or extract marks without a clean reference, open “More” → “Move marks” → “In saved fragments” from the library.",
         "Choose a photo or PDF page. When using a reference, select the clean page and check their alignment.",
         "Review the extracted fragments. Remove unwanted areas and refine the selection manually so printed notation does not become part of the mark.",
         "Choose the destination score and page, then check the fragment’s size and position before saving. Reopen the result and make sure the score is still easy to read."
@@ -1946,7 +1919,7 @@
       "de": [
         "Markierungen von Papiernoten",
         "Übernehmen Sie handschriftliche Markierungen aus einem Foto oder Scan.",
-        "Wählen Sie unter ⋮ → Werkzeuge Papiermarkierungen mit sauberer Vorlage, wenn dieselbe Seite ohne Handschrift vorliegt. Sonst verwenden Sie die Extraktion von Papiermarkierungen.",
+        "Öffnen Sie die unmarkierte Partitur und wählen Sie „Mehr“ → „Neue PDF und Markierungen“ → „Anmerkungen auf Papier mit sauberer Vorlage“. Um gespeicherte Ausschnitte zu verwenden oder Markierungen ohne Vorlage zu extrahieren, wählen Sie in der Bibliothek „Mehr“ → „Markierungen übertragen“ → „In gespeicherten Ausschnitten“.",
         "Wählen Sie ein Foto oder eine PDF-Seite. Bei einer Vorlage wählen Sie auch die saubere Seite und prüfen die Ausrichtung.",
         "Prüfen Sie die extrahierten Ausschnitte. Entfernen Sie unerwünschte Bereiche und korrigieren Sie die Auswahl von Hand, damit gedruckte Noten nicht zur Markierung gehören.",
         "Wählen Sie Zielnoten und Seite. Prüfen Sie Größe und Position vor dem Speichern und öffnen Sie das Ergebnis zur Lesbarkeitskontrolle erneut."
@@ -1954,7 +1927,7 @@
       "it": [
         "Segni dagli spartiti cartacei",
         "Usa una foto o una scansione per portare le annotazioni a mano nella biblioteca.",
-        "In ⋮ → Strumenti scegli Segni su carta con riferimento pulito se hai la stessa pagina senza annotazioni. Altrimenti usa l’estrazione dei segni su carta.",
+        "Apri la partitura senza annotazioni e scegli «Altro» → «PDF rivisto e annotazioni» → «Annotazioni su carta con un riferimento pulito». Per usare frammenti salvati o estrarre annotazioni senza una pagina di riferimento, dalla biblioteca apri «Altro» → «Trasferisci annotazioni» → «In frammenti salvati».",
         "Scegli una foto o una pagina PDF. Se usi un riferimento, seleziona la pagina pulita e controlla l’allineamento.",
         "Controlla i frammenti estratti. Elimina le aree superflue e correggi manualmente la selezione, escludendo le note stampate.",
         "Scegli spartito e pagina di destinazione. Verifica dimensioni e posizione prima di salvare, poi riapri il risultato per controllare la leggibilità."
@@ -1962,7 +1935,7 @@
       "es": [
         "Marcas de partituras en papel",
         "Usa una foto o un escaneo para incorporar anotaciones manuscritas a la biblioteca.",
-        "En ⋮ → Herramientas elige Marcas en papel con referencia limpia si tienes la misma página sin anotaciones. Si no, usa la extracción de marcas en papel.",
+        "Abre la partitura sin anotaciones y elige «Más» → «PDF revisado y anotaciones» → «Anotaciones en papel con una referencia limpia». Para usar fragmentos guardados o extraer marcas sin una página de referencia, abre «Más» → «Trasladar marcas» → «En fragmentos guardados» desde la biblioteca.",
         "Elige una foto o página PDF. Si utilizas una referencia, selecciona la página limpia y comprueba la alineación.",
         "Revisa los fragmentos extraídos. Quita áreas innecesarias y ajusta la selección manualmente para excluir las notas impresas.",
         "Elige la partitura y página de destino. Revisa tamaño y posición antes de guardar y vuelve a abrir el resultado para comprobar su legibilidad."
@@ -1970,7 +1943,7 @@
       "pt": [
         "Marcas de partituras em papel",
         "Use uma fotografia ou digitalização para trazer anotações manuscritas para a biblioteca.",
-        "Em ⋮ → Ferramentas, escolha Marcas em papel com referência limpa se tiver a mesma página sem anotações. Caso contrário, use a extração de marcas em papel.",
+        "Abra a partitura sem anotações e escolha «Mais» → «PDF revisto e anotações» → «Anotações em papel com uma referência limpa». Para usar fragmentos guardados ou extrair anotações sem uma página de referência, abra «Mais» → «Transferir marcas» → «Em fragmentos guardados» a partir da biblioteca.",
         "Escolha uma fotografia ou página PDF. Se usar uma referência, selecione a página limpa e confira o alinhamento.",
         "Reveja os fragmentos extraídos. Retire áreas desnecessárias e ajuste a seleção manualmente para excluir as notas impressas.",
         "Escolha a partitura e a página de destino. Confira tamanho e posição antes de guardar e reabra o resultado para verificar a legibilidade."
@@ -1978,7 +1951,7 @@
       "uk": [
         "Помітки з паперових нот",
         "Скористайтеся фото чи сканом, щоб перенести рукописні помітки до бібліотеки.",
-        "У ⋮ → «Інструменти» виберіть помітки з чистим зразком, якщо маєте таку саму сторінку без поміток. Інакше виберіть виділення паперових поміток.",
+        "Відкрийте чисту партитуру й виберіть «Ще» → «Новий PDF і перенесення позначок» → «Паперові позначки з чистим зразком». Щоб використати збережені фрагменти або виокремити позначки без чистого зразка, у бібліотеці відкрийте «Ще» → «Перенести позначки» → «У збережених фрагментах».",
         "Виберіть фото чи сторінку PDF. Якщо використовуєте зразок, укажіть чисту сторінку й перевірте суміщення.",
         "Перегляньте виділені фрагменти. Приберіть зайве та вручну уточніть області: друковані ноти не повинні стати частиною помітки.",
         "Виберіть цільові ноти й сторінку, перевірте розмір і положення перед збереженням. Відкрийте результат знову та переконайтеся, що ноти легко читати."
@@ -1986,7 +1959,7 @@
       "fr": [
         "Annotations de partitions papier",
         "Utilisez une photo ou un scan pour intégrer vos annotations manuscrites à la bibliothèque.",
-        "Dans ⋮ → Outils, choisissez les annotations papier avec référence vierge si vous avez la même page sans annotations. Sinon, utilisez l’extraction des annotations papier.",
+        "Ouvrez la partition vierge et choisissez « Plus » → « PDF révisé et annotations » → « Annotations sur papier avec une référence sans annotations ». Pour utiliser des fragments enregistrés ou extraire des annotations sans exemplaire de référence, ouvrez « Plus » → « Transférer les annotations » → « Dans des fragments enregistrés » depuis la bibliothèque.",
         "Choisissez une photo ou une page PDF. Avec une référence, sélectionnez aussi la page vierge et vérifiez l’alignement.",
         "Examinez les fragments extraits. Supprimez les zones inutiles et affinez la sélection à la main pour exclure les notes imprimées.",
         "Choisissez la partition et la page cibles. Vérifiez taille et position avant d’enregistrer, puis rouvrez le résultat pour contrôler sa lisibilité."
@@ -1994,7 +1967,7 @@
       "pl": [
         "Adnotacje z papierowych nut",
         "Użyj zdjęcia lub skanu, aby przenieść odręczne adnotacje do biblioteki.",
-        "W ⋮ → Narzędzia wybierz adnotacje z czystym wzorcem, jeśli masz tę samą stronę bez zapisków. W przeciwnym razie wybierz wydzielanie papierowych adnotacji.",
+        "Otwórz partyturę bez adnotacji i wybierz „Więcej” → „Nowy PDF i adnotacje” → „Oznaczenia na papierze z czystym wzorcem”. Aby użyć zapisanych fragmentów lub wyodrębnić adnotacje bez strony wzorcowej, w bibliotece wybierz „Więcej” → „Przenieś adnotacje” → „W zapisanych fragmentach”.",
         "Wybierz zdjęcie lub stronę PDF. Przy pracy ze wzorcem wskaż też czystą stronę i sprawdź wyrównanie.",
         "Przejrzyj wydzielone fragmenty. Usuń zbędne obszary i popraw zaznaczenie ręcznie, aby nie obejmowało drukowanych nut.",
         "Wybierz nuty i stronę docelową. Sprawdź rozmiar i położenie przed zapisaniem, a potem ponownie otwórz wynik i oceń czytelność."
@@ -2176,81 +2149,81 @@
       "ru": [
         "Копии на устройстве",
         "Проверенные локальные точки удобны для отката. Автоматическое расписание требует Pro; полная ручная копия бесплатна.",
-        "Откройте «Настройки» → «Резервная копия и перенос» → «Копии на устройстве».",
+        "В библиотеке откройте «Ещё» → «Настройки» → «Копия и восстановление» → «Копии на устройстве».",
         "Посмотрите последнюю проверенную копию, свободное место и при необходимости нажмите «Создать сейчас».",
-        "Для возврата сначала выберите «Просмотр перед восстановлением».",
+        "Выберите «Просмотр перед восстановлением» рядом с нужной копией, чтобы увидеть её содержимое.",
         "Сохранённые копии можно смотреть, экспортировать и восстанавливать бесплатно.",
         "От потери планшета защищает лишь экспорт в другое место."
       ],
       "en": [
         "On-device backups",
         "Verified local restore points help with recent recovery. Automatic scheduling needs Pro; complete manual backup is Free.",
-        "Open Settings → Backup and transfer → On-device backups.",
+        "From the library, open “More” → “Settings” → “Backup and restore” → “On-device backups”.",
         "Check the last verified copy and free space, then use Create now if needed.",
-        "Use Preview before restore first.",
+        "Beside a saved copy, choose “Preview restore” to see what it contains before restoring it.",
         "Saved copies remain viewable, exportable and restorable in Free.",
         "Export elsewhere to protect against device loss."
       ],
       "de": [
         "Sicherungen auf dem Gerät",
         "Geprüfte lokale Punkte helfen beim Zurücksetzen. Automatische Planung braucht Pro; manuelle Vollsicherung ist kostenlos.",
-        "Öffnen Sie Einstellungen → Sicherung und Übertragung → Sicherungen auf dem Gerät.",
+        "Öffnen Sie in der Bibliothek „Mehr“ → „Einstellungen“ → „Sicherung und Wiederherstellung“ → „Lokale Sicherungskopien“.",
         "Prüfen Sie letzte Sicherung und Platz und erstellen Sie bei Bedarf eine.",
-        "Sehen Sie die Wiederherstellung vorher an.",
+        "Tippen Sie neben der gewünschten Sicherung auf „Wiederherstellung prüfen“, um vor dem Wiederherstellen den Inhalt zu prüfen.",
         "Gespeicherte Kopien bleiben kostenlos prüf-, exportier- und wiederherstellbar.",
         "Für Geräteverlust exportieren Sie anderswohin."
       ],
       "it": [
         "Copie sul dispositivo",
         "I punti locali verificati aiutano nel recupero recente. La pianificazione automatica richiede Pro; il backup manuale completo è gratis.",
-        "Apri Impostazioni → Backup e trasferimento → Copie sul dispositivo.",
+        "Dalla biblioteca apri «Altro» → «Impostazioni» → «Backup e ripristino» → «Copie sul dispositivo».",
         "Controlla ultima copia e spazio, poi crea una copia se necessario.",
-        "Usa l’anteprima prima del ripristino.",
+        "Tocca «Anteprima ripristino» accanto alla copia desiderata per verificarne il contenuto prima del ripristino.",
         "Le copie salvate restano consultabili, esportabili e recuperabili gratis.",
         "Esporta altrove contro la perdita del dispositivo."
       ],
       "es": [
         "Copias en el dispositivo",
         "Los puntos locales verificados ayudan a recuperar cambios recientes. Programar copias requiere Pro; la copia manual completa es gratis.",
-        "Abre Ajustes → Copia y transferencia → Copias en el dispositivo.",
+        "Desde la biblioteca, abre «Más» → «Ajustes» → «Copia y restauración» → «Copias en el dispositivo».",
         "Mira la última copia y el espacio; crea una ahora si hace falta.",
-        "Usa la vista previa antes de restaurar.",
+        "Pulsa «Vista previa de restauración» junto a la copia que te interesa para comprobar su contenido antes de restaurarla.",
         "Las copias guardadas se pueden ver, exportar y restaurar gratis.",
         "Exporta fuera ante pérdida del dispositivo."
       ],
       "pt": [
         "Cópias no dispositivo",
         "Pontos locais verificados ajudam na recuperação recente. O agendamento automático exige Pro; a cópia manual completa é grátis.",
-        "Abra Definições → Cópia e transferência → Cópias no dispositivo.",
+        "Na biblioteca, abra «Mais» → «Configurações» → «Cópia e restauro» → «Cópias no dispositivo».",
         "Confira a última cópia e o espaço; crie uma se preciso.",
-        "Use a pré-visualização antes de repor.",
+        "Toque em «Pré-visualizar restauro» junto da cópia pretendida para verificar o seu conteúdo antes do restauro.",
         "Cópias guardadas podem ser vistas, exportadas e repostas gratuitamente.",
         "Exporte para outro local contra perda do tablet."
       ],
       "uk": [
         "Копії на пристрої",
         "Перевірені локальні точки допомагають відкотитися. Автоматичний розклад потребує Pro; повна ручна копія безкоштовна.",
-        "Відкрийте «Налаштування» → «Резервна копія й перенесення» → «Копії на пристрої».",
+        "У бібліотеці відкрийте «Ще» → «Налаштування» → «Копія та відновлення» → «Копії на пристрої».",
         "Перевірте останню копію й місце, за потреби створіть нову.",
-        "Перед відновленням перегляньте план.",
+        "Натисніть «Перегляд перед відновленням» біля потрібної копії, щоб перевірити її вміст перед відновленням.",
         "Збережені копії можна переглядати, експортувати й відновлювати безкоштовно.",
         "Для захисту від втрати пристрою експортуйте назовні."
       ],
       "fr": [
         "Sauvegardes sur l’appareil",
         "Les points locaux vérifiés aident à revenir en arrière. La planification demande Pro ; la sauvegarde manuelle complète est gratuite.",
-        "Ouvrez Réglages → Sauvegarde et transfert → Copies sur l’appareil.",
+        "Depuis la bibliothèque, ouvrez « Plus » → « Réglages » → « Sauvegarde et restauration » → « Copies sur cet appareil ».",
         "Vérifiez dernière copie et espace puis créez-en une au besoin.",
-        "Prévisualisez avant de restaurer.",
+        "Touchez « Aperçu de restauration » à côté de la sauvegarde voulue pour en vérifier le contenu avant la restauration.",
         "Les copies gardées restent consultables, exportables et récupérables gratuitement.",
         "Exportez ailleurs contre la perte de l’appareil."
       ],
       "pl": [
         "Kopie na urządzeniu",
         "Sprawdzone punkty lokalne pomagają odzyskać niedawne dane. Harmonogram wymaga Pro; pełna ręczna kopia jest bezpłatna.",
-        "Otwórz Ustawienia → Kopia i przenoszenie → Kopie na urządzeniu.",
+        "W bibliotece wybierz „Więcej” → „Ustawienia” → „Kopia i przywracanie” → „Kopie na urządzeniu”.",
         "Sprawdź ostatnią kopię i miejsce, potem utwórz nową w razie potrzeby.",
-        "Przed odzyskaniem obejrzyj podgląd.",
+        "Przy wybranej kopii dotknij „Podgląd przywracania”, aby sprawdzić jej zawartość przed przywróceniem.",
         "Zapisane kopie można bezpłatnie oglądać, eksportować i przywracać.",
         "Na wypadek utraty tabletu wyeksportuj je poza urządzenie."
       ]
@@ -2345,8 +2318,8 @@
         "В настройках выберите один из девяти языков или язык устройства, системную/светлую/тёмную тему. Там же находятся сведения о версии, помощь, политика конфиденциальности, права и источники.",
         "Откройте «Цвета, фон и обложки», чтобы выбрать общую палитру и темы разделов, фон и стандартные обложки. Плитки/список и начальный раздел остаются отдельными настройками навигации.",
         "В разделе «Справка» нажмите «Руководство пользователя»: откроется этот сайт. Рядом есть поддержка; ссылки на политику, права, источники и условия открываются в браузере.",
-        "Partitoria не требует собственного аккаунта. Объяснение возможностей Pro открывается из настроек или соответствующего расширенного действия. Покупка и восстановление используют Google Play; пока магазинный выпуск готовится, платные предложения могут быть недоступны.",
-        "«О Partitoria» открывается из настроек и нижней части боковой панели. Там показаны Partitoria: Sheet Music, версия и номер сборки; укажите их при обращении в поддержку."
+        "Выберите «Partitoria Pro» в настройках, чтобы посмотреть возможности Pro и статус подписки. Покупку и восстановление подписки обрабатывает Google Play.",
+        "Откройте «Ещё» и в группе «Приложение» нажмите «О Partitoria». Версию и номер сборки можно посмотреть и в настройках. Укажите их при обращении в поддержку."
       ],
       "en": [
         "Language, theme and help",
@@ -2354,8 +2327,8 @@
         "In Settings choose one of nine languages or the device language, plus system, light or dark theme. You can also open version details, help, privacy, rights and sources.",
         "Open “Colors, backgrounds and covers” for the app palette, section themes, background and default covers. Library view and the opening section remain separate navigation settings.",
         "Under Help choose User guide to open this site. Support is nearby; privacy, rights, sources and terms open in the browser.",
-        "Partitoria needs no separate account. Open the Pro explanation from Settings or the relevant advanced action. Purchases and restoration use Google Play; paid offers may be unavailable while the store release is being prepared.",
-        "“About Partitoria” opens from Settings or the bottom of the sidebar. It shows Partitoria: Sheet Music, the version and build number; include these when contacting support."
+        "Open Partitoria Pro in Settings to see Pro features and subscription status. Google Play handles purchases and restoration.",
+        "Open More, then choose About Partitoria under App. The version and build number are also available in Settings. Include both when you contact support."
       ],
       "de": [
         "Sprache, Design und Hilfe",
@@ -2363,8 +2336,8 @@
         "Wählen Sie in Einstellungen eine von neun Sprachen oder die Gerätesprache sowie System-, helles oder dunkles Design. Dort finden Sie Version, Hilfe, Datenschutz, Rechte und Quellen.",
         "Öffnen Sie „Farben, Hintergründe und Cover“ für die App-Palette, Bereichsdesigns, Hintergrund und Standardcover. Bibliotheksansicht und Startbereich bleiben eigene Navigationseinstellungen.",
         "Unter Hilfe öffnet Benutzerhandbuch diese Website. Support ist daneben; Datenschutz, Rechte, Quellen und Bedingungen öffnen im Browser.",
-        "Partitoria braucht kein eigenes Konto. Öffnen Sie die Pro-Erklärung in Einstellungen oder bei einer erweiterten Aktion. Kauf und Wiederherstellung nutzen Google Play; Angebote können während der Startvorbereitung fehlen.",
-        "„Über Partitoria“ öffnet sich über Einstellungen oder unten in der Seitenleiste. Dort stehen Partitoria: Sheet Music, Version und Buildnummer; nennen Sie diese beim Support."
+        "Öffnen Sie „Partitoria Pro“ in den Einstellungen, um Pro-Funktionen und Abostatus einzusehen. Kauf und Wiederherstellung laufen über Google Play.",
+        "Öffnen Sie „Mehr“ und wählen Sie unter „App“ den Eintrag „Über Partitoria“. Version und Buildnummer finden Sie auch in den Einstellungen. Geben Sie beides bei einer Supportanfrage an."
       ],
       "it": [
         "Lingua, tema e aiuto",
@@ -2372,8 +2345,8 @@
         "Nelle Impostazioni scegli una delle nove lingue o quella del dispositivo e il tema sistema, chiaro o scuro. Trovi anche versione, aiuto, privacy, diritti e fonti.",
         "Apri “Colori, sfondi e copertine” per palette generale, temi delle sezioni, sfondo e copertine predefinite. Vista della biblioteca e sezione iniziale restano impostazioni di navigazione separate.",
         "In Aiuto apri la Guida utente per questo sito. Trovi anche Supporto; privacy, diritti, fonti e condizioni si aprono nel browser.",
-        "Partitoria non richiede un proprio account. Apri la spiegazione Pro dalle Impostazioni o da un’azione avanzata. Acquisto e ripristino usano Google Play; le offerte possono essere indisponibili durante la preparazione del rilascio.",
-        "“Informazioni su Partitoria” si apre da Impostazioni o dal fondo del pannello laterale. Mostra Partitoria: Sheet Music, versione e numero di build: comunicali all’assistenza."
+        "Apri «Partitoria Pro» nelle impostazioni per consultare le funzioni Pro e lo stato dell’abbonamento. Acquisti e ripristino passano da Google Play.",
+        "Apri «Altro» e scegli «Informazioni su Partitoria» nel gruppo «App». Trovi la versione e il numero di build anche nelle impostazioni. Indica entrambi quando contatti l’assistenza."
       ],
       "es": [
         "Idioma, tema y ayuda",
@@ -2381,8 +2354,8 @@
         "En Ajustes elige uno de nueve idiomas o el del dispositivo y tema del sistema, claro u oscuro. También encontrarás versión, ayuda, privacidad, derechos y fuentes.",
         "Abre “Colores, fondos y portadas” para elegir paleta general, temas de secciones, fondo y portadas predeterminadas. La vista de biblioteca y la sección inicial siguen siendo ajustes de navegación separados.",
         "En Ayuda abre la Guía del usuario para llegar a este sitio. También hay Soporte; privacidad, derechos, fuentes y condiciones se abren en el navegador.",
-        "Partitoria no necesita cuenta propia. Abre la explicación Pro desde Ajustes o una acción avanzada. Compra y restauración usan Google Play; las ofertas pueden no estar disponibles mientras se prepara el lanzamiento.",
-        "“Acerca de Partitoria” se abre desde Ajustes o abajo en el panel lateral. Muestra Partitoria: Sheet Music, versión y número de compilación; inclúyelos al contactar con soporte."
+        "Abre «Partitoria Pro» en los ajustes para consultar las funciones Pro y el estado de la suscripción. Google Play gestiona las compras y su restauración.",
+        "Abre «Más» y elige «Acerca de Partitoria» en el grupo «Aplicación». También puedes consultar la versión y el número de compilación en los ajustes. Incluye ambos datos cuando escribas al servicio de asistencia."
       ],
       "pt": [
         "Idioma, tema e ajuda",
@@ -2390,8 +2363,8 @@
         "Em Definições escolha um dos nove idiomas ou o do dispositivo e tema do sistema, claro ou escuro. Também encontra versão, ajuda, privacidade, direitos e fontes.",
         "Abra “Cores, fundos e capas” para escolher a paleta geral, temas das secções, fundo e capas predefinidas. A vista da biblioteca e a secção inicial continuam a ser definições de navegação separadas.",
         "Em Ajuda abra o Guia do utilizador para este sítio. Há também suporte; privacidade, direitos, fontes e termos abrem no navegador.",
-        "A Partitoria não exige conta própria. Abra a explicação Pro em Definições ou numa ação avançada. Compra e restauro usam a Google Play; as ofertas podem estar indisponíveis durante a preparação do lançamento.",
-        "“Sobre o Partitoria” abre nas Definições ou em baixo no painel lateral. Mostra Partitoria: Sheet Music, versão e número da compilação; indique-os ao contactar o apoio."
+        "Abra «Partitoria Pro» nas definições para consultar as funções Pro e o estado da subscrição. As compras e o respetivo restauro são tratados pelo Google Play.",
+        "Abra «Mais» e escolha «Sobre o Partitoria» no grupo «Aplicação». Também pode consultar a versão e o número de compilação nas definições. Indique ambos quando contactar o apoio."
       ],
       "uk": [
         "Мова, тема й допомога",
@@ -2399,8 +2372,8 @@
         "У налаштуваннях виберіть одну з дев’яти мов або мову пристрою, системну, світлу чи темну тему. Там є версія, допомога, приватність, права та джерела.",
         "Відкрийте «Кольори, тло й обкладинки» для загальної палітри, тем розділів, фону та стандартних обкладинок. Вигляд бібліотеки й початковий розділ залишаються окремими налаштуваннями навігації.",
         "У «Довідці» відкрийте посібник користувача — це цей сайт. Поруч підтримка; приватність, права, джерела й умови відкриваються в браузері.",
-        "Partitoria не потребує власного акаунта. Відкрийте пояснення Pro з налаштувань чи розширеної дії. Купівля й відновлення використовують Google Play; під час підготовки випуску пропозиції можуть бути недоступні.",
-        "«Про Partitoria» відкривається з налаштувань або внизу бічної панелі. Там показано Partitoria: Sheet Music, версію й номер збірки; зазначайте їх у зверненнях до підтримки."
+        "Відкрийте «Partitoria Pro» в налаштуваннях, щоб переглянути можливості Pro і стан підписки. Купівля та відновлення підписки відбуваються через Google Play.",
+        "Відкрийте «Ще» і виберіть «Про Partitoria» у групі «Застосунок». Версію та номер збірки також можна переглянути в налаштуваннях. Зазначте їх, коли звертаєтеся до служби підтримки."
       ],
       "fr": [
         "Langue, thème et aide",
@@ -2408,8 +2381,8 @@
         "Dans Réglages, choisissez parmi neuf langues ou celle de l’appareil et le thème système, clair ou sombre. Vous y trouverez version, aide, confidentialité, droits et sources.",
         "Ouvrez « Couleurs, fonds et couvertures » pour la palette générale, les thèmes des sections, le fond et les couvertures par défaut. Vue de la bibliothèque et section de démarrage restent des réglages de navigation distincts.",
         "Dans Aide, ouvrez le Guide utilisateur pour ce site. L’assistance est à côté ; confidentialité, droits, sources et conditions s’ouvrent dans le navigateur.",
-        "Partitoria ne nécessite pas de compte propre. Ouvrez l’explication Pro depuis Réglages ou une action avancée. Achat et restauration utilisent Google Play ; les offres peuvent être indisponibles pendant la préparation du lancement.",
-        "« À propos de Partitoria » s’ouvre depuis Réglages ou le bas du panneau latéral. Vous y trouverez Partitoria: Sheet Music, la version et le numéro de compilation ; indiquez-les à l’assistance."
+        "Ouvrez « Partitoria Pro » dans les réglages pour consulter les fonctions Pro et l’état de votre abonnement. Google Play gère les achats et leur restauration.",
+        "Ouvrez « Plus » et choisissez « À propos de Partitoria » dans la rubrique « Application ». La version et le numéro de build figurent aussi dans les réglages. Indiquez-les lorsque vous contactez l’assistance."
       ],
       "pl": [
         "Język, motyw i pomoc",
@@ -2417,8 +2390,8 @@
         "W Ustawieniach wybierz jeden z dziewięciu języków lub język urządzenia oraz motyw systemowy, jasny lub ciemny. Są tam też wersja, pomoc, prywatność, prawa i źródła.",
         "Otwórz „Kolory, tła i okładki”, aby wybrać paletę aplikacji, motywy sekcji, tło i domyślne okładki. Widok biblioteki i sekcja początkowa pozostają oddzielnymi ustawieniami nawigacji.",
         "W Pomocy otwórz Podręcznik użytkownika prowadzący do tej strony. Jest też wsparcie; prywatność, prawa, źródła i warunki otwierają się w przeglądarce.",
-        "Partitoria nie wymaga własnego konta. Otwórz opis Pro w Ustawieniach lub przy działaniu zaawansowanym. Zakup i przywracanie używają Google Play; oferty mogą być niedostępne podczas przygotowania wydania.",
-        "„O Partitoria” otwiera się z Ustawień lub z dołu panelu bocznego. Pokazuje Partitoria: Sheet Music, wersję i numer kompilacji; podaj je, kontaktując się z pomocą."
+        "Otwórz „Partitoria Pro” w ustawieniach, aby sprawdzić funkcje Pro i status subskrypcji. Zakup i przywracanie subskrypcji obsługuje Google Play.",
+        "Otwórz „Więcej” i wybierz „O Partitoria” w grupie „Aplikacja”. Wersję i numer kompilacji znajdziesz też w ustawieniach. Podaj oba, gdy kontaktujesz się z pomocą techniczną."
       ]
     }
   },

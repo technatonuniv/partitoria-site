@@ -7,8 +7,9 @@ export const captureLocales = ['ru', 'en', 'de', 'it', 'es', 'pt', 'uk', 'fr', '
 const certificate = '1B9C439D7020C9FE4277A890313EF58209C19CBB6B8D8BC2518AB9EF86DFB5E3';
 const sha256 = value => crypto.createHash('sha256').update(value).digest('hex');
 
-export function selectedGuideImages(articles) {
-  const images = new Set(['library.png']); // The actual Home preview is independent of articles.
+export function selectedGuideImages(articles, selection) {
+  const images = new Set(['library.png', 'reader.png']); // Home preview, hero and default social card.
+  if (selection && captureVersionFor(selection, 'musicxml-preview.png') >= 11032) images.add('musicxml-preview.png');
   for (const article of articles) {
     if (article.image === undefined) continue;
     assert.ok(typeof article.image === 'string' && /^[a-z0-9-]+\.png$/.test(article.image),
@@ -21,6 +22,7 @@ export function selectedGuideImages(articles) {
 export function captureVersionFor(selection, name) {
   const version = selection.versionsByImage[name] ?? selection.defaultVersionCode;
   assert.ok(Number.isSafeInteger(version) && version > 0, `Invalid capture namespace: ${name}`);
+  assert.ok(version >= selection.defaultVersionCode, `Selected capture predates baseline: ${name}`);
   return version;
 }
 
@@ -36,15 +38,19 @@ export function verifyGuideCaptures({ selection, images, publicRoot = 'public', 
     if (!expectedByVersion.has(version)) expectedByVersion.set(version, new Set());
     for (const locale of captureLocales) expectedByVersion.get(version).add(`${locale}/${name}`);
   }
-  // One retained default set, one retained earlier candidate (10824) and one final candidate (11012). New locale captures cannot drift
-  // between candidate builds or silently fall back to another language.
+  // Preserve the earlier limit on mixed captures during a staged replacement.
   const replacements = [...expectedByVersion.keys()].filter(version => version !== selection.defaultVersionCode);
-  assert.ok(replacements.length <= 2, 'Replacement screenshots may use at most two retained candidate namespaces (10824 and the final 11012)');
+  assert.ok(replacements.length <= 2, 'Replacement screenshots may use at most two candidate namespaces above the baseline');
   let selectedCount = 0;
   for (const [version, expected] of expectedByVersion) {
     const namespace = path.join('guide', String(version));
     const folder = path.join(publicRoot, namespace);
-    const manifest = JSON.parse(fs.readFileSync(path.join(folder, 'localized-captures.json'), 'utf8'));
+    const manifestBytes = fs.readFileSync(path.join(folder, 'localized-captures.json'));
+    if (exportRoot) {
+      const exportedManifest = fs.readFileSync(path.join(exportRoot, namespace, 'localized-captures.json'));
+      assert.ok(manifestBytes.equals(exportedManifest), `Exported capture manifest changed: ${version}`);
+    }
+    const manifest = JSON.parse(manifestBytes.toString('utf8'));
     assert.equal(manifest.schemaVersion, 1);
     assert.equal(manifest.versionCode, version);
     assert.match(manifest.versionName, /^\d+\.\d+\.\d+(?:[.-][\w.-]+)?$/);

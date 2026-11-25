@@ -114,8 +114,8 @@ export default {
     ],
     "screenshot": {
       "article": "import-review",
-      "alt": "English import preview of Flute-and-Piano-Study.musicxml, with all three staves on one page",
-      "src": "/discovery/musicxml-preview.jpg"
+      "alt": "Import preview of Flute-and-Piano-Study.musicxml with three staves on one page",
+      "example": "musicxml-preview"
     }
   },
   "transfer-sheet-music-library": {
