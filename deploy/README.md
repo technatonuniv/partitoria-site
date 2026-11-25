@@ -38,6 +38,24 @@ URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## Stable Russian facts URL · 25 November 2026
+
+Active release `20261125-ru-facts-c125b91` uses commit `c125b91`.
+[Verify website passed](https://github.com/technatonuniv/partitoria-site/actions/runs/45600127233).
+The package contained 1,545 verified files. SHA-256
+`3e23c38ae6dba5e2a69217456e5caff07fbdd8eae658cad0877bfb03f80a0064`.
+The server passed 14 isolated nginx routing cases, nginx configuration checks,
+74 public byte comparisons and five redirect/error checks. All 545 earlier
+guide and store-review assets matched. The new canonical is `/ru/facts`.
+Google's live test rendered the Russian title, Russian document language and
+the self-canonical. IndexNow accepted that one URL with HTTP 200.
+
+For rollback, recover the previous vhost and release `20261125-search-5b64950`
+together. The root-only receipt directory
+`/var/www/partitoria-site/deployment-receipts/20261125-ru-facts-c125b91/`
+holds the original vhost, activation journal and recovery helper. The retired
+16 November release was verified against its 1,484-file off-host archive.
+
 ## Search discovery release · 25 November 2026
 
 Active release `20261125-search-5b64950` uses source
