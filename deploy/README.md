@@ -32,6 +32,32 @@ redirect to their canonical short URLs, including the guide linked by old APKs.
 Regression checks must include a previous release's CSS URL as well as the
 current page's assets: an HTML-only 200 check cannot detect this failure.
 
+## 2026-11-16 organic promotion release — PASS
+
+Active release `20261116-promotion-01`, built from the tested local website
+changes over `e054e7da60108f8728940fb30950b0670fb685eb`. The exported package
+contains 1,484 files. Package SHA-256
+`3f6ac037d9c7aadb92526ef3346ea2c317464e9c03a765a40ae7953ee390bcd2`.
+Each extracted file matched the manifest. The prior 545 Guide assets and
+store-review files matched byte for byte. The retention script added 11
+immutable assets. Nginx validation and reload passed.
+
+The ordinary public HTTPS endpoint returned 32 byte-identical responses
+covering all nine homepage locales, the English offline PDF guide, screenshots,
+and current CSS/JS. The old stylesheet, canonical redirects, missing-page
+404 and verifier health also passed. Browser checks confirmed desktop English,
+390 px English/German/French and the tagged link leading to Partitoria in
+Google Play.
+
+Rollback release `20261112-every-format-0fb7a3f-01` remains on the VPS.
+The earlier `20261107-no-prices-04e9e129cd9c-01` was archived off-host
+and all 1,384 files were rechecked against the deployed copy before retirement.
+Archive SHA-256
+`6dcc2fabeaeeb7f1bce3c76da0cb3adbbd2b39c61efd03e34c50910d22fc7ecc`.
+The two expected release directories were confirmed after upload cleanup.
+The activation receipt is under
+`/var/www/partitoria-site/deployment-receipts/20261116-promotion-01/receipt.json`.
+
 ## 2026-11-12 every-format release — PASS
 
 Active release `/var/www/partitoria-site/releases/20261112-every-format-0fb7a3f-01` (source `0fb7a3f`,

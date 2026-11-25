@@ -118,12 +118,14 @@
         "Просмотрите список перед импортом. Приложение сохраняет проверенную личную копию и не меняет внешний оригинал. Неуверенные названия и сведения можно исправить после добавления."
       ],
       "en": [
-        "Add your first scores",
-        "Add sheet music in any format (PDF, scans and photos, MusicXML, MuseScore, ABC, ChordPro or text) to start your own library.",
-        "In Library, tap + → Add files. In the Android picker, select one or more files: PDF, images (JPEG, PNG, WebP, HEIC/HEIF, multi-page TIFF), MusicXML (.musicxml, .xml, .mxl), MuseScore (.mscz, .mscx), ABC (.abc), ChordPro (.cho, .chopro, .chordpro, .crd, .pro) or text (.txt). Scores from notation programs are engraved into pages; your original stays unchanged.",
-        "In Import, check the selected files and start the import. For images, decide whether they form one ordered score or separate scores.",
-        "If the same PDF already exists, choose to reuse its score or add an independent entry. Open the saved item and review its details if prompted.",
-        "Review the selection before importing. The app keeps a verified private copy without changing the external original. You can correct uncertain titles and details afterwards."
+        "How to read PDF sheet music offline on Android",
+        "Import your own PDF sheet music into Partitoria and check that it opens without Wi-Fi before your next lesson or rehearsal. Importing and reading are free.",
+        "Start with a readable PDF you have permission to use. Download it to your device first if it is still an email attachment or stored only in a cloud folder.",
+        "In Library, tap Add scores or +, then tap Files. Pick the PDF in Android’s file picker, review the selection and tap Import file.",
+        "When the import finishes, tap Open on the result or open the score from Library. Try the PDF’s filename in Search if its title is hard to find. The app keeps its own copy and leaves the original in place.",
+        "Turn on airplane mode and check that Wi-Fi is off. Reopen the score from Library and turn a page. If your PDF is password protected or unreadable, ask the source for a readable copy you are allowed to use.",
+        "You can also import supported images, MusicXML and MXL, MuseScore, ABC, ChordPro and UTF-8 text. For several images, choose whether they form one score or several. If a PDF already exists, you can reuse its entry or add it separately.",
+        "Once your repertoire is ready, make a manual backup and keep it somewhere separate from your tablet. Optional Pro adds tools such as annotations and performance setlists."
       ],
       "de": [
         "Erste Noten hinzufügen",

@@ -46,10 +46,13 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 
 .hero { min-height: 600px; display: flex; align-items: center; background: #281714 url('/concert-hall.png') center right / cover no-repeat; background-image: image-set(url('/concert-hall.webp') type('image/webp'), url('/concert-hall.png') type('image/png')); color: #fffaf2; position: relative; isolation: isolate; }
 .hero::before { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, #211314 0%, #211314ed 32%, #211314a6 56%, #2113141a 100%); }
-.hero-inner { width: min(1320px, 100%); margin: auto; padding: clamp(82px, 10vw, 146px) clamp(20px, 4vw, 54px); }
+.hero-inner { width: min(1320px, 100%); margin: auto; padding: clamp(38px, 6vw, 82px) clamp(20px, 4vw, 54px); display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 28%); align-items: center; gap: clamp(24px, 6vw, 82px); }
 .hero-copy { max-width: 660px; }
-.hero h1 { margin: 0; font-size: clamp(3.1rem, 6.4vw, 6rem); letter-spacing: -.05em; text-wrap: balance; }
+.hero h1 { margin: 0; font-size: clamp(2.75rem, 5.35vw, 5.1rem); letter-spacing: -.05em; text-wrap: balance; }
 .hero p { max-width: 50ch; margin: 1.7rem 0 2.2rem; color: #f1e9de; font-size: clamp(1.08rem, 1.6vw, 1.28rem); line-height: 1.65; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.5rem; }
+.hero-guide { color: inherit; text-underline-offset: .2em; padding-block: .75rem; }
+.hero-reader { width: min(100%, 260px); height: auto; justify-self: center; border: 6px solid #130f10; border-radius: 14px; box-shadow: 0 14px 40px #140a0c9e; }
 .hero-action { min-height: 50px; padding: .8rem 1.2rem; width: fit-content; display: inline-flex; align-items: center; gap: 2rem; background: var(--paper); color: var(--wine-dark); font-weight: 700; text-decoration: none; }
 .hero-action:hover { background: white; text-decoration: underline; }
 .hero-action span, .text-action span { font-size: 1.35em; line-height: .8; }
@@ -127,12 +130,14 @@ h1, h2, h3, p { overflow-wrap: break-word; }
   .hero { min-height: 525px; background-position: 62% center; }
   .hero::before { background: #211314db; }
   .hero-copy { max-width: 550px; }
+  .hero-inner { grid-template-columns: 1fr; gap: 24px; }
+  .hero-reader { width: min(100%, 180px); justify-self: start; }
   .guide-invite { display: block; }
   .guide-invite .text-action { margin-top: 1.8rem; }
 }
 @media (max-width: 560px) {
   .hero { min-height: 480px; }
-  .hero h1 { font-size: clamp(2.75rem, 12vw, 4.2rem); }
+  .hero h1 { font-size: clamp(2rem, 8.5vw, 3.2rem); }
   .hero p { margin-top: 1.2rem; }
   .home-intro { padding-block: 65px; }
   .value-item { grid-template-columns: 30px 1fr; gap: .6rem; }
@@ -183,6 +188,7 @@ h1, h2, h3, p { overflow-wrap: break-word; }
 @media (max-width: 1050px) and (min-width: 761px) { .header-inner { flex-wrap: wrap; padding-block: .7rem; } .main-nav { order: 3; flex-basis: 100%; justify-content: flex-end; } .language-menu { margin-left: auto; } }
 @media (max-width: 760px) {
   .header-play { grid-column: 1 / -1; grid-row: 3; justify-content: center; }
+  .site-home .header-play { display: none; }
   .main-nav { flex-wrap: wrap; justify-content: flex-start; gap: .1rem 1.1rem; }
   .features-heading { grid-template-columns: 1fr; gap: 1rem; }
   .features-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

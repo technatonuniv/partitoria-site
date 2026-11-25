@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Screenshot } from './screenshot';
 import { guideNavigationCopy } from '@/lib/guide-navigation';
 import { SiteFooter, SiteHeader } from './site-chrome';
@@ -6,13 +7,16 @@ import { DocumentLanguage } from './document-language';
 import { localePath, siteCopy, type Locale } from '@/lib/site-content';
 import { commercialCopy } from '@/lib/commercial-content';
 import { featuresCopy, googlePlayUrl } from '@/lib/features-content';
+import { guideImage } from '@/lib/guide-image';
 
 export function HomePage({ locale }: { locale: Locale }) {
   const t = siteCopy[locale];
   const commercial = commercialCopy[locale];
   const features = featuresCopy[locale];
+  const reader = guideImage(locale, 'reader.png');
+  const playLink = `${googlePlayUrl}&referrer=${encodeURIComponent(`utm_source=partitoria_site&utm_medium=website&utm_campaign=home_install_${locale}`)}`;
   return (
-    <main lang={locale}>
+    <main lang={locale} className="site-home">
       <DocumentLanguage locale={locale} />
       <SiteHeader locale={locale} />
       <section className="hero" id="content">
@@ -20,11 +24,13 @@ export function HomePage({ locale }: { locale: Locale }) {
           <div className="hero-copy">
             <h1>{t.homeTitle}</h1>
             <p>{t.homeLead}</p>
-            <Link className="hero-action" href={localePath(locale, '/guide')}>
-              {t.homeAction}
-              <span aria-hidden="true">→</span>
-            </Link>
+            <div className="hero-actions">
+              <a className="hero-action" href={playLink}>Google Play <span aria-hidden="true">↗</span></a>
+              <Link className="hero-guide" href={localePath(locale, '/guide')}>{t.homeAction}</Link>
+            </div>
           </div>
+          <Image className="hero-reader" src={reader.src} alt="" width={1200} height={1920}
+            sizes="(max-width: 760px) 180px, 260px" unoptimized />
         </div>
       </section>
       <section className="formats" id="formats" aria-labelledby="formats-title">
